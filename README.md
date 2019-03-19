@@ -16,7 +16,7 @@ Le dictionnaire interactif est consultable à [cette adresse](https://drees.shin
 
 Si vous désirez participer de quelque manière que ce soit (erreur, variable manquante, nomenclature manquante, lien variable-nomenclature), nous vous conseillons de mettre une [issue](https://github.com/indsante/dico-snds/issues) ou bien de modifier directement les fichiers source dans le repo [schema-snds](https://github.com/indsante/schema-snds/issues).
 
-## Développement
+## Développement
 
 Si vous souhaitez faire tourner l'application sur votre ordinateur en local afin notamment de faire des changements plus conséquents sur l'application:
 + Clonez ce repo sur votre ordinateur: `https://github.com/indsante/Documentation-SNDS.git`
