@@ -6,7 +6,7 @@ Ce repo contient le code nécessaire pour faire tourner [l'application du dictio
 
 Il a été développé par la [Direction de la Recherche, des Etudes de l'Evaluation et des Statistiques](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/) grâce à la documentation collectée par la [Caisse Nationale d'Assurance Maladie](https://assurance-maladie.ameli.fr/qui-sommes-nous).
 
-# Usage
+# Usage
 
 Le dictionnaire interactif est consultable à [cette adresse](https://drees.shinyapps.io/dico-snds/).
 
