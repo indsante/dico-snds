@@ -1,0 +1,13 @@
+
+
+### Informations
+
+Ce dictionnaire des tables et variables du [Système National des Données de Santé (SNDS)](https://www.snds.gouv.fr/SNDS/Accueil) est mis à disposition des utilisateurs de ces données.
+Il a été reconstitué par la [Direction de la Recherche, des Etudes, de l'Evaluation et des Statistiques](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/) à partir des différents documents mis à disposition par la [Caisse Nationale d’Assurance Maladie](https://www.ameli.fr/) sur son portail d’accès aux données du SNDS. Il est mis à disposition sur le [github de l'Institut National des Données de Santé](https://github.com/indsante).
+
+Il peut comporter des erreurs ou connaitre des retards de mises à jour. Si vous les constatez, n’hésitez pas à les signaler à **drees-bigdata@sante.gouv.fr**.
+
++ *Dernier changement des données portail:* 2019-01-07
+
++ *Dernière mise à jour du dictionnaire:* 2019-03-14
+

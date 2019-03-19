@@ -1,0 +1,12 @@
+name: dico-snds
+title: dico-snds
+username:
+account: drees
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 631652
+bundleId: 1913680
+url: https://drees.shinyapps.io/dico-snds/
+when: 1551695996.06364
+asMultiple: FALSE
+asStatic: FALSE

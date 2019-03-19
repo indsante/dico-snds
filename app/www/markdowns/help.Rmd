@@ -1,0 +1,10 @@
+### Guide d'utilisation
+
+- L’onglet `Explorateur des variables SNDS` doit permettre de faire des recherches dans l’intégralité des variables contenues dans les tables du SNDS. Un clic sur une variable ouvrira la table de valeurs associée sur la droite de la page, avec la possibilité de faire des recherches parmi les modalités de la variables, ou encore d’exporter ces tables de valeur. C’est le plus utile dans un usage régulier du SNDS.
+
+- L’onglet `Explorateur des tables SNDS` doit permettre de connaître rapidement le nom des tables, leur libellé (et donc contenu) et le produit auquel elles sont associées.
+
+- L’onglet `Graphe interactif du SNDS` doit permettre de comprendre la structure du SNDS et les liens entre les tables. N’hésitez pas à dé-zoomer et re-zoomer avec la molette de votre souris ou à cliquer sur le graphique et le déplacer selon vos besoins.
+Les couleurs rassemblent les tables d’un même produit (orange foncé pour le DCIR, violet pour la carto, etc.). Un clic sur le nœud d’une table permet de voir le nom et le contenu de la table. Passer la souris sur un lien qui relie deux tables vous donnera les variables de jointure.
+
+- L’onglet `Infos` précise la provenance des informations, toutes issues du portail CNAM, et renvoie également vers le github de l'INDS où le code du projet est disponible. Pour toute question [déposez une issue sur ce github](https://github.com/indsante/dico-snds/issues) ou bien envoyez un mail à **drees-bigdata@sante.gouv.fr**.

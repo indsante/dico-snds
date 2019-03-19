@@ -1,0 +1,16 @@
+Il y a 9 clés de jointure dans le DCIR pour faire le lien entre la table principale `ER_PRS_F` et les tables affinées:
+
+```
+join_vars = [
+    "FLX_DIS_DTD",
+    "FLX_TRT_DTD",
+    "FLX_EMT_TYP",
+    "FLX_EMT_NUM",
+    "FLX_EMT_ORD",
+    "ORG_CLE_NUM",
+    "DCT_ORD_NUM",
+    "PRS_ORD_NUM",
+    "REM_TYP_AFF"
+]
+```
+
