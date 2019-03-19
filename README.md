@@ -6,7 +6,7 @@ Ce repo contient le code nécessaire pour faire tourner [l'application du dictio
 
 Il a été développé par la [Direction de la Recherche, des Etudes de l'Evaluation et des Statistiques](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/) grâce à la documentation collectée par la [Caisse Nationale d'Assurance Maladie](https://assurance-maladie.ameli.fr/qui-sommes-nous).
 
-# Usage
+# Usage
 
 Le dictionnaire interactif est consultable à [cette adresse](https://drees.shinyapps.io/dico-snds/).
 
@@ -16,10 +16,10 @@ Le dictionnaire interactif est consultable à [cette adresse](https://drees.shin
 
 Si vous désirez participer de quelque manière que ce soit (erreur, variable manquante, nomenclature manquante, lien variable-nomenclature), nous vous conseillons de mettre une [issue](https://github.com/indsante/dico-snds/issues) ou bien de modifier directement les fichiers source dans le repo [schema-snds](https://github.com/indsante/schema-snds/issues).
 
-## Développement
+## Développement
 
 Si vous souhaitez faire tourner l'application sur votre ordinateur en local afin notamment de faire des changements plus conséquents sur l'application:
-+ Clonez ce repo sur votre ordinateur: `https://github.com/indsante/Documentation-SNDS.git`
++ Clonez ce repo sur votre ordinateur: `git clone https://github.com/indsante/Documentation-SNDS.git`
 + Ouvrez dans [Rstudio](https://www.rstudio.com/) `server.R` ou `ui.R` et cliquez sur le bouton `Run App` en haut à droite de la fenêtre principale.
 
 # Contacts
