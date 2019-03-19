@@ -40,11 +40,12 @@ shinyServer(function(input, output) {
   output$force_snds = renderForceNetwork({
     ## Color scale 
     ### String needed for the javascript of the force network
-    product_names_str = '"BENEFICIAIRE", "DCIR/DCIRS", "DCIRS", "DCIR", "Causes de décès", "CARTOGRAPHIE_PATHOLOGIES", "PMSI MCO", "PMSI HAD", "PMSI SSR", "PMSI RIM-P"'
+    product_names = c("BENEFICIAIRE", "DCIR/DCIRS", "DCIRS", "DCIR", "Causes de décès", "CARTOGRAPHIE_PATHOLOGIES", "PMSI MCO", "PMSI HAD", "PMSI SSR", "PMSI RIM-P")
+    product_names_ix  = paste(1:length(product_names), collapse = ',') 
     product_colors_str = '"#CC2920", "#F36C64", "#E88310", "#E85B10", "#3C3C42", "#BB5DD1", "#3E5D96", "#8CD6E8", "#2A9BA5", "#26A589"'
     ### javascript color scale
-    ColourScale <- paste0('d3.scaleOrdinal()
-            .domain([', product_names_str, '])
+    ColourScale = paste0('d3.scaleOrdinal()
+            .domain([', product_names_ix, '])
     .range([', product_colors_str, ']);')
     ## d3network
     net = forceNetwork(Links = snds_links, Nodes = snds_nodes,
@@ -59,7 +60,6 @@ shinyServer(function(input, output) {
     
     ## Ggplot legend, code taken from here: https://stackoverflow.com/questions/12041042/how-to-plot-just-the-legends-in-ggplot2
     ### R array needed for the legend plot
-    product_names = eval(parse(text = paste0('c(', product_names_str, ')')))
     product_colors = setNames(
       eval(parse(text = paste0('c(', product_colors_str, ')'))),
       product_names
