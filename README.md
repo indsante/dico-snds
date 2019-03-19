@@ -19,7 +19,7 @@ Si vous désirez participer de quelque manière que ce soit (erreur, variable ma
 ## Développement
 
 Si vous souhaitez faire tourner l'application sur votre ordinateur en local afin notamment de faire des changements plus conséquents sur l'application:
-+ Clonez ce repo sur votre ordinateur: `https://github.com/indsante/Documentation-SNDS.git`
++ Clonez ce repo sur votre ordinateur: `git clone https://github.com/indsante/Documentation-SNDS.git`
 + Ouvrez dans [Rstudio](https://www.rstudio.com/) `server.R` ou `ui.R` et cliquez sur le bouton `Run App` en haut à droite de la fenêtre principale.
 
 # Contacts
