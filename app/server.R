@@ -52,7 +52,7 @@ shinyServer(function(input, output) {
                  Source = "source", Target = "target",
                  #Value = "value",
                  Group = "group", Nodesize = "nb_vars", opacityNoHover = 0.7, colourScale = JS(ColourScale), 
-                 NodeID = "name", opacity = 1, fontSize = 20, zoom = TRUE, charge = -500, linkWidth = 2,
+                 NodeID = "name", opacity = 1, fontSize = 15, zoom = TRUE, charge = -200, linkWidth = 2, linkDistance = 100,
                  clickAction = 'Shiny.onInputChange("description", d.description);
                                 Shiny.onInputChange("name", d.name);
                                 Shiny.onInputChange("joint", d.joint_var);')
