@@ -17,6 +17,14 @@ navbarPage("Visualisation de la structure du SNDS",
            inverse = T,
            
   tabPanel("Explorateur des variables SNDS", value = "snds_explo",
+       HTML("<!-- Global site tag (gtag.js) - Google Analytics -->
+         <script async src='https://www.googletagmanager.com/gtag/js?id=UA-119893698-10'></script>
+         <script>
+         window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());  gtag('config', 'UA-119893698-10');
+       </script>"),
+       includeHTML("www/cookie_handler.html"),
        # Include our custom CSS
        includeCSS("www/styles.css"),
        tags$style('.nodetext{fill: #000000}'),
