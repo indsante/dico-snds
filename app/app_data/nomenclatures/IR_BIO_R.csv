@@ -1,0 +1,963 @@
+CODE;CHAPITRE;SOUS-CHAPITRE;COEFFICIENT B;DATE CREATION;LIBELLE;ENTENTE PREALABLE;REMBOURSEMENT 100%;NBR MAXI DE CODE;N° REGLE SPECIFIQUE;REF INDICATION MEDICALE;ACTES RESERVES;INITIATIVE BIOLOGISTE;CONTINGENCE TECHNIQUE;R.M.O.;EXAMEN SANGUIN;DERNIERE DATE EFFET;CODES INCOMPATIBLES
+4085;0;0;260;2017-06-26;dpn : determination prenatale du genotype rhd f tal a partir du sang maternel;;1.0;1;;1.0;1.0;;3;;1.0;2017-07-13;
+9905;0;0;5;1997-02-14;complement a la cotation minimale de valeur b 5 (sang);;;0;;;;1.0;0;;1.0;2010-01-19;
+4084;0;0;500;2010-10-22;determination prenatale du sexe foetal sang maternel;;1.0;1;;1.0;1.0;;3;;1.0;2019-01-17;
+9910;0;0;10;1997-02-14;complement a la cotation minimale de valeur b 10 (sang);;;0;;;;1.0;0;;1.0;2010-01-19;
+4086;0;0;260;2017-06-26;dpn:seconde determination prenat. du genotype rhd f tal a partir du sang matern;;1.0;1;;1.0;1.0;;3;;1.0;2017-07-13;
+9914;0;0;14;2017-03-17;complement a la cotation minimale de valeur b 14 (sang);;;1;;;;1.0;0;;1.0;2017-04-01;
+4087;0;0;1344;2018-12-27;dpni-tri21:depistage tri21 f tale par analyse de l'adn libre circulant dans le;;1.0;1;;1.0;1.0;;4;;1.0;2019-02-01;
+9915;0;0;15;1997-02-14;complement a la cotation minimale de valeur b 15 (sang);;;0;;;;1.0;0;;1.0;2010-01-19;
+4088;0;0;1344;2018-12-27;dpni-tri21:second depistage tri21 f tale par analyse de l'adn libre circulant;;1.0;1;;1.0;1.0;;4;;1.0;2019-01-17;
+9916;0;0;1;2009-12-23;complement a la cotation minimale de valeur b 1 (sang);;;0;;;;1.0;0;;1.0;2010-01-19;
+8000;0;0;180;2007-01-24;hemochromatose : recherche de la mutation c 282y du gene hfe1;;;1;;1.0;1.0;;0;;1.0;2017-07-13;
+9917;0;0;2;2009-12-23;complement a la cotation minimale de valeur b 2 (sang);;;0;;;;1.0;0;;1.0;2010-01-19;
+9918;0;0;3;2009-12-23;complement a la cotation minimale de valeur b 3 (sang);;;0;;;;1.0;0;;1.0;2010-01-19;
+9919;0;0;4;2009-12-23;complement a la cotation minimale de valeur b 4 (sang);;;0;;;;1.0;0;;1.0;2010-01-19;
+9920;0;0;6;2009-12-23;complement a la cotation minimale de valeur b 6 (sang);;;0;;;;1.0;0;;1.0;2010-01-19;
+9921;0;0;7;2009-12-23;complement a la cotation minimale de valeur b 7 (sang);;;0;;;;1.0;0;;1.0;2010-01-19;
+9922;0;0;8;2009-12-23;complement a la cotation minimale de valeur b 8 (sang);;;0;;;;1.0;0;;1.0;2010-01-19;
+9923;0;0;9;2009-12-23;complement a la cotation minimale de valeur b 9 (sang);;;0;;;;1.0;0;;1.0;2010-01-19;
+9924;0;0;11;2009-12-23;complement a la cotation minimale de valeur b 11 (sang);;;0;;;;1.0;0;;1.0;2010-01-19;
+9925;0;0;12;2009-12-23;complement a la cotation minimale de valeur b 12 (sang);;;0;;;;1.0;0;;1.0;2010-01-19;
+9926;0;0;13;2009-12-23;complement a la cotation minimale de valeur b 13 (sang);;;0;;;;1.0;0;;1.0;2010-01-19;
+9105;0;0;5;2002-07-04;forfait de securite pour echantillon sanguin;;;0;;;;1.0;0;;1.0;2018-04-14;
+9106;0;0;9;2002-07-04;forfait de securite pour echantillons bacterio, myco et parasito;;;1;;;;1.0;0;;;2018-04-14;
+9005;0;0;17;2008-12-30;forfait de prise en charge pre-analytique du patient;;;1;;;;1.0;0;;;2019-04-01;
+9001;0;0;26;1996-01-01;supplement pour actes en urgence nuit;;;0;;;;1.0;0;;;2014-04-13;9002-9004
+9004;0;0;26;2001-02-07;supplement pour actes en urgence (samedi apres 12h, dimanche, ferie);;;0;;;;1.0;0;;;2014-04-13;9001
+9107;0;0;8;2002-07-04;supplement pour actes de biologie effectues en etablissements de soins prives;;;1;;;;1.0;0;;;2014-04-13;
+4;1;0;100;1996-01-01;histopath. biopsies uniques ou multiples non individualisees;;;0;;;1.0;;0;;;1998-12-01;
+5;1;0;130;1996-01-01;histopath. biopsies etagees sur meme organe et individualisees;;;0;;;1.0;;4;;;1998-12-01;
+6;1;0;120;1996-01-01;histopath. piece oper. interessant un organe;;;0;;;1.0;1.0;0;;;1998-12-01;
+7;1;0;120;1996-01-01;histopath. prelev. resec. ou curetage endosc. ou endocavit.;;;0;;;1.0;;0;;;1998-12-01;
+8;1;0;220;1996-01-01;histopath. piece oper. complexe comportant plusieurs organes;;;0;;;1.0;1.0;0;;;1998-12-01;
+12;1;0;300;1996-01-01;ex. extemporane avec controle histopath. ulterieur;;;1;;;1.0;;4;;;1998-12-01;
+13;1;0;47;1996-01-01;cytopath. gynecologique un ou plusieurs prelevements (frottis);;;1;;;1.0;;0;1.0;;2018-04-14;
+14;1;0;100;1996-01-01;cytopath. liq. epanchement, lavage alveolaire ou vesical, lcr;;;0;;;1.0;;0;;;1998-12-01;
+15;1;0;120;1996-01-01;cytopath. sur ponction ganglion, tumeur, organe;;;0;;;1.0;;0;;;1998-12-01;
+16;1;0;130;1996-01-01;cytopath. sur ponctions plusieurs zones de voisinage;;;0;;;1.0;;4;;;1998-12-01;
+17;1;0;200;1996-01-01;anapath. : immunohistochimie sur coupes en paraffine ou resine;;;0;;;1.0;1.0;0;1.0;;1998-12-01;
+18;1;0;300;1996-01-01;anapath. : immunohistochimie sur coupes a congelation;;;0;;;1.0;1.0;0;1.0;;1998-12-01;7886-7887
+23;1;0;200;2009-09-23;examen immunocytochimique en complement d'un acte acp (0014-0015);;;0;;;1.0;1.0;3;;;2010-09-26;
+24;1;0;100;2009-09-23;hpv : detection du genome (adn) des papillomavirus humains oncogenes;;;1;;1.0;;;0;;;2018-04-14;4127
+25;1;0;500;2009-09-23;examen anatomopathologique par hybridation in situ;;;1;;1.0;1.0;1.0;0;;;2010-09-26;
+21;1;0;50;2005-07-28;majoration provisoire conventionnelle de l'acte 0008 : lesions tumorales;;;0;;;1.0;1.0;0;;;2007-10-03;
+22;1;0;100;2007-10-04;majoration provisoire de l'acte 0008 : lesions tumorales malignes;;;0;;;1.0;1.0;0;;;2007-10-04;
+40;2;0;850;1996-01-01;caryotype constitutionnel prenatal avec incubation;1.0;1.0;1;;1.0;1.0;;7;;1.0;2009-11-27;41
+41;2;0;1250;1996-01-01;techniques avec culture (liquide amniotique, cultures de villosites choriales);1.0;1.0;1;;1.0;1.0;;7;;;2019-01-17;40
+901;2;0;800;1996-01-01;caryotype constitutionnel postnatal sanguin;;;1;;;1.0;;2;;1.0;2004-12-30;902
+902;2;0;1200;2004-11-30;caryotype constitutionnel postnatal sur fibroblastes;;;1;;;1.0;;2;;;2004-12-30;901
+906;2;0;800;2007-01-24;caryotype oncologique : sang, moelle ou tissus avec cellules hematopoietiques;;;1;;1.0;1.0;;2;;1.0;2007-04-30;
+907;2;0;1200;2007-01-24;caryotype oncologique : tumeur solide;;;1;;1.0;1.0;;2;;;2007-04-30;
+903;2;0;500;2004-11-25;hybridation sur chromosomes metaphasiques (une sonde);;;1;;1.0;1.0;1.0;2;;1.0;2007-04-30;904-905
+904;2;0;1000;2004-12-14;hybridation sur chromosomes metaphasiques (deux ou plusieurs sondes);;;1;;1.0;1.0;1.0;2;;1.0;2007-04-30;903-905
+905;2;0;500;2004-11-25;hybridation sur noyaux interphasiques;;;1;;1.0;1.0;1.0;2;;1.0;2007-04-30;903-904
+59;3;1;200;2000-01-25;preparation des spermatozoides en vue d'iiu (insemination intra-uterine);;;1;;1.0;1.0;;0;;;2002-02-28;60-61-70-75-5205
+60;3;1;1550;2000-01-25;fecondation in vitro sans micromanipulation (fiv);;;1;;1.0;1.0;;0;;;2009-02-08;59-61
+61;3;1;2500;2000-01-25;fecondation in vitro par micromanipulation (icsi);;;1;;1.0;1.0;;0;;;2019-04-01;59-60
+62;3;1;500;2000-01-25;preparation des spermatozoides obtenus par ponction ou biopsie en vue icsi;;;1;;1.0;1.0;;0;;;2002-02-28;
+54;3;2;350;1996-01-01;congelation d'embryons ( par cycle);;;1;;1.0;1.0;;0;;;2002-02-28;
+63;3;2;150;2000-01-25;decongelation d'embryon (par cycle) + catheter;;;1;;1.0;1.0;;0;;;2002-02-28;
+64;3;2;150;2000-01-25;cryoconservation d'embryon(s) (par cycle et par annee);;;1;;1.0;1.0;;0;;;2002-02-28;
+65;3;2;350;2000-01-25;congelation de sperme... (par ejaculat);;;1;;1.0;1.0;;0;;;2002-02-28;
+66;3;2;150;2000-01-25;cryoconservation de sperme (par patient, par annee);;;1;;1.0;1.0;;0;;;2002-02-28;
+67;3;2;350;2000-01-25;congelation de spermatozoides preleves chirurgicalement en vue icsi(par patient);;;1;;1.0;1.0;;0;;;2002-02-28;
+68;3;2;150;2000-01-25;cryoconservation de spermatozoides preleves chir en vue icsi(par patient, annee);;;1;;1.0;1.0;;0;;;2002-02-28;
+70;4;0;110;1996-01-01;spermogramme et spermocytogramme;;;1;;;;;5;1.0;;2000-02-26;59
+71;4;0;45;1996-01-01;test post-coital (tpc) ou test de huhner;;;1;;;;;5;1.0;;1997-03-30;
+72;4;0;175;1996-01-01;exploration biochimique de la fonction prostato-vesiculaire;1.0;;1;;1.0;;;5;;;1996-01-01;
+73;4;0;85;1996-01-01;exploration de la fonction epididymaire;1.0;;1;;1.0;;;5;;;1996-01-01;
+74;4;0;130;1996-01-01;etude de l'ejaculat fractionne;1.0;;1;;1.0;;;5;;;1996-01-01;
+75;4;0;120;1996-01-01;test de migration-survie des spermatozoides;1.0;;1;;1.0;1.0;;5;;;2000-02-26;59
+76;4;0;50;1996-01-01;recherche ac fixes sur les spermatozoides (homme);1.0;;1;;1.0;;;3;;;1996-01-01;
+77;4;0;280;1996-01-01;recherches indirectes d'ac antispermatozoides (homme);1.0;;1;;1.0;;1.0;5;;1.0;1996-01-01;
+78;4;0;120;1996-01-01;penetration du mucus cervical : test croise;1.0;;1;;1.0;;;5;;;1996-01-01;
+79;4;0;280;1996-01-01;recherche immunisation antispermatozoides (femme);1.0;;1;;1.0;;;5;;1.0;1996-01-01;
+80;4;0;110;1996-01-01;etude d'une ejaculation retrograde;1.0;;1;;1.0;;;5;;;1996-01-01;
+81;4;0;50;1996-01-01;coloration des spermatozoides au bleu d'aniline;1.0;;1;;1.0;;;5;;;1996-01-01;
+1101;5;1;100;1996-01-01;myelogramme(medullogr) adenogramme ou splenogramme;;;1;;;;;0;1.0;1.0;1997-03-30;1105-1106
+1102;5;1;25;1996-01-01;etude complementaire de cytochimie (moelle ou sang);;;3;;;;1.0;1;;1.0;1996-01-01;
+1103;5;1;300;1996-01-01;phenotypage des cellules anormales (moelle ou sang);;;1;;1.0;;;2;;1.0;1996-01-01;
+1104;5;1;25;1996-01-01;hemogramme y compris plaquettes (nfs , nfp);;;1;;;;;5;1.0;1.0;2019-04-01;1105-1106-1107-1128-2108
+1105;5;1;100;1996-01-01;diagnostic  hemopathie maligne (moelle ou sang);;;1;;1.0;;1.0;1;;1.0;1996-01-01;1101-1104-1106
+1106;5;1;50;1996-01-01;suivi hemopathie maligne connue (moelle ou sang);;;1;;1.0;;1.0;1;;1.0;1996-01-01;1101-1104-1105
+1107;5;1;15;1996-01-01;plaquettes (thrombocytes) : etude isolee;;;1;;;;1.0;5;;1.0;2011-06-18;1001-1104-1128
+2108;5;1;7;1997-02-14;hematocrite (hte);;;1;;;;;0;;1.0;2013-04-17;1104
+1109;5;1;19;1996-01-01;reticulocytes (rc) : numeration;;;1;;;;;2;1.0;1.0;2019-04-01;
+1110;5;1;20;1996-01-01;corps de heinz : recherche;;;1;;;;;4;;1.0;1996-01-01;
+1111;5;1;20;1996-01-01;drepanocytes : recherche;;;1;;;;;0;;1.0;1996-01-01;
+1112;5;1;30;1996-01-01;resistance globulaire osmotique;;;1;;;;;0;;1.0;1996-01-01;
+1113;5;1;60;1996-01-01;electrophorese de l'hemoglobine (gel polyacrylamide);;;1;;;;;2;1.0;1.0;1997-03-30;
+1114;5;1;60;1996-01-01;electrophorese de l'hemoglobine (citrate agar);;;1;;;;;2;1.0;1.0;1997-03-30;
+1115;5;1;30;1996-01-01;test solubilite de l'hemoglobine (itano , falciformation);;;1;;;;;0;;1.0;1996-01-01;
+1116;5;1;50;1996-01-01;test d'auto-hemolyse;;;1;;;;;4;;1.0;1996-01-01;
+1117;5;1;20;1996-01-01;test a l'isopropanol (hemoglobine instable);;;1;;;;;0;;1.0;1996-01-01;
+1118;5;1;20;1996-01-01;hemoglobine f : dosage;;;1;;;;;0;;1.0;1996-01-01;
+1119;5;1;80;1996-01-01;rech. hemoglobinurie nocturne paroxystique;;;1;;;;;4;;1.0;1996-01-01;
+1120;5;1;120;1996-01-01;rech. anomalie de l'hemoglobine (3 techniques min.);;;1;;;;;5;;1.0;1996-01-01;
+1124;5;1;4;1996-01-01;vitesse de sedimentation (vs);;;1;;;;;0;;1.0;2019-04-01;
+1122;5;1;80;1996-01-01;lymphocytes helpers/suppresseurs (cd4, cd8, cd3 ...);;;1;;;1.0;;0;;1.0;1996-01-01;
+1123;5;1;60;1996-01-01;protoporphyrines zinc (ppz);;;1;;;;;0;;1.0;1996-01-01;
+2109;5;1;70;2007-01-24;recherche quantification d'hematies foetales - test de kleihauer;;;1;;;;;2;;1.0;2007-04-30;
+1011;5;2;100;2013-06-11;etude fonctions plaquettaires (methode agregation);;;5;;1.0;;;3;;1.0;2013-07-11;
+192;5;2;50;1996-01-01;facteur willebrand (dosage fonctionnel);;;1;;;;;3;;1.0;2013-07-11;
+1013;5;2;40;2013-06-11;facteur willebrand (dosage immunologique);;;1;;1.0;;1.0;3;;1.0;2013-07-11;
+1128;5;2;42;1996-01-01;exploration de base de l'hemostase (tp + tca + plaq.);;;1;;;;;6;;1.0;2019-04-01;126-127-1104-1107-1127
+126;5;2;16;2003-06-11;temps de quick (tq,tp) en l'absence de traitement par avk;;;1;;1.0;;1.0;2;1.0;1.0;2019-04-01;127-1001-1128
+127;5;2;20;2003-06-11;inr : temps de quick en cas de traitement par avk;;;1;;1.0;;;2;;1.0;2013-07-11;126-1001-1128
+1127;5;2;16;1996-01-01;temps de cephaline + activateur (tca);;;1;;;;1.0;2;;1.0;2019-04-01;1128
+174;5;2;16;1996-01-01;fibrinogene (facteur i) : dosage fonctionnel;;;1;;;;1.0;2;1.0;1.0;2019-04-01;
+1014;5;2;25;2013-06-11;facteur ii (prothrombine)- dosage activite coagulante;;;1;;;;1.0;2;;1.0;2013-07-11;
+1015;5;2;25;2013-06-11;facteur v (proaccelerine)- dosage activite coagulante;;;1;;;;1.0;2;;1.0;2013-07-11;
+1016;5;2;25;2013-06-11;facteur vii (proconvertine) - dosage activite coagulante;;;1;;;;1.0;2;;1.0;2016-04-19;1032
+1017;5;2;25;2013-06-11;facteur x (facteur stuart) - dosage activite coagulante;;;1;;;;1.0;2;;1.0;2016-04-19;1032
+1032;5;2;25;2013-06-11;facteurs vii et x - dosage activite coagulante;;;1;;;;1.0;2;;1.0;2013-07-11;1016-1017
+178;5;2;50;1996-01-01;facteur viii (antihemophilique a): dosage activite coagulante;;;1;;;;1.0;2;;1.0;2013-07-11;
+179;5;2;50;1996-01-01;facteur ix (antihemophilique b) : dosage activite coagulante;;;1;;;;1.0;2;;1.0;2013-07-11;
+180;5;2;50;1996-01-01;facteur xi : dosage activite coagulante;;;1;;;;1.0;2;;1.0;2013-07-11;
+181;5;2;40;1996-01-01;facteur xii : dosage activite coagulante;;;1;;;;;2;;1.0;2013-07-11;
+173;5;2;50;1996-01-01;facteur xiii (facteur de stabilisation de la fibrine): dosage;;;1;;;;;2;;1.0;2013-07-11;
+1018;5;2;100;2013-06-11;inhibiteur anti-facteur viii ou anti-facteur ix (recherche);;;1;;1.0;;1.0;2;;1.0;2013-07-11;
+1019;5;2;200;2013-06-11;inhibiteur anti-facteur viii ou anti-facteur ix (titrage);;;1;;;;1.0;2;;1.0;2013-07-11;
+182;5;2;20;1996-01-01;anticoagulant circulant (depistage) - correction tca;;;1;;;;1.0;3;;1.0;2013-07-11;
+1020;5;2;200;2013-06-11;anticoagulant de type lupique (recherche et identification);;;1;;1.0;;;3;;1.0;2013-07-11;
+1021;5;2;30;2013-06-11;d dimeres ou pdf (determination semi quantitative);;;1;;1.0;;;3;;1.0;2013-07-11;1022
+1022;5;2;60;2013-06-11;d dimeres (dosage);;;1;;1.0;;;3;;1.0;2013-07-11;1021
+175;5;2;30;1996-01-01;temps lyse euglobulines;;;1;;;;;2;;1.0;2013-07-11;
+186;5;2;30;1996-01-01;activite anti-xa (de l'heparine ou d'un derive heparinique);;;1;;;;;3;;1.0;2013-07-11;185
+1024;5;2;150;2013-06-11;anticorps anti-facteur 4 plaquettaire (pf4) - recherche;;;1;;1.0;;;2;;1.0;2013-07-11;
+189;5;2;40;1996-01-01;antithrombine (dosage fonctionnel);;;1;;1.0;;;3;1.0;1.0;2013-07-11;
+188;5;2;38;1996-01-01;antithrombine (dosage immunologique);;;1;;1.0;;1.0;3;1.0;1.0;2018-04-14;
+190;5;2;50;1996-01-01;proteine s (dosage fonctionnel);;;1;;1.0;;;3;;1.0;2013-07-11;
+1025;5;2;50;2013-06-11;proteine s libre antigene (dosage immunologique);;;1;;1.0;;1.0;3;;1.0;2013-07-11;
+1026;5;2;50;2013-06-11;proteine s totale (dosage immunologique);;;1;;1.0;;1.0;3;;1.0;2013-07-11;
+191;5;2;50;1996-01-01;proteine c (dosage fonctionnel);;;1;;1.0;;;3;;1.0;2013-07-11;
+1027;5;2;50;2013-06-11;proteine c (dosage immunologique);;;1;;1.0;;1.0;3;;1.0;2013-07-11;
+1028;5;2;40;2013-06-11;facteur i ou ii ou v ou vii ou x : dosage immunologique;;;0;;1.0;;;3;;1.0;2013-07-11;
+1029;5;2;100;2013-06-11;mutation g1691a du gene facteur v (facteur v leiden);;;1;;1.0;1.0;;3;;1.0;2013-07-11;1030-1031
+1030;5;2;100;2013-06-11;mutation g20210a du gene de la prothrombine;;;1;;1.0;1.0;;3;;1.0;2013-07-11;1029-1031
+1031;5;2;150;2013-06-11;mutations g1691a du gene du fv (fv leiden) + g202010a du gene du fii;;;1;;1.0;1.0;;3;;1.0;2013-07-11;1029-1030
+1140;5;3;33;1996-01-01;groupage sanguin abo-rh (d) (gs);;;2;;1.0;;1.0;6;1.0;1.0;2018-04-14;
+1145;5;3;33;1996-01-01;phenotypes rh (c, c, e, e)  et kell (k);;;2;;1.0;;1.0;4;1.0;1.0;2018-04-14;
+1146;5;3;15;1996-01-01;ag erythroc. (cw, kidd, duffy, s, s ...) chaque ag;;;5;;1.0;;1.0;0;;1.0;1996-01-01;
+1141;5;3;37;1996-01-01;rai : depistage;;;0;;;;1.0;6;1.0;1.0;2018-04-14;
+1131;5;3;65;1999-07-01;rai : identification;;;0;;;;1.0;7;1.0;1.0;1999-07-12;
+1149;5;3;20;1996-01-01;rai : titrage d'un anticorps identifie;;;0;;;;1.0;0;1.0;1.0;2002-02-28;
+1150;5;3;95;1996-01-01;rai : dosage ponderal d'un anticorps;;;0;;;;1.0;0;1.0;1.0;2014-04-13;
+1151;5;3;15;1996-01-01;ac immuns du systeme abo : depistage et titrage;;;1;;1.0;;;0;;1.0;1996-01-01;
+1152;5;3;35;1996-01-01;epreuve directe compatibilite pour chaque unite sang;;;0;;;;;4;;1.0;1996-01-01;
+1153;5;3;15;1996-01-01;test direct de coombs (antiglobuline polyvalente);;;1;;;;1.0;0;;1.0;1996-01-01;
+1154;5;3;15;1996-01-01;test direct de coombs (antiglobuline specifique);;;4;;;;1.0;0;;1.0;1996-01-01;
+1155;5;3;20;1996-01-01;epreuve d'elution d'anticorps a partir de gr;;;1;;;;1.0;0;;1.0;1996-01-01;
+1156;5;3;20;1996-01-01;epreuve d'absorption d'anticorps sur gr;;;0;;;;1.0;0;;1.0;1999-07-11;
+160;5;3;200;1996-01-01;groupage plaquettaire (pla);;;0;;1.0;;;6;;1.0;1996-01-01;
+161;5;3;200;1996-01-01;groupage granulocytaire (na, nb, nc, nd, ne);;;0;;1.0;;;6;;1.0;1996-01-01;
+162;5;3;100;1996-01-01;anticorps antiplaquettaires : depistage;;;0;;1.0;1.0;;2;;1.0;1996-01-01;
+163;5;3;300;1996-01-01;anticorps antiplaquettaires : identification;;;0;;1.0;1.0;1.0;2;;1.0;1996-01-01;
+164;5;3;100;1996-01-01;anticorps antigranulocytaires : depistage;;;0;;1.0;1.0;;2;;1.0;1996-01-01;
+165;5;3;300;1996-01-01;anticorps antigranulocytaires : identification;;;0;;1.0;1.0;1.0;2;;1.0;1996-01-01;
+5201;6;1;60;1997-07-30;ex microbio urines (ecbu);;;1;;;;;1;1.0;;2019-04-01;219-221
+5202;6;1;140;1997-07-30;ex microbio secretions, ulcerations, exsudats (ano) genitaux femme (pv);;;1;;;;1.0;1;;;2018-06-29;
+5203;6;1;120;1997-07-30;ex microbio secretions, ulcerations, exsudats (ano) genitaux homme (p-urethral),;;;1;;;;;1;;;2018-06-29;
+5204;6;1;220;1997-07-30;ex microbio produit origine pelvienne obtenu par coelioscopie;;;1;;;;;1;;;2018-06-29;5253-5301
+5205;6;1;90;1997-07-30;ex microbio du sperme;;;1;;;;;1;;;2018-06-29;59
+5207;6;1;180;1997-07-30;ex microbio matieres fecales et/ou prelevement rectal;;;1;;;;;7;;;1999-07-12;4205-4206-4266-4267
+5209;6;1;100;1997-07-30;ex microbio de la sphere oro-rhino-pharyngee;;;1;;;;;7;;;1999-07-12;
+5210;6;1;150;1997-07-30;ex microbio secretions broncho-pulmonaires et expectorations;;;1;;;;;7;;;2012-01-31;
+5230;6;1;200;1999-07-01;ex microbio prod aspiration bronchique, bbp et lba;;;2;;;;;7;;;1999-07-12;
+5231;6;1;200;1999-07-01;ex microbio de liq de ponction (lcr, articulation, peritoine, ...);;;0;;;;;7;;;1999-07-12;
+5213;6;1;100;1997-07-30;ex microbio p. oculaire: conjonctivite bacterienne;;;1;;;;;1;;;2018-06-29;
+5226;6;1;100;1997-07-30;ex microbio p.oculaire par ophtalmo :lesions ulcereuses;;;2;;;;;7;;;1999-07-12;
+5218;6;1;150;1997-07-30;ex microbio p. oculaire (cornees, lentilles...) acanthamoeba;;;1;;;;;7;;;1999-07-12;
+5214;6;1;110;1997-07-30;ex microbio peau, phaneres;;;0;;;;;7;;;1999-07-12;
+5215;6;1;120;1997-07-30;ex microbio plaie, ecoulement purulent, tissu;;;0;;;;;7;;;1999-07-12;
+5224;6;1;195;1997-07-30;ex microbio pus (collection fermee);;;0;;;;;7;;;2019-04-01;
+5216;6;1;150;1997-07-30;ex microbio prel divers : cathet, chambr implant, prothese, valves;;;0;;;;;7;;;1998-12-01;
+5222;6;1;120;1997-07-30;ex microbio prel divers : meches (par site), redon (par site), sterilet;;;0;;;;;7;;;1998-12-01;
+5223;6;1;100;1997-07-30;ex microbio placenta, loochies;;;1;;;;;7;;;1999-07-12;
+5225;6;1;150;1997-07-30;ex microbio prel pluri-orificiels nouveau-ne;;;1;;;;;7;;;2012-01-31;
+5229;6;1;10;1997-07-30;infection nosocomiale : cotation supplementaire;;;1;;;;1.0;0;;;1999-07-12;
+5219;6;1;80;1999-07-01;ex microbio hemoculture qualitative;;;0;;;;;7;;1.0;2012-01-31;5221
+5221;6;1;120;1997-07-30;ex microbio hemoculture quantitative;;;0;;;;;7;;1.0;2007-04-29;5219
+214;6;1;60;1996-01-01;bacterie aerobie ou microaerophile nommement designee : rech. isolee;;;0;;;;1.0;7;;;2000-02-26;
+215;6;1;80;1996-01-01;bacterie anaerobie nommement designee : rech. isolee;;;0;;;;;7;;;1997-07-30;
+218;6;2;15;1996-01-01;polynucleaires eosinophiles dans une secretion : rech isolee;;;0;;;;;0;;;1997-07-30;
+219;6;2;25;1996-01-01;culot urinaire cytologie urines avec etude des cristaux;;;1;;;;;4;;;2018-04-14;220-221-5201
+220;6;2;25;1996-01-01;debit urin. hematies et leucocytes par minute (addis, h.l.m,culot urin quant);;;1;;;;;4;;;1997-07-30;219-221
+221;6;2;25;1996-01-01;debit urin. hematies et leucocytes par millilitre (culot urin quant);;;1;;;;;4;;;1997-07-30;219-220-5201
+5291;6;2;60;1997-07-30;rech espece microbienne par if (pneumocystis...);;;1;;;;;2;;1.0;2018-06-29;237-240
+5292;6;3;60;1997-07-30;identif biochimique et/ou antigenique d'une bacterie anaerobie;;;0;;;;1.0;2;;;1997-10-12;
+236;6;3;50;1996-01-01;isol. et/ou identif. d'une bacterie par pouvoir pathogene (animal);;;0;;;;1.0;0;;;1997-07-30;
+237;6;3;50;1996-01-01;identif. d'une toxine bacterienne par techn. immunologique;;;0;;;;1.0;2;;;2018-06-29;5291
+238;6;3;100;1996-01-01;identif. d'une toxine bacterienne : par pouvoir pathogene (animal);;;0;;;;1.0;2;;;1997-07-30;
+239;6;3;200;1996-01-01;toxinotypie botulique;;;0;;;1.0;1.0;0;;;1996-01-01;
+5249;6;3;40;1997-07-30;serotypage d'une espece bacterienne;;;0;;;;1.0;0;;;1997-10-12;
+5233;6;3;20;2002-01-16;helicobacter pylori : recueil des deux echantillons d'air expire;;;1;;1.0;;;0;;;2002-03-01;
+5234;6;3;45;2002-01-16;helicobacter pylori : analyse des deux echantillons d'air expire;;;1;;1.0;;;5;;;2011-02-11;
+5235;6;3;90;2000-01-25;legionella pneumophila:rech. antigene soluble ur par eia;;;1;;;;;0;;;2010-01-19;
+240;6;3;30;1996-01-01;mycobacteries : examen microscopique;;;0;;;;1.0;2;;;2018-06-29;5291
+241;6;3;40;1996-01-01;mycobacteries : cult. d'isol sur milieu solide (sauf a partir produit solide);;;0;;;;1.0;2;;;1997-07-30;
+242;6;3;60;1996-01-01;mycobacteries : cult. d'isol sur milieu solide a partir d'un produit solide;;;0;;;;1.0;2;;;1997-07-30;
+1241;6;3;60;1996-01-01;mycobacteries : isolement rapide a partir crachats,tubages,ur,liq..;;;0;;;;1.0;2;;;1997-08-13;
+1242;6;3;80;1996-01-01;mycobacteries : isolement rapide a partir organe, sang;;;0;;;;1.0;2;;;1997-10-12;
+243;6;3;40;1996-01-01;mycobacteries : identification biochimique de mycobacterium tuberculosis;;;0;;;;1.0;2;;;1997-08-11;4101
+244;6;3;100;1996-01-01;mycobacteries : identif. bioch autre que mycobacterium tuberculosis;;;0;;;;1.0;2;;;1997-07-30;4101
+5284;6;3;150;1997-07-30;spirochetes isolement borrelia par culture;;;0;;;;;2;;;1997-10-12;
+250;6;3;100;1996-01-01;rickettsiales : ex. direct et isolement;;;1;;;1.0;;0;;;1996-01-01;
+5253;6;3;40;1997-07-30;mycoplasmes : cultures sur milieux speciaux,numeration,caracterisation;;;1;;;;;4;;;2018-06-29;5204
+252;6;4;50;1996-01-01;ex. microbio. : isol et/ou ident levure autre que c albicans ou espece filam;;;0;;;;1.0;2;;;1997-07-30;255-280
+253;6;4;70;1996-01-01;ex. myco isole : identif de genre levures et champignons filamenteux;;;0;;;;;4;;;1997-07-30;
+280;6;4;50;1996-01-01;ex. myco isole : identif.d'espece d'un champignon autre que c. albicans;;;0;;;;;4;;;1997-07-30;252-255
+254;6;4;15;1996-01-01;malassezia furfur (pityriasis versicolor);;;0;;;;;0;;;1997-07-30;
+255;6;4;100;1996-01-01;ex myco isole champignon exotique ex direct et culture;;;0;;;;;2;;;1997-07-30;252-280
+256;6;4;75;1996-01-01;ex myco isole champignon exotique sur coupe d'organe;;;0;;;;;2;;;1997-07-30;
+257;6;4;500;1996-01-01;ex myco isole champignon exotique : inocul a animal et retroculture;;;0;;;;;2;;;1997-07-30;
+286;6;5;95;1996-01-01;ex. parasito. des selles avec 2 methodes de concentration;;;1;;;;;7;;;1997-07-30;259-287-288
+287;6;5;60;1996-01-01;ex. parasito. des selles avec 1 methode   de concentration;;;0;;;;;7;;;1997-07-30;286
+259;6;5;50;1996-01-01;ex. parasito. selles emises au labo (protozoaires);;;0;;;;;7;;;1997-07-30;262-286-288
+288;6;5;145;1996-01-01;ex. parasito. selles emises au labo (0259 + 0286);;;1;;;;;7;;;1997-07-30;259-262-286
+289;6;5;50;1996-01-01;amibes : culture sur selles emises au laboratoire;;;0;;;;1.0;7;;;1997-07-30;
+290;6;5;60;1996-01-01;cryptosporidium : rech. sur selles fraichement emises;;;0;;;;;7;;;1997-07-30;
+262;6;5;50;1996-01-01;amibes : rech. dans mucus recueilli sous rectoscopie;;;0;;;;;6;;;1997-07-30;259-288
+263;6;5;10;1996-01-01;oeufs d'helminthes  :marge de  l'anus (scotch test);;;0;;;;;2;;;1997-07-30;
+264;6;5;25;1996-01-01;larves d'anguillules (baermann) : recherche dans selles;;;0;;;;1.0;7;;;1997-07-30;
+266;6;5;25;1996-01-01;oeufs de bilharzies : recherche;;;0;;;;;0;;;1997-07-30;
+267;6;5;10;1996-01-01;parasites : rech. et/ou identif. par ex. macro. et/ou micro.(demodex);;;0;;;;;2;;;1997-07-30;
+268;6;5;30;1996-01-01;parasites : ex. direct et/ou enrichissement sauf dans sang et selles;;;0;;;;;2;;;1997-07-30;
+1125;6;5;100;1996-01-01;hematozoaires : recherche sur frottis et en goutte epaisse;;;0;;;;;2;;1.0;1997-07-30;
+1126;6;5;100;1996-01-01;parasites du sang autres que hematozoaires : recherche;;;0;;;;;0;;1.0;1997-07-30;
+269;6;6;40;1996-01-01;antibiogramme bacterie aerobie (sauf mycoplasme) (atb);;;0;;;;1.0;0;;;1996-01-01;
+270;6;6;60;1996-01-01;antibiogramme bacterie anaerobie (sauf mycoplasme) (atb);;;0;;;;1.0;0;;;1996-01-01;
+271;6;6;40;1996-01-01;antibiogramme champignon (fongigramme) (atb , fg);;;0;;;;1.0;4;;;1997-10-12;
+5278;6;6;50;1997-07-30;cmi bacterie aerobie;;;0;;;;1.0;2;;;1997-10-12;
+5279;6;6;70;1997-07-30;cmi bacterie anaerobie;;;0;;;;1.0;2;;;1997-10-12;
+5280;6;6;50;1997-07-30;cmi levures;;;0;;;;1.0;2;;;1997-10-12;
+5290;6;6;50;1997-07-30;cmi streptococcus pneumoniae;;;0;;;;1.0;2;;;1997-10-12;
+281;6;6;80;1996-01-01;cmi champignon filamenteux de pousse lente;;;0;;;;1.0;2;;;1997-07-30;
+274;6;6;60;1996-01-01;mycobacterie : sensibilite vis a vis d'un antibio par antibio;;;5;;;;1.0;0;;;1997-07-30;
+5293;6;6;70;1997-07-30;dosage microbio d'un antibiotique chez le malade;;;0;;;;;0;;;1997-10-12;
+5294;6;6;70;1997-07-30;activite antibiotique globale d'un liquide biologique;;;0;;;;;0;;;1997-10-12;
+277;6;6;40;1996-01-01;pouvoir bactericide des antibiotiques et assoc par antibiotique;;;0;;;;1.0;0;;;1997-07-30;
+1200;7;2;40;2000-08-01;ige totales seriques;;;1;;1.0;;;3;;1.0;2011-02-11;1201-1202-1203-1204-1205
+1201;7;2;50;2000-08-01;ige spec. depistage : rech. pneumallergenes melanges;;;1;;1.0;;;3;;1.0;2018-04-14;1200-1203-1204-1205
+1202;7;2;50;2000-08-01;ige spec. depistage : rech. trophallergenes melanges;;;3;;1.0;;;3;;1.0;2018-04-14;1200-1203-1204-1205
+1203;7;2;75;2000-08-01;ige spec. : identif. allergenes multiples separes;;;1;;1.0;;;3;;1.0;2019-04-01;1200-1201-1202-1204-1205
+1204;7;2;50;2000-08-01;ige spec. : identif. allergene unique (pneumallergenes);;;5;;1.0;;;3;;1.0;2018-04-14;1200-1201-1202-1203
+1205;7;2;50;2000-08-01;ige spec. : identif. allergene unique (trophallergenes);;;5;;1.0;;;3;;1.0;2018-04-14;1200-1201-1202-1203
+966;7;2;50;2003-11-25;ige spec. : identif. allergene unique (latex);;;1;;1.0;;;3;;1.0;2018-04-14;
+967;7;2;50;2003-11-25;ige spec. : identif. allergene unique (venins d'hymenopteres);;;5;;1.0;;;3;;1.0;2018-04-14;
+968;7;2;50;2003-11-25;ige spec. : identif. allergene unique (medicaments);;;5;;1.0;;;3;;1.0;2018-04-14;
+969;7;2;80;2003-11-25;tryptase (sang);;;1;;1.0;;;3;;1.0;2010-01-19;
+823;7;2;100;1997-07-30;ecp (eosino cationique proteine);;;1;;1.0;;;3;;1.0;2004-01-28;
+1451;7;3;33;1996-01-01;mai nso:f. rhumatoides groupe 1 : ig animales (waaler-rose..);;;1;;1.0;;;7;;1.0;2019-04-01;
+1452;7;3;33;1996-01-01;mai nso : f. rhumatoides groupe 2 : ig humaines (latex, ...);;;1;;1.0;;;7;;1.0;2019-04-01;
+1453;7;3;40;1996-01-01;mai nso : autoac antinucleaires (aan) par if sur cellules hep 2;;;1;;1.0;;;7;;1.0;1996-01-01;
+1454;7;3;40;1996-01-01;mai nso : ac anti-adn natif par ifi sur sang;;;1;;1.0;;1.0;7;;1.0;1997-03-27;1455
+1554;7;3;40;1997-02-14;mai nso : ac anti-adn natif par ifi sur autre liq biol que sang;;;1;;1.0;;;7;;;1997-03-27;1555
+1455;7;3;70;1996-01-01;mai nso : ac anti-adn natif par meth. marqueur sur sang;;;1;;1.0;;1.0;7;;1.0;1997-03-27;1454
+1555;7;3;70;1997-02-14;mai nso : ac anti-adn natif par meth. marqueur sur autre liq biol que sang;;;1;;1.0;;;7;;;1997-03-27;1554
+1456;7;3;40;1996-01-01;mai nso :  ac antiantigenes nucleaires solubles : depistage;;;2;;1.0;;1.0;3;;1.0;1996-01-01;
+1457;7;3;70;1996-01-01;mai nso :  ac antiantigenes nucleaires solubles : titrage;;;2;;;;1.0;3;;1.0;1996-01-01;
+1458;7;3;70;1996-01-01;mai nso : ac anti-adn denature : titrage;;;1;;1.0;;1.0;3;;1.0;1996-01-01;
+1459;7;3;70;1996-01-01;mai nso : ac antihistones : titrage;;;1;;1.0;;1.0;3;;1.0;1996-01-01;
+1460;7;3;68;1996-01-01;mai nso : autoac antiphospholipides (anticardiolipine, ...) : titrage;;;3;;1.0;;1.0;3;;1.0;2019-04-01;
+1461;7;3;40;1996-01-01;mai nso : autoac antimitochondries de type 5 par ifi : titrage;;;1;;1.0;;1.0;3;;1.0;1996-01-01;
+1462;7;3;40;1996-01-01;mai nso : autoac anticytoplasme de pnn (anca) par ifi : titrage;;;1;;1.0;;;3;;1.0;1996-01-01;
+1463;7;3;70;1996-01-01;mai nso : autoac anticytoplasme de pnn (anca) :t.marqueur: specificite;;;1;;1.0;;1.0;3;;1.0;1996-01-01;
+1827;7;3;57;2008-11-05;mai nso : ac antipeptides cycliques citrullines (ac anti-ccp);;;1;;1.0;;;3;;1.0;2019-04-01;
+1180;7;3;380;1996-01-01;groupages tissulaires : phenotype hla classe i;;;1;;1.0;1.0;;3;;1.0;2009-02-08;
+1181;7;3;700;1996-01-01;groupages tissulaires : phenotype hla classe ii;;;1;;1.0;1.0;;3;;1.0;1996-01-01;
+1183;7;3;70;1997-07-30;immuncomplexes circulants (icc, cic) (sang);;;1;;;;;3;;1.0;1997-10-12;
+1465;7;3;80;1996-01-01;hepatopathies : autoac antitissus et antinucleaires;;;1;;1.0;;;3;;1.0;1996-01-01;1466-1469-1470
+1466;7;3;40;1996-01-01;hepatopathies : ac antimuscle lisse : titrage;;;1;;1.0;;;3;;1.0;1996-01-01;1465
+1467;7;3;40;1996-01-01;hepatopathies : ac antimuscle lisse : typage;;;1;;1.0;;1.0;7;;1.0;1996-01-01;1468
+1468;7;3;70;1996-01-01;hepatopathies : ac antiactine : titrage par t. marqueur;;;1;;1.0;;1.0;3;;1.0;1996-01-01;1467
+1469;7;3;40;1996-01-01;hepatopathies : ac antimitochondries : titrage par ifi;;;1;;1.0;;;3;;1.0;1996-01-01;1465
+1470;7;3;70;1996-01-01;hepatopathies : ac antimitochondries : titrage par t. marqueur;;;1;;1.0;;;3;;1.0;1996-01-01;1465
+1471;7;3;180;1996-01-01;hepatopathies : ac antimitochondries : typage par immunoblot;;;1;;1.0;;1.0;3;;1.0;1996-01-01;
+1472;7;3;40;1996-01-01;hepatopathies : ac antireticulum endoplasmique (lkm, anticytosol);;;1;;1.0;;1.0;3;;1.0;1996-01-01;
+1473;7;3;70;1996-01-01;hepatopathies : autoac antimembrane nucleaire : ident. cibles;;;2;;1.0;;1.0;3;;1.0;1996-01-01;
+1828;7;3;58;2008-11-05;m. coeliaque : autoanticorps antitransglutaminase (iga);;;1;;1.0;;;3;;1.0;2019-04-01;
+1829;7;3;60;2008-11-05;m. coeliaque : autoanticorps antitransglutaminase (igg);;;1;;1.0;;;3;;1.0;2008-12-25;
+1830;7;3;40;2008-11-05;m. coeliaque : autoanticorps antiendomysium (iga);;;1;;1.0;;;3;;1.0;2008-12-25;
+1831;7;3;40;2008-11-05;m. coeliaque : autoanticorps antiendomysium (igg);;;1;;1.0;;;3;;1.0;2008-12-25;
+1478;7;3;100;1996-01-01;thrombopenies : test direct  mise en evidence ig assoc. aux plaq. (dixon, ...);;;1;;1.0;;;7;;1.0;1996-01-01;
+1479;7;3;100;1996-01-01;thrombopenies : autoac antiplaq.  : ident. cible immunocapture maipa;;;3;;1.0;;1.0;3;;1.0;1996-01-01;
+1480;7;3;180;1996-01-01;thrombopenies : autoac antiplaq.  : ident. cible immunoblot;;;1;;1.0;;1.0;3;;1.0;1996-01-01;
+1481;7;3;40;1996-01-01;d.i.d. : ac anticellules d'ilots de langerhans : titrage par ifi;;;1;;1.0;;;3;;1.0;2004-01-28;1800
+1800;7;3;120;2003-11-26;did : anticorps anti-ia2;;;1;;1.0;;;3;;1.0;2004-01-28;1481
+1482;7;3;150;1996-01-01;d.i.d. : autoanticorps anti-insuline;;;1;;1.0;;;3;;1.0;2004-01-28;
+7890;7;3;120;1997-07-30;did : anticorps anti gad;;;1;;1.0;;;3;;1.0;2004-01-28;
+1483;7;3;40;1996-01-01;thyroide  : autoac antithyroglobuline par hemagglutination;;;1;;1.0;;;3;;1.0;1996-01-01;1484
+1484;7;3;57;1996-01-01;thyroide  : autoac antithyroglobuline par meth marqueur;;;1;;1.0;;;3;;1.0;2019-04-01;1483
+1485;7;3;40;1996-01-01;thyroide : autoac antimicrosomes thyroidiens par  hemagglutination;;;1;;1.0;;;3;;1.0;1996-01-01;1486-1487
+1486;7;3;40;1996-01-01;thyroide : autoac antimicrosomes thyroidiens par ifi;;;1;;1.0;;;3;;1.0;1996-01-01;1485-1487
+1487;7;3;60;1996-01-01;thyroide : autoac antithyroperoxydase par meth marqueur;;;1;;1.0;;;3;;1.0;2018-04-14;1485-1486
+1488;7;3;80;1996-01-01;thyroide : autoac antirecepteurs de tsh;;;1;;1.0;;;3;;1.0;2019-04-01;
+1489;7;3;40;1996-01-01;surrenales : autoac antisurrenale par ifi;;;1;;1.0;;;3;;1.0;1996-01-01;
+1490;7;3;40;1996-01-01;tractus digestif : autoac anticellules parietales de l'estomac par ifi;;;1;;1.0;;;3;;1.0;1996-01-01;
+1491;7;3;70;1996-01-01;tractus digestif : autoac antifacteur intrinseque par meth marqueur;;;1;;1.0;;;3;;1.0;1996-01-01;
+1492;7;3;100;1996-01-01;systeme nerveux : autoac antirecepteurs de l'acetylcholine;;;1;;1.0;;;3;;1.0;1996-01-01;
+1493;7;3;40;1996-01-01;mai : autoac antimembrane basale d'epith. malpighien;;;1;;1.0;;;3;;1.0;1996-01-01;
+1494;7;3;40;1996-01-01;mai : autoac antisubstance intercell. d'epith. malpighien par ifi;;;1;;1.0;;;3;;1.0;1996-01-01;
+1495;7;3;40;1996-01-01;mai : autoac cellules productrices de steroides par ifi;;;1;;1.0;;;3;;1.0;1996-01-01;
+1496;7;3;40;1996-01-01;mai : autoac antimemb. basale glomerul. par ifi;;;1;;1.0;;;3;;1.0;1996-01-01;
+1497;7;3;70;1996-01-01;mai : autoac antimemb. basale glomerul. par meth marqueur;;;1;;1.0;;;3;;1.0;1996-01-01;
+1498;7;3;40;1996-01-01;mai : autoac specif. d'autres organes par ifi;;;0;;1.0;;;3;;1.0;1998-12-01;
+1301;7;4;60;1996-01-01;borreliose (lyme) : sd de depistage;;;2;;;;;7;;1.0;2009-02-07;3301
+1302;7;4;140;1996-01-01;borreliose (lyme) : sd de controle;;;1;;;;1.0;7;;1.0;2019-04-01;
+1305;7;4;45;1996-01-01;brucelloses : sd (wright, rose bengale);;;1;;;;;7;;1.0;2005-12-11;3305
+1308;7;4;60;1996-01-01;inf. pulmonaires a chlamydia pneumoniae : sd;;;1;;;;;7;;1.0;2005-12-11;1307-3307-3308
+3308;7;4;90;1996-01-01;inf. pulmonaires a chlamydia pneumoniae : sd + iteratif;;;1;;;;;7;;1.0;2005-12-11;1307-1308-3307
+1309;7;4;60;1996-01-01;inf. pulmonaires a chlamydia psittaci : sd;;;1;;;;;7;;1.0;2005-12-11;1307-3307-3309
+3309;7;4;90;1996-01-01;inf. pulmonaires a chlamydia psittaci : sd + iteratif;;;1;;;;;7;;1.0;2005-12-11;1307-1309-3307
+1310;7;4;30;1996-01-01;inf. a campylobacter : sd;;;1;;;;;7;;1.0;2005-12-11;3310
+3310;7;4;45;1996-01-01;inf. a campylobacter : sd + iteratif;;;1;;;;;7;;1.0;2005-12-11;1310
+1311;7;4;60;1996-01-01;inf. a helicobacter pylori : sd;;;1;;;;;7;;1.0;2005-12-11;3311
+3311;7;4;90;2005-09-20;inf. a helicobacter pylori : sd + iteratif;;;1;;;;;7;;1.0;2005-12-11;1311
+1336;7;4;60;1996-01-01;legionelloses : sd de depistage;;;1;;;;;7;;1.0;2005-12-11;
+1337;7;4;120;1996-01-01;legionelloses : sd : titrage avec 6 ag et plus;;;1;;1.0;;;7;;1.0;2005-12-11;3337
+3337;7;4;180;2005-09-20;legionelloses : sd : titrage avec 6 ag et plus + iteratif;;;1;;;;1.0;7;;1.0;2005-12-11;1337
+1313;7;4;30;1996-01-01;mycoplasmoses respiratoires : sd : ac totaux;;;1;;;;;7;;1.0;2005-12-11;1246-3246-3313
+3313;7;4;45;1996-01-01;mycoplasmoses respiratoires : sd : ac totaux + iteratif;;;1;;;;;7;;1.0;2005-12-11;1246-1313-3246
+1246;7;4;50;2005-09-20;mycoplasmoses respiratoires : sd : igg;;;1;;;;;7;;1.0;2010-01-19;1313-3246-3313
+3246;7;4;90;2005-09-20;mycoplasmoses respiratoires : sd : igg + iteratif;;;1;;;;;7;;1.0;2005-12-11;1246-1313-3313
+1247;7;4;50;2005-09-20;mycoplasmoses respiratoires : sd : igm;;;1;;1.0;;1.0;7;;1.0;2010-01-19;3247
+3247;7;4;90;2005-09-20;mycoplasmoses respiratoires : sd : igm + iteratif;;;1;;1.0;;1.0;7;;1.0;2005-12-11;1247
+1316;7;4;40;1996-01-01;fievre q (coxiella burnetti) : sd de depistage;;;1;;;;;7;;1.0;2005-12-11;3316
+1248;7;4;60;2005-09-20;fievre q (coxiella burnetti) : sd : titrage ag phase ii;;;1;;;;1.0;7;;1.0;2005-12-11;3248
+3248;7;4;90;2005-09-20;fievre q (coxiella burnetti) : sd : titrage ag phase ii + iteratif;;;1;;;;1.0;7;;1.0;2005-12-11;1248
+1249;7;4;120;2005-09-20;fievre q chronique (coxiella burnetti) : sd : igg et iga;;;1;;;;;7;;1.0;2005-12-11;3249
+3249;7;4;180;2005-09-20;fievre q chronique (coxiella burnetti) : sd : igg et iga + iteratif;;;1;;;;;7;;1.0;2005-12-11;1249
+1317;7;4;40;1996-01-01;rickettsioses (rickettsia conorii, rickettsia typhi) : sd de depistage;;;1;;;;;7;;1.0;2005-12-11;3317
+1318;7;4;60;1996-01-01;rickettsioses (rickettsia conorii, rickettsia typhi) : sd : titrage;;;1;;;;1.0;7;;1.0;2005-12-11;3318
+3318;7;4;90;1996-01-01;rickettsioses (rickettsia conorii, rickettsia typhi) : sd : titrage + iteratif;;;1;;;;1.0;7;;1.0;2005-12-11;1318
+1319;7;4;40;1996-01-01;salmonelloses : sd (tab ou widal et felix);;;1;;;;;7;;1.0;2005-12-11;3319
+1323;7;4;20;1996-01-01;streptococcies : une anti-enzyme streptococcique;;;1;;;;;7;;1.0;2011-02-11;1324
+1324;7;4;40;1996-01-01;streptococcies : anti-enzymes streptococciques (2 ou plusieurs);;;1;;;;;7;;1.0;2011-02-11;1323
+1257;7;4;20;2018-06-12;syphilis : sd test non treponemique(tnt) titrage(vdrl,rpr,...);;;1;;;;1.0;4;;1.0;2018-06-29;
+1256;7;4;20;2018-06-12;syphilis : sd de depistage_ test treponemique (tt);;;1;;;;;4;;1.0;2018-06-29;
+1258;7;4;20;2018-06-12;syphilis : sd test non treponemique(tnt) _ seroconversion;;;1;;;;1.0;4;;1.0;2018-06-29;
+1259;7;4;30;2018-06-12;syphilis: suivi therapeutique  test non treponemique(tnt);;;1;;1.0;;;7;;1.0;2018-06-29;
+1250;7;4;180;2005-09-20;syphilis : sd : confirmation igg_femme enceinte;;;1;;1.0;;1.0;7;;1.0;2018-06-29;
+1330;7;4;30;1996-01-01;syphilis : sd : rech. des igm_enfant_syphilis congenitale;;;1;;1.0;;;7;;1.0;2018-06-29;
+1251;7;4;180;2005-09-20;syphilis : sd : confirmation igm_enfant_syphilis congenitale;;;1;;1.0;;1.0;7;;1.0;2018-06-29;
+1331;7;4;40;1996-01-01;maladie des griffes du chat (bartonelloses) : sd de depistage;;;1;;;;;7;;1.0;2005-12-11;3331
+1252;7;4;60;2005-09-20;maladie des griffes du chat (bartonelloses) : sd : titrage;;;1;;;;1.0;7;;1.0;2005-12-11;3252
+3252;7;4;90;2005-09-20;maladie des griffes du chat (bartonelloses) : sd : titrage + iteratif;;;1;;;;1.0;7;;1.0;2005-12-11;1252
+1332;7;4;50;1996-01-01;tetanos : sd;;;1;;;;;7;;1.0;2011-02-11;
+1333;7;4;40;1996-01-01;tularemie : sd;;;1;;;;;7;;1.0;2005-12-11;3333
+1334;7;4;30;1996-01-01;yersinioses : sd (1 ag);;;1;;;;;7;;1.0;2005-12-11;1335-3334-3335
+1335;7;4;90;1996-01-01;yersinioses : sd (3 ag et +);;;1;;;;;7;;1.0;2005-12-11;1334-3334-3335
+4103;7;4;150;2017-06-27;igra: test de detection de laproduction d'interferon gamma;;;1;;1.0;;;3;;1.0;2017-07-13;
+4104;7;4;75;2017-06-27;igra: supplement en cas d'isloment de cellules mononuclees circulantes;;;1;;1.0;;;3;;1.0;2017-07-13;
+4301;7;5;90;1996-01-01;amibiase : sd de depistage par 2 techn.;;;1;;;;;7;;1.0;1996-01-01;6301
+4302;7;5;90;1996-01-01;amibiase : sd de confirmation par coes;;;1;;;;1.0;7;;1.0;1996-01-01;4303
+4303;7;5;120;1996-01-01;amibiase : sd de confirmation par ielp;;;1;;;;1.0;7;;1.0;1996-01-01;4302
+6301;7;5;68;1996-01-01;amibiase : suivi du sd de depistage par 1 techn. + iteratif;;;1;;;;;7;;1.0;1996-01-01;4301
+4304;7;5;90;1996-01-01;anisakiase : sd de depistage par 2 techn.;;;1;;;;;7;;1.0;1996-01-01;
+4305;7;5;120;1996-01-01;anisakiase : sd de confirmation par ielp;;;1;;;;1.0;7;;1.0;1996-01-01;4306
+4306;7;5;180;1996-01-01;anisakiase : sd de confirmation par ie;;;1;;;;1.0;7;;1.0;1996-01-01;4305
+4307;7;5;50;1996-01-01;aspergillose : sd de depistage;;;2;;;;;7;;1.0;1996-01-01;6307
+4308;7;5;90;1996-01-01;aspergillose : sd de confirmation par coes;;;2;;;;1.0;7;;1.0;1996-01-01;
+4309;7;5;120;1996-01-01;aspergillose : sd de confirmation par ielp;;;2;;;;1.0;7;;1.0;1996-01-01;
+4310;7;5;180;1996-01-01;aspergillose : sd de confirmation par ie;;;2;;;;1.0;7;;1.0;1996-01-01;
+4311;7;5;50;1996-01-01;aspergillose : recherche antigenes solubles;;;1;;;;;7;;1.0;1996-01-01;
+6307;7;5;75;1996-01-01;aspergillose : suivi du sd de depistage + iteratif;;;2;;;;;7;;1.0;1996-01-01;4307
+4312;7;5;50;1996-01-01;candidose : sd de depistage par 1 techn.;;;1;;;;;7;;1.0;1996-01-01;4313-6312
+4313;7;5;90;1996-01-01;candidose systemique :sd de depistage par 2 techniques;;;1;;;;;7;;1.0;1996-01-01;4312-6312
+4314;7;5;90;1996-01-01;candidose : sd de confirmation par coes;;;2;;;;1.0;7;;1.0;1996-01-01;
+4315;7;5;120;1996-01-01;candidose : sd de confirmation par ielp;;;2;;;;1.0;7;;1.0;1996-01-01;
+4316;7;5;180;1996-01-01;candidose : sd de confirmation par ie;;;2;;;;1.0;7;;1.0;1996-01-01;
+4317;7;5;30;1996-01-01;candidose : recherche antigenes solubles;;;1;;;;;7;;1.0;1996-01-01;
+6312;7;5;75;1996-01-01;candidose : suivi du sd de depistage par 1 techn. + iteratif;;;1;;;;;7;;1.0;1996-01-01;4312-4313
+4318;7;5;50;1996-01-01;cryptococcose : antigenes solubles : recherche;;;1;;;;;7;;1.0;1996-01-01;
+4319;7;5;75;1996-01-01;cryptococcose : antigenes solubles : titrage;;;1;;;;1.0;7;;1.0;1996-01-01;6319
+6319;7;5;113;1996-01-01;cryptococcose : suivi du titrage antigenes solubles + iteratif;;;1;;;;;0;;1.0;1996-01-01;4319
+4321;7;5;90;1996-01-01;cysticercose : sd de depistage par 2 techn.;;;1;;;;;7;;1.0;1996-01-01;6321
+4322;7;5;120;1996-01-01;cysticercose : sd de confirmation par ielp;;;1;;;;1.0;7;;1.0;1996-01-01;4323
+4323;7;5;180;1996-01-01;cysticercose : sd de confirmation par ie;;;1;;;;1.0;7;;1.0;1996-01-01;4322
+6321;7;5;68;1996-01-01;cysticercose : suivi du sd de depistage par 1 techn. + iteratif;;;1;;;;;7;;1.0;1996-01-01;4321
+4324;7;5;80;1996-01-01;distomatose : sd de depistage par 2 techn.;;;1;;;;;7;;1.0;1996-01-01;6324
+4325;7;5;90;1996-01-01;distomatose : sd de confirmation par coes;;;1;;;;1.0;7;;1.0;1996-01-01;4326-4327
+4326;7;5;120;1996-01-01;distomatose : sd de confirmation par ielp;;;1;;;;1.0;7;;1.0;1996-01-01;4325-4327
+4327;7;5;180;1996-01-01;distomatose : sd de confirmation par ie;;;1;;;;1.0;7;;1.0;1996-01-01;4325-4326
+6324;7;5;60;1996-01-01;distomatose : suivi du sd de depistage par 1 techn. + iteratif;;;1;;;;;7;;1.0;1996-01-01;4324
+4328;7;5;90;1996-01-01;echinococcoses (kyste hydatique, ...) : sd de depistage par 2 techn.;;;1;;;;;7;;1.0;1996-01-01;6328
+4329;7;5;90;1996-01-01;echinococcoses (kyste hydatique, ...) : sd de confirmation par coes;;;1;;;;1.0;7;;1.0;1996-01-01;4330-4331
+4330;7;5;120;1996-01-01;echinococcoses  (kyste hydatique, ...) : sd de confirmation par ielp;;;1;;;;1.0;7;;1.0;1996-01-01;4329-4331
+4331;7;5;180;1996-01-01;echinococcoses  (kyste hydatique, ...) : sd de confirmation par ie;;;1;;;;1.0;7;;1.0;1996-01-01;4329-4330
+6328;7;5;68;1996-01-01;echinococcoses  (kyste hydatique, ...) : suivi du sd de depist. par 1 techn. + i;;;1;;;;;7;;1.0;1996-01-01;4328
+4332;7;5;90;1996-01-01;filariose : sd de depistage par 2 techn.;;;1;;;;;7;;1.0;1996-01-01;6332
+4333;7;5;90;1996-01-01;filariose : sd de confirmation par coes;;;1;;;;1.0;7;;1.0;1996-01-01;4334-4335
+4334;7;5;120;1996-01-01;filariose : sd de confirmation par ielp;;;1;;;;1.0;7;;1.0;1996-01-01;4333-4335
+4335;7;5;180;1996-01-01;filariose : sd de confirmation par ie;;;1;;;;1.0;7;;1.0;1996-01-01;4333-4334
+6332;7;5;68;1996-01-01;filariose : suivi du sd de depistage par 1 techn. + iteratif;;;1;;;;;7;;1.0;1996-01-01;4332
+4336;7;5;50;1996-01-01;histoplasmose : sd de depistage;;;1;;;;;7;;1.0;1996-01-01;
+4337;7;5;120;1996-01-01;histoplasmose : sd de confirmation par ielp;;;1;;;;1.0;7;;1.0;1996-01-01;
+4338;7;5;90;1996-01-01;hypodermose : sd de depistage par 2 techn.;;;1;;;;;7;;1.0;1996-01-01;
+4339;7;5;120;1996-01-01;hypodermose : sd de confirmation par ielp;;;1;;;;1.0;7;;1.0;1996-01-01;
+4340;7;5;90;1996-01-01;larva migrans : toxocarose : sd de depistage par 2 techn.;;;1;;;;;7;;1.0;1996-01-01;6340
+4341;7;5;90;1996-01-01;larva migrans : toxocarose : sd de confirmation par coes;;;1;;;;1.0;7;;1.0;1996-01-01;4342-4343
+4342;7;5;120;1996-01-01;larva migrans : toxocarose : sd de confirmation par ielp;;;1;;;;1.0;7;;1.0;1996-01-01;4341-4343
+4343;7;5;180;1996-01-01;larva migrans : toxocarose : sd de confirmation par ie;;;1;;;;1.0;7;;1.0;1996-01-01;4341-4342
+6340;7;5;68;1996-01-01;larva migrans : toxocarose : suivi du sd de depist. par 1 techn. + iteratif;;;1;;;;;7;;1.0;1996-01-01;4340
+4344;7;5;90;1996-01-01;leishmaniose : sd de depistage par 2 techn.;;;1;;;;;7;;1.0;1996-01-01;6344
+4345;7;5;180;1996-01-01;leishmaniose : sd de confirmation par ie;;;1;;;;1.0;7;;1.0;1996-01-01;
+6344;7;5;68;1996-01-01;leishmaniose : suivi du sd de depistage par 1 techn. + iteratif;;;1;;;;;7;;1.0;1996-01-01;4344
+4347;7;5;40;1996-01-01;mal. poumon eleveur d'oiseaux : sd de depistage;;;2;;;;;7;;1.0;1996-01-01;6347
+4348;7;5;120;1996-01-01;mal. poumon eleveur d'oiseaux : sd de confirmation par ielp;;;2;;;;1.0;7;;1.0;1998-12-01;
+6347;7;5;60;1996-01-01;mal. poumon eleveur d'oiseaux : suivi du sd de depistage + iteratif;;;2;;;;;7;;1.0;1996-01-01;4347
+4349;7;5;40;1996-01-01;mal. poumon fermier : sd de depistage;;;2;;;;;7;;1.0;1996-01-01;6349
+4350;7;5;120;1996-01-01;mal poumon fermier : sd de confirmation par ielp;;;2;;;;1.0;7;;1.0;1998-12-01;
+6349;7;5;60;1996-01-01;mal. poumon fermier : suivi du sd de depistage + iteratif;;;2;;;;;7;;1.0;1996-01-01;4349
+4351;7;5;40;1996-01-01;alveolites allergiques exogenes : sd de depistage;;;2;;;;;7;;1.0;1996-01-01;6351
+4352;7;5;120;1996-01-01;alveolites allergiques exogenes : sd de confirmation par ielp;;;2;;;;1.0;7;;1.0;1998-12-01;
+6351;7;5;60;1996-01-01;alveolites allergiques exogenes : suivi du sd de depistage + iteratif;;;2;;;;;7;;1.0;1996-01-01;4351
+4353;7;5;50;1996-01-01;paludisme : sd par els;;;1;;1.0;;;7;;1.0;1996-01-01;
+4354;7;5;40;1996-01-01;paludisme : sd par ifi;;;1;;1.0;;;7;;1.0;1996-01-01;
+4355;7;5;50;1996-01-01;schistosomiase : sd de depistage;;;1;;;;;7;;1.0;1996-01-01;6355
+4356;7;5;120;1996-01-01;schistosomiase : sd de confirmation par ielp;;;1;;;;1.0;7;;1.0;1996-01-01;4357
+4357;7;5;180;1996-01-01;schistosomiase : sd de confirmation par ie;;;1;;;;1.0;7;;1.0;1996-01-01;4356
+6355;7;5;75;1996-01-01;schistosomiase : suivi  du sd de depistage + iteratif;;;1;;;;;7;;1.0;1996-01-01;4355
+4358;7;5;40;1996-01-01;trichinose : sd de depistage;;;1;;;;;7;;1.0;1996-01-01;6358
+4359;7;5;120;1996-01-01;trichinose : sd de confirmation par ielp;;;1;;;;1.0;7;;1.0;1996-01-01;
+6358;7;5;60;1996-01-01;trichinose : suivi du sd de depistage + iteratif;;;1;;;;;7;;1.0;1996-01-01;4358
+4360;7;5;40;1996-01-01;trypanosomiase : mal. sommeil : sd de depistage;;;1;;;;;7;;1.0;1996-01-01;6360
+6360;7;5;60;1996-01-01;trypanosomiase : mal. sommeil : suivi du sd de depistage + iteratif;;;1;;;;;7;;1.0;1996-01-01;4360
+4361;7;5;40;1996-01-01;trypanosomiase : mal. chagas : sd de depistage;;;1;;;;;7;;1.0;1996-01-01;6361
+6361;7;5;60;1996-01-01;trypanosomiase : mal. chagas : suivi du sd de depistage + iteratif;;;1;;;;;7;;1.0;1996-01-01;4361
+4362;7;5;40;1996-01-01;infection parasitaire non nommement inscrite a la nabm : serodiagnostic (sd);;;0;;;;;7;;1.0;1996-01-01;
+1701;7;6;30;1996-01-01;infection a adenovirus : sd par rfc;;;1;;;;;7;;1.0;1996-01-01;1702-1703-1704-1705
+1702;7;6;40;1996-01-01;infection a adenovirus : sd par ifi;;;1;;;;;7;;1.0;1996-01-01;1701-1703-1704-1705
+1703;7;6;40;1996-01-01;infection a adenovirus : sd par iha;;;1;;;;;7;;1.0;1996-01-01;1701-1702-1704-1705
+1704;7;6;70;1996-01-01;infection a adenovirus : sd par eia;;;1;;;;;7;;1.0;1996-01-01;1701-1702-1703-1705
+1705;7;6;50;1996-01-01;infection a adenovirus : sd par seroneutralisation;;;1;;;;;7;;1.0;1997-08-12;1701-1702-1703-1704
+1709;7;6;50;1997-07-30;fievre jaune(controle d'immunite)par seroneutralisation;;;1;;1.0;;;7;;1.0;2014-09-04;
+3253;7;6;135;2014-08-25;arboviroses (autres que dengue ou chikungunya)-igm et igg (eia)+examen iteratif;;;2;;1.0;;;7;;1.0;2014-09-04;1253
+1253;7;6;90;2014-08-25;arboviroses (autres que dengue ou chikungunya) - igm et igg (eia);;;2;;1.0;;;7;;1.0;2017-08-09;3253
+1710;7;6;40;1996-01-01;infection a arenavirus : sd par ifi;;;1;;;;;7;;1.0;1997-08-12;1711-1712
+1711;7;6;70;1996-01-01;infection a arenavirus : sd par eia;;;1;;;;;7;;1.0;1997-08-12;1710-1712
+1712;7;6;50;1996-01-01;infection a arenavirus : sd par seroneutralisation;;;1;;;;;7;;1.0;1997-08-12;1710-1711
+3786;7;6;20;1997-07-30;infection a ebv : mononucleose infectieuse (mni) : ac heterophiles : recherche;;;1;;;;;7;;1.0;1997-10-12;
+1715;7;6;70;1996-01-01;infection a ebv ancienne : sd : ac vca igg et ac ebna par ifi;;;1;;1.0;;;7;;1.0;1996-01-01;1716
+1716;7;6;100;1996-01-01;infection a ebv ancienne : sd : ac vca igg et ac ebna par eia;;;1;;1.0;;;7;;1.0;2011-02-11;1715
+1717;7;6;40;1996-01-01;infection a ebv recente ou evolutive : sd : ac vca igm ou ac ea igm par ifi;;;1;;1.0;;;7;;1.0;1997-08-05;1718
+1718;7;6;55;1996-01-01;infection a ebv recente ou evolutive : sd : ac vca igm ou ac ea par eia;;;1;;1.0;;;7;;1.0;2011-02-11;1717
+1719;7;6;40;1996-01-01;infection a ebv  : sd : ac ea iga ou ac vca iga;;;1;;1.0;;;7;;1.0;1996-01-01;
+1752;7;6;60;1996-01-01;herpes 6 (vhh6): sd : ac igg;;;1;;;;;7;;1.0;2019-02-01;
+1729;7;6;30;1996-01-01;grippe a : sd par rfc;;;1;;;;;7;;1.0;1996-01-01;1730-1731-3729-3730-3731
+3729;7;6;45;1996-01-01;grippe a : sd par rfc + iteratif;;;1;;;;;7;;1.0;1996-01-01;1729-1730-1731-3730-3731
+1730;7;6;60;1996-01-01;grippe a : sd par eia;;;1;;;;;7;;1.0;2011-02-11;1729-1731-3729-3730-3731
+3730;7;6;90;1996-01-01;grippe a : sd par eia + iteratif;;;1;;;;;7;;1.0;2011-02-11;1729-1730-1731-3729-3731
+1731;7;6;40;1996-01-01;grippe a : sd par iha;;;1;;;;;7;;1.0;1996-01-01;1729-1730-3729-3730-3731
+3731;7;6;60;1996-01-01;grippe a : sd par iha + iteratif;;;1;;;;;7;;1.0;1996-01-01;1729-1730-1731-3729-3730
+1732;7;6;30;1996-01-01;grippe b : sd par rfc;;;1;;;;;7;;1.0;1996-01-01;1733-1734-3732-3733-3734
+3732;7;6;45;1996-01-01;grippe b : sd par rfc + iteratif;;;1;;;;;7;;1.0;1996-01-01;1732-1733-1734-3733-3734
+1733;7;6;70;1996-01-01;grippe b : sd par eia;;;1;;;;;7;;1.0;1996-01-01;1732-1734-3732-3733-3734
+3733;7;6;105;1996-01-01;grippe b : sd par eia + iteratif;;;1;;;;;7;;1.0;1996-01-01;1732-1733-1734-3732-3734
+1734;7;6;40;1996-01-01;grippe b : sd par iha;;;1;;;;;7;;1.0;1996-01-01;1732-1733-3732-3733-3734
+3734;7;6;60;1996-01-01;grippe b : sd par iha + iteratif;;;1;;;;;7;;1.0;1996-01-01;1732-1733-1734-3732-3733
+1735;7;6;50;1996-01-01;grippes a et b : sd controle d'immunite par seroneutralisation;;;2;;1.0;;;7;;1.0;1997-08-05;
+3780;7;6;40;1997-07-30;grippes a et b : sd controle d'immunite par iha;;;2;;1.0;;;7;;1.0;1997-10-12;
+1760;7;6;20;1996-01-01;parainfluenza (paramyxovirus) : sd par iha;;;0;;;;;7;;1.0;1996-01-01;3760
+3760;7;6;30;1996-01-01;parainfluenza (paramyxovirus) : sd par iha + iteratif;;;0;;;;;7;;1.0;1996-01-01;1760
+1761;7;6;30;1996-01-01;parainfluenza (paramyxovirus) : sd par rfc;;;0;;;;;7;;1.0;1996-01-01;3761
+3761;7;6;45;1996-01-01;parainfluenza (paramyxovirus) : sd par rfc + iteratif;;;0;;;;;7;;1.0;1996-01-01;1761
+3787;7;6;70;1997-07-30;infection a vrs : sd : depistage ac par eia;;;1;;;;;7;;1.0;1997-10-12;3781
+3781;7;6;30;1997-07-30;infection a vrs : sd : depistage ac par rfc (chez adulte);;;1;;1.0;;;7;;1.0;1997-10-12;3787
+1756;7;6;70;1996-01-01;oreillons (v. ourlien) : infection recente : sd : igg + igm par ifi;;;1;;1.0;;;7;;1.0;1997-08-12;1757-1758-1759
+1757;7;6;110;1996-01-01;oreillons (v. ourlien) : infection recente : sd : igg + igm par eia;;;1;;1.0;;;7;;1.0;2018-04-14;1756-1758-1759
+1758;7;6;70;1996-01-01;oreillons (v. ourlien) : immunite ancienne : sd : igg par eia;;;1;;1.0;;;7;;1.0;1997-08-12;1756-1757-1759
+1759;7;6;40;1996-01-01;oreillons (v. ourlien) : immunite ancienne : sd : igg par ifi;;;1;;1.0;;;7;;1.0;1997-08-02;1756-1757-1758
+1762;7;6;70;1996-01-01;inf. a parvovirus b 19 recente : sd : igg + igm par ifi;;;1;;1.0;;;7;;1.0;1996-01-01;1763
+1763;7;6;100;1996-01-01;inf. a parvovirus b 19 recente : sd : igg + igm par eia;;;1;;1.0;;;7;;1.0;2019-04-01;1762
+1764;7;6;70;1996-01-01;inf. a parvovirus b 19 ancienne : sd : igg ou ig totales par eia;;;1;;1.0;;;7;;1.0;1996-01-01;1765
+1765;7;6;40;1996-01-01;inf. a parvovirus b 19 ancienne : sd : igg ou ig totales par ifi;;;1;;1.0;;;7;;1.0;1996-01-01;1764
+388;7;6;45;1996-01-01;infection a vih 1 et 2 : sd de depistage;;1.0;1;;;;1.0;7;;1.0;2019-04-01;
+389;7;6;150;1996-01-01;infection a vih 1 et 2 : sd de confirmation 1 reaction;;1.0;1;;;;1.0;7;;1.0;2018-04-14;390
+390;7;6;220;1996-01-01;infection a vih 1 et 2 : sd de confirmation 2 reactions ou plus;;1.0;1;;;;1.0;7;;1.0;2018-04-14;389
+392;7;6;55;1996-01-01;infection a vih 1 et 2 : antigene p24 du vih 1 : recherche et titrage;;1.0;1;;;;;7;;1.0;2011-03-15;
+1754;7;6;65;1996-01-01;infection a htlv (i et ii) : sd de depistage par eia;;;1;;;;;7;;1.0;2017-04-01;4716
+4716;7;6;40;1997-07-30;infection a htlv (i et ii) : sd de depistage par agglutination;;;1;;;;;7;;1.0;1997-10-12;1754
+1755;7;6;180;1996-01-01;infection a htlv (i et ii) : sd de confirmation par immunotransfert;;;1;;;;1.0;7;;1.0;1997-08-12;
+1766;7;6;120;1996-01-01;rage : sd infection recente : igg + igm par eia;;;1;;1.0;;;7;;1.0;1997-08-12;
+1767;7;6;70;1996-01-01;rage : sd controle d'immunite : igg par eia;;;1;;1.0;;;7;;1.0;1997-08-12;
+1768;7;6;120;1996-01-01;rougeole : sd infection recente : igg + igm par eia;;;1;;1.0;;;7;;1.0;1997-08-12;1769
+1769;7;6;70;1996-01-01;rougeole : sd infection recente : igg + igm par ifi;;;1;;1.0;;;7;;1.0;1997-08-12;1768
+1770;7;6;70;1996-01-01;rougeole : sd controle d'immunite : igg ou ig totales par eia;;;1;;1.0;;;7;;1.0;1996-01-01;1771-1772
+1771;7;6;40;1996-01-01;rougeole : sd controle d'immunite : igg ou ig totales par ifi;;;1;;1.0;;;7;;1.0;1996-01-01;1770-1772
+1772;7;6;40;1996-01-01;rougeole : sd controle d'immunite : igg ou ig totales par iha;;;1;;1.0;;;7;;1.0;1996-01-01;1770-1771
+1773;7;6;36;1996-01-01;rubeole : sd par iha ou eia;;;1;;;;;7;1.0;1.0;2018-04-14;3773
+3773;7;6;57;1996-01-01;rubeole : sd par iha ou eia + iteratif;;;1;;;;;7;1.0;1.0;2017-04-01;1773
+3783;7;6;50;1997-07-30;rubeole : sd : igm par immunocapture;;;1;;1.0;;1.0;7;1.0;1.0;2011-02-11;
+4717;7;6;20;1997-07-30;rubeole : sd d'une immunite post-vaccinale par agglutination;;;1;;1.0;;;7;;1.0;1997-10-12;
+4201;8;0;100;1996-01-01;cno : cultures cellulaires de virus non orientees;;;1;;;1.0;;0;;;1997-10-12;4208-4210-4211-4214-4215-4216-4219-4227-4230-4234-4235-4236-4237-4238-4239-4242-4245-4248-4252-4255-4258-4261-4264-4265-4270-4271-4272
+4202;8;0;50;1996-01-01;cno : identification virale par 1 a 2 serums;;;1;;;1.0;1.0;7;;;1996-01-01;4203-4204
+4203;8;0;100;1996-01-01;cno : identification virale par 3 a 7 serums;;;1;;;1.0;1.0;7;;;1996-01-01;4202-4204
+4204;8;0;150;1996-01-01;cno : identification virale par + de 7 serums;;;1;;;1.0;1.0;7;;;1996-01-01;4202-4203
+4205;8;0;20;1996-01-01;adenovirus : recherche directe sur selles par agg;;;1;;;;;2;;;1997-10-12;4206-5207
+4206;8;0;70;1996-01-01;adenovirus : recherche directe sur selles par eia;;;1;;;;;2;;;1997-10-12;4205-5207
+4207;8;0;40;1996-01-01;adenovirus : recherche directe sur liquides autres que selles par if;;;1;;;;;2;;;1996-01-01;
+4208;8;0;150;1996-01-01;adenovirus : cultures orientees et identification;;;1;;;1.0;;6;;;1996-01-01;4201
+4209;8;0;200;1996-01-01;adenovirus : mise en evidence sur selles par me;;;1;;;;;2;;;1996-01-01;
+4212;8;0;40;1996-01-01;arenavirus : recherche directe par if;;;1;;;;;2;;;1996-01-01;4213
+4213;8;0;70;1996-01-01;arenavirus : recherche directe par eia;;;1;;;;;2;;;1996-01-01;4212
+4214;8;0;150;1996-01-01;arenavirus : cultures orientees et identification;;;1;;;1.0;;6;;;1996-01-01;4201-4215
+4215;8;0;250;1996-01-01;arenavirus : isolement sur souriceaux;;;1;;;1.0;;2;;;1996-01-01;4201-4214
+4216;8;0;500;1996-01-01;virus des fievres hemorragiques : cultures;;;1;;;1.0;;6;;;1996-01-01;4201
+4217;8;0;250;1996-01-01;astrovirus : recherche directe par mie;;;1;;;;;2;;;1996-01-01;
+4218;8;0;70;1996-01-01;astrovirus : recherche directe par eia;;;1;;;;;2;;;1996-01-01;
+4219;8;0;150;1996-01-01;astrovirus : cultures orientees et identification;;;1;;;1.0;;6;;;1996-01-01;4201
+4220;8;0;250;1996-01-01;calicivirus : recherche directe par mie;;;1;;;;;2;;;1996-01-01;
+4221;8;0;70;1996-01-01;calicivirus : recherche directe par eia;;;1;;;;;2;;;1996-01-01;
+4222;8;0;40;1996-01-01;coronavirus : recherche directe par if;;;1;;;;;2;;;1996-01-01;
+4223;8;0;200;1996-01-01;coronavirus : recherche directe par me;;;1;;;;;2;;;1996-01-01;
+4272;8;0;150;1997-07-30;rhinovirus : cultures orientees et identification;;;1;;;1.0;;6;;;1997-10-12;4201
+4240;8;0;40;1996-01-01;virus grippaux (a et b) : recherche directe par if;;;0;;1.0;;;2;;;1996-01-01;
+4241;8;0;40;1996-01-01;virus grippaux (a et b) : recherche directe par eia;;;0;;1.0;;;2;;;2011-02-11;
+4242;8;0;150;1996-01-01;virus grippaux (a et b) : cultures orientees et identification;;;1;;1.0;1.0;1.0;6;;;1996-01-01;4201
+4243;8;0;40;1996-01-01;virus parainfluenzae (i, ii, iii, iv) : recherche directe par if;;;1;;;;;2;;;1996-01-01;4244
+4244;8;0;70;1996-01-01;virus parainfluenzae (i, ii, iii, iv) : recherche directe par eia;;;1;;;;;2;;;1996-01-01;4243
+4245;8;0;150;1996-01-01;virus parainfluenzae (i, ii, iii, iv) : cultures orientees et identification;;;1;;;1.0;1.0;6;;;1996-01-01;4201
+4246;8;0;40;1996-01-01;virus respiratoire syncytial (vrs) : recherche directe par if;;;1;;;;;2;;;1996-01-01;4247
+4247;8;0;70;1996-01-01;virus respiratoire syncytial (vrs) : recherche directe par eia;;;1;;;;;2;;;1996-01-01;4246
+4248;8;0;150;1996-01-01;virus respiratoire syncytial (vrs) : cultures orientees et identification;;;1;;;1.0;1.0;6;;;1996-01-01;4201
+4250;8;0;40;1996-01-01;virus ourlien (oreillons) : recherche directe par if;;;1;;;;;2;;;1996-01-01;4251
+4251;8;0;70;1996-01-01;virus ourlien (oreillons) : recherche directe par eia;;;1;;;;;2;;;1996-01-01;4250
+4252;8;0;150;1996-01-01;virus ourlien :(oreillons) : cultures orientees et identification;;;1;;;1.0;;6;;;1996-01-01;4201
+4253;8;0;200;1996-01-01;parvovirus b 19 : recherche dans serum par me;;;1;;1.0;;;2;;1.0;1997-08-05;
+4254;8;0;40;1996-01-01;polyomavirus : diagnostic direct par if;;;1;;;;;2;;;1996-01-01;
+4255;8;0;150;1996-01-01;polyomavirus : cultures orientees et identification;;;1;;;1.0;;6;;;1996-01-01;4201
+4256;8;0;200;1996-01-01;poxvirus : recherche par me;;;1;;;;;2;;;1996-01-01;4257
+4257;8;0;250;1996-01-01;poxvirus : recherche par mie;;;1;;;;;2;;;1996-01-01;4256
+4258;8;0;1200;1996-01-01;vih : cultures sur lymphocytes;;1.0;1;;1.0;1.0;;6;;;1998-12-01;4201
+4271;8;0;1200;1997-07-30;retrovirus autre que le vih : cultures orientees et identification;;;1;;;1.0;;6;;;1997-10-12;4201
+4259;8;0;40;1996-01-01;virus de la rage : recherche directe par if;;;1;;;;;2;;;1996-01-01;4260
+4260;8;0;70;1996-01-01;virus de la rage : recherche directe par eia;;;1;;;;;2;;;1996-01-01;4259
+4261;8;0;150;1996-01-01;virus de la rage : cultures orientees et identification;;;1;;;1.0;;6;;;1996-01-01;4201
+4262;8;0;40;1996-01-01;virus de la rougeole : recherche directe par if;;;1;;;;;2;;;1996-01-01;4263
+4263;8;0;70;1996-01-01;virus de la rougeole : recherche directe par eia;;;1;;;;;2;;;1996-01-01;4262
+4264;8;0;150;1996-01-01;virus de la rougeole : cultures orientees et identification;;;1;;;1.0;1.0;6;;;1996-01-01;4201
+4265;8;0;150;1996-01-01;virus de la rubeole : cultures orientees et identification;;;1;;;1.0;;6;;;1996-01-01;4201
+4266;8;0;20;1996-01-01;rotavirus : recherche directe par agg;;;1;;;;;2;;;1997-08-05;4267-5207
+4267;8;0;70;1996-01-01;rotavirus : recherche directe par eia;;;1;;;;;2;;;1997-10-05;4266-5207
+4268;8;0;200;1996-01-01;rotavirus : recherche par me;;;1;;;;;2;;;1996-01-01;
+7401;10;0;25;1997-07-30;hcg ou beta hcg (urines);;;1;;1.0;;;2;1.0;;2011-02-11;7402
+7402;10;0;26;1997-07-30;hcg ou beta hcg (sang);;;1;;1.0;;;2;1.0;1.0;2019-04-01;4004-4005-7401
+472;10;0;47;1996-01-01;l.h. (sang);;;3;;;;;2;;1.0;2019-04-01;
+473;10;0;47;1996-01-01;f.s.h. (sang);;;3;;;;;2;1.0;1.0;2019-04-01;
+330;10;0;47;1999-07-01;estradiol (femme) (e2) (sang);;;3;;;;;2;;1.0;2019-04-01;
+727;10;0;70;1996-01-01;estradiol (homme et enfant) (e2) (sang);;;3;;;;;2;;1.0;2011-02-11;
+1801;10;0;51;2003-11-26;estradiol (e2) (autre milieu biologique);;;1;;;;;2;;;2013-04-17;
+777;10;0;70;1997-07-30;inhibines (sang);;;1;;;;;2;;1.0;2019-04-01;
+357;10;0;50;1996-01-01;testosterone (homme) (sang);;;3;;;;;2;;1.0;2018-04-14;
+1136;10;0;68;1999-07-01;testosterone (femme et enfant) (sang);;;3;;;;;2;;1.0;2019-04-01;
+701;10;0;80;1996-01-01;testosterone libre ou biodisponible (sang);;;3;;;;;2;;1.0;2017-04-01;
+1134;10;0;80;1999-07-01;androstenedione (sang);;;3;;;;;2;;1.0;2017-04-01;
+334;10;0;47;1996-01-01;progesterone (pg) (sang);;;3;;;;;2;;1.0;2019-04-01;
+1135;10;0;70;1999-07-01;17-oh-progesterone (sang);;;3;;;;;2;;1.0;2018-04-14;
+343;10;0;47;1996-01-01;prolactine (sang);;;3;;;;;2;;1.0;2019-04-01;
+884;10;0;200;1997-07-30;formes moleculaires de prolactine : separation chromato (sang);;;1;;;;;2;;1.0;2004-01-28;
+7414;10;0;80;1997-07-30;dehydroepiandrosterone (dha) (sang);;;3;;1.0;;;2;;1.0;2016-04-20;
+1802;10;0;60;2003-11-26;sulfate de dha (sang);;;3;;1.0;;;2;;1.0;2014-04-13;
+7415;10;0;90;1997-07-30;dihydrotestosterone (dht);;;3;;;;;2;;1.0;2010-01-19;
+358;10;0;70;1996-01-01;proteine de transport des horm. sexuelles (tebg, sbg) (sang);;;3;;;;;2;;1.0;2010-01-19;
+7422;10;0;70;1997-07-30;insuline (sang);;;3;;;;;2;;1.0;2004-01-28;703
+703;10;0;110;1996-01-01;insuline libre (sang);;;3;;;;;2;;1.0;2004-01-28;7422
+1137;10;0;65;1999-07-01;c-peptide (sang);;;3;;;;;2;;1.0;2009-02-08;
+756;10;0;70;1997-02-14;c-peptide (urine);;;1;;;;;2;;;2004-01-28;
+462;10;0;50;1996-01-01;cortisol (sang);;;3;;;;;2;;1.0;2018-04-14;
+476;10;0;73;1996-01-01;cortisol libre (urine);;;1;;;;;2;;;2017-04-01;
+7420;10;0;95;1997-07-30;corticotropine (acth) (sang);;;3;;;;;2;;1.0;2018-04-14;
+455;10;0;60;1996-01-01;17-cetosteroides (urine);;;1;;;;;2;;;2004-01-28;
+714;10;0;78;1996-01-01;aldosterone (sang);;;3;;;;;2;;1.0;2016-04-20;
+461;10;0;70;1996-01-01;17-hydroxy-corticosteroides ou t.h.s. (urine);;;1;;;;;2;;;2004-01-28;
+463;10;0;120;1996-01-01;aldosterone ou tetrahydro-aldosterone (urine);;;1;;;;;2;;;2004-01-28;
+466;10;0;60;1996-01-01;acide hydroxy-indole-acetique (hiaa, 5 hiaa) (urine);;;1;;;;;2;;;2004-01-28;
+467;10;0;60;1996-01-01;acide vanilmandelique (vma) (urine);;;1;;;;;2;;;2004-01-28;
+468;10;0;80;1996-01-01;catecholamines totales (metanephrines ou hva) (urine);;;1;;;;;2;;;2004-01-28;
+477;10;0;130;1996-01-01;catecholamines (ou metanephrines) (urine);;;2;;;;;6;;;2009-02-08;
+478;10;0;140;1996-01-01;catecholamines (sang), clhp : au moins 2 dosages (dopamine, adr, noradr);;;1;;;;;6;;1.0;2004-01-28;
+364;10;0;120;1996-01-01;serotonine par clhp (sang);;;3;;;;;2;;1.0;2004-01-28;
+1208;10;0;24;2000-08-01;t.s.h. (sang);;;3;;1.0;;;2;1.0;1.0;2019-04-01;1206-1207-1209-1210-1211-1212-1803
+1206;10;0;27;2000-08-01;triiodothyronine libre (t3 l ou ft3) (sang);;;3;;1.0;;;2;1.0;1.0;2018-04-14;1207-1208-1209-1210-1211-1212-1803
+1207;10;0;27;2000-08-01;thyroxine libre (t4 l ou ft4) (sang);;;3;;1.0;;;2;1.0;1.0;2018-04-14;1206-1208-1209-1210-1211-1212-1803
+1209;10;0;54;2000-08-01;t3 libre + t4 libre (sang);;;1;;1.0;;;2;1.0;1.0;2018-04-14;1206-1207-1208-1210-1211-1212-1803
+1210;10;0;44;2000-08-01;t.s.h. + t3 libre (sang);;;1;;1.0;;;2;1.0;1.0;2019-04-01;1206-1207-1208-1209-1211-1212-1803
+1211;10;0;44;2000-08-01;t.s.h. + t4 libre (sang);;;1;;1.0;;;2;1.0;1.0;2019-04-01;1206-1207-1208-1209-1210-1212-1803
+1212;10;0;59;2000-08-01;t.s.h. + t3 libre + t4 libre (sang);;;1;;1.0;;;2;1.0;1.0;2019-04-01;1206-1207-1208-1209-1210-1211-1803
+1803;10;0;150;2003-11-26;test au trh (sang);;;1;;;;;2;1.0;1.0;2009-02-08;1206-1207-1208-1209-1210-1211-1212
+7423;10;0;90;1997-07-30;hormone de croissance (somatotropine) (hgh) (sang);;;3;;1.0;;;2;;1.0;2010-01-19;
+763;10;0;100;1996-01-01;erythropoietine (sang);;;3;;1.0;;;2;;1.0;2004-01-28;
+764;10;0;70;1996-01-01;gastrine (sang);;;3;;;;;2;;1.0;2010-01-19;
+774;10;0;90;1996-01-01;peptide vasoactif intestinal (vip) (sang);;;3;;;;;2;;1.0;2010-01-19;
+745;10;0;120;1996-01-01;hormone antidiuretique ou vasopressine (adh) (sang);;;3;;;;;2;;1.0;2004-01-28;
+783;10;0;100;1997-07-30;igfbp 3 (sang);;;3;;;;;2;;1.0;2004-01-28;
+1138;10;0;85;1999-07-01;osteocalcine (sang);;;3;;;;;2;;1.0;2016-04-20;
+983;10;0;60;1999-07-01;parathormone (1-84 ou bioactive) (sang);;;1;;1.0;;;2;;1.0;2011-02-11;
+776;10;0;78;1996-01-01;renine (sang);;;3;;;;;2;;1.0;2016-04-20;
+780;10;0;75;1996-01-01;somatomedine (igf1-smc) (sang);;;3;;;;;2;;1.0;2019-04-01;
+1510;11;0;6;1996-01-01;amylasemie (sang);;;1;;;;;2;1.0;1.0;2017-04-01;524
+1511;11;0;7;1996-01-01;amylase (autre liquide biologique que sang);;;2;;;;;2;;;2017-04-01;
+1513;11;0;25;1996-01-01;aldolase (sang);;;1;;;;;2;;1.0;2017-04-01;
+514;11;0;6;1996-01-01;phosphatases alcalines (ph. alc.) (sang);;;1;;;;;2;1.0;1.0;2017-04-01;
+516;11;0;6;1996-01-01;alanine aminotransferase (alat,tgp) (sang);;;1;;;;;2;1.0;1.0;2017-04-01;517-522-1001
+517;11;0;6;1996-01-01;aspartate aminotransferase (asat,tgo)(sang);;;1;;;;;2;1.0;1.0;2017-04-01;516-522-1001
+522;11;0;10;1996-01-01;transaminases (alat et asat, tgp et tgo)(sang);;;1;;;;;2;1.0;1.0;2016-04-20;516-517-1001
+1518;11;0;30;1996-01-01;glucose-6-phosphate deshydrogenase (g6pd) (sang);;;1;;;;;2;;1.0;2011-02-11;
+519;11;0;6;1996-01-01;gamma glutamyl transferase (gammat gt , ggt) (sang);;;1;;;;;2;1.0;1.0;2017-04-01;1000-1001-1002
+1520;11;0;6;1996-01-01;creatine phosphokinase (cpk) (sang);;;1;;;;;2;;1.0;2017-04-01;1526-7335
+521;11;0;7;1996-01-01;lactate deshydrogenase (ldh) (sang);;;1;;;;;2;;1.0;2017-04-01;
+1521;11;0;7;1996-01-01;lactate deshydrogenase (ldh) (autre liquide biol que sang);;;2;;;;;2;;;2012-01-31;
+523;11;0;55;1996-01-01;enzyme de conversion de l'angiotensine (sang);;;1;;;;;2;;1.0;2009-02-08;
+524;11;0;6;1996-01-01;lipasemie (sang);;;1;;;;1.0;3;1.0;1.0;2017-04-01;1510
+1525;11;0;7;1996-01-01;5'nucleotidase (sang);;;1;;;;1.0;3;;1.0;2012-01-31;
+1526;11;0;20;1996-01-01;creatine phosphokinase mb (sang);;;1;;;;;3;;1.0;2018-04-14;1520-7335
+1527;11;0;40;1996-01-01;pyruvate kinase (sang);;;1;;;;;2;;1.0;1996-01-01;
+1533;11;0;60;1996-01-01;lysozyme ou muramidase (sang);;;1;;;;;2;;1.0;1997-03-27;
+1519;11;0;60;1997-02-14;lysozyme ou muramidase (urine);;;1;;;;;2;;;1997-03-27;
+2258;12;0;6;1997-02-14;proteines seriques ou plasmatiques totales (protides);;;1;;;;;2;;1.0;2017-04-01;570-1572-1610
+570;12;0;50;1996-01-01;electrophorese des proteines seriques (proteinogramme);;;1;;;;;7;1.0;1.0;2019-04-01;1571-1572-2258
+1804;12;0;8;2003-11-25;crp (proteine c reactive) (dosage) (sang);;;1;;;;;2;;1.0;2019-04-01;1385
+1805;12;0;25;2003-12-10;alpha 2 macroglobuline (alpha 2 macroglo) (dosage) (sang);;;1;4.0;;;;2;;1.0;2011-06-18;1000-1001-1002-1385
+1806;12;0;6;2003-12-10;albumine (dosage) (sang);;;1;4.0;;;;2;;1.0;2017-04-01;1385
+1807;12;0;30;2003-12-10;alpha 1 antitrypsine (dosage) (sang);;;1;4.0;;;;2;;1.0;2011-02-11;1385
+1808;12;0;30;2003-12-11;orosomucoide (alpha 1 glycoproteine acide) (dosage) (sang);;;1;4.0;;;;2;;1.0;2011-02-11;1385
+324;12;0;30;1996-01-01;beta 2 microglobuline (dosage) (sang);;;1;4.0;;;;2;;1.0;2019-04-01;1385
+321;12;0;35;1997-02-14;beta 2 microglobuline (dosage) (autre milieu biologique que sang);;;1;4.0;;;;2;;;2004-01-28;1385
+1809;12;0;30;2003-12-11;ceruleoplasmine (dosage) (sang);;;1;4.0;;;;2;;1.0;2011-02-11;1385
+1810;12;0;35;2003-12-11;c1 inhibiteur (dosage) (sang);;;1;4.0;;;;2;;1.0;2004-01-28;1385
+1811;12;0;25;2003-12-11;c3 (dosage) (sang);;;1;4.0;;;;2;;1.0;2011-02-11;1385
+1812;12;0;25;2003-12-11;c4 (dosage) (sang);;;1;4.0;;;;2;;1.0;2011-02-11;1385
+1813;12;0;20;2003-12-11;haptoglobine (dosage) (sang);;;1;4.0;;;;2;;1.0;2011-06-18;1000-1385
+1814;12;0;20;2003-12-11;iga (dosage) (sang);;;1;4.0;;;;2;;1.0;2018-04-14;1385
+1815;12;0;20;2003-12-11;igg (dosage) (sang);;;1;4.0;;;;2;;1.0;2018-04-14;1385
+1816;12;0;20;2003-12-11;igm (dosage) (sang);;;1;4.0;;;;2;;1.0;2018-04-14;1385
+1817;12;0;19;2003-12-11;prealbumine (dosage) (sang);;;1;4.0;;;;2;;1.0;2019-04-01;1385
+1818;12;0;35;2003-12-11;rbp (retinol binding protein) (dosage) (sang);;;1;4.0;;;;2;;1.0;2004-01-28;1385
+1385;12;0;58;1996-01-01;iga + igg + igm (dosages) (sang);;;1;;;;1.0;7;1.0;1.0;2019-04-01;321-324-1804-1805-1806-1807-1808-1809-1810-1811-1812-1813-1814-1815-1816-1817-1818
+1571;12;0;160;1996-01-01;dysglobulinemie : rech, typage (immunoelectrophorese ou immunofixation);;;1;;;;1.0;7;;1.0;2009-02-08;570-1572
+1572;12;0;185;1996-01-01;dysglobulinemie : electrophorese (proteinogramme) + typage;;;1;;;;1.0;7;;1.0;2019-04-01;570-1571-2258
+1573;12;0;20;1996-01-01;cryoglobulines (sang);;;1;;;;;2;;1.0;2004-01-28;
+1392;12;0;70;1997-07-30;immunoglobulines igg1, igg2, igg3, igg4 : 1 parametre (dosage) (sang);;;1;;;;;2;;1.0;2004-01-28;1393-1394
+1393;12;0;130;1997-07-30;immunoglobulines igg1, igg2, igg3, igg4 : 2 parametres (dosages) (sang);;;1;;;;;7;;1.0;2004-01-28;1392-1394
+1394;12;0;190;1997-07-30;immunoglobulines igg1, igg2, igg3, igg4 : 3 parametres ou plus (dosages) (sang);;;1;;;;;7;;1.0;2004-01-28;1392-1393
+779;12;0;55;1997-07-30;transferrine desialylee ou deglycosylee (cdt) (dosage) (sang);;;1;;1.0;;;2;;1.0;2017-07-13;
+1374;12;0;38;1996-01-01;vitamine b 12 (dosage) (sang);;;1;;;;;2;;1.0;2019-04-01;
+1387;12;0;38;1996-01-01;folates seriques ou erythrocytaires (dosage) (sang);;;1;;;;;2;;1.0;2019-04-01;
+7301;12;0;80;1997-07-30;vitamine a (dosage) (sang);;;1;;;;;2;;1.0;2018-04-14;
+7302;12;0;100;1997-07-30;vitamine e (dosage) (sang);;;1;;;;;2;;1.0;2010-01-19;
+7305;12;0;80;1997-07-30;vitamine b6 (dosage) (sang);;;1;;;;;2;;1.0;2018-04-14;
+1139;12;0;35;1999-07-01;25-(oh)-vitamine d (d2+d3);;;1;;1.0;;;2;;1.0;2018-04-14;
+1820;12;0;80;2003-11-27;derives dihydroxyles de la vitamine d (dosage) (sang);;;1;;;;;2;;1.0;2017-04-01;
+316;12;0;30;1996-01-01;complement ch50 par reaction d'hemolyse (dosage) (sang);;;1;;;;;2;;1.0;2009-02-08;
+1575;12;0;35;1996-01-01;myoglobine (dosage) (sang);;;1;;;;;2;;1.0;2014-04-13;
+7335;12;0;63;1999-07-01;troponine (dosage) (sang);;;1;;;;;2;;1.0;2018-04-14;1520-1526
+1821;12;0;65;2003-11-27;peptides natriuretiques (anp, bnp, nt-probnp) (dosage) (sang);;;1;;;;;2;;1.0;2019-04-01;
+1577;12;0;22;1996-01-01;hba1c (dosage) (sang);;;1;;1.0;;;2;1.0;1.0;2019-04-01;1576
+1576;12;0;30;1996-01-01;proteines glyquees (fructosamine, ...) (dosage) (sang);;;1;;1.0;;;2;;1.0;2010-01-19;1577
+7307;12;0;73;1997-07-30;procalcitonine (dosage) (sang);;;1;;;;;2;;1.0;2019-04-01;
+7308;12;0;75;1997-07-30;acide hyaluronique (dosage) (sang);;;1;;;;;2;;1.0;2011-06-18;1001-1002
+7309;12;0;90;1997-07-30;phosphatase alcaline osseuse (dosage) (sang);;;1;;;;;2;;1.0;2010-01-19;
+7310;12;0;69;1997-07-30;deoxypyridinoline et peptides associes (dosage);;;1;;;;;2;;1.0;2019-04-01;
+1213;12;0;24;2000-08-01;ferritine (dosage) (sang);;;1;;1.0;;1.0;3;1.0;1.0;2019-04-01;1822
+1822;12;0;60;2003-11-27;recepteur soluble de la transferrine (rstf) (dosage) (sang);;;1;;;;;2;;1.0;2017-07-13;1213
+320;12;0;57;1996-01-01;alpha-foetoproteine (afp) (dosage) (sang);;;1;;;;;2;1.0;1.0;2019-04-01;4004-4005
+7317;12;0;75;1997-07-30;sous unite beta hcg libre (dosage) (sang);;;1;;1.0;;;2;1.0;1.0;2010-01-19;4004-4005-4006
+7318;12;0;38;1997-07-30;antigene prostatique specifique (psa) (dosage) (sang);;;1;;;;;2;1.0;1.0;2019-04-01;7320
+7320;12;0;57;1997-07-30;antigene prostatique spec. libre avec rapport psa libre/psa total (dosage sang);;;1;;1.0;;;6;1.0;1.0;2019-04-01;7318
+7321;12;0;55;1997-07-30;antigene ca 15-3 (dosage) (sang);;;1;;1.0;;;2;1.0;1.0;2011-02-11;
+7323;12;0;55;1997-07-30;antigene ca 19-9 (dosage) (sang);;;1;;1.0;;;2;1.0;1.0;2018-04-14;
+7325;12;0;55;1997-07-30;antigene ca 125 (dosage) (sang);;;1;;1.0;;;2;1.0;1.0;2018-04-14;
+1823;12;0;80;2003-11-27;antigene ca 125 (dosage) (autre milieu bio.);;;1;;;;;2;1.0;;2004-01-28;
+7327;12;0;48;1997-07-30;antigene carcino-embryonnaire (ace) (dosage) (sang);;;1;;1.0;;;2;1.0;1.0;2019-04-01;
+812;12;0;86;1996-01-01;ag du carcinome a cellules squameuses (scc) (dosage) (sang);;;1;;;;;2;1.0;1.0;2016-04-20;
+813;12;0;90;1996-01-01;ag tissulaire polypeptidique (tpa) (dosage) (sang);;;1;;;;;2;1.0;1.0;2010-01-19;
+1824;12;0;90;2003-11-27;chromogranine (dosage) (sang);;;1;;;;;2;1.0;1.0;2010-01-19;
+1132;12;0;70;1999-07-01;calcitonine (dosage) (sang);;;0;;;;;2;1.0;1.0;2017-04-01;
+822;12;0;90;1997-07-30;cyfra 21-1 (dosage) (sang);;;1;;;;;2;1.0;1.0;2014-04-13;
+814;12;0;79;1996-01-01;enolase (nse) (dosage) (sang);;;1;;;;;2;1.0;1.0;2014-04-13;
+785;12;0;70;1997-07-30;parathormone pthrp (dosage) (sang);;;1;;;;;2;1.0;1.0;2010-01-19;
+821;12;0;60;1996-01-01;thyroglobuline (dosage) (sang);;;1;;;;;2;1.0;1.0;2014-04-13;
+1825;12;0;100;2003-11-27;parametres tissulaires en cancerologie : dosage;;;3;;1.0;;;7;;;2004-01-28;
+1826;12;0;100;2003-11-27;parametres tissulaires en cancerologie : traitement pre-analytique;;;0;;1.0;;1.0;7;;;2004-01-28;
+530;13;1;7;1996-01-01;sang : acide lactique (lactates);;;1;;;;;2;;1.0;2012-01-31;
+532;13;1;6;1996-01-01;sang : acide urique (uricemie);;;1;;;;;2;;1.0;2017-04-01;
+536;13;1;35;1996-01-01;sang : ammoniaque;;;1;;;;;2;;1.0;2011-02-11;
+547;13;1;30;1996-01-01;sang : cuivre (cupremie , cu);;;1;;;;;2;;1.0;2005-12-11;
+2003;13;1;30;2008-11-05;sang : zinc plasmatique ou serique;;;1;;1.0;;;2;;1.0;2008-12-25;
+2002;13;1;17;2017-06-26;sang : coefficient de saturation de la transferrine (cs-tf);;;1;;;;1.0;18;;1.0;2019-02-01;
+552;13;1;5;1996-01-01;sang : glucose (glycemie);;;0;;;;;2;1.0;1.0;2009-02-08;412-413
+563;13;1;6;1996-01-01;sang : phosphore mineral (phosphoremie , p);;;1;;;;;2;;1.0;2017-04-01;
+578;13;1;6;1996-01-01;sang : calcium (calcemie, ca);;;1;;;;;2;;1.0;2017-04-01;
+584;13;1;6;1996-01-01;sang : magnesium plasmatique ou globulaire (magnesemie , mg);;;2;;;;;2;1.0;1.0;2017-04-01;
+591;13;1;6;1996-01-01;sang : uree;;;1;;;;;2;;1.0;2017-04-01;592-593-1001
+592;13;1;6;1997-02-14;sang : creatinine;;;1;;;;;6;1.0;1.0;2017-04-01;407-591-593
+593;13;1;7;1997-02-14;sang : uree et creatinine;;;1;;;;;6;1.0;1.0;2017-04-01;407-591-592-1001
+1601;13;1;8;1996-01-01;sang : bilirubine (bil);;;1;;;;;6;;1.0;2016-04-20;1000-1001-1002
+580;13;1;5;1996-01-01;sang : cholesterol total (chol);;;1;;;;;2;1.0;1.0;2009-11-27;996
+590;13;1;6;1996-01-01;sang : triglycerides (tg);;;1;;;;;2;1.0;1.0;2017-04-01;996
+996;13;1;19;1999-07-01;sang : exploration d'une anomalie lipidique;;;1;;1.0;;1.0;6;1.0;1.0;2019-04-01;580-590
+1603;13;1;7;1996-01-01;sang : apolipoproteine a1;;;1;;1.0;;1.0;2;1.0;1.0;2014-04-13;1000
+1602;13;1;7;1996-01-01;sang : apolipoproteines b;;;1;;1.0;;1.0;2;1.0;1.0;2014-04-13;2001
+2001;13;1;18;2005-09-20;sang : cholesterol-ldl (c-ldl);;;1;;1.0;;1.0;2;1.0;1.0;2017-04-01;1602
+1607;13;1;15;1996-01-01;sang : osmolarite;;;1;;;;;2;;1.0;2011-02-11;
+571;13;1;6;1996-01-01;sang : bicarbonates ou co2 total (reserve alcaline, ra);;;1;;;;;2;1.0;1.0;2017-04-01;999-1610
+1608;13;1;6;1996-01-01;sang : potassium (k);;;1;;;;;2;1.0;1.0;2017-04-01;1609-1610
+1609;13;1;12;1996-01-01;sang : ionogramme (na+k+ eventuellement cl);;;1;;;;;6;1.0;1.0;2016-04-20;1608-1610
+1610;13;1;22;1996-01-01;sang : ionogramme complet (na + k + cl + co2 + protides);;;1;;;;;6;1.0;1.0;2018-04-14;571-1608-1609-2258
+559;13;1;25;1996-01-01;sang : methemoglobine (methb);;;1;;;;;2;;1.0;2011-02-11;
+1612;13;1;7;1996-01-01;sang : saturation en o2 (sao2);;;0;;;;;2;;1.0;2012-01-31;999
+999;13;1;70;1999-07-01;sang : gaz du sang;;;0;;1.0;;;7;1.0;1.0;2019-04-01;571-1612
+1000;13;1;140;2011-03-01;score biologique fibrose hepatique - fibrotest;;;1;;1.0;;;7;;1.0;2011-06-18;519-1001-1002-1601-1603-1805-1813
+1001;13;1;140;2011-03-01;score biologique fibrose hepatique - fibrometre v;;;1;;1.0;;;7;;1.0;2011-06-18;126-127-516-517-519-522-591-593-1000-1002-1107-1601-1805-7308
+1002;13;1;140;2011-03-01;score biologique fibrose hepatique - hepascore;;;1;;1.0;;;7;;1.0;2011-06-18;519-1000-1001-1601-1805-7308
+603;13;2;10;1996-01-01;lcr : glucose (glucorachie);;;1;;;;1.0;2;;;2005-12-11;
+1613;13;2;9;1996-01-01;lcr : proteines totales (proteinorachie);;;1;;;;1.0;2;;;2013-04-17;611
+611;13;2;70;1996-01-01;lcr : electrophorese des proteines;;;1;;;;;7;;;2005-12-11;614-1613
+1614;13;2;35;1996-01-01;lcr : 1 proteine : dosage;;;1;;;;;2;;;2005-12-11;1615
+1615;13;2;70;1996-01-01;lcr : 2 proteines ou plus : dosages;;;1;;;;;2;;;2005-12-11;1614
+1616;13;2;180;1996-01-01;lcr : dysglobulinorachie : rech. ou typage;;;1;;;;;7;;;2005-12-11;614
+614;13;2;230;1996-01-01;lcr : dysglobulinorachie : electrophorese et typage;;;1;;;;1.0;7;;;2005-12-11;611-1616
+2004;13;3;4;2005-09-20;ur. proteinurie;;;1;;;;;6;;;2005-12-11;635-1133
+635;13;3;55;1996-01-01;ur. : electrophorese des proteines(proteinogramme);;;1;;;;;7;;;2011-02-11;632-1617-2004
+1133;13;3;15;1999-07-01;ur. : microalbuminurie : dosage;;;1;;1.0;;;7;;;2012-01-31;2004
+1619;13;3;180;1996-01-01;ur. : proteinurie de bence jones:recherche et identification;;;1;;;;1.0;7;;;2005-12-11;
+1620;13;3;140;1996-01-01;ur. : proteinurie : typage;;;1;;;;;7;;;2005-12-11;
+990;13;3;60;1996-01-01;ur. : acides amines libres caracterisation par chromato.;;;1;;;;;2;;;2005-12-11;
+991;13;3;80;1996-01-01;ur. : acides amines totaux caracterisation par chromato.;;;1;;;;;2;;;2005-12-11;
+1621;13;3;12;1996-01-01;ur. : potassium et sodium (ionogramme, k + na);;;1;;;;;6;;;2013-04-17;2005-2006
+2005;13;3;6;2005-09-20;ur. : sodium;;;1;;;;;2;;;2017-04-01;1621-2006
+2006;13;3;6;2005-09-20;ur. : potassium;;;1;;;;;2;;;2017-04-01;1621-2005
+620;13;3;5;1996-01-01;ur. : acetone  (acetonurie);;;1;;;;;2;;;2005-12-11;
+622;13;3;7;1996-01-01;ur. : acide urique  (uricurie);;;1;;;;;2;;;2011-02-11;
+624;13;3;6;1996-01-01;ur. : calcium (calciurie);;;1;;;;;2;;;2017-04-01;
+627;13;3;6;1996-01-01;ur. : creatinine (creatininurie);;;1;;;;1.0;2;;;2017-04-01;407
+629;13;3;6;1996-01-01;ur. : phosphore mineral(phosphaturie);;;1;;;;;2;;;2017-04-01;
+630;13;3;7;1996-01-01;ur. : ph : mesure electrometrique;;;1;;;;;2;;;2011-02-11;
+631;13;3;5;1996-01-01;ur. : pigments et sels biliaires : rech.;;;1;;;;;2;;;2005-12-11;
+637;13;3;5;1996-01-01;ur. : porphyrines : rech.;;;1;;;;;2;;;2005-12-11;638
+638;13;3;70;1996-01-01;ur. : porphyrines : rech., dosage,  identification;;;1;;;;;6;;;2005-12-11;637
+640;13;3;6;1996-01-01;ur. : recherche de sang (hematies et/ou hemoglobine);;;1;;;;;2;1.0;;2019-04-01;
+2007;13;3;4;2005-09-20;ur. : glycosurie;;;1;;;;;2;1.0;;2005-12-11;412
+647;13;3;5;1996-01-01;ur. : urobiline : rech.;;;1;;;;;2;;;2005-12-11;
+992;13;3;50;1996-01-01;ur. : hydroxyproline totale et libre(hydroxyprolinurie);;;1;;;;;2;;;2010-01-19;
+2008;13;3;30;2007-01-24;ur. : cuivre;;;1;;1.0;;;2;;;2007-04-30;
+2009;13;3;40;2005-09-20;ur. : cristallurie;;;1;;1.0;;;6;;;2005-12-11;
+2010;13;3;30;2005-09-20;ur. : oxalurie;;;1;;1.0;;;2;;;2005-12-11;2013
+2011;13;3;30;2005-09-20;ur. : citraturie;;;1;;1.0;;;2;;;2005-12-11;2013
+2012;13;3;6;2005-09-20;ur. : magnesurie;;;1;;1.0;;;2;;;2018-04-14;2013
+2013;13;3;65;2005-09-20;ur. : oxalurie + citraturie + magnesurie;;;1;;1.0;;;6;;;2005-12-11;2010-2011-2012
+1414;13;4;60;1996-01-01;test au xylose;;;1;;;;;7;;1.0;2008-12-25;
+1416;13;4;60;2008-11-07;alpha 1 antitrypsine fecale;;;1;;;;;3;;;2008-12-25;1415
+1415;13;4;100;1996-01-01;clairance fecale de l'alpha 1 antitrypsine;;;1;;;;;7;;1.0;2008-12-25;1416
+1622;13;4;70;1996-01-01;examen physique complet d'une selle;;;1;;;;1.0;7;;;2008-12-25;1623-1630
+1417;13;4;50;2008-11-07;selles : examen microscopique direct des graisses;;;1;;;;1.0;7;;;2008-12-25;
+666;13;4;90;1996-01-01;selles : lipides totaux;;;1;;;;;3;;;2008-12-25;1630
+1624;13;4;70;1996-01-01;azote fecal total;;;1;;;;;3;;;2008-12-25;1630
+1418;13;4;40;2008-11-07;azote fecal soluble;;;1;;;;1.0;3;;;2008-12-25;
+1626;13;4;45;1996-01-01;ionogramme fecal;;;1;;;;1.0;7;;;2008-12-25;1627-1630
+1627;13;4;65;1996-01-01;osmolarite fecale;;;1;;;;;7;;;2008-12-25;1626
+1419;13;4;10;2008-11-07;selles : ph;;;1;;;;;3;;;2008-12-25;1504-1630
+1500;13;4;10;2008-11-07;selles : pigments biliaires;;;1;;;;;3;;;2008-12-25;1630
+1501;13;4;40;2008-11-07;selles : acides organiques;;;1;;;;;3;;;2008-12-25;1630
+1502;13;4;40;2008-11-07;selles : ammoniaque/derives amines;;;1;;;;;3;;;2008-12-25;1504-1630
+1630;13;4;350;1996-01-01;fecalogramme (coprologie fonctionnelle);;;1;;;;;7;;;2008-12-25;666-1419-1500-1501-1502-1622-1623-1624-1625-1626-1629
+1503;13;4;80;2008-11-07;calorimetrie fecale;;;1;;;;;3;;;2008-12-25;
+1504;13;4;50;2008-11-07;selles : contamination urinaire;;;1;;;;;7;;;2008-12-25;1419-1502
+1505;13;4;30;2008-11-07;examen urines : mise en evidence fistule entero-vesicale;;;1;;;;;3;;;2008-12-25;
+1629;13;4;20;1996-01-01;selles : recherche de sang;;;3;;;;1.0;3;;;2014-04-13;1630
+1506;13;4;120;2008-11-07;elastase fecale;;;1;;1.0;;;3;;;2008-12-25;
+1628;13;4;60;1996-01-01;activite chymotrypsique fecale;;;1;;;;1.0;3;;;2008-12-25;
+1507;13;4;60;2008-11-07;test a l'hydrogene expire : prelevements;;;1;;;;;7;;;2008-12-25;
+1508;13;4;200;2008-11-07;test a l'hydrogene expire : mesures;;;1;;;;;7;;;2008-12-25;
+1682;13;4;120;2008-11-07;recherche laxatifs dans les urines;;;1;;;;;7;;;2008-12-25;
+1683;13;4;170;2008-11-07;recherche laxatifs dans les selles;;;1;;;;;7;;;2008-12-25;
+1632;13;7;100;1996-01-01;calculs : par analyse sequentielle optique et physique ( i.r. );;;1;;;;;3;;;2005-12-11;1631
+691;13;8;9;1996-01-01;liquides de serosite : proteines : dosage;;;0;;;;1.0;2;;;2013-04-17;693
+693;13;8;60;1996-01-01;liquides de serosite :electrophorese des proteines(proteinogramme);;;0;;;;;3;;;2005-12-11;691
+1633;13;8;35;1996-01-01;liquides de serosite : 1 proteine : dosage;;;0;;;;;2;;;2005-12-11;1634
+1634;13;8;70;1996-01-01;liquides de serosite : 2 proteines ou plus : dosages;;;0;;;;;6;;;2005-12-11;1633
+1635;13;9;50;1996-01-01;epreuve de la sueur par methode physico-chimique;;;1;;;;;2;;;2005-12-11;
+407;13;10;30;1996-01-01;clairance (renale) de la creatinine;;;1;;;;;6;;1.0;2005-12-11;592-593-627
+412;13;10;30;1996-01-01;epreuve d'hyperglycemie provoquee (h.p.o., h.g.p.o.);;;1;;;;;6;1.0;1.0;2018-04-14;413-552-2007
+413;13;10;20;1996-01-01;epreuve simplifiee d'hyperglycemie;;;1;;;;1.0;6;1.0;1.0;2005-12-11;412-552
+1650;14;0;70;1996-01-01;antibiotique(aminosides,vancomycine,...) : un dosage (sang);;;0;;;;;6;;1.0;1996-01-01;
+1651;14;0;120;1996-01-01;antibiotique (aminosides,vancomycine,...):deux dosages du meme (sang);;;0;;;;;6;;1.0;1996-01-01;
+1652;14;0;80;1996-01-01;isoniazide (inh , rimifon) (sang);;;2;;;;;6;;1.0;1996-01-01;1653
+1653;14;0;120;1996-01-01;isoniazide (inh,rimifon)et son metabolite (sang);;;2;;;;;6;;1.0;1996-01-01;1652
+4117;14;0;120;2004-12-22;concentrations plasmatiques des antiretroviraux;;1.0;0;;1.0;;;6;;1.0;2005-01-31;
+1054;14;0;70;1996-01-01;ciclosporine a (sandimmun) (sang);;;1;;;;;6;;1.0;2007-11-11;1376
+1376;14;0;120;1996-01-01;ciclosporine apres chromatographie (sandimmun) (sang);;;1;;;;;6;;1.0;1997-07-30;1054
+1377;14;0;65;2001-02-07;dosage autre immunosupresseur (tacrolimus, sirolimus, everolimus,...);;;1;;1.0;;;6;;1.0;2018-04-14;
+1655;14;0;80;1996-01-01;methotrexate (sang);;;1;;;;;6;;1.0;1996-01-01;1656
+1656;14;0;120;1996-01-01;methotrexate et son metabolite (sang);;;1;;;;;6;;1.0;1996-01-01;1655
+1657;14;0;140;1996-01-01;antitumoraux (autres que methotrexate) (sang);;;0;;;;;6;;1.0;1997-03-27;
+657;14;0;140;1997-02-14;antitumoraux (autres que methotrexate) dans un autre liq bio que sang;;;0;;;;;6;;;1997-03-27;
+335;14;0;50;1996-01-01;theophylline (sang);;;1;;;;;6;;1.0;2011-02-11;
+1649;14;0;70;1997-02-14;theophylline dans un autre liquide biologique que le sang;;;1;;;;;6;;;1997-03-27;
+1658;14;0;70;1996-01-01;cafeine (en pediatrie);;;1;;;;;6;;1.0;1996-01-01;
+1659;14;0;95;1996-01-01;analgesiques ou stupefiants non nommement inscrits a la nabm (sang);;;0;;1.0;;;6;;1.0;2012-01-31;
+659;14;0;90;1997-02-14;analgesiques ou stupefiants non inscrits a la nabm (autre liq bio que sang);;;0;;1.0;;;6;;;2014-04-13;
+1660;14;0;50;1996-01-01;acide salicylique : dosage;;;1;;1.0;;;6;;1.0;1996-01-01;
+1661;14;0;70;1996-01-01;paracetamol : dosage;;;1;;1.0;;;6;;1.0;1996-01-01;
+1662;14;0;100;1996-01-01;psychotropes non nommement inscrits a la nabm  (sang);;;0;;;;;6;;1.0;2012-01-31;
+662;14;0;100;1997-02-14;psychotropes non inscrits a la nabm dans un autre liq bio que sang;;;0;;;;;6;;;2012-01-31;
+1663;14;0;70;1996-01-01;antidepresseurs tricycliques : recherche (sang);;;0;;;;;6;;1.0;1997-03-27;
+663;14;0;70;1997-02-14;antidepresseurs tricycliques : rech dans un autre liq que sang;;;0;;;;;6;;;1997-03-27;
+1664;14;0;120;1996-01-01;antidepresseurs autres que tricycliques : recherche (sang);;;0;;;;;6;;1.0;1997-03-27;
+664;14;0;120;1997-02-14;antidepresseurs autres que tricycliques dans un autre liq biol que le sang;;;0;;;;;6;;;1997-03-27;
+1665;14;0;120;1996-01-01;antidepresseurs : dosage specifique (sang);;;0;;;;;6;;1.0;1997-03-27;
+665;14;0;120;1997-02-14;antidepresseurs : dosage specifique dans un autre liquide biologique que le sang;;;0;;;;;6;;;1997-03-27;
+1666;14;0;190;1996-01-01;antidepresseurs : recherche et dosage (sang);;;0;;1.0;;;6;;1.0;1997-03-27;
+668;14;0;190;1997-02-14;antidepresseurs : recherche et dosage dans un autre liquide biologique que le sg;;;0;;1.0;;;6;;;1997-03-27;
+1667;14;0;70;1996-01-01;benzodiazepines : recherche (sang);;;0;;1.0;;;6;;1.0;1997-03-27;
+667;14;0;70;1997-02-14;benzodiazepines : recherche dans un autre liquide biologique que le sang;;;0;;1.0;;;6;;;1997-03-27;
+1668;14;0;120;1996-01-01;diazepam (valium, ...) et son metabolite;;;1;;;;;6;;1.0;1996-01-01;
+1669;14;0;120;1996-01-01;clonazepam (rivotril);;;1;;;;;6;;1.0;1996-01-01;
+325;14;0;65;1996-01-01;carbamazepine (tegretol);;;1;;;;;6;1.0;1.0;2017-04-01;
+328;14;0;70;1996-01-01;ethosuximide (zarontin);;;1;;;;;6;;1.0;1996-01-01;
+340;14;0;65;1996-01-01;acide valproique (depakine);;;1;;;;;6;;1.0;2009-02-08;
+332;14;0;55;1996-01-01;phenitoine (diphenyl-hydantoine, dihydan, ...);;;1;;;;;6;;1.0;2011-02-11;
+333;14;0;55;1996-01-01;phenobarbital (gardenal, ...);;;1;;;;;6;;1.0;2011-02-11;1670
+1670;14;0;140;1996-01-01;primidone (mysoline) + phenobarbital (gardenal);;;1;;;;;6;;1.0;1996-01-01;333
+1671;14;0;120;1996-01-01;antiepileptique non nommement inscrit a la nabm (sang);;;0;;;;;6;;1.0;1997-03-27;
+671;14;0;120;1997-02-14;antiepileptique non inscrit a la nabm (dans un autre liquide biol que le sang);;;0;;;;;6;;;1997-03-27;
+1672;14;0;70;1996-01-01;barbituriques : recherche (sang);;;0;;;;;6;;1.0;1997-03-27;1674
+672;14;0;70;1997-02-14;barbituriques : recherche dans un autre liquide biologique que le sang;;;0;;;;;6;;;1997-03-27;674
+1673;14;0;120;1996-01-01;barbituriques (sauf phenobarbital) : dosage (sang);;;0;;;;;6;;1.0;1997-03-27;1674
+673;14;0;120;1997-02-14;barbituriques (sauf phenobarbital) : dosage dans un autre liq biol que le sang;;;0;;;;;6;;;1997-03-27;674
+1674;14;0;190;1996-01-01;barbituriques : recherche et dosage (sang);;;0;;1.0;;;6;;1.0;1997-03-27;1672-1673
+674;14;0;190;1997-02-14;barturiques : recherche et dosage dans un autre liquide biologique que le sang;;;0;;1.0;;;6;;;1997-03-27;672-673
+327;14;0;65;1996-01-01;digoxine ou digitoxine (digitaline);;;1;;;;;6;;1.0;2017-04-01;
+1675;14;0;70;1996-01-01;disopyramide (isorythm, rythmodan);;;1;;;;;6;;1.0;1996-01-01;
+1676;14;0;70;1996-01-01;lidocaine (xylocaine, ...);;;1;;;;;6;;1.0;1996-01-01;
+1677;14;0;70;1996-01-01;quinidine ou hydroquinidine (serecor, natisedine, cardioquine, longacor);;;1;;;;;6;;1.0;1996-01-01;
+1678;14;0;120;1996-01-01;antiarythmiques non nommement inscrits a la nabm;;;0;;;;;6;;1.0;1996-01-01;
+1679;14;0;60;1996-01-01;aluminium (al) (sang);;;0;;;;;6;;1.0;1997-03-27;
+679;14;0;60;1997-02-14;aluminium (al) dans un autre liquide biologique que le sang;;;0;;;;;6;;;1997-03-27;
+565;14;0;60;1996-01-01;plomb (pb , plombemie) (sang);;;0;;;;;6;;1.0;1997-03-27;
+566;14;0;60;1997-02-14;plomb (pb) dans un autre liquide biologique que le sang;;;0;;;;;6;;;1997-03-27;
+1680;14;0;35;1996-01-01;oxyde de carbone du sang (co);;;1;;;;;6;;1.0;1996-01-01;
+557;14;0;20;1996-01-01;lithium (li , lithiemie , li serique , li erythrocytaire) (sang);;;2;;;;;6;1.0;1.0;1997-03-30;
+567;14;0;20;1997-02-14;lithium (li) dans un autre liquide biologique que le sang;;;2;;;;;6;;;1997-03-27;
+537;14;0;65;1996-01-01;benzene;;;1;;;;;6;;1.0;1996-01-01;
+534;14;0;30;1996-01-01;alcool (ethylique ou methylique);;;1;;;;;6;;1.0;2011-02-11;
+1690;14;0;300;1999-07-01;corps asbestosiques (parench. pulm., lba, expectoration);;;0;;;;;0;;;1999-07-12;
+1691;14;0;200;2010-10-22;recherche allele hla-b*5701;;1.0;1;;1.0;1.0;;3;;1.0;2011-03-15;
+4101;16;1;150;1996-01-01;genome (adn) : mycobacteries hybrid molec : diag d'espece et ident;;;0;;;;1.0;6;;;1997-07-30;243-244
+4102;16;1;250;1996-01-01;genome (adn) : mycobacteries hybrid molec dans tissus et lcr;;;0;;1.0;;;6;;;1997-07-30;
+4122;16;2;175;1997-10-13;genome (arn) vih - 1 : charge virale;;1.0;1;;1.0;;;6;;1.0;2019-04-01;
+4128;16;2;240;2008-11-06;genome (arn) vih - 1 dans plasma seminal et/ou fraction finale spermatozoides;;1.0;2;;1.0;;;7;;;2008-12-25;
+805;16;2;1100;2004-12-22;vih : resistance genotypique aux antiretroviraux (inhibiteurs enzymatiques);;1.0;1;;1.0;;;6;;1.0;2005-01-31;
+806;16;2;550;2004-12-22;vih : resistance genotypique aux antiretroviraux (inhibiteurs de fusion,...);;1.0;1;;1.0;;;6;;1.0;2005-01-31;
+4127;16;2;100;2004-02-06;papillomavirus humains oncogenes (hpv) genome viral;;;1;;1.0;;;7;;;2018-04-14;24
+4001;17;1;500;1996-04-05;dpn : c. index - et. familiale : orientation : profils metaboliques;;1.0;0;;;1.0;;0;;1.0;1996-04-05;
+4002;17;1;120;1996-04-05;dpn : c. index - et. familiale : orientation : dosage metabolite;;1.0;0;;;1.0;;0;;1.0;1996-04-05;
+4003;17;1;650;1996-04-05;dpn : c. index - et. familiale : orient : immunochimie prot ou metab sur cell;;1.0;0;;;1.0;;0;;1.0;1996-04-05;
+4010;17;1;1000;1996-04-05;dpn : c. index - et. familiale : etude d'un metabolisme in vitro;;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4011;17;1;100;1996-04-05;dpn : c. index - et. familiale : enz : substrat non isotopique - 1 activite;;1.0;5;;;1.0;;0;;1.0;1996-04-05;
+4012;17;1;500;1996-04-05;dpn : c. index - et. familiale : enz substrat non isotopique (techn. complexe);;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4013;17;1;1200;1996-04-05;dpn : c. index - et. familiale : enz (substrat isotopique);;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4020;17;1;100;1996-04-05;dpn proprement dit : alpha foeto proteine;;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4021;17;1;150;1996-04-05;dpn proprement dit - acetylcholinesterase avec electrophorese;;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4022;17;1;100;1996-04-05;dpn proprement dit : activite enz : type phosphatase alcaline;;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4023;17;1;250;1996-04-05;dpn proprement dit : exploration thyroidienne;;1.0;0;;;1.0;;0;;1.0;1996-04-05;
+4024;17;1;200;1996-04-05;dpn proprement dit : medicament;;1.0;0;;;1.0;;0;;1.0;1996-04-05;
+4025;17;1;150;1996-04-05;dpn proprement dit : marqueur tumoral;;1.0;0;;;1.0;;0;;1.0;1996-04-05;
+4026;17;1;1000;1996-04-05;dpn proprement dit : etude metabolique globale sur cellules;;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4027;17;1;500;1996-04-05;dpn proprement dit : etude enz sur cellules (substrat non isotopique);;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4028;17;1;1200;1996-04-05;dpn proprement dit : etude enz sur cellules (substrat isotopique);;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4030;17;1;1250;1996-04-05;dpn : c. index - et. familiale : cultures cellulaires;;1.0;1;;;1.0;;0;;1.0;1996-04-05;4031
+4031;17;1;1000;1996-04-05;dpn proprement dit : cultures cellulaires;;1.0;1;;;1.0;;0;;1.0;1996-04-05;4030
+4033;17;2;500;1996-04-05;dpn : c. index - et. familiale : mal. hereditaires metaboliques;;1.0;0;;;1.0;;0;;;1996-04-05;4034
+4034;17;2;700;1996-04-05;dpn proprement dit : mal. hereditaires metaboliques;;1.0;0;;;1.0;;0;;;1996-04-05;4033
+4040;17;2;200;1996-04-05;dpn : et. familiale : mucoviscidose : 2 mutations, dont delta f 508;;1.0;1;;;1.0;;0;;;1996-04-05;4041-4042
+4041;17;2;400;1996-04-05;dpn : et. familiale : mucoviscidose : plus de 2 mutations;;1.0;1;;;1.0;;0;;;1996-04-05;4040-4042
+4042;17;2;500;1996-04-05;dpn : et. familiale : mucoviscidose : polymorphisme de l'adn;;1.0;1;;;1.0;;0;;;1996-04-05;4040-4041
+4044;17;2;400;1996-04-05;dpn proprement dit : mucoviscidose : delta f 508;;1.0;1;;;1.0;;0;;;1996-04-05;4045-4046
+4045;17;2;600;1996-04-05;dpn proprement dit : mucoviscidose : autres mutations que delta f 508;;1.0;1;;;1.0;;0;;;1996-04-05;4044-4046
+4046;17;2;700;1996-04-05;dpn proprement dit  : mucoviscidose : polymorphisme de l'adn;;1.0;1;;;1.0;;0;;;1996-04-05;4044-4045
+4050;17;2;500;1996-04-05;dpn : et. familiale : x fragile;;1.0;1;;;1.0;;0;;;1996-04-05;4051
+4051;17;2;700;1996-04-05;dpn proprement dit : x fragile;;1.0;1;;;1.0;;0;;;1996-04-05;4050
+4052;17;2;500;1996-04-05;dpn : et. familiale : myopathies duchenne et becker;;1.0;0;;;1.0;;0;;;1996-04-05;4053
+4053;17;2;700;1996-04-05;dpn proprement dit : myopathies duchenne et becker;;1.0;0;;;1.0;;0;;;1996-04-05;4052
+4054;17;2;600;1996-04-05;dpn : drepanocytose;;1.0;1;;;1.0;;0;;;1996-04-05;
+4055;17;2;400;1996-04-05;dpn : beta thalassemie majeure (2 mutations);;1.0;1;;;1.0;;0;;;1996-04-05;4056-4057
+4056;17;2;600;1996-04-05;dpn : beta thalassemie majeure (+ de 2 mutations);;1.0;1;;;1.0;;0;;;1996-04-05;4055-4057
+4057;17;2;700;1996-04-05;dpn : beta-thalassemie : polymorphisme de l'adn;;1.0;1;;;1.0;;0;;;1996-04-05;4055-4056
+4058;17;2;500;1996-04-05;dpn : alpha-thalassemie avec antecedents familiaux connus;;1.0;1;;;1.0;;0;;;1996-04-05;4059
+4059;17;2;700;1996-04-05;dpn : alpha-thalassemie sans antecedents familiaux connus;;1.0;1;;;1.0;;0;;;1996-04-05;4058
+4080;17;2;500;1996-04-05;dpn : et. familiale : hemophilies;;1.0;0;;;1.0;;0;;;1996-04-05;4081
+4081;17;2;700;1996-04-05;dpn proprement dit : hemophilies;;1.0;0;;;1.0;;0;;;1996-04-05;4080
+4082;17;2;500;1996-04-05;dpn : et. familiale : autres affections genetiques;;1.0;0;;;1.0;;0;;;1996-04-05;4083
+4083;17;2;700;1996-04-05;dpn proprement dit : autres infections genetiques;;1.0;0;;;1.0;;0;;;1996-04-05;4082
+4063;17;3;600;1996-04-05;dpn : recherche de l'adn toxoplasmique;;1.0;1;;;1.0;;4;;;2019-02-01;
+4064;17;3;150;1996-04-05;dpn : cytomegalovirus (cmv) : culture;;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4065;17;3;600;1996-04-05;dpn : recherche de l'adn du cytomegalovirus (cmv);;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4066;17;3;600;1996-04-05;dpn : recherche de l'adn du virus de la varicelle;;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4067;17;3;150;1996-04-05;dpn : rubeole : culture;;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4068;17;3;150;1996-04-05;dpn : rubeole : interferon;;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4069;17;3;450;1996-04-05;dpn : recherche de l'arn du virus de la rubeole;;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4070;17;3;600;1996-04-05;dpn : recherche de l'adn du parvovirus;;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4075;17;4;700;1996-04-05;dpn : deficit immunologique (adenosine deaminase);;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4076;17;4;400;1996-04-05;dpn : alloimmunisation foeto-maternelle;;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4077;17;4;600;1996-04-05;dpn : alloanticorps responsable anemie ou thrombopenie;;1.0;1;;;1.0;;0;;1.0;1996-04-05;
+4095;17;5;1500;1996-04-05;dpn : deficit congenital en facteur de l'hemostase (viii , ix , w, prot c, s..);;1.0;0;;;1.0;;0;;1.0;1996-04-05;
+4096;17;5;1500;1996-04-05;dpn : anomalie des plaquettes (glanzmann ...);;1.0;0;;;1.0;;0;;1.0;1996-04-05;
+4097;17;5;500;1996-04-05;dpn : purpura thrombopenique idiopathique (pti);;1.0;0;;;1.0;;0;;1.0;1996-04-05;
+4006;17;6;150;2009-10-28;dpn : trisomie 21 foetale : depistage combine 1er trimestre de la grossesse;;1.0;1;;1.0;1.0;;7;;1.0;2019-04-01;7317
+4005;17;6;100;2009-10-28;dpn : trisomie 21 foetale : depistage sequentiel integre au 2e trimestre;;1.0;1;;1.0;1.0;;7;;1.0;2019-04-01;320-7317-7402
+4004;17;6;110;1999-07-01;dpn : trisomie 21 foetale : depistage 2e trimestre, marqueurs seriques maternels;;1.0;1;;1.0;1.0;;7;;1.0;2018-04-14;320-7317-7402
+5258;19;0;140;2010-10-22;recherche bordetella pertussis et bordetella parapertussis par amplification gen;;;1;;1.0;;1.0;3;;;2011-03-15;
+5301;19;0;85;2018-06-12;recherche directe chlamydia trachomatis et/ou neisseria gonorrhoeae:ampli geniqu;;;1;;1.0;;;2;;;2018-06-29;5204
+1307;19;0;40;1996-01-01;inf. urogenitales a chlamydia trachomatis : sd;;;1;;1.0;;;7;1.0;1.0;2011-11-04;1308-1309-3307-3308-3309
+5262;19;0;100;2014-08-25;leptospira detection adn (dans 10 premiers jours);;;1;;1.0;;;3;;1.0;2014-09-04;4718
+4718;19;0;40;2014-08-25;leptospira - recherche igm (a partir de j7);;;1;;1.0;;;7;;1.0;2014-09-04;5262
+5259;19;0;180;2014-08-25;virus du chikungunya - detection arn (entre j0 et j7);;;1;;1.0;;;3;;1.0;2017-08-09;5260-5261-5263-5265-5266-5267
+1254;19;0;90;2014-08-25;virus du chikungunya - recherche igm et des igg (a partir de j5);;;1;;1.0;;;7;;1.0;2014-09-04;3254
+3254;19;0;135;2014-08-25;virus du chikungunya - recherche igm et des igg (a partir de j5)+examen iteratif;;;1;;1.0;;;7;;1.0;2014-09-04;1254
+5260;19;0;180;2014-08-25;virus dengue - detection arn (jusqu'a j7);;;1;;1.0;;;3;;1.0;2017-08-09;4273-5259-5261-5263-5265-5266-5267
+4273;19;0;50;2010-08-27;dengue detection antigene ns1 (de j1 a j5);;;1;;1.0;;;0;;1.0;2017-08-09;5260-5261-5263-5265-5266-5267
+1255;19;0;90;2014-08-25;virus dengue - igg et igm  (a partir j5);;;1;;1.0;;;7;;1.0;2014-09-04;3255
+3255;19;0;135;2014-08-25;virus dengue - igg et igm  (a partir j5) + examen iteratif;;;1;;1.0;;;7;;1.0;2014-09-04;1255
+5261;19;0;250;2014-03-05;virus dengue et chikungunya - detection arn (jusqu'a j7);;;1;;1.0;;;7;;1.0;2017-08-09;4273-5259-5260-5263-5265-5266-5267
+5263;19;0;180;2016-04-05;virus zika detection arn (entre j0 et j7) (sang);;;1;;1.0;;;4;;1.0;2017-08-09;4273-5259-5260-5261-5265-5266-5267
+5264;19;0;180;2016-04-05;virus zika - detection arn (entre j0 et j 10)(urine);;;1;;1.0;;;4;;;2017-08-09;5265-5266-5267
+5265;19;0;320;2016-04-05;virus dengue-chikungunya-zika-arn(entre j0 et j7)(sang);;;1;;1.0;;;7;;1.0;2017-08-09;4273-5259-5260-5261-5263-5264-5266-5267
+5266;19;0;250;2017-08-29;virus dengue-zika-arn(entre j0 et j7)(sang);;;1;;1.0;;;4;;1.0;2017-08-09;4273-5259-5260-5261-5263-5264-5265-5267
+5267;19;0;250;2017-08-29;virus chikungunya-zika-arn(entre j0 et j7)(sang);;;1;;1.0;;;4;;1.0;2017-08-09;4273-5259-5260-5261-5263-5264-5265-5266
+5268;19;0;180;2017-08-29;virus zika detection arn (sperme);;;2;;1.0;;;4;;;2017-08-09;
+4504;19;0;150;2017-06-26;enterovirus - recherche par amplification genique dans le lcs;;;1;;1.0;;;2;;;2017-07-13;
+1744;19;0;60;1996-01-01;herpes simplex (vhs) : sd : ac igg anti hsv;;;1;;1.0;;;7;;1.0;2019-02-01;1745-3744-3745
+4506;19;0;100;2019-01-18;herpes simplex (vhs) : detection du genome et typage de l'herpes simplex 1 et 2;;;1;;1.0;;;0;;;2019-02-01;
+1779;19;0;60;1996-01-01;varicelle zona : sd : recherche des igg;;;1;;1.0;;;7;;1.0;2019-02-01;1780
+4507;19;0;100;2019-01-18;varicelle-zona : recherche directe de vzv par amplification genique;;;1;;1.0;;;1;;;2019-02-01;
+1785;19;0;60;1996-01-01;infection a cmv : recherche des igg:;;;1;;1.0;;;7;;1.0;2019-02-01;1786
+1260;19;0;85;2019-01-18;infection a cmv  : recherche des igg et des igm :;;;1;;1.0;;;1;;1.0;2019-02-01;
+1261;19;0;100;2019-01-18;infection a cmv : test de mesure d'avidite des igg:;;;1;;1.0;;;1;;1.0;2019-02-01;
+4505;19;0;150;2019-01-18;infection a cmv : detection-quantification du genome du cytomegalovirus par ampl;;;2;;1.0;;;1;;;2019-02-01;
+350;19;0;50;1996-01-01;hepatite a (vha) : sd : igm (infection recente) par eia;;;1;;;;;7;1.0;1.0;2019-04-01;1736
+1736;19;0;49;1996-01-01;hepatite a (vha): sd :igg ou ig totales(infection ancienne);;;1;;1.0;;;1;1.0;1.0;2019-04-01;350
+4500;19;0;150;2019-01-21;hepatite b (vhb): depistage et/ou diagnostic;;;1;3.0;;;;1;;1.0;2019-02-01;4711-4712-4714-4715
+4501;19;0;60;2019-01-21;hepatite b (vhb): depistage et/ou diagnostic igm anti hbc;;;1;3.0;;;;1;;1.0;2019-02-01;
+4711;19;0;150;1997-07-30;hepatite b (vhb): suivi d'une hepatite b chronique;;;1;3.0;;;;1;1.0;1.0;2019-02-01;4500-4712-4714-4715
+4712;19;0;100;1997-07-30;hepatite b (vhb): controle de guerison;;;1;3.0;;;;1;1.0;1.0;2019-02-01;4500-4711-4714-4715
+4714;19;0;50;1997-07-30;hepatite b (vhb): statut immunitaire dans le cadre d'une vaccination.;;;1;3.0;;;1.0;1;1.0;1.0;2019-02-01;4500-4711-4712-4715
+4715;19;0;50;1997-07-30;hepatite b (vhb): surveillance de la grossesse;;;1;3.0;1.0;;;1;1.0;1.0;2019-02-01;4500-4711-4712-4714
+4120;19;0;140;1996-01-01;hepatite b (vhb): genome (adn) (vhb): hybridation moleculaire;;;1;3.0;1.0;;;1;1.0;1.0;2019-04-01;
+1740;19;0;70;1996-01-01;hepatite delta (vhd) : sd :ac igg ou totaux;;;1;;1.0;;;1;1.0;1.0;2019-02-01;
+4119;19;0;200;2004-12-22;vhd : detection quantitative arn viral;;;1;;1.0;;;1;;1.0;2019-02-01;
+3784;19;0;48;1997-07-30;hepatite c (vhc) : sd de depistage : ac anti-vhc;;1.0;1;;;;;1;1.0;1.0;2019-04-01;
+4124;19;0;200;2001-02-07;hepatite c (vhc) : detection quantitative genome (arn):;;1.0;1;;1.0;;;1;1.0;1.0;2019-02-01;
+4125;19;0;350;2001-02-07;hepatite c (vhc) : genotypage du vhc par biologie moleculaire;;1.0;1;;1.0;;;1;1.0;1.0;2019-02-01;
+4502;19;0;60;2019-01-21;hepatite e (vhe) : sd infectiion recente igm anti vhe.;;;1;;;;;1;;1.0;2019-02-01;
+4503;19;0;200;2019-01-21;hepatite e (vhe) : detection quantification de l'arn viral;;;1;;1.0;;;1;;;2019-02-01;
+1420;19;0;40;1996-01-01;toxoplasmose : recherche et titrage des igg et des igm;;;1;;1.0;;;7;1.0;1.0;2019-02-01;
+1421;19;0;60;1996-01-01;toxoplasmose: confirmation ou etude de la cinetique des igg;;;1;;1.0;;1.0;7;1.0;1.0;2019-02-01;
+1427;19;0;180;2019-01-18;toxoplasmose:confirmation par immuno-empreinte;;;1;;1.0;;1.0;1;;1.0;2019-02-01;
+1428;19;0;20;2019-01-18;toxoplasmose: confirmation par une autre technique;;;1;;1.0;;1.0;1;;;2019-02-01;
+1438;19;0;120;2019-01-18;toxoplasmose : mesure d'avidite des igg chez la femme enceinte;;;1;;1.0;;1.0;1;;1.0;2019-02-01;
+1439;19;0;320;2019-01-18;toxoplasmose : recherche d'une neosynthese d'igg, d'igm ou d'iga;;;0;;1.0;;;1;;1.0;2019-02-02;
+4508;19;0;150;2019-01-18;toxoplasmose : detection d'adn toxoplasmique (amplification genique;;;2;;1.0;;;1;;;2019-02-01;
