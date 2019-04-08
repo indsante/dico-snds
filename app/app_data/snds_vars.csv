@@ -642,7 +642,7 @@ ER_TIP_F,TIP_ACL_DTF,date (8),Date fin location/achat,IR_DTE_V
 ER_TIP_F,TIP_ACT_PRU,number (10),Prix unitaire de la prestation affinée LPP,-
 ER_TIP_F,TIP_ACT_QSN,number (3),Quantité affinée (signée),-
 ER_TIP_F,TIP_ORD_NUM,number (3),N° ordre prestation affinée LPP,-
-ER_TIP_F,TIP_PRS_IDE,number (13),Code prestation affinée dispositif médical LPP,-
+ER_TIP_F,TIP_PRS_IDE,number (13),Code prestation affinée dispositif médical LPP,NT_LPP
 ER_TIP_F,TIP_PRS_TYP,number (1),Type de prestation fournie,IR_PRF_V
 ER_TIP_F,TIP_PUB_PRX,number (7),Prix unitaire public,-
 ER_TIP_F,TIP_SIR_NUM,string (14),N° SIRET fabricant/importateur,-
@@ -690,7 +690,7 @@ ER_UCD_F,UCD_ORD_NUM,number (3),N° ordre prestation affinée UCD,-
 ER_UCD_F,UCD_RCT_COU,number (7),Coût de reconstitution du médicament,-
 ER_UCD_F,UCD_TOP_UCD,number (1),Top UCD (0=pharmacie rétrocédée 1=pharmacie en sus du GHS),-
 ER_UCD_F,UCD_TTF_MNT,number (7),Montant total TTC délivré,-
-ER_UCD_F,UCD_UCD_COD,string (13),Code prestation affinée UCD,-
+ER_UCD_F,UCD_UCD_COD,string (13),Code prestation affinée UCD,NU_UCD_R
 IR_ACS_R,BEN_IDT_ANO,string (18),Identifiant synthétique pseudonymisé du bénéficiaire,-
 IR_ACS_R,BEN_NIR_ANO,string (17),NIR anonymisé du bénéficiaire,-
 IR_ACS_R,BEN_NIR_PSA,string (17),Pseudo NIR du bénéficiaire anonymisé,-
@@ -1176,7 +1176,7 @@ NS_TIP_F,TIP_ACL_DTD,date,Date de début de location ou d'achat,IR_DTE_V
 NS_TIP_F,TIP_ACL_DTF,date,Date de fin de location ou d'achat,IR_DTE_V
 NS_TIP_F,TIP_ACT_PRU,"number (10,5)",Prix unitaire LPP du produit ou de la prestation,-
 NS_TIP_F,TIP_ACT_QSN,number (5),Quantité d'actes LPP,-
-NS_TIP_F,TIP_PRS_IDE,number (13),Code LPP du produit ou de la prestation,-
+NS_TIP_F,TIP_PRS_IDE,number (13),Code LPP du produit ou de la prestation,NT_LPP
 NS_TIP_F,TIP_PRS_TYP,number (1),Type de prestation fournie,IR_PRF_V
 NS_TIP_F,TIP_PUB_PRX,"number (7,2)",Prix unitaire public,-
 NS_TIP_F,TIP_SEQ_NUM,number (8),Numéro séquentiel,-
@@ -1254,7 +1254,7 @@ NS_UCD_F,UCD_RCT_COU,"number (7,2)",Coût de reconstitution du médicament,-
 NS_UCD_F,UCD_SEQ_NUM,number (8),Numéro séquentiel,-
 NS_UCD_F,UCD_TOP_UCD,number (1),Top UCD,-
 NS_UCD_F,UCD_TTF_MNT,"number (7,2)",Montant total TTC facturé,-
-NS_UCD_F,UCD_UCD_COD,string (13),Code UCD de la pharmacie hospitalière,-
+NS_UCD_F,UCD_UCD_COD,string (13),Code UCD de la pharmacie hospitalière,NU_UCD_R
 T_HADaa_nnA,ACT_COD,string,Code de l'activité,-
 T_HADaa_nnA,CCAM_COD,string,Code de l'acte CCAM (hors extension PMSI),-
 T_HADaa_nnA,DEL_DEB_SSEQ,number,Délai depuis le début de la sousséquence,-
@@ -1476,7 +1476,7 @@ T_HADaa_nnFC,RHAD_NUM,string,Numéro séquentiel d'entrée (idem RAPSS),-
 T_HADaa_nnFC,TYP_ART,string,Type d'enregistrement,-
 T_HADaa_nnFH,ACH_PRI,number,Prix d'achat unitaire TTC,-
 T_HADaa_nnFH,COD_LES,string,Code indication des spécialités pharmaceutiques inscrites sur la liste en sus,-
-T_HADaa_nnFH,COD_UCD,string,Code UCD,-
+T_HADaa_nnFH,COD_UCD,string,Code UCD,NU_UCD_R
 T_HADaa_nnFH,COE_TAU,number,Coefficient de fractionnement,-
 T_HADaa_nnFH,DEL_DAT_ENT,number,delai par rapport à la date d'entrée,-
 T_HADaa_nnFH,ENT_ANN,string,Année de la date de début de séjour,-
@@ -1490,7 +1490,7 @@ T_HADaa_nnFH,QUA_COD,number,Quantité,-
 T_HADaa_nnFH,RHAD_NUM,string,Numéro séquentiel d'entrée (idem RAPSS),-
 T_HADaa_nnFH,TOT_MNT_ECA,number,Montant total de l'écart indemnisable,-
 T_HADaa_nnFH,TYP_ART,string,Type d'enregistrement,-
-T_HADaa_nnFH,UCD_UCD_COD,string,Code UCD sur 13 caractère avec 000 à gauche,-
+T_HADaa_nnFH,UCD_UCD_COD,string,Code UCD sur 13 caractère avec 000 à gauche,NU_UCD_R
 T_HADaa_nnFI,DEL_DAT_ENT,number,delai par rapport a date entree,-
 T_HADaa_nnFI,ENT_ANN,string,Année de la date début de séjour,-
 T_HADaa_nnFI,ENT_MOI,string,Mois de la date début de séjour,-
@@ -1509,7 +1509,7 @@ T_HADaa_nnFL,DEL_DAT_ENT,number,Delai par rapport à la date d'entrée rsfa,-
 T_HADaa_nnFL,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_HADaa_nnFL,ETA_NUM_GEO,string,Numéro FINESS  géographique,-
 T_HADaa_nnFL,FAC_NUM,string,N° Facture séquentiel,-
-T_HADaa_nnFL,NABM_COD,string,Code acte NABM,-
+T_HADaa_nnFL,NABM_COD,string,Code acte NABM,IR_BIO_R
 T_HADaa_nnFL,PSH_DMT,string,Discipline de prestation (ex DMT),-
 T_HADaa_nnFL,PSH_MDT,string,Mode de traitement,-
 T_HADaa_nnFL,RHAD_NUM,string,N° séquentiel,-
@@ -1564,7 +1564,7 @@ T_HADaa_nnFP,LPP_PU_DEV,number,Tarif référence LPP Prix Unitaire sur devis,-
 T_HADaa_nnFP,LPP_QUA,number,Quantité,-
 T_HADaa_nnFP,MNT_UNI_ECA,number,Montant unitaire de l'écart indemnisable,-
 T_HADaa_nnFP,RHAD_NUM,string,Numéro séquentiel d'entrée (idem RAPSS),-
-T_HADaa_nnFP,TIP_PRS_IDE,number,Code LPP (13 c),-
+T_HADaa_nnFP,TIP_PRS_IDE,number,Code LPP (13 c),NT_LPP
 T_HADaa_nnFP,TOT_MNT_ECA,number,Montant total de l'écart indemnisable,-
 T_HADaa_nnFP,TYP_ART,string,Type d'enregistrement,-
 T_HADaa_nnGRE,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
@@ -1606,7 +1606,7 @@ T_HADaa_nnMED,SEJ_NBR,number,Nombre de séjours impliqués,-
 T_HADaa_nnMED,SEQ_SEJ,string,Numéro de la séquence dans le séjour,-
 T_HADaa_nnMED,SSEQ_NUM,string,Numéro de sous-séquence,-
 T_HADaa_nnMED,TOP_UCD_AUTO,string,Top transcodage UCD13 auto,-
-T_HADaa_nnMED,UCD_UCD_COD,string,Code UCD,-
+T_HADaa_nnMED,UCD_UCD_COD,string,Code UCD,NU_UCD_R
 T_HADaa_nnMEDATU,ACH_PRI_ADM,number,Prix d'achat multiplié par le nombre administré,-
 T_HADaa_nnMEDATU,ADM_ANN,string,Année de la date d'administration,-
 T_HADaa_nnMEDATU,ADM_MOIS,string,Mois de la date d'administration,-
@@ -1623,7 +1623,7 @@ T_HADaa_nnMEDATU,SEJ_NBR,number,Nombre de séjours impliqués,-
 T_HADaa_nnMEDATU,SEQ_SEJ,string,Numéro de la séquence dans le séjour,-
 T_HADaa_nnMEDATU,SSEQ_NUM,string,Numéro de sous-séquence,-
 T_HADaa_nnMEDATU,TOP_UCD_AUTO,string,Top transcodage UCD13 auto,-
-T_HADaa_nnMEDATU,UCD_UCD_COD,string,Code UCD,-
+T_HADaa_nnMEDATU,UCD_UCD_COD,string,Code UCD,NU_UCD_R
 T_HADaa_nnMEDCHL,ACH_PRI_ADM,number,Prix d'achat multiplié par le nombre administré,-
 T_HADaa_nnMEDCHL,ADM_ANN,string,Année de la date d'administration,-
 T_HADaa_nnMEDCHL,ADM_MOIS,string,Mois de la date d'administration,-
@@ -1640,7 +1640,7 @@ T_HADaa_nnMEDCHL,SEJ_NBR,number,Nombre de séjours impliqués,-
 T_HADaa_nnMEDCHL,SEQ_SEJ,string,Numéro de la séquence dans le séjour,-
 T_HADaa_nnMEDCHL,SSEQ_NUM,string,Numéro de sous-séquence,-
 T_HADaa_nnMEDCHL,TOP_UCD_AUTO,string,Top transcodage UCD13 auto,-
-T_HADaa_nnMEDCHL,UCD_UCD_COD,string,Code UCD,-
+T_HADaa_nnMEDCHL,UCD_UCD_COD,string,Code UCD,NU_UCD_R
 T_HADaa_nnS,COD_SEX,string,Sexe du patient,-
 T_HADaa_nnS,ENT_MOD,string,Mode d’entrée,-
 T_HADaa_nnS,ENT_PRV,string,Provenance,-
@@ -1932,7 +1932,7 @@ T_MCOaa_nnDMIP,NBR_POS,number,Nombre posé,-
 T_MCOaa_nnDMIP,NBR_POS_PRI,number,Prix d'achat multiplié par le nombre posé,-
 T_MCOaa_nnDMIP,PRS_TYP,string,Type de prestation,-
 T_MCOaa_nnDMIP,RSA_NUM,string,N° d'index du RSA,-
-T_MCOaa_nnDMIP,TIP_PRS_IDE,number,Code LPP (format numérique),-
+T_MCOaa_nnDMIP,TIP_PRS_IDE,number,Code LPP (format numérique),NT_LPP
 T_MCOaa_nnE,ANN_TRT,string,N° du trimestre PMSI transmis,-
 T_MCOaa_nnE,ETA_NUM,string,Numéro FINESS e-PMSI,-
 T_MCOaa_nnE,ETB_EXE_FIN,string,N°FINESS sans clé,-
@@ -2111,7 +2111,7 @@ T_MCOaa_nnFCSTC,SOR_MOI,string,Mois des soins,-
 T_MCOaa_nnFCSTC,TYP_ART,string,Type d'enregistrement,-
 T_MCOaa_nnFH,ACH_PRI,number,Prix d'achat unitaire TTC,-
 T_MCOaa_nnFH,COD_LES,string,Code indication des spécialités pharmaceutiques inscrites sur la liste en sus,-
-T_MCOaa_nnFH,COD_UCD,string,Code UCD,-
+T_MCOaa_nnFH,COD_UCD,string,Code UCD,NU_UCD_R
 T_MCOaa_nnFH,COE_TAU,number,Coefficient de fractionnement,-
 T_MCOaa_nnFH,DEL_DAT_ENT,number,Délai par rapport à la date d'entrée,-
 T_MCOaa_nnFH,ENT_ANN,string,Année début de séjour,-
@@ -2125,7 +2125,7 @@ T_MCOaa_nnFH,RSA_NUM,string, N° séquentiel (le même que pour les RSA),-
 T_MCOaa_nnFH,RSF_TYP,string,"Type de format RSF (1 : ancien, 2 : nouveau)",-
 T_MCOaa_nnFH,TOT_MNT_ECA,number,Montant total de l'écart indemnisable,-
 T_MCOaa_nnFH,TYP_ART,string,Type d'enregistrement,-
-T_MCOaa_nnFH,UCD_UCD_COD,string,Code UCD (0 à gauche),-
+T_MCOaa_nnFH,UCD_UCD_COD,string,Code UCD (0 à gauche),NU_UCD_R
 T_MCOaa_nnFHSTC,ACH_PRU_TTC,number,Prix d'achat unitaire TTC,-
 T_MCOaa_nnFHSTC,DEL_DAT_ENT,number,Délai par rapport à la date d'entrée,-
 T_MCOaa_nnFHSTC,ECRT_IND_MNT,number,Montant total de l'écart indemnisable,-
@@ -2141,8 +2141,8 @@ T_MCOaa_nnFHSTC,QUA,number,Quantité,-
 T_MCOaa_nnFHSTC,RSF_TYP,string,"Type de format RSF (1 : ancien, 2 : nouveau)",-
 T_MCOaa_nnFHSTC,SEQ_NUM,string,N° séquentiel,-
 T_MCOaa_nnFHSTC,TYP_ART,string,Type d'enregistrement,-
-T_MCOaa_nnFHSTC,UCD_COD,string,Code UCD,-
-T_MCOaa_nnFHSTC,UCD_UCD_COD,string,Code UCD (0 à gauche),-
+T_MCOaa_nnFHSTC,UCD_COD,string,Code UCD,NU_UCD_R
+T_MCOaa_nnFHSTC,UCD_UCD_COD,string,Code UCD (0 à gauche),NU_UCD_R
 T_MCOaa_nnFI,DEL_DAT_ENT,number,Délai par rapport à la date d'entrée,-
 T_MCOaa_nnFI,ETA_NUM,string,Numéro FINESS e-PMSI,-
 T_MCOaa_nnFI,ETB_NUM,string,Etablissement de transfert ou de retour ou lieu d'exécution de l'acte,-
@@ -2157,7 +2157,7 @@ T_MCOaa_nnFL,ACT_NBR,number,Quantité acte,-
 T_MCOaa_nnFL,ANN_MOI,string,Mois et année,-
 T_MCOaa_nnFL,DEL_DAT_ENT,number,délai par rapport à la date d'entrée,-
 T_MCOaa_nnFL,ETA_NUM,string,Numéro FINESS e-PMSI,-
-T_MCOaa_nnFL,NABM_COD,string,Code acte,-
+T_MCOaa_nnFL,NABM_COD,string,Code acte,IR_BIO_R
 T_MCOaa_nnFL,NUM_FAC,string,N° Facture séquentiel,-
 T_MCOaa_nnFL,PSH_DMT,string,Discipline de prestation (ex DMT),-
 T_MCOaa_nnFL,PSH_MDT,string,Mode de traitement,-
@@ -2169,7 +2169,7 @@ T_MCOaa_nnFLSTC,ANN_MOI,string,Mois et année,-
 T_MCOaa_nnFLSTC,DEL_DAT_ENT,number,délai par rapport à la date d'entrée,-
 T_MCOaa_nnFLSTC,ETA_NUM,string,Numéro FINESS e-PMSI,-
 T_MCOaa_nnFLSTC,ETA_NUM_GEO,string,Numéro FINESS géographique,-
-T_MCOaa_nnFLSTC,NABM_COD,string,Code acte,-
+T_MCOaa_nnFLSTC,NABM_COD,string,Code acte,IR_BIO_R
 T_MCOaa_nnFLSTC,NUM_FAC,string,N° Facture séquentiel,-
 T_MCOaa_nnFLSTC,PSH_DMT,string,Discipline de prestation (ex DMT),-
 T_MCOaa_nnFLSTC,PSH_MDT,string,Mode de traitement,-
@@ -2263,7 +2263,7 @@ T_MCOaa_nnFP,MNT_UNI_ECA,number,Montant unitaire de l'écart indemnisable,-
 T_MCOaa_nnFP,NUM_FAC,string,N° séquentiel de facture,-
 T_MCOaa_nnFP,RSA_NUM,string, N° séquentiel (le même que pour les RSA),-
 T_MCOaa_nnFP,RSF_TYP,string,"Type de format RSF (1 : ancien, 2 : nouveau)",-
-T_MCOaa_nnFP,TIP_PRS_IDE,number,Code référence LPP (format numérique),-
+T_MCOaa_nnFP,TIP_PRS_IDE,number,Code référence LPP (format numérique),NT_LPP
 T_MCOaa_nnFP,TOT_MNT_ECA,number,Montant total de l'écart indemnisable,-
 T_MCOaa_nnFP,TYP_ART,string,Type d'enregistrement,-
 T_MCOaa_nnFPSTC,DEL_DAT_ENT,number,Délai par rapport à la date d'entrée,-
@@ -2280,7 +2280,7 @@ T_MCOaa_nnFPSTC,MNT_UNI_ECA,number,Montant unitaire de l'écart indemnisable,-
 T_MCOaa_nnFPSTC,NUM_FAC,string,N° Facture séquentiel,-
 T_MCOaa_nnFPSTC,RSF_TYP,string,"Type de format RSF (1 : ancien, 2 : nouveau)",-
 T_MCOaa_nnFPSTC,SEQ_NUM,string,N° séquentiel,-
-T_MCOaa_nnFPSTC,TIP_PRS_IDE,number,Code référence LPP (format numérique),-
+T_MCOaa_nnFPSTC,TIP_PRS_IDE,number,Code référence LPP (format numérique),NT_LPP
 T_MCOaa_nnFPSTC,TOT_MNT_ECA,number,Montant total de l'écart indemnisable,-
 T_MCOaa_nnFPSTC,TYP_ART,string,Type d'enregistrement,-
 T_MCOaa_nnGV2018,ETA_NUM,string,Numéro FINESS e-PMSI,-
@@ -2315,7 +2315,7 @@ T_MCOaa_nnMED,NBR_SEJ,number,Nombre de séjours impliqués,-
 T_MCOaa_nnMED,PRS_TYP,string,Type de prestation,-
 T_MCOaa_nnMED,RSA_NUM,string,N° d'index du RSA,-
 T_MCOaa_nnMED,TOP_UCD_AUTO,string,Top transcodage UCD13 auto,-
-T_MCOaa_nnMED,UCD_UCD_COD,string,Code UCD,-
+T_MCOaa_nnMED,UCD_UCD_COD,string,Code UCD,NU_UCD_R
 T_MCOaa_nnMEDATU,ACH_PRI_ADM,number,Prix d'achat multiplié par le nombre administré,-
 T_MCOaa_nnMEDATU,ADM_ANN,string,Année de la date d'administration,-
 T_MCOaa_nnMEDATU,ADM_MOIS,string,Mois de la date d'administration,-
@@ -2330,7 +2330,7 @@ T_MCOaa_nnMEDATU,PRS_TYP,string,Type de prestation,-
 T_MCOaa_nnMEDATU,RSA_NUM,string,N° d'index du RSA,-
 T_MCOaa_nnMEDATU,SEJ_NBR,number,Nombre de séjours impliqués,-
 T_MCOaa_nnMEDATU,TOP_UCD_AUTO,string,Top transcodage UCD13 auto,-
-T_MCOaa_nnMEDATU,UCD_UCD_COD,string,Code UCD,-
+T_MCOaa_nnMEDATU,UCD_UCD_COD,string,Code UCD,NU_UCD_R
 T_MCOaa_nnMEDTHROMBO,ADM_ANN,string,Année de la date d'administration,-
 T_MCOaa_nnMEDTHROMBO,ADM_MOIS,string,Mois de la date d'administration,-
 T_MCOaa_nnMEDTHROMBO,ADM_NBR,number,Nombre administré éventuellement fractionnaire,-
@@ -2345,7 +2345,7 @@ T_MCOaa_nnMEDTHROMBO,PRS_TYP,string,Type de prestation,-
 T_MCOaa_nnMEDTHROMBO,RSA_NUM,string,N° d'index du RSA,-
 T_MCOaa_nnMEDTHROMBO,SEJ_NBR,number,Nombre de séjours impliqués,-
 T_MCOaa_nnMEDTHROMBO,TOP_UCD_AUTO,string,Top transcodage UCD13 auto,-
-T_MCOaa_nnMEDTHROMBO,UCD_UCD_COD,string,Code UCD,-
+T_MCOaa_nnMEDTHROMBO,UCD_UCD_COD,string,Code UCD,NU_UCD_R
 T_MCOaa_nnPIE,ANN,string,Année période,-
 T_MCOaa_nnPIE,DELAI,number,Délai entre la date d’entrée du séjour et la date de début de la prestation,-
 T_MCOaa_nnPIE,ETA_NUM,string,N° FINESS e-PMSI,-
@@ -2810,7 +2810,7 @@ T_RIPaa_nnFC,REM_TAU,number,Taux Remboursement,-
 T_RIPaa_nnFC,RIP_NUM,string,Numéro séquentiel de séjour (idem RPSA),-
 T_RIPaa_nnFC,TYP_ART,string,Type d'enregistrement,-
 T_RIPaa_nnFH,ACH_PRI,number,Prix d'achat unitaire TTC,-
-T_RIPaa_nnFH,COD_UCD,string,Code UCD,-
+T_RIPaa_nnFH,COD_UCD,string,Code UCD,NU_UCD_R
 T_RIPaa_nnFH,COE_TAU,number,Coefficient de fractionnement,-
 T_RIPaa_nnFH,DEL_DAT_ENT,number,Délai par rapport à la date d'entrée,-
 T_RIPaa_nnFH,ENT_ANN,string,Année de la date de début de séjour,-
@@ -2824,7 +2824,7 @@ T_RIPaa_nnFH,QUA_COD,number,Quantité,-
 T_RIPaa_nnFH,RIP_NUM,string,Numéro séquentiel de séjour (idem RPSA),-
 T_RIPaa_nnFH,TOT_MNT_ECA,number,Montant total de l'écart indemnisable,-
 T_RIPaa_nnFH,TYP_ART,string,Type d'enregistrement,-
-T_RIPaa_nnFH,UCD_UCD_COD,string,Code UCD (0 à gauche),-
+T_RIPaa_nnFH,UCD_UCD_COD,string,Code UCD (0 à gauche),NU_UCD_R
 T_RIPaa_nnFI,DEL_DAT_ENT,number,Délai par rapport à la date d'entrée,-
 T_RIPaa_nnFI,ENT_ANN,string,Année de la date de début de séjour,-
 T_RIPaa_nnFI,ENT_MOI,string,Mois de la date de début de séjour,-
@@ -2844,7 +2844,7 @@ T_RIPaa_nnFL,DEL_DAT_ENT,number,délai par rapport à la date d'entrée,-
 T_RIPaa_nnFL,ETA_NUM_EPMSI,string,Numéro FINESS de l’entité juridique,-
 T_RIPaa_nnFL,ETA_NUM_TWO,string,Numéro FINESS de l’établissement (site géographique),-
 T_RIPaa_nnFL,FAC_NUM,string,N° séquentiel de facture,-
-T_RIPaa_nnFL,NABM_COD,string,Code acte,-
+T_RIPaa_nnFL,NABM_COD,string,Code acte,IR_BIO_R
 T_RIPaa_nnFL,PSH_DMT,string,Discipline de prestation (ex DMT),-
 T_RIPaa_nnFL,PSH_MDT,string,Mode de traitement,-
 T_RIPaa_nnFL,RIP_NUM,string,Numéro séquentiel de séjour (idem RPSA),-
@@ -2899,7 +2899,7 @@ T_RIPaa_nnFP,LPP_PU_DEV,number,Tarif référence LPP/ Prix Unitaire sur devis,-
 T_RIPaa_nnFP,LPP_QUA,number,Quantité,-
 T_RIPaa_nnFP,MNT_UNI_ECA,number,Montant unitaire de l'écart indemnisable,-
 T_RIPaa_nnFP,RIP_NUM,string,Numéro séquentiel de séjour (idem RPSA),-
-T_RIPaa_nnFP,TIP_PRS_IDE,number,Code référence LPP (format numérique),-
+T_RIPaa_nnFP,TIP_PRS_IDE,number,Code référence LPP (format numérique),NT_LPP
 T_RIPaa_nnFP,TOT_MNT_ECA,number,Montant total de l'écart indemnisable,-
 T_RIPaa_nnFP,TYP_ART,string,Type d'enregistrement,-
 T_RIPaa_nnISOCONT,ANN,string,Année période de transmission,-
@@ -3425,7 +3425,7 @@ T_SSRaa_nnFH,RHA_NUM,string,N° Séquentiel du séjour,-
 T_SSRaa_nnFH,RSF_TYP,string,Type de format RSF (1=Ancien/2=Nouveau),-
 T_SSRaa_nnFH,TOT_MNT_ECA,number,Montant total de l'écart indémnisable,-
 T_SSRaa_nnFH,TYP_ART,string,Type d'enregistrement (H),-
-T_SSRaa_nnFH,UCD_UCD_COD,string,Code UCD (0 à gauche),-
+T_SSRaa_nnFH,UCD_UCD_COD,string,Code UCD (0 à gauche),NU_UCD_R
 T_SSRaa_nnFI,ACT_DUR,number,Durée de l'acte,-
 T_SSRaa_nnFI,DEL_DAT_ENT,number,Délai par rapport à la date d'entrée,-
 T_SSRaa_nnFI,ETA_NUM,string,N° FINESS,-
@@ -3439,7 +3439,7 @@ T_SSRaa_nnFL,ACT_NBR,number,Quantité acte,-
 T_SSRaa_nnFL,ANN_MOI,string,Mois et année,-
 T_SSRaa_nnFL,DEL_DAT_ENT,number,délai par rapport à la date d'entrée,-
 T_SSRaa_nnFL,ETA_NUM,string,N° FINESS d'inscription e-PMSI,-
-T_SSRaa_nnFL,NABM_COD,string,Code acte NABM,-
+T_SSRaa_nnFL,NABM_COD,string,Code acte NABM,IR_BIO_R
 T_SSRaa_nnFL,NUM_FAC,string,N° Facture séquentiel,-
 T_SSRaa_nnFL,PSH_DMT,string,Discipline de prestation (ex DMT),-
 T_SSRaa_nnFL,PSH_MDT,string,Mode de traitement,-
@@ -3451,7 +3451,7 @@ T_SSRaa_nnFLSTC,ANN_MOI,string,Mois et année,-
 T_SSRaa_nnFLSTC,DEL_DAT_ENT,number,délai par rapport à la date d'entrée,-
 T_SSRaa_nnFLSTC,ETA_NUM,string,N° FINESS d'inscription e-PMSI,-
 T_SSRaa_nnFLSTC,ETA_NUM_GEO,string,FINESS géographique,-
-T_SSRaa_nnFLSTC,NABM_COD,string,Code acte NABM,-
+T_SSRaa_nnFLSTC,NABM_COD,string,Code acte NABM,IR_BIO_R
 T_SSRaa_nnFLSTC,NUM_FAC,string,N° Facture séquentiel,-
 T_SSRaa_nnFLSTC,PSH_DMT,string,Discipline de prestation (ex DMT),-
 T_SSRaa_nnFLSTC,PSH_MDT,string,Mode de traitement,-
@@ -3544,7 +3544,7 @@ T_SSRaa_nnFP,RHA_NUM,string,N° Séquentiel du séjour,-
 T_SSRaa_nnFP,RSF_TYP,string,Type de format RSF (1=Ancien/2=Nouveau),-
 T_SSRaa_nnFP,SOR_ANN,string,Année de sortie,-
 T_SSRaa_nnFP,SOR_MOI,string,Mois de sortie,-
-T_SSRaa_nnFP,TIP_PRS_IDE,number,Code référence LPP (format numérique),-
+T_SSRaa_nnFP,TIP_PRS_IDE,number,Code référence LPP (format numérique),NT_LPP
 T_SSRaa_nnFP,TOT_MNT_ECA,number,Montant total de l'écart indémnisable,-
 T_SSRaa_nnFP,TYP_ART,string,Type d'enregistrement (P),-
 T_SSRaa_nnGME,ETA_NUM,string,N° FINESS de l'établisement,-
@@ -3571,7 +3571,7 @@ T_SSRaa_nnMED,PRS_TYP,string,Type de prestation,-
 T_SSRaa_nnMED,RHA_NUM,string,N° Séquentiel du séjour,-
 T_SSRaa_nnMED,RHS_NUM,string,Numéro séquentiel du RHS,-
 T_SSRaa_nnMED,TOP_UCD_AUTO,string,Top transcodage UCD13 auto,-
-T_SSRaa_nnMED,UCD_UCD_COD,string,Code UCD,-
+T_SSRaa_nnMED,UCD_UCD_COD,string,Code UCD,NU_UCD_R
 T_SSRaa_nnMEDATU,ACH_PRI_ADM,number,Prix d'achat multiplié par le nombre administré,-
 T_SSRaa_nnMEDATU,ADM_ANN,string,Année de la date d'administration,-
 T_SSRaa_nnMEDATU,ADM_MOIS,string,Mois de la date d'administration,-
@@ -3584,7 +3584,7 @@ T_SSRaa_nnMEDATU,PRS_TYP,string,Type de prestation,-
 T_SSRaa_nnMEDATU,RHA_NUM,string,N° Séquentiel du séjour,-
 T_SSRaa_nnMEDATU,RHS_NUM,string,Numéro séquentiel du RHS,-
 T_SSRaa_nnMEDATU,TOP_UCD_AUTO,string,Top transcodage UCD13 auto,-
-T_SSRaa_nnMEDATU,UCD_UCD_COD,string,Code UCD,-
+T_SSRaa_nnMEDATU,UCD_UCD_COD,string,Code UCD,NU_UCD_R
 T_SSRaa_nnS,ACT_TYP,string,Type d’hospitalisation,-
 T_SSRaa_nnS,ENT_MOD,string,Mode d’entrée,-
 T_SSRaa_nnS,ENT_PRV,string,Provenance,-
