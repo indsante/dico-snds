@@ -47,15 +47,31 @@ shinyServer(function(input, output) {
     ColourScale = paste0('d3.scaleOrdinal()
             .domain([', product_names_ix, '])
     .range([', product_colors_str, ']);')
+    
     ## d3network
-    net = forceNetwork(Links = snds_links, Nodes = snds_nodes,
-                 Source = "source", Target = "target",
-                 #Value = "value",
-                 Group = "group", Nodesize = "nb_vars", opacityNoHover = 0.7, colourScale = JS(ColourScale), 
-                 NodeID = "name", opacity = 1, fontSize = 15, zoom = TRUE, charge = -200, linkWidth = 2, linkDistance = 100,
-                 clickAction = 'Shiny.onInputChange("description", d.description);
-                                Shiny.onInputChange("name", d.name);
-                                Shiny.onInputChange("joint", d.joint_var);')
+    snds_links$value = 10
+    net = forceNetwork(
+      Links = snds_links, 
+      Source = "source", 
+      Target = "target",
+      Value = "value", # nécessaire pour arrows  https://stackoverflow.com/questions/51024363/forcenetwork-networkd3-arrow-issue
+      
+      Nodes = snds_nodes,
+      NodeID = "name",
+      Group = "group",
+      Nodesize = "nb_vars",
+      
+      zoom = TRUE,
+      opacityNoHover = 0.7, 
+      colourScale = JS(ColourScale), 
+      opacity = 1, fontSize = 15,  charge = -200, 
+      # linkWidth = 2, # Incompatible avec arrows
+      linkDistance = 100,
+      arrows = TRUE,
+      clickAction = 'Shiny.onInputChange("description", d.description);
+                     Shiny.onInputChange("name", d.name);
+                     Shiny.onInputChange("joint", d.joint_var);'
+      )
     
     
     ## Ggplot legend, code taken from here: https://stackoverflow.com/questions/12041042/how-to-plot-just-the-legends-in-ggplot2
