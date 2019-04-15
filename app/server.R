@@ -64,9 +64,9 @@ shinyServer(function(input, output) {
       zoom = TRUE,
       opacityNoHover = 0.7, 
       colourScale = JS(ColourScale), 
-      opacity = 1, fontSize = 15,  charge = -200, 
+      opacity = 1, fontSize = 15,  charge = -70, 
       # linkWidth = 2, # Incompatible avec arrows
-      linkDistance = 100,
+      linkDistance = 150,
       arrows = TRUE,
       clickAction = 'Shiny.onInputChange("description", d.description);
                      Shiny.onInputChange("name", d.name);
