@@ -50,6 +50,7 @@ shinyServer(function(input, output) {
     
     ## d3network
     snds_links$value = 10
+    snds_links$group = 1
     net = forceNetwork(
       Links = snds_links, 
       Source = "source", 
