@@ -142,9 +142,9 @@ navbarPage("Visualisation de la structure du SNDS",
             # Side buttons
             actionButton(
               inputId = "reset_button",
-              label = "Github INDS",
-              icon = icon("github"),
-              onclick = "window.open('https://github.com/indsante/dico-snds', '_blank')"),
+              label = "Gitlab HDH",
+              icon = icon("gitlab"),
+              onclick = "window.open('https://gitlab.com/healthdatahub/dico-snds', '_blank')"),
           
             # Text as markdown files
             includeMarkdown(paste0(PATH2MARKDOWNS, "sup_infos.Rmd")),
