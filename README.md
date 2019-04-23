@@ -24,4 +24,4 @@ Si vous souhaitez faire tourner l'application sur votre ordinateur en local afin
 
 # Contacts
 
-Pour toute question et remarque sur l'application, nous vous encourageons à utiliser les [issues](https://github.com/indsante/dico-snds/issues). Vous pouvez aussi nous envoyer un mail à **ld-lab-github@sante.gouv.fr**.
+Pour toute question et remarque sur l'application, nous vous encourageons à utiliser les [issues](https://gitlab.com/healthdatahub/dico-snds/issues). Vous pouvez aussi nous envoyer un mail à **ld-lab-github@sante.gouv.fr**.
