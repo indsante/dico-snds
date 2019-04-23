@@ -8,7 +8,7 @@ Il a été développé par la [Direction de la Recherche, des Etudes de l'Evalua
 
 # Usage
 
-Le dictionnaire interactif est consultable à [cette adresse](https://drees.shinyapps.io/dico-snds/).
+Le dictionnaire interactif est consultable à [cette adresse](http://dico-snds.health-data-hub.fr/).
 
 # Collaboration, développement
 
