@@ -106,7 +106,7 @@ navbarPage("Visualisation de la structure du SNDS",
            )
   ),
   
-  tabPanel("Infos", value = "info_page",
+  tabPanel("Informations", value = "info_page",
                  includeCSS("www/styles.css"),
            
             HTML("
