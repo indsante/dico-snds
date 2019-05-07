@@ -18,9 +18,18 @@ Si vous désirez participer de quelque manière que ce soit (erreur, variable ma
 
 ## Développement
 
+### Dans Rstudio
+
 Si vous souhaitez faire tourner l'application sur votre ordinateur en local afin notamment de faire des changements plus conséquents sur l'application:
 + Clonez ce repo sur votre ordinateur: `git clone https://gitlab.com/healthdatahub/dico-snds.git`
 + Ouvrez dans [Rstudio](https://www.rstudio.com/) `server.R` ou `ui.R` et cliquez sur le bouton `Run App` en haut à droite de la fenêtre principale.
++ Installez les packages nécessaires avec la commande bash `./ install_Rpackages.sh` ou bien directement dans R avec `install.packages(c('dplyr', 'ggplot2', 'gridExtra', 'markdown', 'networkD3', 'rsconnect', 'shiny'), repos='http://cran.rstudio.com/')`
++ Vous pouvez lancer les tests avec `./run_tests.sh`
+
+### Tests et déploiement
+Si vous
+`docker run -v `pwd`:/home/ -it rocker/r-ver:3.4.4 bash
+`
 
 # Contacts
 
