@@ -4,14 +4,14 @@ stages:
 
 test:
   stage: test
-  image: r-ver:3.4.4
+  image: rocker/r-ver:3.4.4
   before_script:
     - ./install_Rpackages.sh
   script: ./run_tests.sh
 
 deploy:
   stage: deploy
-  image: r-ver:3.4.4
+  image: rocker/r-ver:3.4.4
   script: ./deploy.sh
   only:
     - master
