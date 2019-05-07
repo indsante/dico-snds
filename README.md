@@ -18,18 +18,34 @@ Si vous désirez participer de quelque manière que ce soit (erreur, variable ma
 
 ## Développement
 
-### Dans Rstudio
+### Avec Rstudio
 
 Si vous souhaitez faire tourner l'application sur votre ordinateur en local afin notamment de faire des changements plus conséquents sur l'application:
 + Clonez ce repo sur votre ordinateur: `git clone https://gitlab.com/healthdatahub/dico-snds.git`
 + Ouvrez dans [Rstudio](https://www.rstudio.com/) `server.R` ou `ui.R` et cliquez sur le bouton `Run App` en haut à droite de la fenêtre principale.
-+ Installez les packages nécessaires avec la commande bash `./ install_Rpackages.sh` ou bien directement dans R avec `install.packages(c('dplyr', 'ggplot2', 'gridExtra', 'markdown', 'networkD3', 'rsconnect', 'shiny'), repos='http://cran.rstudio.com/')`
-+ Vous pouvez lancer les tests avec `./run_tests.sh`
++ Installez les packages nécessaires avec la commande bash `./install_Rpackages.sh` ou bien directement dans R avec `install.packages(c('backports', 'crosstalk', 'dplyr', 'DT', 'evaluate', 'ggplot2', 'gridExtra', 'highr', 'knitr', 'markdown', 'networkD3', 'rmarkdown', 'rprojroot', 'rsconnect', 'shiny', 'testthat'), repos='http://cran.rstudio.com/')`
++ Vous pouvez lancer les tests en lançant à la racine du projet `./run_tests.sh`
 
-### Tests et déploiement
-Si vous
-`docker run -v `pwd`:/home/ -it rocker/r-ver:3.4.4 bash
-`
+### Avec Docker et test du déploiement
+
+Si vous voulez tester l'application avec docker et le processus de déploiement:
+
++ Lancer un docker avec R en mode interactif: 
+
+```
+docker run -v `pwd`:/home/ -it rocker/r-ver:3.4.4 bash
+```
+
++ Lancer l'installation des packages: `./install_Rpackages.sh`
++ Lancer les tests: `./run_tests.sh`
++ Définir les deux variables d'environnement pour le déploiement: 
+
+```
+export TOKEN='XXXXXXX'
+export SECRET='XXXXXXX'
+```
+
++ Lancer le déploiement: `./deploy.sh`
 
 # Contacts
 
