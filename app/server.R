@@ -1,38 +1,13 @@
-#
-# This is the server logic of a Shiny web application. You can run the 
-# application by clicking 'Run App' above.
-
-library(shiny)
-library(markdown)
-library(dplyr)
-
-# required for network plotting
-library(networkD3) 
-
-# For network legend
-library(ggplot2) 
-library(grid)
-library(gridExtra) 
-
+# Backend logics
+## Load data
 PATH2DATA = "app_data/"
-PATH2MARKDOWNS = paste0("www/markdowns/")
 PATH2NOMENCLATURES =  paste0(PATH2DATA, "nomenclatures/")
 
-# SNDS nodes table
-snds_nodes = read.csv(paste0(PATH2DATA, "snds_nodes.csv"),
-                      encoding = "UTF-8")
-# SNDS links table
-snds_links = read.csv(paste0(PATH2DATA, "snds_links.csv"),
-                      encoding = "UTF-8")
-# SNDS tables table
-snds_tables = read.csv(paste0(PATH2DATA, "snds_tables.csv"),
-                       encoding = "UTF-8")
-snds_tables$Libelle = as.character(snds_tables$Libelle)
-# SNDS variables table
-snds_vars = read.csv(paste0(PATH2DATA,"snds_vars.csv"), 
-                      encoding = "UTF-8", 
-                      stringsAsFactors = FALSE)
-snds_vars$table = as.factor(snds_vars$table)
+data <- load_data(PATH2DATA)
+snds_nodes <- data$snds_nodes
+snds_links <- data$snds_links
+snds_vars <- data$snds_vars
+snds_tables <- data$snds_tables
 
 # Server logics
 shinyServer(function(input, output) {
@@ -137,7 +112,10 @@ shinyServer(function(input, output) {
   
   ## Network logic for displaying the SNDS tables when clicking on them
   current_table_snds = reactive({
-    data.frame(snds_vars[snds_vars$table == input$name, c(2,4,3)])
+    data.frame(snds_vars %>% 
+                 filter(table == input$name) %>% 
+                 select(one_of("var", "description", "format"))
+    )
   })
   ### Display name of the table
   output$table_name_snds = renderText({paste0(input$name , ": ", input$description)[1]})
@@ -157,8 +135,7 @@ shinyServer(function(input, output) {
   # Explorateur des tables (tab 2)
   output$snds_tables = DT::renderDataTable(
     DT::datatable(
-      snds_tables %>% 
-        select(one_of('Produit', 'Table', 'Libelle')),
+      get_snds_tables(snds_tables),
       filter = "top",
       selection = "single",
       rownames = F,
@@ -172,7 +149,7 @@ shinyServer(function(input, output) {
   # Explorateur des variables (tab 1)
   ## Variables datatable
   output$all_vars_snds = DT::renderDataTable(
-    DT::datatable(snds_vars[,c(1,2,4,3)], 
+    DT::datatable(get_snds_vars(snds_vars), 
                   colnames = c('Table'='table', 'Variable'='var', 'Libelle'='description', 'Type'='format'),
                   filter = "top",
                   selection = "single",
@@ -186,17 +163,33 @@ shinyServer(function(input, output) {
   ## Display current variable of interest nomenclature
   ### Logics to select current variable of interest name
   tmp_var_snds = reactive({
-    snds_vars[input$all_vars_snds_row_last_clicked, "var"]
-  })
+    input$all_vars_snds_row_last_clicked
+    })
+  
+  #observe({print(tmp_var_snds())})
   ### Output current variable of interest name
-  output$tmp_var_snds = renderText({paste0("Variable ", tmp_var_snds())})
+  output$tmp_var_snds = renderText({
+    if (is.null(tmp_var_snds())){
+      ""
+    }
+    else{
+      paste0(
+        "Variable ", 
+        snds_vars[tmp_var_snds(), ] %>%
+          select(var),
+        " | Nomenclature ",
+        snds_vars[tmp_var_snds(), ] %>%
+          select(nomenclature)
+      )  
+    }
+  })
   
   ### Logics to select current nomenclature of interest
   tmp_nom_snds = reactive({
-    nom = tolower(snds_vars[input$all_vars_snds_row_last_clicked, "nomenclature"])
+    nom = tolower(snds_vars[tmp_var_snds(), "nomenclature"])
     if (req(nom != "-")){
-       return (read.csv2(paste0(PATH2NOMENCLATURES, toupper(nom), ".csv"), encoding = "UTF-8") %>% 
-         select(-one_of("TEC_COL", "CPT_COP_NUM", "nom_table")))
+       return (read.csv2(paste0(PATH2NOMENCLATURES, toupper(nom), ".csv"), encoding = "UTF-8") %>%
+                 select(-one_of("TEC_COL", "CPT_COP_NUM", "nom_table")))
       }
   })
   

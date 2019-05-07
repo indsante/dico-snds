@@ -2,10 +2,6 @@
 # This is the user-interface definition of a Shiny web application. You can
 # run the application by clicking 'Run App' above.
 
-library(shiny)
-library(networkD3)
-library(markdown)
-
 PATH2MARKDOWNS = paste0("www/markdowns/")
 img_width = 150
 
