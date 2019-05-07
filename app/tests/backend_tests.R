@@ -1,5 +1,7 @@
  # Load data
 library(testthat)
+library(dplyr)
+
 PATH2DATA = "../app_data/"
 source("../functions.R")
 
@@ -17,6 +19,11 @@ test_that("get_snds_tables returns the good columns", {
   expect_equal(colnames(get_snds_tables(snds_tables)), c("Produit", "Table", "Libelle"))
 })
 
+
+test_that("nomenclature column is present in snds_vars", {
+  expect_true("nomenclature" %in% colnames(snds_vars))
+})
+
 test_that("get_snds_vars returns the good columns", {
   expect_equal(colnames(get_snds_vars(snds_vars)), c("table", "var", "description", "format"))
 })
@@ -24,8 +31,4 @@ test_that("get_snds_vars returns the good columns", {
 test_that("network inputs have the relevant columns", {
   expect_equal(colnames(snds_nodes), c("name", "description", "group", "index", "nb_vars"))
   expect_equal(colnames(snds_links), c("source", "target", "joint_var"))
-})
-
-test_that("nomenclature column is present in snds_vars", {
-  expect_true("nomenclature" %in% colnames(snds_vars))
 })
