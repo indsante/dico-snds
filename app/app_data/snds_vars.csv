@@ -2215,7 +2215,7 @@ T_MCOaa_nnFM,SOR_MOI,string,Mois de l'acte,-
 T_MCOaa_nnFM,TYP_ART,string,Type d'enregistrement,-
 T_MCOaa_nnFMSTC,ACV_ACT,string,Activité,-
 T_MCOaa_nnFMSTC,ANP_ACT,string,Code association d'actes non prévue,-
-T_MCOaa_nnFMSTC,CCAM_COD,string,Code CCAM,-
+T_MCOaa_nnFMSTC,CCAM_COD,string,Code CCAM,IR_CCAM_V54
 T_MCOaa_nnFMSTC,DEL_DAT_ENT,number,Délai par rapport à la date d'entrée,-
 T_MCOaa_nnFMSTC,DENT_NUM_1,string,N° dent 1,-
 T_MCOaa_nnFMSTC,DENT_NUM_10,string,N° dent 10,-
@@ -3522,7 +3522,7 @@ T_SSRaa_nnFM,SOR_MOI,string,Mois de sortie,-
 T_SSRaa_nnFM,TYP_ART,string,Type d'enregistrement (M),-
 T_SSRaa_nnFMSTC,ACV_ACT,string,Activité,-
 T_SSRaa_nnFMSTC,ANP_ACT,string,Code association d'actes non prévue,-
-T_SSRaa_nnFMSTC,CCAM_COD,string,Code CCAM,-
+T_SSRaa_nnFMSTC,CCAM_COD,string,Code CCAM,IR_CCAM_V54
 T_SSRaa_nnFMSTC,DEL_DAT_ENT,number,Délai par rapport à la date d'entrée,-
 T_SSRaa_nnFMSTC,DENT_NUM_1,string,N° dent 1,-
 T_SSRaa_nnFMSTC,DENT_NUM_10,string,N° dent 10,-
