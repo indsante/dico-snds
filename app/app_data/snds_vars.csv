@@ -1282,8 +1282,8 @@ T_HADaa_nnB,COD_CONF,string,Confirmation de codage,-
 T_HADaa_nnB,COD_SEX,string,Sexe du patient,-
 T_HADaa_nnB,DEP_COT,string,Cotation dépendance selon Karnofsky,-
 T_HADaa_nnB,DGN_PAL,string,Diagnostic principal,IR_CIM_V
-T_HADaa_nnB,ENT_MOD,string,Mode d’entrée,-
-T_HADaa_nnB,ENT_PRV,string,Provenance,-
+T_HADaa_nnB,ENT_MOD,string,Mode d’entrée,MS_SOR_V
+T_HADaa_nnB,ENT_PRV,string,Provenance,IR_DESTINATION_V
 T_HADaa_nnB,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_HADaa_nnB,ETA_NUM_ESMS,string,Numéro FINESS EHPA,-
 T_HADaa_nnB,ETA_NUM_GEO,string,Numéro FINESS géographique,-
@@ -1313,8 +1313,8 @@ T_HADaa_nnB,SEQ_NUM,string,N° de la séquence dans le séjour,-
 T_HADaa_nnB,SEQ_SEJ_NBJ,number,Nombre de journées entre le début de la séquence et la date d’entrée du séjour,-
 T_HADaa_nnB,SOR_ANN,string,Année de la date de sortie du séjour,-
 T_HADaa_nnB,SOR_ANN_SSEQ,string,Année de sortie de la sous-séquence,-
-T_HADaa_nnB,SOR_DES,string,Destination,-
-T_HADaa_nnB,SOR_MOD,string,Mode de sortie,-
+T_HADaa_nnB,SOR_DES,string,Destination,IR_DESTINATION_V
+T_HADaa_nnB,SOR_MOD,string,Mode de sortie,MS_SOR_V
 T_HADaa_nnB,SOR_MOI,string,Mois de la date de sortie du séjour,-
 T_HADaa_nnB,SOR_MOI_SSEQ,string,Mois de sortie de la sous-séquence,-
 T_HADaa_nnB,SSEQ_NBJ,number,Nombre de journées de la sous-séquence,-
@@ -1642,8 +1642,8 @@ T_HADaa_nnMEDCHL,SSEQ_NUM,string,Numéro de sous-séquence,-
 T_HADaa_nnMEDCHL,TOP_UCD_AUTO,string,Top transcodage UCD13 auto,-
 T_HADaa_nnMEDCHL,UCD_UCD_COD,string,Code UCD,NU_UCD_R
 T_HADaa_nnS,COD_SEX,string,Sexe du patient,-
-T_HADaa_nnS,ENT_MOD,string,Mode d’entrée,-
-T_HADaa_nnS,ENT_PRV,string,Provenance,-
+T_HADaa_nnS,ENT_MOD,string,Mode d’entrée,MS_SOR_V
+T_HADaa_nnS,ENT_PRV,string,Provenance,IR_DESTINATION_V
 T_HADaa_nnS,ETA_NUM_EPMSI,string,Numéro FINESS e-PMSI,-
 T_HADaa_nnS,ETA_NUM_GEO,string,Numéro FINESS géographique,-
 T_HADaa_nnS,HAD_DUREE,number,Durée couverte par les séquences (tous séjours),-
@@ -1653,8 +1653,8 @@ T_HADaa_nnS,SEJ_ERR,string,indicateur de séjour 100% en erreur,-
 T_HADaa_nnS,SEJ_FINI,string,Indicateur de séjour terminé,-
 T_HADaa_nnS,SEJ_NBJ,number,Nombre de journées dans le séjour = durée sur séjours terminés (date de sortie-date d'entrée),-
 T_HADaa_nnS,SOR_ANN,string,Année de la date de sortie du séjour,-
-T_HADaa_nnS,SOR_DES,string,Destination,-
-T_HADaa_nnS,SOR_MOD,string,Mode de sortie,-
+T_HADaa_nnS,SOR_DES,string,Destination,IR_DESTINATION_V
+T_HADaa_nnS,SOR_MOD,string,Mode de sortie,MS_SOR_V
 T_HADaa_nnS,SOR_MOI,string,Mois de la date de sortie du séjour,-
 T_HADaa_nnSTC,CAI_GES,string,N° caisse gestionnaire,-
 T_HADaa_nnSTC,CAI_GES_CTL,string,Code retour contrôle « N° caisse gestionnaire »,-
@@ -1774,8 +1774,8 @@ T_MCOaa_nnB,DEL_REG_ENT,number,Délai de la date des dernières règles par rapp
 T_MCOaa_nnB,DGN_PAL,string,Diagnostic principal (DP) ,IR_CIM_V
 T_MCOaa_nnB,DGN_REL,string,Diagnostic relié (DR) ,IR_CIM_V
 T_MCOaa_nnB,DOS_TYP,string,Type de dosimétrie,-
-T_MCOaa_nnB,ENT_MOD,string,Mode d'entrée dans le champ du PMSI-MCO ,-
-T_MCOaa_nnB,ENT_PRV,string,Provenance ,-
+T_MCOaa_nnB,ENT_MOD,string,Mode d'entrée dans le champ du PMSI-MCO ,MS_SOR_V
+T_MCOaa_nnB,ENT_PRV,string,Provenance ,IR_DESTINATION_V
 T_MCOaa_nnB,ETA_NUM,string,Numéro FINESS e-PMSI,-
 T_MCOaa_nnB,ETE_GHS_NUM,number,Numéro de GHS (du GHM GENRSA),-
 T_MCOaa_nnB,EXB_NBJ,number,Nb journées EXB,-
@@ -1813,8 +1813,8 @@ T_MCOaa_nnB,SEJ_NBJ,number,Durée totale du séjour dans le champ du PMSI (vide 
 T_MCOaa_nnB,SEJ_TYP,string,Type de séjour ,-
 T_MCOaa_nnB,SEQ_RUM,string,N° séquentiel du RUM ayant fourni le DP,-
 T_MCOaa_nnB,SOR_ANN,string,Année de sortie ,-
-T_MCOaa_nnB,SOR_DES,string,Destination ,-
-T_MCOaa_nnB,SOR_MOD,string,Mode de sortie du champ PMSI-MCO ,-
+T_MCOaa_nnB,SOR_DES,string,Destination ,IR_DESTINATION_V
+T_MCOaa_nnB,SOR_MOD,string,Mode de sortie du champ PMSI-MCO ,MS_SOR_V
 T_MCOaa_nnB,SOR_MOI,string,Mois de sortie ,-
 T_MCOaa_nnB,SUP_ENT_DPA,number,Nombre de suppléments pour les entraînements à la dialyse péritonéale automatisée hors séances,-
 T_MCOaa_nnB,SUP_ENT_DPC,number,Nombre de suppléments pour les entraînements à la dialyse péritonéale continue ambulatoire hors séances,-
@@ -2957,8 +2957,8 @@ T_RIPaa_nnRSA,BDI_DEP,string,Code département de résidence,-
 T_RIPaa_nnRSA,COD_SEX,string,Sexe du patient,-
 T_RIPaa_nnRSA,DEL_DAT,number,Délai entre la date de début de la séquence et la date d'entrée du séjour,-
 T_RIPaa_nnRSA,DGN_PAL,string,Diagnostic principal ou motif de prise en charge principale,IR_CIM_V
-T_RIPaa_nnRSA,ENT_MOD,string,Mode d'entrée de séjour,-
-T_RIPaa_nnRSA,ENT_PRV,string,Provenance,-
+T_RIPaa_nnRSA,ENT_MOD,string,Mode d'entrée de séjour,MS_SOR_V
+T_RIPaa_nnRSA,ENT_PRV,string,Provenance,IR_DESTINATION_V
 T_RIPaa_nnRSA,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_RIPaa_nnRSA,ETA_NUM_TWO,string,Second n° FINESS,-
 T_RIPaa_nnRSA,ETB_SAN_AUTOR,string,Indicateur FINESS géographique sans autorisation,-
@@ -2987,8 +2987,8 @@ T_RIPaa_nnRSA,SEQ_FIN_MOI,string,Mois de la date de fin de séquence,-
 T_RIPaa_nnRSA,SEQ_IND,string,Indicateur de séquence correspondant à une sortie d’essai,-
 T_RIPaa_nnRSA,SEQ_PRE_IND,string,Indicateur de première séquence du séjour,-
 T_RIPaa_nnRSA,SEQ_SEQ_NUM,string,N° séquentiel de séquence au sein du séjour,-
-T_RIPaa_nnRSA,SOR_DES,string,Destination,-
-T_RIPaa_nnRSA,SOR_MOD,string,Mode de sortie de séjour,-
+T_RIPaa_nnRSA,SOR_DES,string,Destination,IR_DESTINATION_V
+T_RIPaa_nnRSA,SOR_MOD,string,Mode de sortie de séjour,MS_SOR_V
 T_RIPaa_nnRSA,THE_ISO_NBJ,number,Nombre de jours d’isolement thérapeutique,-
 T_RIPaa_nnRSA,THE_MS_IND,string,Indicateur d’accompagnement thérapeutique en milieu scolaire,-
 T_RIPaa_nnRSA,TYP_GEN_RSA,string,Type de génération automatique du RPSA,-
@@ -3000,8 +3000,8 @@ T_RIPaa_nnRSAD,RIP_NUM,string,N° séquentiel de séjour,-
 T_RIPaa_nnRSAD,SEJ_IDT,string,Identifiant de séjour,-
 T_RIPaa_nnRSAD,SEQ_SEQ_NUM,string,N° séquentiel de séquence au sein du séjour,-
 T_RIPaa_nnS,COD_SEX,string,Sexe du patient,-
-T_RIPaa_nnS,ENT_MOD,string,Mode d’entrée,-
-T_RIPaa_nnS,ENT_PRV,string,Provenance,-
+T_RIPaa_nnS,ENT_MOD,string,Mode d’entrée,MS_SOR_V
+T_RIPaa_nnS,ENT_PRV,string,Provenance,IR_DESTINATION_V
 T_RIPaa_nnS,ETA_NUM_EPMSI,string,Numéro FINESS e-PMSI,-
 T_RIPaa_nnS,ETA_NUM_TWO,string,Numéro FINES géographique,-
 T_RIPaa_nnS,FOR_NUM,string,Numéro de version du format de SRPSA,-
@@ -3011,8 +3011,8 @@ T_RIPaa_nnS,SEJ_DUREE,number,Durée couverte par les séquences,-
 T_RIPaa_nnS,SEJ_FINI,string,Indicateur de séjour terminé,-
 T_RIPaa_nnS,SEJ_NBJ,number,Nombre de journées de présence ,-
 T_RIPaa_nnS,SOR_ANN,string,Année de la date de sortie du séjour,-
-T_RIPaa_nnS,SOR_DES,string,Destination,-
-T_RIPaa_nnS,SOR_MOD,string,Mode de sortie,-
+T_RIPaa_nnS,SOR_DES,string,Destination,IR_DESTINATION_V
+T_RIPaa_nnS,SOR_MOD,string,Mode de sortie,MS_SOR_V
 T_RIPaa_nnS,SOR_MOI,string,Mois de la date de sortie du séjour,-
 T_RIPaa_nnS,TYP_GEN_RSA,string,Type de génération automatique du RPSA,-
 T_RIPaa_nnSTC,BEN_CMU,string,Patient bénéficiaire de la CMU,-
@@ -3119,8 +3119,8 @@ T_SSRaa_nnB,CPT_DEP,string,Dépendance au comportement,-
 T_SSRaa_nnB,DEB_FIN,string,Semaine de fin de séjour SSR,-
 T_SSRaa_nnB,DEB_SEM,string,Semaine de début de séjour SSR,-
 T_SSRaa_nnB,DPL_DEP,string,Dépendance au déplacement,-
-T_SSRaa_nnB,ENT_MOD,string,Mode d’entrée UM,-
-T_SSRaa_nnB,ENT_PRV,string,Provenance,-
+T_SSRaa_nnB,ENT_MOD,string,Mode d’entrée UM,MS_SOR_V
+T_SSRaa_nnB,ENT_PRV,string,Provenance,IR_DESTINATION_V
 T_SSRaa_nnB,ETA_NUM,string,N° FINESS d'inscription e-PMSI,-
 T_SSRaa_nnB,ETA_NUM_GEO,string,N° FINESS géographique,-
 T_SSRaa_nnB,ETL_AFF,string,Affection étiologique,-
@@ -3157,8 +3157,8 @@ T_SSRaa_nnB,RHS_ANT_SEJ_ENT,number,Antériorité du RHS par rapport à l'entrée
 T_SSRaa_nnB,RHS_NUM,string,Numéro séquentiel du RHS,-
 T_SSRaa_nnB,SCORE_RR,number,Score RR,-
 T_SSRaa_nnB,SEJ_ANT,number,Antériorité du RHS par rapport à l'entrée dans l'UM,-
-T_SSRaa_nnB,SOR_DES,string,Destination ,-
-T_SSRaa_nnB,SOR_MOD,string,Mode de sortie UM,-
+T_SSRaa_nnB,SOR_DES,string,Destination ,IR_DESTINATION_V
+T_SSRaa_nnB,SOR_MOD,string,Mode de sortie UM,MS_SOR_V
 T_SSRaa_nnB,TYP_GEN_RHA,string,Type de génération automatique du RHA,-
 T_SSRaa_nnB,TYP_US,string,Type unité spécifique,-
 T_SSRaa_nnC,ANN_LUN_1S,string,Année du lundi de la première semaine du séjour dans l'année (SSR),-
@@ -3612,8 +3612,8 @@ T_SSRaa_nnMEDATU,RHS_NUM,string,Numéro séquentiel du RHS,-
 T_SSRaa_nnMEDATU,TOP_UCD_AUTO,string,Top transcodage UCD13 auto,-
 T_SSRaa_nnMEDATU,UCD_UCD_COD,string,Code UCD,NU_UCD_R
 T_SSRaa_nnS,ACT_TYP,string,Type d’hospitalisation,-
-T_SSRaa_nnS,ENT_MOD,string,Mode d’entrée,-
-T_SSRaa_nnS,ENT_PRV,string,Provenance,-
+T_SSRaa_nnS,ENT_MOD,string,Mode d’entrée,MS_SOR_V
+T_SSRaa_nnS,ENT_PRV,string,Provenance,IR_DESTINATION_V
 T_SSRaa_nnS,ETA_NUM,string,FINESS,-
 T_SSRaa_nnS,GEN_VER,string,Version de GENRHA,-
 T_SSRaa_nnS,NBR_GME,number,Nombre de GME (ng),-
@@ -3623,8 +3623,8 @@ T_SSRaa_nnS,PRE_JOU_NBR,number,Nombre de journées de présence,-
 T_SSRaa_nnS,RHA_NUM,string,N° Séquentiel du séjour,-
 T_SSRaa_nnS,RHA_VER,string,Version du Format du SRHA,-
 T_SSRaa_nnS,SEJ_NBJ,number,Durée du séjour,-
-T_SSRaa_nnS,SOR_DES,string,Destination,-
-T_SSRaa_nnS,SOR_MOD,string,Mode de sortie,-
+T_SSRaa_nnS,SOR_DES,string,Destination,IR_DESTINATION_V
+T_SSRaa_nnS,SOR_MOD,string,Mode de sortie,MS_SOR_V
 T_SSRaa_nnS,SUI_TYP,string,Type de suite ,-
 T_SSRaa_nnSTC,BEN_CMU,string,Patient bénéficiaire de la CMU,-
 T_SSRaa_nnSTC,BEN_CMU_CTL,string,Code retour contrôle « Patient bénéficiaire de la CMU »,-
