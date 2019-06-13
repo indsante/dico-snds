@@ -36,6 +36,11 @@ navbarPage("Visualisation de la structure du SNDS",
       label = "9 clés de jointure",
       icon = icon("keycdn")
     ),
+    actionButton(
+      inputId = "sharable_link",
+      label = 'Partager la vue',
+      icon = icon("share")
+    ),
       column(8,
              
              DT::dataTableOutput("all_vars_snds")),

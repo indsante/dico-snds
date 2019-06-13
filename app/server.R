@@ -10,7 +10,7 @@ snds_vars <- data$snds_vars
 snds_tables <- data$snds_tables
 
 # Server logics
-shinyServer(function(input, output) {
+shinyServer(function(input, output, session) {
   # SNDS Network (Schema) (Tab 3)
   output$force_snds = renderForceNetwork({
     ## Color scale 
@@ -148,17 +148,58 @@ shinyServer(function(input, output) {
   
   # Explorateur des variables (tab 1)
   ## Variables datatable
-  output$all_vars_snds = DT::renderDataTable(
-    DT::datatable(get_snds_vars(snds_vars), 
-                  colnames = c('Table'='table', 'Variable'='var', 'Libelle'='description', 'Type'='format'),
-                  filter = "top",
-                  selection = "single",
-                  rownames = F,
-                  options = list(
-                    lengthMenu = c(10, 20, 50, 100), 
-                    pageLength = 50) 
-                  )
+
+  observe({
+    
+    query <- parseQueryString(session$clientData$url_search)
+    if (!is.null(query[['search']])) {
+      global_search = query[['search']]
+      #updateTextInput(session, "search", value = query[['search']])
+    }
+    else{
+      global_search = ''
+    }
+    if (!is.null(query[['variable']])) {
+      variable_search = query[['variable']]
+    }
+    else{
+      variable_search = ''
+    }
+    if (!is.null(query[['table']])) {
+      table_search = paste0('["', query[['table']], '"]')
+    }
+    else{
+      table_search = ''
+    }
+    if (!is.null(query[['lib']])) {
+      lib_search = query[['lib']]
+    }
+    else{
+      lib_search = ''
+    }
+    
+    #snds_vars_filtered = snds_vars_raw %>% filter_all(any_vars(grepl(default_filter, .)))
+    output$all_vars_snds = DT::renderDataTable(
+      DT::datatable(get_snds_vars(snds_vars), 
+                    colnames = c('Table'='table', 'Variable'='var', 'Libelle'='description', 'Type'='format'),
+                    filter = "top",
+                    selection = "single",
+                    rownames = F,
+                    options = list(
+                      lengthMenu = c(10, 20, 50, 100), 
+                      pageLength = 50,
+                      search = list(regex = TRUE, search = global_search),
+                      searchCols = list(
+                        list(search = table_search),
+                        list(search = variable_search),
+                        list(search = lib_search),
+                        NULL,
+                        NULL)
+                    )
+      )
     )
+  })
+  
   
   ## Display current variable of interest nomenclature
   ### Logics to select current variable of interest name
@@ -247,6 +288,36 @@ shinyServer(function(input, output) {
     showModal(modalDialog(
       title = "Les 9 clés de jointure du DCIR",
       includeMarkdown(paste0(PATH2MARKDOWNS, "join_keys.Rmd")),
+      easyClose = TRUE
+    ))
+  })
+  
+  observeEvent(input$sharable_link, {
+       
+    if (session$clientData$url_port != ''){
+      hostname =  paste0(session$clientData$url_hostname, ':')
+    }
+    else{
+      hostname = session$clientData$url_hostname
+    }
+    link = paste0(
+      session$clientData$url_protocol,
+      '//',
+      hostname,
+      session$clientData$url_port,
+      '/?variable=',
+      snds_vars[tmp_var_snds(), 'var'],
+      '&search=',
+      input$all_vars_snds_search,
+      '&table=',
+      snds_vars[tmp_var_snds(), 'table']#,
+      #'&lib=',
+      #snds_vars[tmp_var_snds(), 'description']
+    )
+    clipr::write_clip(link)                 
+    showModal(modalDialog(
+      title = "Lien copié dans le presse-papier!",
+      renderText(link),
       easyClose = TRUE
     ))
   })
