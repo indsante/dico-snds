@@ -38,7 +38,7 @@ navbarPage("Visualisation de la structure du SNDS",
     ),
     actionButton(
       inputId = "sharable_link",
-      label = 'share view',
+      label = 'Partager la vue',
       icon = icon("share")
     ),
       column(8,
