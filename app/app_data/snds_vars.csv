@@ -290,8 +290,8 @@ DA_PRA_R,TRT_SNI_COD,string (1),Code traitement SNIR PS,-
 ER_ANO_F,DCT_ORD_NUM,number (8),N° ordre décompte dans caisse                      1,-
 ER_ANO_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_ANO_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_ANO_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_ANO_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_ANO_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_ANO_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_ANO_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_ANO_F,ORG_CLE_NEW,string (9),Organisme de liquidation (après fusion des caisses),IR_ORG_V
 ER_ANO_F,ORG_CLE_NUM,string (9),"Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",IR_ORG_V
@@ -323,8 +323,8 @@ ER_ARO_F,ARO_THE_TAU,number (5),Taux théorique de remboursement,IR_TAU_V
 ER_ARO_F,DCT_ORD_NUM,number (8),N° ordre décompte dans caisse                      1,-
 ER_ARO_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_ARO_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_ARO_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_ARO_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_ARO_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_ARO_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_ARO_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_ARO_F,ORG_CLE_NEW,string (9),Organisme de liquidation (après fusion des caisses),IR_ORG_V
 ER_ARO_F,ORG_CLE_NUM,string (9),"Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",IR_ORG_V
@@ -336,8 +336,8 @@ ER_BIO_F,BIO_PRS_IDE,number (4),Code prestation affinée biologie,IR_BIO_R
 ER_BIO_F,DCT_ORD_NUM,number (8),N° ordre décompte dans caisse                      1,-
 ER_BIO_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_BIO_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_BIO_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_BIO_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_BIO_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_BIO_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_BIO_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_BIO_F,ORG_CLE_NEW,string (9),Organisme de liquidation (après fusion des caisses),IR_ORG_V
 ER_BIO_F,ORG_CLE_NUM,string (9),"Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",IR_ORG_V
@@ -358,8 +358,8 @@ ER_CAM_F,CAM_TRT_PHA,number (1),"Phase de traitement (0 = phase par défaut, 1 =
 ER_CAM_F,DCT_ORD_NUM,number (8),N° ordre décompte dans caisse                      1,-
 ER_CAM_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_CAM_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_CAM_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_CAM_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_CAM_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_CAM_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_CAM_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_CAM_F,ORG_CLE_NEW,string (9),Organisme de liquidation (après fusion des caisses),IR_ORG_V
 ER_CAM_F,ORG_CLE_NUM,string (9),"Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",IR_ORG_V
@@ -377,8 +377,8 @@ ER_CPT_F,CPT_VEN_TYP,number (2),Type de ventilation comptable,-
 ER_CPT_F,DCT_ORD_NUM,number (8),N° ordre décompte dans caisse                      1,-
 ER_CPT_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_CPT_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_CPT_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_CPT_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_CPT_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_CPT_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_CPT_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_CPT_F,GES_CPT_COD,string (5),Code gestion comptable mnemonique,-
 ER_CPT_F,GES_GRG_COD,number (2),Grand régime de gestion comptable,-
@@ -395,15 +395,15 @@ ER_DCT_F,DCT_ENT_SUP,number (2),Type de saisie affinée,IR_SAF_V
 ER_DCT_F,DCT_INT_VER,string (2),Type de version interface tiers,IR_INT_V
 ER_DCT_F,DCT_LOT_TCR,string (1),Type certification du lot,IR_TCR_V
 ER_DCT_F,DCT_MAN_DTD,date (8),Date de mandatement Initial,IR_DTE_V
-ER_DCT_F,DCT_MUT_CMP,string (1),Part mutuelle complémentaire décompte,IR_PMC_V
+ER_DCT_F,DCT_MUT_CMP,string (1),Part mutuelle complémentaire décompte,-
 ER_DCT_F,DCT_MVT_SYS,number (1),Type de saisie,IR_SAI_V
 ER_DCT_F,DCT_ORD_NUM,number (8),N° ordre décompte dans caisse                      1,-
 ER_DCT_F,DCT_REM_DTD,date (8),Date de remboursement / recyclage,IR_DTE_V
 ER_DCT_F,DCT_RGU_SNS,string (1),Sens de la régularisation,IR_RGU_V
 ER_DCT_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_DCT_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_DCT_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_DCT_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_DCT_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_DCT_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_DCT_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_DCT_F,ORG_CLE_NEW,string (9),Organisme de liquidation (après fusion des caisses),IR_ORG_V
 ER_DCT_F,ORG_CLE_NUM,string (9),"Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",IR_ORG_V
@@ -412,8 +412,8 @@ ER_DCT_F,REM_TYP_AFF,number (8),Type de remboursement affiné                   
 ER_DTR_F,DCT_ORD_NUM,number (8),N° ordre décompte dans caisse                      1,-
 ER_DTR_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_DTR_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_DTR_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_DTR_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_DTR_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_DTR_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_DTR_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_DTR_F,ORG_CLE_NEW,string (9),Organisme de liquidation (après fusion des caisses),IR_ORG_V
 ER_DTR_F,ORG_CLE_NUM,string (9),"Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",IR_ORG_V
@@ -438,8 +438,8 @@ ER_ETE_F,ETE_STJ_COD,number (2),Statut juridique de l'établissement exécutant,
 ER_ETE_F,ETE_TYP_COD,number (2),Type d'établissement exécutant,IR_TYE_V
 ER_ETE_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_ETE_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_ETE_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_ETE_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_ETE_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_ETE_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_ETE_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_ETE_F,MDT_COD,number (2),Mode de traitement,IR_MDT_V
 ER_ETE_F,MFT_COD,number (2),Mode de fixation des tarifs,IR_MFT_V
@@ -451,8 +451,8 @@ ER_ETE_F,REM_TYP_AFF,number (8),Type de remboursement affiné                   
 ER_INV_F,DCT_ORD_NUM,number (8),N° ordre décompte dans caisse                      1,-
 ER_INV_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_INV_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_INV_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_INV_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_INV_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_INV_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_INV_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_INV_F,INV_ATR_DTD,date (8),Date d'attribution de la pension d'invalidité,IR_DTE_V
 ER_INV_F,INV_PEN_CAT,number (2),Catégorie de la pension d'invalidité,IR_CIV_V
@@ -464,8 +464,8 @@ ER_INV_F,REM_TYP_AFF,number (8),Type de remboursement affiné                   
 ER_LOT_F,DCT_ORD_NUM,number (8),N° ordre décompte dans caisse                      1,-
 ER_LOT_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_LOT_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_LOT_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_LOT_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_LOT_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_LOT_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_LOT_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_LOT_F,LOT_ORD_NUM,number (2),Numéro d'ordre du lot de la prestation affinée pharmacie,-
 ER_LOT_F,LOT_PHA_NUM,string (20),Nunméro du lot,-
@@ -479,8 +479,8 @@ ER_LOT_F,REM_TYP_AFF,number (8),Type de remboursement affiné                   
 ER_PHA_F,DCT_ORD_NUM,number (8),N° ordre décompte dans caisse                      1,-
 ER_PHA_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_PHA_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_PHA_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_PHA_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_PHA_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_PHA_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_PHA_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_PHA_F,ORG_CLE_NEW,string (9),Organisme de liquidation (après fusion des caisses),IR_ORG_V
 ER_PHA_F,ORG_CLE_NUM,string (9),"Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",IR_ORG_V
@@ -545,8 +545,8 @@ ER_PRS_F,EXE_SOI_DTF,date (8),Date de fin soins/exécution  (jour + mois + anné
 ER_PRS_F,EXO_MTF,number (2),Motif exonération TM,IR_EXO_V
 ER_PRS_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_PRS_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_PRS_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_PRS_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_PRS_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_PRS_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_PRS_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_PRS_F,IJR_EMP_NUM,string (15),Numéro de l'employeur (IJ),-
 ER_PRS_F,IJR_RVL_NAT,string (2),Nature de la revalorisation (IJ),IR_RVL_V
@@ -616,8 +616,8 @@ ER_RAT_F,BEN_RAT_ANO,string (17),N° de rente AT / MP (anonymisé),-
 ER_RAT_F,DCT_ORD_NUM,number (8),N° ordre décompte dans caisse                      1,-
 ER_RAT_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_RAT_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_RAT_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_RAT_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_RAT_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_RAT_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_RAT_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_RAT_F,ORG_CLE_NEW,string (9),Organisme de liquidation (après fusion des caisses),IR_ORG_V
 ER_RAT_F,ORG_CLE_NUM,string (9),"Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",IR_ORG_V
@@ -628,8 +628,8 @@ ER_RAT_F,REM_TYP_AFF,number (8),Type de remboursement affiné                   
 ER_TIP_F,DCT_ORD_NUM,number (8),N° ordre décompte dans caisse                      1,-
 ER_TIP_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_TIP_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_TIP_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_TIP_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_TIP_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_TIP_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_TIP_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_TIP_F,LPP_ECT_MNT,number (17),Montant total de l'écart indemnisable,-
 ER_TIP_F,LPP_ECU_MNT,number (17),Montant unitaire de l'écart indemnisable,-
@@ -649,8 +649,8 @@ ER_TIP_F,TIP_SIR_NUM,string (14),N° SIRET fabricant/importateur,-
 ER_TRS_F,DCT_ORD_NUM,number (8),N° ordre décompte dans caisse                      1,-
 ER_TRS_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_TRS_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_TRS_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_TRS_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_TRS_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_TRS_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_TRS_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_TRS_F,ITR_ORD_NUM,number (3),N° ordre information détaillée transport,-
 ER_TRS_F,ORG_CLE_NEW,string (9),Organisme de liquidation (après fusion des caisses),IR_ORG_V
@@ -670,8 +670,8 @@ ER_TRS_F,TRS_VEH_NUMC,string (32),Numéro minéralogique du véhicule (anonymis�
 ER_UCD_F,DCT_ORD_NUM,number (8),N° ordre décompte dans caisse                      1,-
 ER_UCD_F,FLX_DIS_DTD,date (8),Date de mise à disposition des données dans SI     2,IR_DTE_V
 ER_UCD_F,FLX_EMT_NUM,number (8),N° émetteur du flux                                                  3,IR_NEM_V
-ER_UCD_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,IR_FLX_R
-ER_UCD_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,IR_FLP_R
+ER_UCD_F,FLX_EMT_ORD,number (8),N° séquence du flux                                               4,-
+ER_UCD_F,FLX_EMT_TYP,number (8),Type d'émetteur                                                      5,-
 ER_UCD_F,FLX_TRT_DTD,date (8),Date de traitement des données dans SI                   6,IR_DTE_V
 ER_UCD_F,ORG_CLE_NEW,string (9),Organisme de liquidation (après fusion des caisses),IR_ORG_V
 ER_UCD_F,ORG_CLE_NUM,string (9),"Ancien concept de l'organisme de liquidation (avant fusion, jusqu’au jour J de la fusion)          7",IR_ORG_V
@@ -786,7 +786,7 @@ IR_ORC_R,MLL_CTA_DSF,date,Date de fin du contrat complémentaire,-
 KI_CCI_R,ACC_DEB_COD,number (1),Début du travail,DS_DEB_V
 KI_CCI_R,ACC_LIA_COD,number (1),Lieu d'accouchement,DS_LIA_V
 KI_CCI_R,ACC_PST_COD,number (1),Présentation de l'enfant,DS_PST_V
-KI_CCI_R,BEN_DCD_AME,string (6),Année et mois du décès,AAAAMM
+KI_CCI_R,BEN_DCD_AME,string (6),Année et mois du décès,-
 KI_CCI_R,BEN_DCD_DTE,date,Date du décès,-
 KI_CCI_R,BEN_IDT_ANO,string (18),Identifiant synthétique SNDS,-
 KI_CCI_R,BEN_IDT_TOP,number (1),TOP Identifiant synthétique SNDS,-
@@ -796,12 +796,12 @@ KI_CCI_R,BEN_NIR_ANO,string (17),NIR pseudonymisé du bénéficiaires,-
 KI_CCI_R,BEN_RES_COM,string (3),Commune de domicile,IR_GEO_V
 KI_CCI_R,BEN_RES_DPT,string (3),Département de domicile,IR_DPT_V
 KI_CCI_R,BEN_SEX_COD,number (1),Sexe,IR_SEX_V
-KI_CCI_R,CAT_PCS_COD,string (4),Profession et caégorie socioprofessionnelle,"DS_PC1_V,DS_PC2_V,DS_PC3_V"
+KI_CCI_R,CAT_PCS_COD,string (4),Profession et caégorie socioprofessionnelle,DS_PC_V
 KI_CCI_R,CER_SUP_TYP,any,Type de support,DS_VER_V
 KI_CCI_R,CER_VER_NUM,any,Version du certificat,DS_VER_V
 KI_CCI_R,DCD_ATT_COD,number (1),Accident du travail,DS_ATT_V
 KI_CCI_R,DCD_CAU_COD,number (1),Recherche de la cause de décès,DS_CAU_V
-KI_CCI_R,DCD_CIM_COD,string (4),Cause initiale du décès,"IR_CCI_V,IR_CIM_V,MS_CIM_V"
+KI_CCI_R,DCD_CIM_COD,string (4),Cause initiale du décès,IR_CIM_V
 KI_CCI_R,DCD_COM_CO,any,Commune de décès,IR_GEO_V
 KI_CCI_R,DCD_DPT_COD,string (3),Département de décès,IR_DPT_V
 KI_CCI_R,DCD_GRS_COD,number (1),La grossesse a contribué au décès,DS_GRS_V
@@ -832,7 +832,7 @@ KI_CCI_R,TOT_GRS_NBR,number (2),Nombre total de grossesses,-
 KI_CCI_R,TRT_STA_COD,any,Statut du traitement,DS_STA_V
 KI_CCI_R,TYP_CER_COD,any,Type de certificat,DS_CER_V
 KI_CCI_R,TYP_VOL_COD,number (1),Type de volet,DS_SUP_V
-KI_ECD_R,BEN_DCD_AME,string (6),Année et mois du décès,AAAAMM
+KI_ECD_R,BEN_DCD_AME,string (6),Année et mois du décès,-
 KI_ECD_R,BEN_DCD_DTE,date,Date du décès,-
 KI_ECD_R,BEN_IDT_ANO,string (18),Identifiant synthétique SNDS,-
 KI_ECD_R,BEN_IDT_TOP,number (1),TOP Identifiant synthétique SNDS,-
@@ -842,7 +842,7 @@ KI_ECD_R,DCD_IDT_ENC,string (64),Identifiant décès encodé,-
 KI_ECD_R,DCD_IDT_TOP,number (1),Top apparié avec IR_BEN_R,-
 KI_ECD_R,ECD_CAU_LIB,string (100),Libellé de la cause,-
 KI_ECD_R,ECD_CAU_RNG,number (3),Rang de la cause,-
-KI_ECD_R,ECD_CIM_COD,string (4),Code de la cause,"IR_CCI_V,IR_CIM_V,MS_CIM_V"
+KI_ECD_R,ECD_CIM_COD,string (4),Code de la cause,IR_CIM_V
 KI_ECD_R,FLX_PER_ANN,string (4),Année du décès,-
 NS_BIO_F,BEN_IDT_ANO,string (18),Identifiant bénéficiaire anonymisé,-
 NS_BIO_F,BEN_IDT_TOP,number (1),Top identifiant bénéficiaire Anonymisé,-
@@ -863,7 +863,7 @@ NS_BIO_F,EXE_SOI_AMF,string (6),Date (année et mois) de fin d'exécution des so
 NS_BIO_F,EXE_SOI_DTD,date,Date de début d'exécution des soins,IR_DTE_V
 NS_BIO_F,EXE_SOI_DTF,date,Date de fin d'exécution des soins,IR_DTE_V
 NS_BIO_F,FLX_DIS_DTD,date,Date de mise à disposition des données,IR_DTE_V
-NS_BIO_F,FLX_EMT_TYP,number (2),Type d'émetteur,IR_FLP_R
+NS_BIO_F,FLX_EMT_TYP,number (2),Type d'émetteur,-
 NS_BIO_F,FLX_TRT_DTD,date,Date d'entrée des données dans le système d'information,IR_DTE_V
 NS_BIO_F,GRG_AFF_COD,string (3),Code du grand régime d'affiliation,-
 NS_BIO_F,GRG_LIQ_COD,string (3),Code du grand régime de liquidation,-
@@ -902,7 +902,7 @@ NS_CAM_F,EXE_SOI_AMF,string (6),Date (année et mois) de fin d'exécution des so
 NS_CAM_F,EXE_SOI_DTD,date,Date de début d'exécution des soins,IR_DTE_V
 NS_CAM_F,EXE_SOI_DTF,date,Date de fin d'exécution des soins,IR_DTE_V
 NS_CAM_F,FLX_DIS_DTD,date,Date de mise à disposition des données,IR_DTE_V
-NS_CAM_F,FLX_EMT_TYP,number (2),Type d'émetteur,IR_FLP_R
+NS_CAM_F,FLX_EMT_TYP,number (2),Type d'émetteur,-
 NS_CAM_F,FLX_TRT_DTD,date,Date d'entrée des données dans le système d'information,IR_DTE_V
 NS_CAM_F,GRG_AFF_COD,string (3),Code du grand régime d'affiliation,-
 NS_CAM_F,GRG_LIQ_COD,string (3),Code du grand régime de liquidation,-
@@ -929,7 +929,7 @@ NS_DTR_F,EXE_SOI_AMF,string (6),Date (année et mois) de fin d'exécution des so
 NS_DTR_F,EXE_SOI_DTD,date,Date de début d'exécution des soins,IR_DTE_V
 NS_DTR_F,EXE_SOI_DTF,date,Date de fin d'exécution des soins,IR_DTE_V
 NS_DTR_F,FLX_DIS_DTD,date,Date de mise à disposition des données,IR_DTE_V
-NS_DTR_F,FLX_EMT_TYP,number (2),Type d'émetteur,IR_FLP_R
+NS_DTR_F,FLX_EMT_TYP,number (2),Type d'émetteur,-
 NS_DTR_F,FLX_TRT_DTD,date,Date d'entrée des données dans le système d'information,IR_DTE_V
 NS_DTR_F,GRG_AFF_COD,string (3),Code du grand régime d'affiliation,-
 NS_DTR_F,GRG_LIQ_COD,string (3),Code du grand régime de liquidation,-
@@ -959,7 +959,7 @@ NS_INV_F,EXE_SOI_AMF,string (6),Date (année et mois) de fin d'exécution des so
 NS_INV_F,EXE_SOI_DTD,date,Date de début d'exécution des soins,IR_DTE_V
 NS_INV_F,EXE_SOI_DTF,date,Date de fin d'exécution des soins,IR_DTE_V
 NS_INV_F,FLX_DIS_DTD,date,Date de mise à disposition des données,IR_DTE_V
-NS_INV_F,FLX_EMT_TYP,number (2),Type d'émetteur,IR_FLP_R
+NS_INV_F,FLX_EMT_TYP,number (2),Type d'émetteur,-
 NS_INV_F,FLX_TRT_DTD,date,Date d'entrée des données dans le système d'information,IR_DTE_V
 NS_INV_F,GRG_AFF_COD,string (3),Code du grand régime d'affiliation,-
 NS_INV_F,GRG_LIQ_COD,string (3),Code du grand régime de liquidation,-
@@ -989,7 +989,7 @@ NS_PHA_F,EXE_SOI_AMF,string (6),Date (année et mois) de fin d'exécution des so
 NS_PHA_F,EXE_SOI_DTD,date,Date de début d'exécution des soins,IR_DTE_V
 NS_PHA_F,EXE_SOI_DTF,date,Date de fin d'exécution des soins,IR_DTE_V
 NS_PHA_F,FLX_DIS_DTD,date,Date de mise à disposition des données,IR_DTE_V
-NS_PHA_F,FLX_EMT_TYP,number (2),Type d'émetteur,IR_FLP_R
+NS_PHA_F,FLX_EMT_TYP,number (2),Type d'émetteur,-
 NS_PHA_F,FLX_TRT_DTD,date,Date d'entrée des données dans le système d'information,IR_DTE_V
 NS_PHA_F,GRG_AFF_COD,string (3),Code du grand régime d'affiliation,-
 NS_PHA_F,GRG_LIQ_COD,string (3),Code du grand régime de liquidation,-
@@ -1067,7 +1067,7 @@ NS_PRS_F,EXE_SOI_DTD,date,Date de début d'exécution des soins,IR_DTE_V
 NS_PRS_F,EXE_SOI_DTF,date,Date de fin d'exécution des soins,IR_DTE_V
 NS_PRS_F,EXO_MTF,number (2),Motif d'exonération du ticket modérateur,IR_EXO_V
 NS_PRS_F,FLX_DIS_DTD,date,Date de mise à disposition des données,IR_DTE_V
-NS_PRS_F,FLX_EMT_TYP,number (2),Type d'émetteur,IR_FLP_R
+NS_PRS_F,FLX_EMT_TYP,number (2),Type d'émetteur,-
 NS_PRS_F,FLX_TRT_DTD,date,Date d'entrée des données dans le système d'information,IR_DTE_V
 NS_PRS_F,GRG_AFF_COD,string (3),Code du grand régime d'affiliation,-
 NS_PRS_F,GRG_LIQ_COD,string (3),Grand régime de liquidation,-
@@ -1101,7 +1101,7 @@ NS_PRS_F,PSE_CNV_COD,number (1),Code convention du professionnel de santé exéc
 NS_PRS_F,PSE_SPE_COD,number (2),Spécialite médicale du professionnel de santé exécutant,IR_SPE_V
 NS_PRS_F,PSE_STJ_COD,number (2),Mode d'exercice du professionnel de santé exécutant,IR_SJP_V
 NS_PRS_F,PSP_ACT_NAT,number (2),Nature d'activite du professionnel de santé prescripteur,IR_ACT_V
-NS_PRS_F,PSP_ACT_SPE,number (2),Spécialité ou nature d'activité du professionnel de santé prescripteur,-
+NS_PRS_F,PSP_ACT_SPE,number (2),Spécialité ou nature d'activité du professionnel de santé prescripteur,IR_PFS_V
 NS_PRS_F,PSP_CNV_COD,number (1),Code convention du professionnel de santé prescripteur,IR_CNV_V
 NS_PRS_F,PSP_PPS_NUM,string (10),Numéro RPPS du prescripteur salarié,-
 NS_PRS_F,PSP_SPE_COD,number (2),Spécialité médicale du professionnel de santé prescripteur,IR_SPE_V
@@ -1131,7 +1131,7 @@ NS_RAT_F,EXE_SOI_AMF,string (6),Date (année et mois) de fin d'exécution des so
 NS_RAT_F,EXE_SOI_DTD,date,Date de début d'exécution des soins,IR_DTE_V
 NS_RAT_F,EXE_SOI_DTF,date,Date de fin d'exécution des soins,IR_DTE_V
 NS_RAT_F,FLX_DIS_DTD,date,Date de mise à disposition des données,IR_DTE_V
-NS_RAT_F,FLX_EMT_TYP,number (2),Type d'émetteur,IR_FLP_R
+NS_RAT_F,FLX_EMT_TYP,number (2),Type d'émetteur,-
 NS_RAT_F,FLX_TRT_DTD,date,Date d'entrée des données dans le système d'information,IR_DTE_V
 NS_RAT_F,GRG_AFF_COD,string (3),Code du grand régime d'affiliation,-
 NS_RAT_F,GRG_LIQ_COD,string (3),Code du grand régime de liquidation,-
@@ -1160,7 +1160,7 @@ NS_TIP_F,EXE_SOI_AMF,string (6),Date (année et mois) de fin d'exécution des so
 NS_TIP_F,EXE_SOI_DTD,date,Date de début d'exécution des soins,IR_DTE_V
 NS_TIP_F,EXE_SOI_DTF,date,Date de fin d'exécution des soins,IR_DTE_V
 NS_TIP_F,FLX_DIS_DTD,date,Date de mise à disposition des données,IR_DTE_V
-NS_TIP_F,FLX_EMT_TYP,number (2),Type d'émetteur,IR_FLP_R
+NS_TIP_F,FLX_EMT_TYP,number (2),Type d'émetteur,-
 NS_TIP_F,FLX_TRT_DTD,date,Date d'entrée des données dans le système d'information,IR_DTE_V
 NS_TIP_F,GRG_AFF_COD,string (3),Code du grand régime d'affiliation,-
 NS_TIP_F,GRG_LIQ_COD,string (3),Code du grand régime de liquidation,-
@@ -1197,7 +1197,7 @@ NS_TRS_F,EXE_SOI_AMF,string (6),Date (année et mois) de fin d'exécution des so
 NS_TRS_F,EXE_SOI_DTD,date,Date de début d'exécution des soins,IR_DTE_V
 NS_TRS_F,EXE_SOI_DTF,date,Date de fin d'exécution des soins,IR_DTE_V
 NS_TRS_F,FLX_DIS_DTD,date,Date de mise à disposition des données,IR_DTE_V
-NS_TRS_F,FLX_EMT_TYP,number (2),Type d'émetteur,IR_FLP_R
+NS_TRS_F,FLX_EMT_TYP,number (2),Type d'émetteur,-
 NS_TRS_F,FLX_TRT_DTD,date,Date d'entrée des données dans le système d'information,IR_DTE_V
 NS_TRS_F,GRG_AFF_COD,string (3),Code du grand régime d'affiliation,-
 NS_TRS_F,GRG_LIQ_COD,string (3),Code du grand régime de liquidation,-
@@ -1232,7 +1232,7 @@ NS_UCD_F,EXE_SOI_AMF,string (6),Date (année et mois) de fin d'exécution des so
 NS_UCD_F,EXE_SOI_DTD,date,Date de début d'exécution des soins,IR_DTE_V
 NS_UCD_F,EXE_SOI_DTF,date,Date de fin d'exécution des soins,IR_DTE_V
 NS_UCD_F,FLX_DIS_DTD,date,Date de mise à disposition des données,IR_DTE_V
-NS_UCD_F,FLX_EMT_TYP,number (2),Type d'émetteur,IR_FLP_R
+NS_UCD_F,FLX_EMT_TYP,number (2),Type d'émetteur,-
 NS_UCD_F,FLX_TRT_DTD,date,Date d'entrée des données dans le système d'information,IR_DTE_V
 NS_UCD_F,GRG_AFF_COD,string (3),Code du grand régime d'affiliation,-
 NS_UCD_F,GRG_LIQ_COD,string (3),Code du grand régime de liquidation,-
@@ -1281,9 +1281,9 @@ T_HADaa_nnB,BDI_DEP,string,Code département,-
 T_HADaa_nnB,COD_CONF,string,Confirmation de codage,-
 T_HADaa_nnB,COD_SEX,string,Sexe du patient,-
 T_HADaa_nnB,DEP_COT,string,Cotation dépendance selon Karnofsky,-
-T_HADaa_nnB,DGN_PAL,string,Diagnostic principal,-
-T_HADaa_nnB,ENT_MOD,string,Mode d’entrée,-
-T_HADaa_nnB,ENT_PRV,string,Provenance,-
+T_HADaa_nnB,DGN_PAL,string,Diagnostic principal,IR_CIM_V
+T_HADaa_nnB,ENT_MOD,string,Mode d’entrée,MS_SOR_V
+T_HADaa_nnB,ENT_PRV,string,Provenance,IR_DESTINATION_V
 T_HADaa_nnB,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_HADaa_nnB,ETA_NUM_ESMS,string,Numéro FINESS EHPA,-
 T_HADaa_nnB,ETA_NUM_GEO,string,Numéro FINESS géographique,-
@@ -1313,8 +1313,8 @@ T_HADaa_nnB,SEQ_NUM,string,N° de la séquence dans le séjour,-
 T_HADaa_nnB,SEQ_SEJ_NBJ,number,Nombre de journées entre le début de la séquence et la date d’entrée du séjour,-
 T_HADaa_nnB,SOR_ANN,string,Année de la date de sortie du séjour,-
 T_HADaa_nnB,SOR_ANN_SSEQ,string,Année de sortie de la sous-séquence,-
-T_HADaa_nnB,SOR_DES,string,Destination,-
-T_HADaa_nnB,SOR_MOD,string,Mode de sortie,-
+T_HADaa_nnB,SOR_DES,string,Destination,IR_DESTINATION_V
+T_HADaa_nnB,SOR_MOD,string,Mode de sortie,MS_SOR_V
 T_HADaa_nnB,SOR_MOI,string,Mois de la date de sortie du séjour,-
 T_HADaa_nnB,SOR_MOI_SSEQ,string,Mois de sortie de la sous-séquence,-
 T_HADaa_nnB,SSEQ_NBJ,number,Nombre de journées de la sous-séquence,-
@@ -1355,19 +1355,19 @@ T_HADaa_nnC,SEX_RET,string,Code retour contrôle « sexe « ,-
 T_HADaa_nnC,SOR_DAT,string,Date de sortie,-
 T_HADaa_nnC,format,string,N° format,-
 T_HADaa_nnC,vid_hosp_for,string,N° format VID-HOSP,-
-T_HADaa_nnD,DGN_ASS,string,Diagnostic associé,-
+T_HADaa_nnD,DGN_ASS,string,Diagnostic associé,IR_CIM_V
 T_HADaa_nnD,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_HADaa_nnD,ETA_NUM_GEO,string,Numéro FINESS de l’établissement (code géographique),-
 T_HADaa_nnD,RHAD_NUM,string,N° séquentiel de séjour d'HAD,-
 T_HADaa_nnD,SEQ_NUM,string,N° de la séquence dans le séjour,-
 T_HADaa_nnD,SSEQ_NUM,string,N° de la sous-séquence,-
-T_HADaa_nnDMPA,DGN_ASS_MPA,string,Diagnostic lié au MPA,-
+T_HADaa_nnDMPA,DGN_ASS_MPA,string,Diagnostic lié au MPA,IR_CIM_V
 T_HADaa_nnDMPA,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_HADaa_nnDMPA,ETA_NUM_GEO,string,Numéro FINESS de l’établissement (code géographique),-
 T_HADaa_nnDMPA,RHAD_NUM,string,N° séquentiel de séjour d'HAD,-
 T_HADaa_nnDMPA,SEQ_NUM,string,N° de la séquence dans le séjour,-
 T_HADaa_nnDMPA,SSEQ_NUM,string,N° de la sous-séquence,-
-T_HADaa_nnDMPP,DGN_ASS_MPP,string,Diagnostic lié au MPP,-
+T_HADaa_nnDMPP,DGN_ASS_MPP,string,Diagnostic lié au MPP,IR_CIM_V
 T_HADaa_nnDMPP,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_HADaa_nnDMPP,ETA_NUM_GEO,string,Numéro FINESS de l’établissement (code géographique),-
 T_HADaa_nnDMPP,RHAD_NUM,string,N° séquentiel de séjour d'HAD,-
@@ -1642,8 +1642,8 @@ T_HADaa_nnMEDCHL,SSEQ_NUM,string,Numéro de sous-séquence,-
 T_HADaa_nnMEDCHL,TOP_UCD_AUTO,string,Top transcodage UCD13 auto,-
 T_HADaa_nnMEDCHL,UCD_UCD_COD,string,Code UCD,NU_UCD_R
 T_HADaa_nnS,COD_SEX,string,Sexe du patient,-
-T_HADaa_nnS,ENT_MOD,string,Mode d’entrée,-
-T_HADaa_nnS,ENT_PRV,string,Provenance,-
+T_HADaa_nnS,ENT_MOD,string,Mode d’entrée,MS_SOR_V
+T_HADaa_nnS,ENT_PRV,string,Provenance,IR_DESTINATION_V
 T_HADaa_nnS,ETA_NUM_EPMSI,string,Numéro FINESS e-PMSI,-
 T_HADaa_nnS,ETA_NUM_GEO,string,Numéro FINESS géographique,-
 T_HADaa_nnS,HAD_DUREE,number,Durée couverte par les séquences (tous séjours),-
@@ -1653,8 +1653,8 @@ T_HADaa_nnS,SEJ_ERR,string,indicateur de séjour 100% en erreur,-
 T_HADaa_nnS,SEJ_FINI,string,Indicateur de séjour terminé,-
 T_HADaa_nnS,SEJ_NBJ,number,Nombre de journées dans le séjour = durée sur séjours terminés (date de sortie-date d'entrée),-
 T_HADaa_nnS,SOR_ANN,string,Année de la date de sortie du séjour,-
-T_HADaa_nnS,SOR_DES,string,Destination,-
-T_HADaa_nnS,SOR_MOD,string,Mode de sortie,-
+T_HADaa_nnS,SOR_DES,string,Destination,IR_DESTINATION_V
+T_HADaa_nnS,SOR_MOD,string,Mode de sortie,MS_SOR_V
 T_HADaa_nnS,SOR_MOI,string,Mois de la date de sortie du séjour,-
 T_HADaa_nnSTC,CAI_GES,string,N° caisse gestionnaire,-
 T_HADaa_nnSTC,CAI_GES_CTL,string,Code retour contrôle « N° caisse gestionnaire »,-
@@ -1771,11 +1771,11 @@ T_MCOaa_nnB,BEH_NBJ,number,Nombre de journées au-delà de la borne extrême hau
 T_MCOaa_nnB,CAI_SUP_NBR,number,Nombre de suppléments caisson hyperbare,-
 T_MCOaa_nnB,COD_SEX,string,Sexe ,-
 T_MCOaa_nnB,DEL_REG_ENT,number,Délai de la date des dernières règles par rapport à la date d'entrée,-
-T_MCOaa_nnB,DGN_PAL,string,Diagnostic principal (DP) ,-
-T_MCOaa_nnB,DGN_REL,string,Diagnostic relié (DR) ,-
+T_MCOaa_nnB,DGN_PAL,string,Diagnostic principal (DP) ,IR_CIM_V
+T_MCOaa_nnB,DGN_REL,string,Diagnostic relié (DR) ,IR_CIM_V
 T_MCOaa_nnB,DOS_TYP,string,Type de dosimétrie,-
-T_MCOaa_nnB,ENT_MOD,string,Mode d'entrée dans le champ du PMSI-MCO ,-
-T_MCOaa_nnB,ENT_PRV,string,Provenance ,-
+T_MCOaa_nnB,ENT_MOD,string,Mode d'entrée dans le champ du PMSI-MCO ,MS_SOR_V
+T_MCOaa_nnB,ENT_PRV,string,Provenance ,IR_DESTINATION_V
 T_MCOaa_nnB,ETA_NUM,string,Numéro FINESS e-PMSI,-
 T_MCOaa_nnB,ETE_GHS_NUM,number,Numéro de GHS (du GHM GENRSA),-
 T_MCOaa_nnB,EXB_NBJ,number,Nb journées EXB,-
@@ -1813,8 +1813,8 @@ T_MCOaa_nnB,SEJ_NBJ,number,Durée totale du séjour dans le champ du PMSI (vide 
 T_MCOaa_nnB,SEJ_TYP,string,Type de séjour ,-
 T_MCOaa_nnB,SEQ_RUM,string,N° séquentiel du RUM ayant fourni le DP,-
 T_MCOaa_nnB,SOR_ANN,string,Année de sortie ,-
-T_MCOaa_nnB,SOR_DES,string,Destination ,-
-T_MCOaa_nnB,SOR_MOD,string,Mode de sortie du champ PMSI-MCO ,-
+T_MCOaa_nnB,SOR_DES,string,Destination ,IR_DESTINATION_V
+T_MCOaa_nnB,SOR_MOD,string,Mode de sortie du champ PMSI-MCO ,MS_SOR_V
 T_MCOaa_nnB,SOR_MOI,string,Mois de sortie ,-
 T_MCOaa_nnB,SUP_ENT_DPA,number,Nombre de suppléments pour les entraînements à la dialyse péritonéale automatisée hors séances,-
 T_MCOaa_nnB,SUP_ENT_DPC,number,Nombre de suppléments pour les entraînements à la dialyse péritonéale continue ambulatoire hors séances,-
@@ -1907,7 +1907,7 @@ T_MCOaa_nnCSTC,VALID_FAC_AMO,string,Statut FT AMO,-
 T_MCOaa_nnCSTC,VALID_FAC_AMO_RET,string,Code retour contrôle « Statut FT AMO «,-
 T_MCOaa_nnCSTC,VALID_FAC_RAC,string,Statut FT patient,-
 T_MCOaa_nnCSTC,VALID_FAC_RAC_RET,string,Code retour contrôle « Statut FT patient «,-
-T_MCOaa_nnD,ASS_DGN,string,Diagnostic associé,-
+T_MCOaa_nnD,ASS_DGN,string,Diagnostic associé,IR_CIM_V
 T_MCOaa_nnD,DGN_ASS_NUM,number,Numero de diag par couple eta_num rsa_num,-
 T_MCOaa_nnD,ETA_NUM,string,Numéro FINESS e-PMSI,-
 T_MCOaa_nnD,RSA_NUM,string,N° d'index du RSA ,-
@@ -2215,7 +2215,7 @@ T_MCOaa_nnFM,SOR_MOI,string,Mois de l'acte,-
 T_MCOaa_nnFM,TYP_ART,string,Type d'enregistrement,-
 T_MCOaa_nnFMSTC,ACV_ACT,string,Activité,-
 T_MCOaa_nnFMSTC,ANP_ACT,string,Code association d'actes non prévue,-
-T_MCOaa_nnFMSTC,CCAM_COD,string,Code CCAM,-
+T_MCOaa_nnFMSTC,CCAM_COD,string,Code CCAM,IR_CCAM_V54
 T_MCOaa_nnFMSTC,DEL_DAT_ENT,number,Délai par rapport à la date d'entrée,-
 T_MCOaa_nnFMSTC,DENT_NUM_1,string,N° dent 1,-
 T_MCOaa_nnFMSTC,DENT_NUM_10,string,N° dent 10,-
@@ -2462,8 +2462,8 @@ T_MCOaa_nnUM,AGE_GES,number,Age gestationnel du RUM,-
 T_MCOaa_nnUM,AUT_TYP1_UM,string,Premier type d'autorisation d'UM,-
 T_MCOaa_nnUM,AUT_TYP2_UM,string,Deuxième type d'autorisation d'UM,-
 T_MCOaa_nnUM,DGN_ASS_NBR,number,Nombre de diagnostics associés du RUM (Nb_DA_R_1),-
-T_MCOaa_nnUM,DGN_PAL,string,DP,-
-T_MCOaa_nnUM,DGN_REL,string,DR,-
+T_MCOaa_nnUM,DGN_PAL,string,DP,IR_CIM_V
+T_MCOaa_nnUM,DGN_REL,string,DR,IR_CIM_V
 T_MCOaa_nnUM,ETA_NUM,string,Numéro FINESS e-PMSI,-
 T_MCOaa_nnUM,ETA_NUM_GEO,string,Premier numéro FINESS géographique,-
 T_MCOaa_nnUM,IGS2_COD,string,IGS2,-
@@ -2926,7 +2926,7 @@ T_RIPaa_nnR3A,ANO_IND,string,Indicateur d'anomalie,-
 T_RIPaa_nnR3A,BDI_COD,string,Code géographique de résidence,-
 T_RIPaa_nnR3A,BDI_DEP,string,Code département de résidence,-
 T_RIPaa_nnR3A,COD_SEX,string,Sexe du patient,-
-T_RIPaa_nnR3A,DGN_PAL,string,Diagnostic principal ou motif de prise en charge principale,-
+T_RIPaa_nnR3A,DGN_PAL,string,Diagnostic principal ou motif de prise en charge principale,IR_CIM_V
 T_RIPaa_nnR3A,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_RIPaa_nnR3A,ETA_NUM_TWO,string,Second n° FINESS,-
 T_RIPaa_nnR3A,ETB_SAN_AUTOR,string,Indicateur FINESS géographique sans autorisation,-
@@ -2943,7 +2943,7 @@ T_RIPaa_nnR3A,RAL_ACT_ANN,string,Année de la date de réalisation de l'acte,-
 T_RIPaa_nnR3A,RAL_ACT_MOI,string,Mois de la date de réalisation de l'acte,-
 T_RIPaa_nnR3A,SEC_NUM,string,N°de secteur ou de dispositif intersectoriel,-
 T_RIPaa_nnR3A,SEJ_IDT,string,Identifiant de séjour,-
-T_RIPaa_nnR3AD,ASS_DGN,string,Diagnostics et facteurs associés,-
+T_RIPaa_nnR3AD,ASS_DGN,string,Diagnostics et facteurs associés,IR_CIM_V
 T_RIPaa_nnR3AD,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_RIPaa_nnR3AD,ETA_NUM_TWO,string,Second n° FINESS,-
 T_RIPaa_nnR3AD,IPP_IRR_CRY,string,Cryptage irreversible de l'IPP,-
@@ -2956,9 +2956,9 @@ T_RIPaa_nnRSA,BDI_COD,string,Code géographique de résidence,-
 T_RIPaa_nnRSA,BDI_DEP,string,Code département de résidence,-
 T_RIPaa_nnRSA,COD_SEX,string,Sexe du patient,-
 T_RIPaa_nnRSA,DEL_DAT,number,Délai entre la date de début de la séquence et la date d'entrée du séjour,-
-T_RIPaa_nnRSA,DGN_PAL,string,Diagnostic principal ou motif de prise en charge principale,-
-T_RIPaa_nnRSA,ENT_MOD,string,Mode d'entrée de séjour,-
-T_RIPaa_nnRSA,ENT_PRV,string,Provenance,-
+T_RIPaa_nnRSA,DGN_PAL,string,Diagnostic principal ou motif de prise en charge principale,IR_CIM_V
+T_RIPaa_nnRSA,ENT_MOD,string,Mode d'entrée de séjour,MS_SOR_V
+T_RIPaa_nnRSA,ENT_PRV,string,Provenance,IR_DESTINATION_V
 T_RIPaa_nnRSA,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_RIPaa_nnRSA,ETA_NUM_TWO,string,Second n° FINESS,-
 T_RIPaa_nnRSA,ETB_SAN_AUTOR,string,Indicateur FINESS géographique sans autorisation,-
@@ -2987,12 +2987,12 @@ T_RIPaa_nnRSA,SEQ_FIN_MOI,string,Mois de la date de fin de séquence,-
 T_RIPaa_nnRSA,SEQ_IND,string,Indicateur de séquence correspondant à une sortie d’essai,-
 T_RIPaa_nnRSA,SEQ_PRE_IND,string,Indicateur de première séquence du séjour,-
 T_RIPaa_nnRSA,SEQ_SEQ_NUM,string,N° séquentiel de séquence au sein du séjour,-
-T_RIPaa_nnRSA,SOR_DES,string,Destination,-
-T_RIPaa_nnRSA,SOR_MOD,string,Mode de sortie de séjour,-
+T_RIPaa_nnRSA,SOR_DES,string,Destination,IR_DESTINATION_V
+T_RIPaa_nnRSA,SOR_MOD,string,Mode de sortie de séjour,MS_SOR_V
 T_RIPaa_nnRSA,THE_ISO_NBJ,number,Nombre de jours d’isolement thérapeutique,-
 T_RIPaa_nnRSA,THE_MS_IND,string,Indicateur d’accompagnement thérapeutique en milieu scolaire,-
 T_RIPaa_nnRSA,TYP_GEN_RSA,string,Type de génération automatique du RPSA,-
-T_RIPaa_nnRSAD,ASS_DGN,string,Diagnostics et facteurs associés,-
+T_RIPaa_nnRSAD,ASS_DGN,string,Diagnostics et facteurs associés,IR_CIM_V
 T_RIPaa_nnRSAD,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-
 T_RIPaa_nnRSAD,ETA_NUM_TWO,string,Second n° FINESS,-
 T_RIPaa_nnRSAD,IPP_IRR_CRY,string,Cryptage irreversible de l'IPP,-
@@ -3000,8 +3000,8 @@ T_RIPaa_nnRSAD,RIP_NUM,string,N° séquentiel de séjour,-
 T_RIPaa_nnRSAD,SEJ_IDT,string,Identifiant de séjour,-
 T_RIPaa_nnRSAD,SEQ_SEQ_NUM,string,N° séquentiel de séquence au sein du séjour,-
 T_RIPaa_nnS,COD_SEX,string,Sexe du patient,-
-T_RIPaa_nnS,ENT_MOD,string,Mode d’entrée,-
-T_RIPaa_nnS,ENT_PRV,string,Provenance,-
+T_RIPaa_nnS,ENT_MOD,string,Mode d’entrée,MS_SOR_V
+T_RIPaa_nnS,ENT_PRV,string,Provenance,IR_DESTINATION_V
 T_RIPaa_nnS,ETA_NUM_EPMSI,string,Numéro FINESS e-PMSI,-
 T_RIPaa_nnS,ETA_NUM_TWO,string,Numéro FINES géographique,-
 T_RIPaa_nnS,FOR_NUM,string,Numéro de version du format de SRPSA,-
@@ -3011,8 +3011,8 @@ T_RIPaa_nnS,SEJ_DUREE,number,Durée couverte par les séquences,-
 T_RIPaa_nnS,SEJ_FINI,string,Indicateur de séjour terminé,-
 T_RIPaa_nnS,SEJ_NBJ,number,Nombre de journées de présence ,-
 T_RIPaa_nnS,SOR_ANN,string,Année de la date de sortie du séjour,-
-T_RIPaa_nnS,SOR_DES,string,Destination,-
-T_RIPaa_nnS,SOR_MOD,string,Mode de sortie,-
+T_RIPaa_nnS,SOR_DES,string,Destination,IR_DESTINATION_V
+T_RIPaa_nnS,SOR_MOD,string,Mode de sortie,MS_SOR_V
 T_RIPaa_nnS,SOR_MOI,string,Mois de la date de sortie du séjour,-
 T_RIPaa_nnS,TYP_GEN_RSA,string,Type de génération automatique du RPSA,-
 T_RIPaa_nnSTC,BEN_CMU,string,Patient bénéficiaire de la CMU,-
@@ -3119,8 +3119,8 @@ T_SSRaa_nnB,CPT_DEP,string,Dépendance au comportement,-
 T_SSRaa_nnB,DEB_FIN,string,Semaine de fin de séjour SSR,-
 T_SSRaa_nnB,DEB_SEM,string,Semaine de début de séjour SSR,-
 T_SSRaa_nnB,DPL_DEP,string,Dépendance au déplacement,-
-T_SSRaa_nnB,ENT_MOD,string,Mode d’entrée UM,-
-T_SSRaa_nnB,ENT_PRV,string,Provenance,-
+T_SSRaa_nnB,ENT_MOD,string,Mode d’entrée UM,MS_SOR_V
+T_SSRaa_nnB,ENT_PRV,string,Provenance,IR_DESTINATION_V
 T_SSRaa_nnB,ETA_NUM,string,N° FINESS d'inscription e-PMSI,-
 T_SSRaa_nnB,ETA_NUM_GEO,string,N° FINESS géographique,-
 T_SSRaa_nnB,ETL_AFF,string,Affection étiologique,-
@@ -3157,8 +3157,8 @@ T_SSRaa_nnB,RHS_ANT_SEJ_ENT,number,Antériorité du RHS par rapport à l'entrée
 T_SSRaa_nnB,RHS_NUM,string,Numéro séquentiel du RHS,-
 T_SSRaa_nnB,SCORE_RR,number,Score RR,-
 T_SSRaa_nnB,SEJ_ANT,number,Antériorité du RHS par rapport à l'entrée dans l'UM,-
-T_SSRaa_nnB,SOR_DES,string,Destination ,-
-T_SSRaa_nnB,SOR_MOD,string,Mode de sortie UM,-
+T_SSRaa_nnB,SOR_DES,string,Destination ,IR_DESTINATION_V
+T_SSRaa_nnB,SOR_MOD,string,Mode de sortie UM,MS_SOR_V
 T_SSRaa_nnB,TYP_GEN_RHA,string,Type de génération automatique du RHA,-
 T_SSRaa_nnB,TYP_US,string,Type unité spécifique,-
 T_SSRaa_nnC,ANN_LUN_1S,string,Année du lundi de la première semaine du séjour dans l'année (SSR),-
@@ -3522,7 +3522,7 @@ T_SSRaa_nnFM,SOR_MOI,string,Mois de sortie,-
 T_SSRaa_nnFM,TYP_ART,string,Type d'enregistrement (M),-
 T_SSRaa_nnFMSTC,ACV_ACT,string,Activité,-
 T_SSRaa_nnFMSTC,ANP_ACT,string,Code association d'actes non prévue,-
-T_SSRaa_nnFMSTC,CCAM_COD,string,Code CCAM,-
+T_SSRaa_nnFMSTC,CCAM_COD,string,Code CCAM,IR_CCAM_V54
 T_SSRaa_nnFMSTC,DEL_DAT_ENT,number,Délai par rapport à la date d'entrée,-
 T_SSRaa_nnFMSTC,DENT_NUM_1,string,N° dent 1,-
 T_SSRaa_nnFMSTC,DENT_NUM_10,string,N° dent 10,-
@@ -3612,8 +3612,8 @@ T_SSRaa_nnMEDATU,RHS_NUM,string,Numéro séquentiel du RHS,-
 T_SSRaa_nnMEDATU,TOP_UCD_AUTO,string,Top transcodage UCD13 auto,-
 T_SSRaa_nnMEDATU,UCD_UCD_COD,string,Code UCD,NU_UCD_R
 T_SSRaa_nnS,ACT_TYP,string,Type d’hospitalisation,-
-T_SSRaa_nnS,ENT_MOD,string,Mode d’entrée,-
-T_SSRaa_nnS,ENT_PRV,string,Provenance,-
+T_SSRaa_nnS,ENT_MOD,string,Mode d’entrée,MS_SOR_V
+T_SSRaa_nnS,ENT_PRV,string,Provenance,IR_DESTINATION_V
 T_SSRaa_nnS,ETA_NUM,string,FINESS,-
 T_SSRaa_nnS,GEN_VER,string,Version de GENRHA,-
 T_SSRaa_nnS,NBR_GME,number,Nombre de GME (ng),-
@@ -3623,8 +3623,8 @@ T_SSRaa_nnS,PRE_JOU_NBR,number,Nombre de journées de présence,-
 T_SSRaa_nnS,RHA_NUM,string,N° Séquentiel du séjour,-
 T_SSRaa_nnS,RHA_VER,string,Version du Format du SRHA,-
 T_SSRaa_nnS,SEJ_NBJ,number,Durée du séjour,-
-T_SSRaa_nnS,SOR_DES,string,Destination,-
-T_SSRaa_nnS,SOR_MOD,string,Mode de sortie,-
+T_SSRaa_nnS,SOR_DES,string,Destination,IR_DESTINATION_V
+T_SSRaa_nnS,SOR_MOD,string,Mode de sortie,MS_SOR_V
 T_SSRaa_nnS,SUI_TYP,string,Type de suite ,-
 T_SSRaa_nnSTC,BEN_CMU,string,Patient bénéficiaire de la CMU,-
 T_SSRaa_nnSTC,BEN_CMU_CTL,string,Code retour contrôle « Patient bénéficiaire de la CMU »,-
