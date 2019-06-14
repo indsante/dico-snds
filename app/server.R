@@ -295,17 +295,17 @@ shinyServer(function(input, output, session) {
   observeEvent(input$sharable_link, {
        
     if (session$clientData$url_port != ''){
-      hostname =  paste0(session$clientData$url_hostname, ':')
+      pathname =  paste0(sub('/$', '', session$clientData$url_pathname), ':', session$clientData$url_port, '/')
     }
     else{
-      hostname = session$clientData$url_hostname
+      pathname = session$clientData$url_pathname
     }
     link = paste0(
       session$clientData$url_protocol,
       '//',
-      hostname,
-      session$clientData$url_port,
-      '/?variable=',
+      session$clientData$url_hostname,
+      pathname,
+      '?variable=',
       snds_vars[tmp_var_snds(), 'var'],
       '&search=',
       input$all_vars_snds_search,
@@ -314,9 +314,10 @@ shinyServer(function(input, output, session) {
       #'&lib=',
       #snds_vars[tmp_var_snds(), 'description']
     )
-    clipr::write_clip(link)                 
+    ## Needing a system package (xclip)
+    #clipr::write_clip(link, allow_non_interactive = TRUE)                 
     showModal(modalDialog(
-      title = "Lien copié dans le presse-papier!",
+      title = "Copier le lien dans le presse-papier!",
       renderText(link),
       easyClose = TRUE
     ))
