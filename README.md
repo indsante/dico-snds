@@ -16,6 +16,10 @@ Le dictionnaire interactif est consultable à [cette adresse](http://dico-snds.h
 
 Si vous désirez participer de quelque manière que ce soit (erreur, variable manquante, nomenclature manquante, lien variable-nomenclature), nous vous conseillons de mettre une [issue](https://gitlab.com/healthdatahub/dico-snds/issues) ou bien de modifier directement les fichiers source dans le repo [schema-snds](https://gitlab.com/healthdatahub/schema-snds/issues).
 
+## Nomenclatures
+Toutes les nomenclatures du SNDS utilisées dans le dico sont disponibles dans le dosssier [nomenclatures du projet](app/app_data/nomenclatures) au format csv et peuvent être réutilisées pour d'autres usages facilement. Elles ont été extraites depuis le portail CNAM en février 2019.
+
+
 ## Développement
 
 ### Avec Rstudio
