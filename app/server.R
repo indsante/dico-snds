@@ -127,7 +127,13 @@ shinyServer(function(input, output, session) {
       fillContainer = T,
       options = list(
         lengthMenu = c(10, 20, 30),
-        pageLength = 50
+        pageLength = 50,
+        language = list(
+                  info = 'Résultats _START_ à _END_ sur une liste de _TOTAL_.',
+                  paginate = list(previous = 'Précédent', `next` = 'Suivant'),
+                  search="Rechercher",
+                  lengthMenu='Afficher _MENU_ résultats'
+                )
         )
       )
     )
@@ -141,7 +147,13 @@ shinyServer(function(input, output, session) {
       rownames = F,
       options = list(
         lengthMenu = c(10, 20, 50, 100),
-        pageLength = 50
+        pageLength = 50,
+        language = list(
+                  info = 'Résultats _START_ à _END_ sur une liste de _TOTAL_.',
+                  paginate = list(previous = 'Précédent', `next` = 'Suivant'),
+                  search="Rechercher",
+                  lengthMenu='Afficher _MENU_ résultats'
+                )
       ) 
     )
   )
@@ -194,7 +206,13 @@ shinyServer(function(input, output, session) {
                         list(search = variable_search),
                         list(search = lib_search),
                         NULL,
-                        NULL)
+                        NULL),
+                        language = list(
+                  info = 'Résultats _START_ à _END_ sur une liste de _TOTAL_.',
+                  paginate = list(previous = 'Précédent', `next` = 'Suivant'),
+                  search="Rechercher",
+                  lengthMenu='Afficher _MENU_ résultats'
+                )
                     )
       )
     )
@@ -246,7 +264,13 @@ shinyServer(function(input, output, session) {
                            c(10, 20, 50, "Tout")),
         pageLength = 50,
         buttons = c('copy', 'csv'),
-        dom = 'Blfrtip'
+        dom = 'Blfrtip',
+        language = list(
+                  info = 'Résultats _START_ à _END_ sur une liste de _TOTAL_.',
+                  paginate = list(previous = 'Précédent', `next` = 'Suivant'),
+                  search="Rechercher",
+                  lengthMenu='Afficher _MENU_ résultats'
+                )
         )
       )
   )
