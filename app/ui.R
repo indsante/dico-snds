@@ -27,6 +27,11 @@ navbarPage("Visualisation de la structure du SNDS",
     
     # Side buttons
     actionButton(
+      inputId = "var_details",
+      label = 'Détails variable ',
+      icon = icon("book-open")
+    ),
+    actionButton(
       inputId = "help_button_1",
       label = "Aide",
       icon = icon("question")
@@ -53,6 +58,11 @@ navbarPage("Visualisation de la structure du SNDS",
            includeCSS("www/styles.css"),
            tags$style('.nodetext{fill: #000000}'),
            # Side buttons
+           actionButton(
+             inputId = "table_details",
+             label = 'Détails table',
+             icon = icon("book-open")
+           ),
            actionButton(
              inputId = "help_button_2",
              label = "Aide",

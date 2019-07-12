@@ -276,6 +276,22 @@ shinyServer(function(input, output, session) {
     ))
   })
   
+  observeEvent(input$var_details, {
+    showModal(modalDialog(
+      title = paste0(
+        "Détail sur la variable ", 
+          snds_vars[tmp_var_snds(), ] %>%
+            select(var)),
+      renderText(
+        'Variables details: ', 
+        snds_vars[tmp_var_snds(), ] %>% 
+          select(creation, suppression)
+        ),
+      #renderTable(snds_vars[tmp_var_snds(), ]),
+      easyClose = TRUE
+    ))
+  })
+  
   observeEvent(input$show_joinkeys_1, {
     showModal(modalDialog(
       title = "Les 9 clés de jointure du DCIR",
