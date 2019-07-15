@@ -2,12 +2,14 @@
 ## Load data
 PATH2DATA = "app_data/"
 PATH2NOMENCLATURES =  paste0(PATH2DATA, "nomenclatures/")
-
+MISSING_TEXT = 'Manquant' 
 data <- load_data(PATH2DATA)
 snds_nodes <- data$snds_nodes
 snds_links <- data$snds_links
-snds_vars <- data$snds_vars
-snds_tables <- data$snds_tables
+snds_vars <- data$snds_vars %>% 
+  replace_na(list(creation = MISSING_TEXT, suppression = MISSING_TEXT))
+snds_tables <- data$snds_tables %>% 
+  replace_na(list(creation = MISSING_TEXT, suppression = MISSING_TEXT))
 
 # Server logics
 shinyServer(function(input, output, session) {
@@ -138,26 +140,6 @@ shinyServer(function(input, output, session) {
       )
     )
   
-  # Explorateur des tables (tab 2)
-  output$snds_tables = DT::renderDataTable(
-    DT::datatable(
-      get_snds_tables(snds_tables),
-      filter = "top",
-      selection = "single",
-      rownames = F,
-      options = list(
-        lengthMenu = c(10, 20, 50, 100),
-        pageLength = 50,
-        language = list(
-                  info = 'Résultats _START_ à _END_ sur une liste de _TOTAL_.',
-                  paginate = list(previous = 'Précédent', `next` = 'Suivant'),
-                  search="Rechercher",
-                  lengthMenu='Afficher _MENU_ résultats'
-                )
-      ) 
-    )
-  )
-  
   # Explorateur des variables (tab 1)
   ## Variables datatable
 
@@ -232,14 +214,31 @@ shinyServer(function(input, output, session) {
       ""
     }
     else{
-      paste0(
-        "Variable ", 
-        snds_vars[tmp_var_snds(), ] %>%
-          select(var),
-        " | Nomenclature ",
-        snds_vars[tmp_var_snds(), ] %>%
-          select(nomenclature)
-      )  
+      var_table <- snds_vars[tmp_var_snds(), ] %>% 
+        pull(table)
+      var_produit <- snds_tables %>% 
+        filter(Table == var_table) %>% 
+        pull(Produit)
+      if (grepl('PMSI', var_produit)){
+        var_produit <- paste0('PMSI/', var_produit) 
+      }
+      path2var_schema <- paste0(PATH2GITLAB_SCHEMAS, var_produit, '/', var_table, '.json')
+      var_modification_text <- paste0('Vous pouvez proposez une correction ou un complément <a href="', path2var_schema, '">à cette adresse</a>.')
+      var_creation <- snds_vars[tmp_var_snds(), ] %>% 
+        pull(creation) 
+      var_suppression <- snds_vars[tmp_var_snds(), ] %>% 
+        pull(suppression)
+      
+      HTML(
+        paste0(strong("Variable "), snds_vars[tmp_var_snds(), ] %>% select(var), ', ', 
+          snds_vars[tmp_var_snds(), ] %>% select(description), br(),
+          strong('Historique :'), br(),
+          'Date de création : ', var_creation, br(),
+          'Date de suppression : ', var_suppression,
+          br(), '<i><font size="3">', var_modification_text, '</font></i>',
+          br(), br(), strong("Nomenclature : "), snds_vars[tmp_var_snds(), ] %>% select(nomenclature)
+        )
+      )
     }
   })
   
@@ -274,8 +273,34 @@ shinyServer(function(input, output, session) {
         )
       )
   )
-
-  # Observers pour les actions buttons de l'ui (un par pannel)
+  
+  # Explorateur des tables (tab 2)
+  output$snds_tables = DT::renderDataTable(
+    DT::datatable(
+      get_snds_tables(snds_tables),
+      filter = "top",
+      selection = "single",
+      rownames = F,
+      options = list(
+        lengthMenu = c(10, 20, 50, 100),
+        pageLength = 50,
+        language = list(
+          info = 'Résultats _START_ à _END_ sur une liste de _TOTAL_.',
+          paginate = list(previous = 'Précédent', `next` = 'Suivant'),
+          search="Rechercher",
+          lengthMenu='Afficher _MENU_ résultats'
+        )
+      ) 
+    )
+  )
+  
+  ### Logics to select current variable of interest name
+  tmp_table_snds = reactive({
+    input$snds_tables_row_last_clicked
+  })
+  
+  # Observers pour les actions BUTTONS de l'ui
+  ## Help buttons
   observeEvent(input$help_button_1, {
     showModal(modalDialog(
       title = "Guide d'utilisation",
@@ -300,6 +325,45 @@ shinyServer(function(input, output, session) {
     ))
   })
   
+
+  
+  ## Current table details button
+  observeEvent(input$snds_tables_row_last_clicked, {
+    table_name <- snds_tables[tmp_table_snds(), ] %>% 
+      pull(Table)
+    table_produit <- snds_tables %>% 
+      filter(Table == table_name) %>% 
+      pull(Produit)
+    if (grepl('PMSI', table_produit)){
+      table_produit <- paste0('PMSI/', table_produit) 
+    }
+    path2table_schema <- paste0(PATH2GITLAB_SCHEMAS, table_produit, '/', table_name, '.json')
+    table_modification_text <- paste0('Vous pouvez proposez une correction ou un complément <a href="', path2table_schema, '">à cette adresse</a>.')
+    table_creation <- snds_tables[tmp_table_snds(), ] %>% 
+      pull(creation)
+    table_suppression <- snds_tables[tmp_table_snds(), ] %>% 
+      pull(suppression)
+    
+    showModal(
+      modalDialog(
+        title <- paste0(
+          "Détail sur la table ",
+          table_name
+        ),
+        HTML(
+          paste0(
+            h4('Libellé : '), snds_tables[tmp_table_snds(), ] %>% select(Libelle), '\n', 
+            h4('Historique : \n \n'),
+            strong('Date de création de la table : '), table_creation, br(),
+            strong('Date de suppression de la table : '), table_suppression,
+            br(), br(), table_modification_text
+          )
+        ),
+        easyClose = TRUE
+      ))
+  })
+  
+  ## join keys button
   observeEvent(input$show_joinkeys_1, {
     showModal(modalDialog(
       title = "Les 9 clés de jointure du DCIR",
@@ -316,6 +380,7 @@ shinyServer(function(input, output, session) {
     ))
   })
   
+  # Sharable view button (only in table 1)
   observeEvent(input$sharable_link, {
        
     if (session$clientData$url_port != ''){

@@ -26,6 +26,11 @@ navbarPage("Visualisation de la structure du SNDS",
        tags$style('.nodetext{fill: #000000}'),
     
     # Side buttons
+    # actionButton(
+    #   inputId = "var_details",
+    #   label = 'Détails variable ',
+    #   icon = icon("book-open")
+    # ),
     actionButton(
       inputId = "help_button_1",
       label = "Aide",
@@ -45,7 +50,7 @@ navbarPage("Visualisation de la structure du SNDS",
              
              DT::dataTableOutput("all_vars_snds")),
       
-      column(4, h4(textOutput("tmp_var_snds")), 
+      column(4, h4(htmlOutput("tmp_var_snds")), 
              DT::dataTableOutput("noms_table_snds"))
     ),
   
