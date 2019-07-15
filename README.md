@@ -16,6 +16,10 @@ Le dictionnaire interactif est consultable à [cette adresse](http://dico-snds.h
 
 Si vous désirez participer de quelque manière que ce soit (erreur, variable manquante, nomenclature manquante, lien variable-nomenclature), nous vous conseillons de mettre une [issue](https://gitlab.com/healthdatahub/dico-snds/issues) ou bien de modifier directement les fichiers source dans le repo [schema-snds](https://gitlab.com/healthdatahub/schema-snds/issues).
 
+## Nomenclatures
+Toutes les nomenclatures du SNDS utilisées dans le dico sont disponibles dans le dosssier [nomenclatures du projet](app/app_data/nomenclatures) au format csv et peuvent être réutilisées pour d'autres usages facilement. Elles ont été extraites depuis le portail CNAM en février 2019.
+
+
 ## Développement
 
 ### Avec Rstudio
@@ -52,3 +56,15 @@ export SECRET='XXXXXXX'
 Pour toute question et remarque sur l'application, nous vous encourageons à utiliser le **[forum public d'entraide du Health Data Hub](https://entraide.health-data-hub.fr/)**, et en particulier la **[catégorie FAQ](https://entraide.health-data-hub.fr/c/faq)**. 
 
 Si c'est un point technique précis à traiter, il est alors préférable d'ouvrir une **[issue sur GitLab](https://gitlab.com/healthdatahub/dico-snds/issues)**, ou d'écrire à <ld-lab-github@sante.gouv.fr>.
+
+# Auteurs et maintenance
+
+L'auteur principal de ce logiciel est Matthieu Doutreligne (DREES). 
+
+Le travail initial de synthèse des informations sur le SNDS, à partir des documents de la CNAM, est [archivé à cette adresse](https://gitlab.com/healthdatahub/dico-snds-creation-archive). 
+Il a été réalisé par Matthieu Doutreligne et Claire-Lise Dubost (DREES).
+Ces informations formelles sont désormais éditées collaborativement dans le dépôt [schema-snds](https://gitlab.com/healthdatahub/schema-snds).
+
+Ce logiciel est maintenu par le lab santé à la DREES. 
+L'historique détaillé des modifications est lisible sur [cette page](https://gitlab.com/healthdatahub/dico-snds/commits/master).
+Une vision d'ensemble des contributeurs est disponible sur [cette page](https://gitlab.com/healthdatahub/dico-snds/-/graphs/master).

@@ -129,7 +129,13 @@ shinyServer(function(input, output, session) {
       fillContainer = T,
       options = list(
         lengthMenu = c(10, 20, 30),
-        pageLength = 50
+        pageLength = 50,
+        language = list(
+                  info = 'Résultats _START_ à _END_ sur une liste de _TOTAL_.',
+                  paginate = list(previous = 'Précédent', `next` = 'Suivant'),
+                  search="Rechercher",
+                  lengthMenu='Afficher _MENU_ résultats'
+                )
         )
       )
     )
@@ -182,7 +188,13 @@ shinyServer(function(input, output, session) {
                         list(search = variable_search),
                         list(search = lib_search),
                         NULL,
-                        NULL)
+                        NULL),
+                        language = list(
+                  info = 'Résultats _START_ à _END_ sur une liste de _TOTAL_.',
+                  paginate = list(previous = 'Précédent', `next` = 'Suivant'),
+                  search="Rechercher",
+                  lengthMenu='Afficher _MENU_ résultats'
+                )
                     )
       )
     )
@@ -202,14 +214,31 @@ shinyServer(function(input, output, session) {
       ""
     }
     else{
-      paste0(
-        "Variable ", 
-        snds_vars[tmp_var_snds(), ] %>%
-          select(var),
-        " | Nomenclature ",
-        snds_vars[tmp_var_snds(), ] %>%
-          select(nomenclature)
-      )  
+      var_table <- snds_vars[tmp_var_snds(), ] %>% 
+        pull(table)
+      var_produit <- snds_tables %>% 
+        filter(Table == var_table) %>% 
+        pull(Produit)
+      if (grepl('PMSI', var_produit)){
+        var_produit <- paste0('PMSI/', var_produit) 
+      }
+      path2var_schema <- paste0(PATH2GITLAB_SCHEMAS, var_produit, '/', var_table, '.json')
+      var_modification_text <- paste0('Vous pouvez proposez une correction ou un complément <a href="', path2var_schema, '">à cette adresse</a>.')
+      var_creation <- snds_vars[tmp_var_snds(), ] %>% 
+        pull(creation) 
+      var_suppression <- snds_vars[tmp_var_snds(), ] %>% 
+        pull(suppression)
+      
+      HTML(
+        paste0(strong("Variable "), snds_vars[tmp_var_snds(), ] %>% select(var), ', ', 
+          snds_vars[tmp_var_snds(), ] %>% select(description), br(),
+          strong('Historique :'), br(),
+          'Date de création : ', var_creation, br(),
+          'Date de suppression : ', var_suppression,
+          br(), '<i><font size="3">', var_modification_text, '</font></i>',
+          br(), br(), strong("Nomenclature : "), snds_vars[tmp_var_snds(), ] %>% select(nomenclature)
+        )
+      )
     }
   })
   
@@ -234,7 +263,13 @@ shinyServer(function(input, output, session) {
                            c(10, 20, 50, "Tout")),
         pageLength = 50,
         buttons = c('copy', 'csv'),
-        dom = 'Blfrtip'
+        dom = 'Blfrtip',
+        language = list(
+                  info = 'Résultats _START_ à _END_ sur une liste de _TOTAL_.',
+                  paginate = list(previous = 'Précédent', `next` = 'Suivant'),
+                  search="Rechercher",
+                  lengthMenu='Afficher _MENU_ résultats'
+                )
         )
       )
   )
@@ -248,11 +283,18 @@ shinyServer(function(input, output, session) {
       rownames = F,
       options = list(
         lengthMenu = c(10, 20, 50, 100),
-        pageLength = 50
+        pageLength = 50,
+        language = list(
+          info = 'Résultats _START_ à _END_ sur une liste de _TOTAL_.',
+          paginate = list(previous = 'Précédent', `next` = 'Suivant'),
+          search="Rechercher",
+          lengthMenu='Afficher _MENU_ résultats'
+        )
       ) 
     )
   )
-  ### Logics to select current variable of interest name
+  
+
   tmp_table_snds = reactive({
     input$snds_tables_row_last_clicked
   })
@@ -283,7 +325,7 @@ shinyServer(function(input, output, session) {
     ))
   })
   
-  ## Current variable details button
+
   observeEvent(input$var_details, {
     var_table <- snds_vars[tmp_var_snds(), ] %>% 
       pull(table)
@@ -319,8 +361,9 @@ shinyServer(function(input, output, session) {
     ))
   })
   
+  
   ## Current table details button
-  observeEvent(input$table_details, {
+  observeEvent(input$snds_tables_row_last_clicked, {
     table_name <- snds_tables[tmp_table_snds(), ] %>% 
       pull(Table)
     table_produit <- snds_tables %>% 
