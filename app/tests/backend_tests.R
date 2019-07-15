@@ -16,7 +16,7 @@ test_that("load_data returns all dataframes necessary to the app", {
 })
 
 test_that("get_snds_tables returns the good columns", {
-  expect_equal(colnames(get_snds_tables(snds_tables)), c("Produit", "Table", "Libelle"))
+  expect_equal(colnames(get_snds_tables(snds_tables)), c("Produit", "Table", "Libelle", "creation", "suppression"))
 })
 
 
@@ -25,7 +25,7 @@ test_that("nomenclature column is present in snds_vars", {
 })
 
 test_that("get_snds_vars returns the good columns", {
-  expect_equal(colnames(get_snds_vars(snds_vars)), c("table", "var", "description", "format"))
+  expect_equal(colnames(get_snds_vars(snds_vars)), c("table", "var", "description", "format", "creation", "suppression"))
 })
 
 test_that("network inputs have the relevant columns", {
