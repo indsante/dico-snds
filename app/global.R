@@ -14,5 +14,5 @@ library(tidyr)
 
 PATH2MARKDOWNS = paste0("www/markdowns/")
 
-PATH2GITLAB_SCHEMAS = 'https://gitlab.com/healthdatahub/schema-snds/edit/master/schemas/'
+PATH2GITLAB_SCHEMAS = 'https://gitlab.com/healthdatahub/schema-snds/blob/master/schemas/'
 source("functions.R")
