@@ -124,7 +124,7 @@ shinyServer(function(input, output, session) {
   default_table_name = 'IR_BEN_R'
   default_header = paste0(default_table_name, ': ', snds_tables %>% filter(Table == default_table_name) %>% pull(Libelle))
   default_table = data.frame(snds_vars %>% 
-                               filter(table == default_table) %>% 
+                               filter(table == default_table_name) %>% 
                                select(one_of("var", "description", "format")))
   
   output$table_name_snds = renderText({
