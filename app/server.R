@@ -119,12 +119,35 @@ shinyServer(function(input, output, session) {
                  select(one_of("var", "description", "format"))
     )
   })
+  
   ### Display name of the table
-  output$table_name_snds = renderText({paste0(input$name , ": ", input$description)[1]})
-  ### Display only current table variables
-  output$my_table_snds = DT::renderDataTable(
+  default_table_name = 'IR_BEN_R'
+  default_header = paste0(default_table_name, ': ', snds_tables %>% filter(Table == default_table_name) %>% pull(Libelle))
+  default_table = data.frame(snds_vars %>% 
+                               filter(table == default_table) %>% 
+                               select(one_of("var", "description", "format")))
+  
+  output$table_name_snds = renderText({
+    # logic for default behaviour
+    if (is.null(input$name)){
+      default_header
+    }
+    else{
+      paste0(input$name , ": ", input$description)[1]  
+    }
+    })
+  
+  ## Display only current table variables
+  output$my_table_snds = DT::renderDataTable({
+    # logic for default behaviour
+    if (is.null(input$name)){
+      non_null_table = default_table
+    }
+    else{
+      non_null_table = current_table_snds()
+    }
     DT::datatable(
-      current_table_snds(),
+      non_null_table,
       rownames = F,
       fillContainer = T,
       options = list(
@@ -138,7 +161,7 @@ shinyServer(function(input, output, session) {
                 )
         )
       )
-    )
+  })
   
   # Explorateur des variables (tab 1)
   ## Variables datatable
