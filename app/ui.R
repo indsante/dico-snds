@@ -54,6 +54,15 @@ navbarPage("Visualisation de la structure du SNDS",
              DT::dataTableOutput("noms_table_snds"))
     ),
   
+  tabPanel("test Elasticsearch", value = "test_ES",
+           includeCSS("www/styles.css"),
+           tags$style('.nodetext{fill: #000000}'),
+           textInput("term_query", label = NULL, value = "", width = 1000,
+                     placeholder = "Taper un ou plusieurs termes à chercher"),
+           column(4,DT::dataTableOutput("query_result_agg_by_index")),
+           column(8,DT::dataTableOutput("query_result"))
+  ),
+  
   tabPanel("Explorateur des tables SNDS", value = "tables_explo",
            includeCSS("www/styles.css"),
            tags$style('.nodetext{fill: #000000}'),
@@ -69,7 +78,6 @@ navbarPage("Visualisation de la structure du SNDS",
            ),
            DT::dataTableOutput("snds_tables")
            ),
-  
   
   tabPanel("Graphe interactif SNDS", value = "snds_graph",           
            div(class="outer",

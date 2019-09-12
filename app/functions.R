@@ -32,3 +32,25 @@ get_snds_vars <- function(snds_vars){
     select(one_of("table", "var", "description", "format"))
   return(df)
 }
+
+# Functions for ElasticSearch queries
+get_query_result_agg_by_index <- function(term){
+  body_query <- '{"multi_match" : {"query" : "*'
+  term_query <- query(paste0(body_query, term, '*"}}'))
+  index_freq <- aggs('{"index_freq" : {
+                     "terms" : {
+                     "field" : "_index",
+                     "size" : 200
+                          } 
+                        }
+                      }')
+  df <- elastic("http://localhost:9200", "nomenclature") %search% (term_query + index_freq)
+  return(df)
+}
+
+get_query_result <- function(term, index){
+  body_query <- '{"multi_match" : {"query" : "'
+  term_query <- query(paste0(body_query, term, '"}}'))
+  df <- elastic("http://localhost:9200", index) %search% term_query
+  }
+
