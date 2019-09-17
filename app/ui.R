@@ -8,7 +8,7 @@ img_width = 150
 navbarPage("Visualisation de la structure du SNDS", 
            id="nav", 
            collapsible = T, 
-           selected = "snds_explo",
+           selected = "ES_nomenclatures",
            # Dark theme for tabs
            inverse = T,
            
@@ -54,7 +54,7 @@ navbarPage("Visualisation de la structure du SNDS",
              DT::dataTableOutput("noms_table_snds"))
     ),
   
-  tabPanel("test Elasticsearch", value = "test_ES",
+  tabPanel("Recherche dans les nomenclatures", value = "ES_nomenclatures",
            includeCSS("www/styles.css"),
            tags$style('.nodetext{fill: #000000}'),
            textInput("term_query", label = NULL, value = "", width = 1000,

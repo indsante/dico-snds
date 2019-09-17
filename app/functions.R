@@ -44,13 +44,37 @@ get_query_result_agg_by_index <- function(term){
                           } 
                         }
                       }')
-  df <- elastic("http://localhost:9200", "nomenclature") %search% (term_query + index_freq)
+  
+  df = tryCatch(
+    {
+      dd <- elastic("http://localhost:9200", "nomenclature") %search% (term_query + index_freq)
+      return(dd)
+    },
+    error=function(cond){
+      print(paste0("No entry corresponding to '", term, "' in the elastic database"))
+      dd <- data.frame("-"="Pas de résultats")
+      return(dd)
+    }
+  )
   return(df)
 }
 
 get_query_result <- function(term, index){
   body_query <- '{"multi_match" : {"query" : "'
   term_query <- query(paste0(body_query, term, '"}}'))
-  df <- elastic("http://localhost:9200", index) %search% term_query
+  
+  df = tryCatch(
+    {
+      dd <- elastic("http://localhost:9200", index) %search% term_query
+      return(dd)
+    },
+    error=function(cond){
+      print(paste0("No entry corresponding to '", term, "' in the ", index, "nomenclature"))
+      dd <- data.frame("-"="Pas de résultats")
+      return(dd)
+    }
+  )
+  
+  
   }
 
