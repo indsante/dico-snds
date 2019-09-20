@@ -198,7 +198,7 @@ shinyServer(function(input, output, session) {
     #snds_vars_filtered = snds_vars_raw %>% filter_all(any_vars(grepl(default_filter, .)))
     output$all_vars_snds = DT::renderDataTable(
       DT::datatable(get_snds_vars(snds_vars), 
-                    colnames = c('Table'='table', 'Variable'='var', 'Libelle'='description', 'Type'='format'),
+                    colnames = c('Table'='table', 'Variable'='var', 'Libelle'='description', 'Nomenclature'='nomenclature'),
                     filter = "top",
                     selection = "single",
                     rownames = F,
