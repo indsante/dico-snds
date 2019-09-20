@@ -16,6 +16,10 @@ load_data <- function(path2data){
   data$snds_tables <- read.csv(paste0(path2data, "snds_tables.csv"),
                           encoding = "UTF-8")
   data$snds_tables$Libelle <- as.character(data$snds_tables$Libelle)
+  
+  data$snds_nomenclatures <- read.csv(paste0(path2data, "snds_nomenclatures.csv"),
+                                      encoding = "UTF-8")
+  
   return(data)
 }
 
@@ -34,7 +38,7 @@ get_snds_vars <- function(snds_vars){
 }
 
 # Functions for ElasticSearch queries
-get_query_result_agg_by_index <- function(term){
+get_query_result_agg_by_index <- function(term, snds_nomenclatures){
   body_query <- '{"multi_match" : {"query" : "*'
   term_query <- query(paste0(body_query, term, '*"}}'))
   index_freq <- aggs('{"index_freq" : {
@@ -50,6 +54,8 @@ get_query_result_agg_by_index <- function(term){
       dd <- elastic("http://localhost:9200", "nomenclature") %search% (term_query + index_freq)
       dd[,1] <- toupper(dd[,1]) 
       colnames(dd)[1] <- "nomenclature"
+      dd <- join(dd, snds_nomenclatures, by = "nomenclature", type = "left", match = "all")
+      dd <- dd %>% select(nomenclature, titre, doc_count)
       return(dd)
     },
     error=function(cond){
