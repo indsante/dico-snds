@@ -41,6 +41,7 @@ observeEvent(input$term_query, {
 })
 
 
+
 observeEvent(input$query_result_agg_by_index_row_last_clicked, {
   index_tmp <- input$query_result_agg_by_index_row_last_clicked
   nomenclature <- get_query_result_agg_by_index(input$term_query, snds_nomenclatures)$nomenclature[index_tmp]
@@ -62,4 +63,8 @@ observeEvent(input$query_result_agg_by_index_row_last_clicked, {
       ) 
     )
   )
+  output$liste_variable <-  renderText({
+    nom_vars <- snds_nomenclatures[which(snds_nomenclatures$nomenclature == nomenclature), ]$variables_liees
+      HTML(paste0(strong("Variable Liées: "), as.character(nom_vars)))
+    })
 })

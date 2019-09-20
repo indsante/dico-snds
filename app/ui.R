@@ -60,7 +60,8 @@ navbarPage("Visualisation de la structure du SNDS",
            textInput("term_query", label = NULL, value = "", width = 1000,
                      placeholder = "Taper un ou plusieurs termes à chercher"),
            column(4,DT::dataTableOutput("query_result_agg_by_index")),
-           column(8,DT::dataTableOutput("query_result"))
+           column(8, h4(htmlOutput("liste_variable")),
+                  DT::dataTableOutput("query_result"))
   ),
   
   tabPanel("Explorateur des tables SNDS", value = "tables_explo",
