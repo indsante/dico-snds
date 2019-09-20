@@ -48,6 +48,8 @@ get_query_result_agg_by_index <- function(term){
   df = tryCatch(
     {
       dd <- elastic("http://localhost:9200", "nomenclature") %search% (term_query + index_freq)
+      dd[,1] <- toupper(dd[,1]) 
+      colnames(dd)[1] <- "nomenclature"
       return(dd)
     },
     error=function(cond){
