@@ -1,4 +1,4 @@
-# Elasticsearch onglet 3
+# Elasticsearch onglet 3s
 
 output$query_result_agg_by_index <- DT::renderDataTable(
   DT::datatable(
@@ -22,7 +22,10 @@ output$query_result_agg_by_index <- DT::renderDataTable(
 observeEvent(input$term_query, {
   output$query_result_agg_by_index <- DT::renderDataTable(
     DT::datatable(
-      get_query_result_agg_by_index(input$term_query, snds_nomenclatures),
+      get_query_result_agg_by_index(
+        term=input$term_query, 
+        snds_nomenclatures=snds_nomenclatures,
+        elastic_connexion=ELASTIC_CONNEXION),
       filter = "top",
       selection = "single",
       rownames = F,
@@ -43,10 +46,16 @@ observeEvent(input$term_query, {
 
 observeEvent(input$query_result_agg_by_index_row_last_clicked, {
   index_tmp <- input$query_result_agg_by_index_row_last_clicked
-  nomenclature <- get_query_result_agg_by_index(input$term_query, snds_nomenclatures)$nomenclature[index_tmp]
+  nomenclature <- get_query_result_agg_by_index(
+    term=input$term_query, 
+    snds_nomenclatures=snds_nomenclatures,
+    elastic_connexion=ELASTIC_CONNEXION)$nomenclature[index_tmp]
   output$query_result <- DT::renderDataTable(
     DT::datatable(
-      get_query_result(input$term_query, tolower(nomenclature)),
+      get_query_result(
+        term=input$term_query, 
+        index=tolower(nomenclature),
+        elastic_connexion=ELASTIC_CONNEXION),
       filter = "top",
       selection = "single",
       rownames = F,
