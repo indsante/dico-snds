@@ -38,51 +38,50 @@ get_snds_vars <- function(snds_vars){
 }
 
 # Functions for ElasticSearch queries
-get_query_result_agg_by_index <- function(term, snds_nomenclatures){
-  body_query <- '{"multi_match" : {"query" : "*'
-  term_query <- query(paste0(body_query, term, '*"}}'))
-  index_freq <- aggs('{"index_freq" : {
-                     "terms" : {
-                     "field" : "_index",
-                     "size" : 200
-                          } 
-                        }
-                      }')
+get_query_result_agg_by_index <- function(term, snds_nomenclatures, elastic_connexion){
   
-  df = tryCatch(
-    {
-      dd <- elastic("http://localhost:9200", "nomenclature") %search% (term_query + index_freq)
-      dd[,1] <- toupper(dd[,1]) 
-      colnames(dd)[1] <- "nomenclature"
-      dd <- join(dd, snds_nomenclatures, by = "nomenclature", type = "left", match = "all")
-      dd <- dd %>% select(nomenclature, titre, doc_count)
-      return(dd)
+  aggs <- list(
+    aggs = list(
+      index_freq = list(
+        terms = list(
+          field = "_index",
+          size = 200
+        )
+      )
+    )
+  )
+  
+  df = tryCatch({
+    request <- elastic::Search(elastic_connexion, index = 'nomenclature', q = paste0('*', term, '*'), body=aggs, asdf = T)
+    dd <- request$aggregations$index_freq$buckets
+    dd[,1] <- toupper(dd[,1]) 
+    colnames(dd)[1] <- "nomenclature"
+    colnames(dd)[2] <- "occurrences"
+    dd <- merge(x=dd, y=snds_nomenclatures, by = "nomenclature", all.x = T)
+    dd <- dd %>% select(nomenclature, titre, occurrences)
+    # the merge has shuffled the rows so we need to reorder
+    dd <- dd[with(dd, order(-occurrences)), ]
+    return(dd)
     },
     error=function(cond){
-      print(paste0("No entry corresponding to '", term, "' in the elastic database"))
+      print(paste0("Error when performing query to ES with term '", term, "'"))
       dd <- data.frame("-"="Pas de résultats")
       return(dd)
-    }
-  )
-  return(df)
+  })
 }
 
-get_query_result <- function(term, index){
-  body_query <- '{"multi_match" : {"query" : "'
-  term_query <- query(paste0(body_query, term, '"}}'))
-  
-  df = tryCatch(
-    {
-      dd <- elastic("http://localhost:9200", index) %search% term_query
-      return(dd)
+get_query_result <- function(term, index, elastic_connexion){
+  df <- tryCatch({
+    # size set to 1000 but might be extended ? 
+    request <- elastic::Search(elastic_connexion, index = index, q = paste0('*', term, '*'), size=1000)$hits$hits
+    # get back only _source field (does not use _index, _type, _id, _score and )
+    request_source <- lapply(request, function(x) x[["_source"]])
+    dd <- bind_rows(request_source)
+    return(dd)
     },
     error=function(cond){
-      print(paste0("No entry corresponding to '", term, "' in the ", index, "nomenclature"))
+      print(paste0("Error when performing query to ES with term '", term, "' in the ", index, " nomenclature"))
       dd <- data.frame("-"="Pas de résultats")
       return(dd)
-    }
-  )
-  
-  
-  }
-
+  })
+}
