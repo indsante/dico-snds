@@ -52,7 +52,7 @@ get_query_result_agg_by_index <- function(term, snds_nomenclatures, elastic_conn
   )
   
   df = tryCatch({
-    request <- elastic::Search(elastic_connexion, index = 'nomenclature', q = paste0('*', term, '*'), body=aggs, asdf = T)
+    request <- elastic::Search(elastic_connexion, index = 'nomenclature', q = term, body=aggs, asdf = T)
     dd <- request$aggregations$index_freq$buckets
     dd[,1] <- toupper(dd[,1]) 
     colnames(dd)[1] <- "nomenclature"
@@ -73,7 +73,7 @@ get_query_result_agg_by_index <- function(term, snds_nomenclatures, elastic_conn
 get_query_result <- function(term, index, elastic_connexion){
   df <- tryCatch({
     # size set to 1000 but might be extended ? 
-    request <- elastic::Search(elastic_connexion, index = index, q = paste0('*', term, '*'), size=1000)$hits$hits
+    request <- elastic::Search(elastic_connexion, index = index, q = term, size=1000)$hits$hits
     # get back only _source field (does not use _index, _type, _id, _score and )
     request_source <- lapply(request, function(x) x[["_source"]])
     dd <- bind_rows(request_source)
