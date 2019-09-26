@@ -33,7 +33,7 @@ get_snds_tables <- function(snds_tables){
 ## Preprocess snds vars
 get_snds_vars <- function(snds_vars){
   df <- snds_vars %>% 
-    select(one_of("table", "var", "description", "format"))
+    select(one_of("table", "var", "description", "nomenclature"))
   return(df)
 }
 

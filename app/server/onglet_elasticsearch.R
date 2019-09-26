@@ -9,6 +9,7 @@ output$query_result_agg_by_index <- DT::renderDataTable(
     options = list(
       lengthMenu = c(10, 20, 50, 100),
       pageLength = 50,
+      dom = 'Blrtip',      
       language = list(
         info = 'Résultats _START_ à _END_ sur une liste de _TOTAL_.',
         paginate = list(previous = 'Précédent', `next` = 'Suivant'),
@@ -32,6 +33,7 @@ observeEvent(input$term_query, {
       options = list(
         lengthMenu = c(10, 20, 50, 100),
         pageLength = 50,
+        dom = 'Blrtip',              
         language = list(
           info = 'Résultats _START_ à _END_ sur une liste de _TOTAL_.',
           paginate = list(previous = 'Précédent', `next` = 'Suivant'),
@@ -59,10 +61,13 @@ observeEvent(input$query_result_agg_by_index_row_last_clicked, {
         elastic_connexion=ELASTIC_CONNEXION),
       filter = "top",
       selection = "single",
+      extensions = "Buttons",
       rownames = F,
       options = list(
         lengthMenu = c(10, 20, 50, 100),
         pageLength = 50,
+        buttons = c('copy', 'csv'),
+        dom = 'Blfrtip',
         language = list(
           info = 'Résultats _START_ à _END_ sur une liste de _TOTAL_.',
           paginate = list(previous = 'Précédent', `next` = 'Suivant'),
@@ -74,6 +79,6 @@ observeEvent(input$query_result_agg_by_index_row_last_clicked, {
   )
   output$liste_variable <-  renderText({
     nom_vars <- snds_nomenclatures[which(snds_nomenclatures$nomenclature == nomenclature), ]$variables_liees
-      HTML(paste0(strong("Variable Liées: "), as.character(nom_vars)))
+      HTML(paste0(strong("Variables Liées: "), as.character(nom_vars)))
     })
 })

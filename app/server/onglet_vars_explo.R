@@ -32,7 +32,7 @@ observe({
   #snds_vars_filtered = snds_vars_raw %>% filter_all(any_vars(grepl(default_filter, .)))
   output$all_vars_snds = DT::renderDataTable(
     DT::datatable(get_snds_vars(snds_vars), 
-                  colnames = c('Table'='table', 'Variable'='var', 'Libelle'='description', 'Type'='format'),
+                  colnames = c('Table'='table', 'Variable'='var', 'Libelle'='description', 'Nomenclature'='nomenclature'),
                   filter = "top",
                   selection = "single",
                   rownames = F,
@@ -89,9 +89,10 @@ output$tmp_var_snds = renderText({
     HTML(
       paste0(strong("Variable "), snds_vars[tmp_var_snds(), ] %>% select(var), ', ', 
              snds_vars[tmp_var_snds(), ] %>% select(description), br(),
+             br(), strong("Type : "), snds_vars[tmp_var_snds(), ] %>% select(format), br(),            
              strong('Historique :'), br(),
-             'Date de création : ', var_creation, br(),
-             'Date de suppression : ', var_suppression,
+             '- Date de création : ', var_creation, br(),
+             '- Date de suppression : ', var_suppression,
              br(), '<i><font size="3">', var_modification_text, '</font></i>',
              br(), br(), strong("Nomenclature : "), snds_vars[tmp_var_snds(), ] %>% select(nomenclature)
       )
