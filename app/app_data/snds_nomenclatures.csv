@@ -31,10 +31,10 @@ IR_ASU_V,Nature d'Assurance,"AR1_ASU_NAT, AR2_ASU_NAT, AR3_ASU_NAT, ARO_ASU_NAT,
 IR_ATT_V,Nature d'Accident du Travail,ATT_NAT
 IR_BAC_V,Top bénéficiaire ACS,DRT_ACS_TOP
 IR_BER_V,Rang Gémellaire Bénéficiaire,"BEN_RNG_GEM, ben_rng_gem"
-IR_BIO_R,Titre manquant,"BIO_PRS_IDE, NABM_COD"
+IR_BIO_R,Nomenclature des actes médicales de biologie,"BIO_PRS_IDE, NABM_COD"
 IR_CAI_V,Caisse - Organisme de base,"CAI_AFF_COD, CAI_LIQ_COD, ORB_BSE_NUM, ORL_BSE_NUM"
 IR_CBI_V,Catégorie de Bénéficiaire (Invalidité et Rentes AT),BEN_IAT_CAT
-IR_CCAM_V54,Titre manquant,"CAM_PRS_IDE, CCAM_ACT, CCAM_COD, CDC_ACT"
+IR_CCAM_V54,Classification commune des actes médicaux (ATIH),"CAM_PRS_IDE, CCAM_ACT, CCAM_COD, CDC_ACT"
 IR_CCA_V,Codes compléments associés,CPL_AFF_COD
 IR_CCI_V,Table des catégories de codes CIM,Aucune variable liée
 IR_CET_V,Catégorie d'établissement,ETE_CAT_COD
@@ -62,7 +62,7 @@ IR_GEO_V,Géographie Administrative et Sanitaire,"BEN_RES_COM, DCD_COM_COD"
 IR_GES_V,Gestion Comptable,"GES_CPT_COD, GES_GRG_COD"
 IR_GHS_V,Groupe homogène de séjour  GHS   code GHS_GRP_TYP = S  ( MAJ annuelle ),ETE_GHS_NUM
 IR_GRG_V,Grand Régime,Aucune variable liée
-IR_HAD_PEC_PAL,Titre manquant,Aucune variable liée
+IR_HAD_PEC_PAL,"Motif de prise en charge principal, HAD","PEC_ASS, PEC_PAL"
 IR_HAD_V,HAD en médico-social,BEN_EHP_TOP
 IR_INT_V,Type de version interface tiers,DCT_INT_VER
 IR_LIE_V,lieu d'exécution ( de l'acte médical ),EXE_LIE_COD
@@ -82,7 +82,7 @@ IR_NMD_V,Nomenclature Médicale,MED_NCL_IDT
 IR_ORG_V,organismes,"BEN_CMU_ORG, ORG_AFF_BEN, ORG_CLE_NEW, ORG_CLE_NUM"
 IR_PAF_V,Participation forfaitaire,PRS_PPF_COD
 IR_PCT_V,Périodes comptables,CPT_DEP_PER
-IR_PHA_R,Titre manquant,"PHA_PRS_C13, PHA_PRS_IDE"
+IR_PHA_R,"Référentiel des médicaments (correspondance CIP13, ATC et libellés)","PHA_PRS_C13, PHA_PRS_IDE"
 IR_PMC_V,Type de part mutuelle complémentaire,Aucune variable liée
 IR_PPU_V,Secteur d'Activité (Prive / Public),PRS_PPU_SEC
 IR_PRF_V,Type de Prestation Fournie (Dispositifs Médicaux),TIP_PRS_TYP
@@ -126,8 +126,8 @@ MS_CIM_V,Codes Diagnostics (CIM10) pour le PMSI (limite à 20 000 lignes) ( MAJ 
 MS_ENR_V,Type d'enregistrement,TYP_ART
 MS_PRV_V,Provenance,"ENT_PRV, SOR_DES"
 MS_SOR_V,Mode de Sortie du Champ PMSI_MCO,"ENT_MOD, SOR_MOD"
-NT_LPP,Titre manquant,TIP_PRS_IDE
-NU_UCD_R,Titre manquant,"COD_UCD, UCD_COD, UCD_UCD_COD"
+NT_LPP,Liste des produits et prestations,TIP_PRS_IDE
+NU_UCD_R,"Unité Commune de Dispensation, médicaments rares en hospitalier, (codes cip7)","COD_UCD, UCD_COD, UCD_UCD_COD"
 TOP_TIER_ACC,Titre manquant,ACC_TIE_IND
 XC_ATE_V,Titre manquant,CAM_ACT_COD
 XC_PHA_V,Titre manquant,CAM_TRT_PHA
