@@ -20,9 +20,9 @@ PATH2GITLAB_SCHEMAS = 'https://gitlab.com/healthdatahub/schema-snds/blob/master/
 ELASTIC_CONNEXION <- elastic::connect(
   host = "localhost",
   port = 9200,
-  transport_schema = "http",
-  user = "snds_reader",
-  pwd = "DICOsnds"
+  transport_schema = "http"
+  #user = "snds_reader",
+  #pwd = "DICOsnds"
 )
 
 # Source auxiliary functions
