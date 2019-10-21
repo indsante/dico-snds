@@ -105,8 +105,8 @@ IR_SJE_V,Statut juridique d'établissement,ETE_STJ_COD,62
 IR_SJP_V,Statut Juridique ou Mode d'exercice d'un PS,"PSE_STJ_COD, PSP_STJ_COD",10
 IR_SLM_V,Section Locale Mutualiste (SLM),SLM_AFF_COD,65
 IR_SNS_V,Sens du Mouvement,CPT_MVT_SNS,3
-IR_SPA_D,regroupement de spécialités médicales et nature d'activité,PSE_ACT_SPE,85
-IR_SPE_V,Spécialités médicales,"PSE_SPE_COD, PSP_ACT_SPE, PSP_SPE_COD",57
+IR_SPA_D,regroupement de spécialités médicales et nature d'activité,"PSE_ACT_SPE, PSP_ACT_SPE",85
+IR_SPE_V,Spécialités médicales,"PSE_SPE_COD, PSP_SPE_COD",57
 IR_SUB_V,Motif de Substitution Médicament,"PHA_ACT_QSC, PHA_SUB_MTF",7
 IR_SVI_V,Indicateur de suivi du n° RPPS,PSP_SVI_PPS,11
 IR_TAA_V,Impact T2A publique sur le référentiel tables,ETE_IND_TAA,5
