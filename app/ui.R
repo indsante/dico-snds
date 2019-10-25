@@ -58,7 +58,7 @@ navbarPage("Visualisation de la structure du SNDS",
            includeCSS("www/styles.css"),
            tags$style('.nodetext{fill: #000000}'),
            textInput("term_query", label = NULL, value = "", width = 1000,
-                     placeholder = "Taper un ou plusieurs termes à chercher"),
+                     placeholder = "Chercher des termes ou codes dans les nomenclatures. Ex : Otite, Audioprothèse, ECQM001"),
            column(4,DT::dataTableOutput("query_result_agg_by_index")),
            column(8, h4(htmlOutput("liste_variable")),
                   DT::dataTableOutput("query_result"))
