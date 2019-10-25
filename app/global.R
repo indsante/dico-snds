@@ -28,6 +28,9 @@ ELASTIC_CONNEXION <- elastic::connect(
 # Source auxiliary functions
 source("functions.R")
 
+source("server/mongo_db_connection.R",local = T)
+
+
 # Load the data
 PATH2DATA = "app_data/"
 PATH2NOMENCLATURES =  paste0(PATH2DATA, "nomenclatures/")

@@ -15,5 +15,12 @@ shinyServer(function(input, output, session) {
   # SNDS Network (Schema) (tab 4)
   source("server/onglet_network.R", local=TRUE)
   
+  
+  # Log to MongoDB Atlas
+  source("server/log_mongo_atlas.R", local=TRUE)
+  
+  
+  
+  
 })
   
