@@ -40,6 +40,10 @@ get_snds_vars <- function(snds_vars){
 # Functions for ElasticSearch queries
 get_query_result_agg_by_index <- function(term, snds_nomenclatures, elastic_connexion){
   
+  if (term==''){
+    term = '*'
+  }
+  
   aggs <- list(
     aggs = list(
       index_freq = list(
@@ -71,6 +75,11 @@ get_query_result_agg_by_index <- function(term, snds_nomenclatures, elastic_conn
 }
 
 get_query_result <- function(term, index, elastic_connexion){
+  
+  if (term==''){
+    term = '*'
+  }
+  
   df <- tryCatch({
     # size set to 1000 but might be extended ? 
     request <- elastic::Search(elastic_connexion, index = index, q = term, size=1000)$hits$hits
