@@ -40,9 +40,3 @@ snds_vars <- data$snds_vars %>%
   replace_na(list(creation = MISSING_TEXT, suppression = MISSING_TEXT))
 snds_tables <- data$snds_tables %>% 
   replace_na(list(creation = MISSING_TEXT, suppression = MISSING_TEXT))
-
-# default aggregated request for new page
-result_agg_by_index <- get_query_result_agg_by_index(
-  term='', 
-  snds_nomenclatures=snds_nomenclatures, 
-  elastic_connexion=ELASTIC_CONNEXION)
