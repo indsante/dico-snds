@@ -1,0 +1,61 @@
+observeEvent(input$description,{
+  req(input$description)
+  db$insert(data.frame(id=id,time=Sys.time(),input="network_description",valeur=input$description))
+})
+observeEvent(input$name,{
+  req(input$name)
+  db$insert(data.frame(id=id,time=Sys.time(),input="network_name",valeur=input$name))
+})
+observeEvent(input$joint,{
+  req(input$joint)
+  db$insert(data.frame(id=id,time=Sys.time(),input="network_joint",valeur=input$joint))
+})
+observeEvent(input$help_button_3,{
+  req(input$help_button_3)
+  db$insert(data.frame(id=id,time=Sys.time(),input="network_help_button",valeur=input$help_button_3))
+})
+observeEvent(input$query_result_agg_by_index_row_last_clicked,{
+  req(input$query_result_agg_by_index_row_last_clicked)
+  db$insert(data.frame(id=id,time=Sys.time(),input="es_query",valeur=input$query_result_agg_by_index_row_last_clicked))
+})
+observeEvent(input$term_query,{
+  req(input$term_query)
+  db$insert(data.frame(id=id,time=Sys.time(),input="es_term_query",valeur=input$term_query))
+})
+observeEvent(input$all_vars_snds_row_last_clicked,{
+  req(input$all_vars_snds_row_last_clicked)
+  db$insert(data.frame(id=id,time=Sys.time(),input="var_explo_row_click",valeur=input$all_vars_snds_row_last_clicked))
+})
+observeEvent(input$var_details,{
+  req(input$var_details)
+  db$insert(data.frame(id=id,time=Sys.time(),input="var_explo_var_details",valeur=input$var_details))
+})
+observeEvent(input$sharable_link,{
+  req(input$sharable_link)
+  db$insert(data.frame(id=id,time=Sys.time(),input="var_explo_sharable_link",valeur=input$sharable_link))
+})
+observeEvent(input$all_vars_snds_search,{
+  req(input$all_vars_snds_search)
+  db$insert(data.frame(id=id,time=Sys.time(),input="var_explo_search",valeur=input$all_vars_snds_search))
+})
+observeEvent(input$help_button_1,{
+  req(input$help_button_1)
+  db$insert(data.frame(id=id,time=Sys.time(),input="var_explo_help_button",valeur=input$help_button_1))
+})
+observeEvent(input$show_joinkeys_1,{
+  req(input$show_joinkeys_1)
+  db$insert(data.frame(id=id,time=Sys.time(),input="var_explo_show_joinkeys",valeur=input$show_joinkeys_1))
+})
+observeEvent(input$snds_tables_row_last_clicked,{
+  req(input$snds_tables_row_last_clicked)
+  db$insert(data.frame(id=id,time=Sys.time(),input="table_explo_row_click",valeur=input$snds_tables_row_last_clicked))
+})
+observeEvent(input$help_button_2,{
+  req(input$help_button_2)
+  db$insert(data.frame(id=id,time=Sys.time(),input="table_explo_help_button",valeur=input$help_button_2))
+})
+observeEvent(input$show_joinkeys_2,{
+  req(input$show_joinkeys_2)
+  db$insert(data.frame(id=id,time=Sys.time(),input="table_explo_show_joinkeys",valeur=input$show_joinkeys_2))
+})
+

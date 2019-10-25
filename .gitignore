@@ -6,4 +6,4 @@ dico-snds.Rproj
 .env
 .Rproj.user
 test_elastic.R
-
+app/current_ip.txt
