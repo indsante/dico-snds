@@ -13,7 +13,7 @@ if (ip %in% c("54.204.34.9","54.204.36.75","54.204.37.78")){
 }
 if(to_mongo_db){
   options(mongodb = list(
-    "host" = "Cluster0-6rshm.mongodb.net",
+    "host" = "cluster0-6rshm.mongodb.net",
     "username" = "DREES_admin",
     "password" = Sys.getenv(x="API_TOKEN")
   ))
