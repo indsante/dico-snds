@@ -7,3 +7,5 @@ dico-snds.Rproj
 .Rproj.user
 test_elastic.R
 app/current_ip.txt
+app/server/mongo_password.txt
+app/rsconnect/

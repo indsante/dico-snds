@@ -12,11 +12,13 @@ library(elastic)
 
 # Data
 
+
+
 PATH2MARKDOWNS = paste0("www/markdowns/")
 
 PATH2GITLAB_SCHEMAS = 'https://gitlab.com/healthdatahub/schema-snds/blob/master/schemas/'
 
-# set connexion to the db
+# set connection to the db
 ELASTIC_CONNEXION <- elastic::connect(
   host = "51.91.96.12",
   port = 9200,
@@ -28,6 +30,8 @@ ELASTIC_CONNEXION <- elastic::connect(
 # Source auxiliary functions
 source("functions.R")
 
+# set connection to mongodb
+mongo_pwd = readLines("server/mongo_password.txt")
 source("server/mongo_db_connection.R",local = T)
 
 

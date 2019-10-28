@@ -15,7 +15,7 @@ if(to_mongo_db){
   options(mongodb = list(
     "host" = "cluster0-6rshm.mongodb.net",
     "username" = "DREES_admin",
-    "password" = Sys.getenv(x="API_TOKEN")
+    "password"=mongo_pwd
   ))
   databaseName <- "UX"
   collectionName <- "DicoSNDS"
