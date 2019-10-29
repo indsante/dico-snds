@@ -12,11 +12,11 @@ snds_vars <- data$snds_vars
 snds_tables <- data$snds_tables
 
 test_that("load_data returns all dataframes necessary to the app", {
-  expect_equal(length(load_data(PATH2DATA)), 4)
+  expect_equal(length(load_data(PATH2DATA)), 5)
 })
 
 test_that("get_snds_tables returns the good columns", {
-  expect_equal(colnames(get_snds_tables(snds_tables)), c("Produit", "Table", "Libelle", "creation", "suppression"))
+  expect_equal(colnames(get_snds_tables(snds_tables)), c('Produit', 'Table', 'Libelle'))
 })
 
 
@@ -25,7 +25,7 @@ test_that("nomenclature column is present in snds_vars", {
 })
 
 test_that("get_snds_vars returns the good columns", {
-  expect_equal(colnames(get_snds_vars(snds_vars)), c("table", "var", "description", "format", "creation", "suppression"))
+  expect_equal(colnames(get_snds_vars(snds_vars)), c("table", "var", "description", "nomenclature"))
 })
 
 test_that("network inputs have the relevant columns", {
