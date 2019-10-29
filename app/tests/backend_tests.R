@@ -1,4 +1,4 @@
- # Load data
+# Load data
 library(testthat)
 library(dplyr)
 
@@ -31,4 +31,8 @@ test_that("get_snds_vars returns the good columns", {
 test_that("network inputs have the relevant columns", {
   expect_equal(colnames(snds_nodes), c("name", "description", "group", "index", "nb_vars"))
   expect_equal(colnames(snds_links), c("source", "target", "joint_var"))
+})
+
+test_that('erreur lors du deploiement ?',{
+  expect_equal(sum(grepl('(error-code)|(error has occurred)',readLines('../dico.html'))),0)
 })
