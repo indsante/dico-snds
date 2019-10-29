@@ -18,13 +18,15 @@ PATH2MARKDOWNS = paste0("www/markdowns/")
 
 PATH2GITLAB_SCHEMAS = 'https://gitlab.com/healthdatahub/schema-snds/blob/master/schemas/'
 
+source("server/parse_var_env.R")
+
 # set connection to the db
 ELASTIC_CONNEXION <- elastic::connect(
-  host = "elastic.health-data-hub.fr",
+  host = "elasticsearch.health-data-hub.fr",
   port = 9200,
   transport_schema = "http",
   user = "snds_reader",
-  pwd = "DICOsnds"
+  pwd = vars_env$ES_PWD
 )
 
 # Source auxiliary functions

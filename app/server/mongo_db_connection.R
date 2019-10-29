@@ -8,14 +8,14 @@ print("ip")
 print(ip)
 
 to_mongo_db=F
-if (ip %in% c("54.204.34.9","54.204.36.75","54.204.37.78")){
+if (ip %in% c("54.204.34.9","54.204.36.75","54.204.37.78","164.131.131.193")){
   to_mongo_db=T
 }
 if(to_mongo_db){
   options(mongodb = list(
     "host" = "cluster0-6rshm.mongodb.net",
     "username" = "DREES_admin",
-    "password"=mongo_pwd
+    "password"= vars_env$MONGO_PWD
   ))
   databaseName <- "UX"
   collectionName <- "DicoSNDS"
