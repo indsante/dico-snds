@@ -5,8 +5,8 @@ account: drees
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 631652
-bundleId: 2543703
+bundleId: 2548451
 url: https://drees.shinyapps.io/dico-snds/
-when: 1572265947.9393
+when: 1572367551.95836
 asMultiple: FALSE
 asStatic: FALSE

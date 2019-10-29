@@ -33,7 +33,6 @@ ELASTIC_CONNEXION <- elastic::connect(
 source("functions.R")
 
 # set connection to mongodb
-mongo_pwd = readLines("server/mongo_password.txt")
 source("server/mongo_db_connection.R",local = T)
 
 

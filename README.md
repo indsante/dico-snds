@@ -28,6 +28,8 @@ Si vous souhaitez faire tourner l'application sur votre ordinateur en local afin
 + Clonez ce repo sur votre ordinateur: `git clone https://gitlab.com/healthdatahub/dico-snds.git`
 + Ouvrez dans [Rstudio](https://www.rstudio.com/) `server.R` ou `ui.R` et cliquez sur le bouton `Run App` en haut à droite de la fenêtre principale.
 + Installez les packages nécessaires avec la commande bash `./install_Rpackages.sh` ou bien directement dans R avec `install.packages(c('backports', 'crosstalk', 'dplyr', 'DT', 'evaluate', 'ggplot2', 'gridExtra', 'highr', 'knitr', 'markdown', 'networkD3', 'rmarkdown', 'rprojroot', 'rsconnect', 'shiny', 'testthat'), repos='http://cran.rstudio.com/')`
++ Ajouter un fichier `app/server/var_env.txt`, en copiant le contenu de `app/server/var_env_template.txt`.
+ Ce fichier contient les secrets pour se connecter à ElasticSearch (nomenclatures) et MongoDB (logs de l'application). 
 + Vous pouvez lancer les tests en lançant à la racine du projet `./run_tests.sh`
 
 ### Avec Docker et test du déploiement
