@@ -9,3 +9,4 @@ test_elastic.R
 app/current_ip.txt
 app/server/var_env.txt
 app/rsconnect/
+app/server/var_env.txt

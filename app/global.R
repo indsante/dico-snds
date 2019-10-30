@@ -22,10 +22,10 @@ source("server/parse_var_env.R")
 
 # set connection to the db
 ELASTIC_CONNEXION <- elastic::connect(
-  host = "elasticsearch.health-data-hub.fr",
-  port = 9200,
+  host = vars_env$ES_HOST,
+  port = vars_env$ES_PORT,
   transport_schema = "http",
-  user = "snds_reader",
+  user = vars_env$ES_USERNAME,
   pwd = vars_env$ES_PWD
 )
 
