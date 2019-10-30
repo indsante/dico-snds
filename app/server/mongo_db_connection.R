@@ -13,8 +13,8 @@ if (ip %in% c("54.204.34.9","54.204.36.75","54.204.37.78","164.131.131.193")){
 }
 if(to_mongo_db){
   options(mongodb = list(
-    "host" = "cluster0-6rshm.mongodb.net",
-    "username" = "DREES_admin",
+    "host" = vars_env$MONGO_HOST,
+    "username" = vars_env$MONGO_USERNAME,
     "password"= vars_env$MONGO_PWD
   ))
   databaseName <- "UX"
