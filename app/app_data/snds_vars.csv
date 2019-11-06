@@ -1641,9 +1641,9 @@ T_HADaa_nnFP,RHAD_NUM,string (5),Numéro séquentiel d'entrée (idem RAPSS),-,20
 T_HADaa_nnFP,TIP_PRS_IDE,number,Code LPP (13 c),NT_LPP,2014,,"2015, 2016"
 T_HADaa_nnFP,TOT_MNT_ECA,number,Montant total de l'écart indemnisable,-,2014,,"2015, 2016"
 T_HADaa_nnFP,TYP_ART,string (1),Type d'enregistrement,MS_ENR_V,2014,,"2015, 2016"
+T_HADaa_nnGJ,ETA_NUM_EPMSI,string,N° FINESS e-PMSI,-,2006,2007,
 T_HADaa_nnGJ,ETA_NUM_GEO,string (9),N° FINESS de l’entité juridique,-,2006,2007,
 T_HADaa_nnGJ,ETA_NUM_JUR,string,N° FINESS de l’établissement (code géographique),-,2006,2007,
-T_HADaa_nnGJ,ETA_NUM_PMSI,string,N° FINESS e-PMSI,-,2006,2007,
 T_HADaa_nnGRE,ETA_NUM_EPMSI,string (9),N° FINESS e-PMSI,-,2007,,
 T_HADaa_nnGRE,ETA_NUM_GEO,string (9),Numéro FINESS de l’établissement (code géographique),-,2017,,"2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016"
 T_HADaa_nnGRE,ETA_NUM_JUR,string,N° FINESS de l’établissement (code géographique),-,2005,2007,
