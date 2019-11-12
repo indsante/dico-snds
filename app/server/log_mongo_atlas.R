@@ -74,3 +74,16 @@ observeEvent(input$show_joinkeys_2,{
     db$insert(data.frame(id=id,time=Sys.time(),input="table_explo_show_joinkeys",valeur=input$show_joinkeys_2))
 })
 
+IP <- reactive({ input$getIP })
+observe({
+  print("get client IP")
+  print(IP())
+  req(IP())
+  IP_data=data.frame(valeur=IP()$ip)
+  IP_data$id=id
+  IP_data$time=Sys.time()
+  IP_data$input="IP"
+  print(IP_data)
+  if(to_mongo_db)
+    db$insert(IP_data)
+})

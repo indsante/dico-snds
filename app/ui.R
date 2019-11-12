@@ -21,6 +21,8 @@ navbarPage("Visualisation de la structure du SNDS",
        gtag('js', new Date());  gtag('config', 'UA-119893698-10');
        </script>"),
        includeHTML("www/cookie_handler.html"),
+       tags$script(JS(readLines("www/get_ip_client.js"))),
+
        # Include our custom CSS
        includeCSS("www/styles.css"),
        tags$style('.nodetext{fill: #000000}'),

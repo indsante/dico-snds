@@ -31,7 +31,6 @@ if(to_mongo_db){
   
   id=as.character(floor(runif(1)*1e16))#session$token
   db$insert(data.frame(id=id,time=Sys.time(),input="start",valeur="it's on"))
-  db$insert(data.frame(id=id,time=Sys.time(),input="IP",valeur=ip))
   
   
   
