@@ -22,6 +22,7 @@ DS_SUP_V,Titre manquant,CER_SUP_TYP,2
 DS_TRF_V,Titre manquant,HOS_TRF_TOP,2
 DS_VER_V,Titre manquant,CER_VER_NUM,2
 DS_VOL_V,Titre manquant,TYP_VOL_COD,2
+IR_ACT_COD,Lettre clé du Code Ngap,ACT_COD,434
 IR_ACT_V,Nature d'Activité (Non Médecins),"PSE_ACT_NAT, PSP_ACT_NAT",30
 IR_ALD_V,Table des codes ALD030,IMB_ALD_NUM,34
 IR_AMA_V,Tranche d'âge,BEN_AMA_COD,155
