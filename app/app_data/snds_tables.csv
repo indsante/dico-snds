@@ -7,6 +7,7 @@ CARTOGRAPHIE_PATHOLOGIES,CT_IND_AAAA_GN,Table pathologies de la cartographie des
 Causes de décès,KI_CCI_R,Table des circonstances et de la cause initiale de décès,2013,,
 Causes de décès,KI_ECD_R,Table de lensemble des causes de décès,2013,,
 DAMIR,MA_REM_FT,,,,
+DAMIR,OPEN_DAMIR,OPEN DAMIR (Dépenses de l'Assurance Maladie Inter-Régimes),2015,,
 DCIR,ER_ANO_F,Table des anomalies,,,
 DCIR,ER_ARO_F,Table des données de remboursements complémentaires,,,
 DCIR,ER_BIO_F,Table des données de codage de biologie,,,

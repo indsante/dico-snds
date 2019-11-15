@@ -1,6 +1,9 @@
 nomenclature,titre,variables_liees,nombre_lignes
+AGE_BEN_SNDS,Titre manquant,AGE_BEN_SNDS,9
 AT_MLP_V,numéro de MP tableau - numéro de MP  bis ter -syndrome localisation - syndrome code pathologie,IMB_MLP_TAB,851
+BEN_RES_REG,Titre manquant,BEN_RES_REG,14
 CSARR,Catalogue spécifique des actes de rééducation et réadaptaion (prise en charge SSR),FP_PEC,545
+DDP_SPE_COD,Titre manquant,DDP_SPE_COD,36
 DS_ACC_V,Titre manquant,MOD_ACC_COD,3
 DS_ACP_V,Titre manquant,PFV_ACP_COD,3
 DS_ATT_V,Titre manquant,DCD_ATT_COD,3
@@ -22,6 +25,12 @@ DS_SUP_V,Titre manquant,CER_SUP_TYP,2
 DS_TRF_V,Titre manquant,HOS_TRF_TOP,2
 DS_VER_V,Titre manquant,CER_VER_NUM,2
 DS_VOL_V,Titre manquant,TYP_VOL_COD,2
+ETE_CAT_SNDS,Titre manquant,ETE_CAT_SNDS,46
+ETE_REG_COD,Titre manquant,ETE_REG_COD,14
+ETE_TYP_SNDS,Titre manquant,ETE_TYP_SNDS,7
+ETP_CAT_SNDS,Titre manquant,ETP_CAT_SNDS,46
+ETP_REG_COD,Titre manquant,ETP_REG_COD,14
+EXE_INS_REG,Titre manquant,EXE_INS_REG,14
 IR_ACT_COD,Lettre clé du Code Ngap,ACT_COD,434
 IR_ACT_V,Nature d'Activité (Non Médecins),"PSE_ACT_NAT, PSP_ACT_NAT",30
 IR_AGE_V,Age,AGE_BEN_COD,127
@@ -128,12 +137,23 @@ IR_TPR_V,Types de prestation Kiné,PRS_TYP_KIN,6
 IR_TYE_V,Type d'établissement,ETE_TYP_COD,11
 IR_TYR_V,Type de Remboursement,"AR1_REM_TYP, AR2_REM_TYP, AR3_REM_TYP, ARO_REM_TYP, PRS_REM_TYP",12
 IR_TYT_V,Type de Transmetteur,FLX_EMT_TYP,25
+MDT_TYP_COD,Titre manquant,MDT_TYP_COD,4
 MS_CIM_V,Codes Diagnostics (CIM10) pour le PMSI (limite à 20 000 lignes) ( MAJ à contrôler ),"ASS_DGN, DGN_ASS, DGN_ASS_MPA, DGN_ASS_MPP, DGN_PAL, DGN_REL",19272
 MS_ENR_V,Type d'enregistrement,TYP_ART,9
 MS_PRV_V,Provenance,"ENT_PRV, SOR_DES",9
 MS_SOR_V,Mode de Sortie du Champ PMSI_MCO,"ENT_MOD, SOR_MOD",7
 NT_LPP,Liste des produits et prestations,TIP_PRS_IDE,6276
 NU_UCD_R,"Unité Commune de Dispensation, médicaments rares en hospitalier, (codes cip7)","COD_UCD, UCD_COD, UCD_UCD_COD",1812
+ORG_CLE_REG,Titre manquant,ORG_CLE_REG,14
+PRE_INS_REG,Titre manquant,PRE_INS_REG,14
+PSE_ACT_CAT,Titre manquant,PSE_ACT_CAT,11
+PSE_ACT_SNDS,Titre manquant,PSE_ACT_SNDS,14
+PSE_SPE_SNDS,Titre manquant,PSE_SPE_SNDS,27
+PSE_STJ_SNDS,Titre manquant,PSE_STJ_SNDS,4
+PSP_ACT_CAT,Titre manquant,PSP_ACT_CAT,11
+PSP_ACT_SNDS,Titre manquant,PSP_ACT_SNDS,14
+PSP_SPE_SNDS,Titre manquant,PSP_SPE_SNDS,27
+PSP_STJ_SNDS,Titre manquant,PSP_STJ_SNDS,4
 TOP_TIER_ACC,Titre manquant,ACC_TIE_IND,3
 XC_ATE_V,Titre manquant,CAM_ACT_COD,5
 XC_PHA_V,Titre manquant,CAM_TRT_PHA,4
