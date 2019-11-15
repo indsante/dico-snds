@@ -24,27 +24,30 @@ DS_VER_V,Titre manquant,CER_VER_NUM,2
 DS_VOL_V,Titre manquant,TYP_VOL_COD,2
 IR_ACT_COD,Lettre clé du Code Ngap,ACT_COD,434
 IR_ACT_V,Nature d'Activité (Non Médecins),"PSE_ACT_NAT, PSP_ACT_NAT",30
+IR_AGE_V,Age,AGE_BEN_COD,127
 IR_ALD_V,Table des codes ALD030,IMB_ALD_NUM,34
 IR_AMA_V,Tranche d'âge,BEN_AMA_COD,155
 IR_ANC_V,Type de remboursement,CPL_ANO_COD,10
 IR_ASS_V,Table ASSONP,CAM_ASS_COD,6
-IR_ASU_V,Nature d'Assurance,"AR1_ASU_NAT, AR2_ASU_NAT, AR3_ASU_NAT, ARO_ASU_NAT, RGO_ASU_NAT",12
+IR_ASU_V,Nature d'Assurance,"AR1_ASU_NAT, AR2_ASU_NAT, AR3_ASU_NAT, ARO_ASU_NAT, ASU_NAT, RGO_ASU_NAT",12
 IR_ATT_V,Nature d'Accident du Travail,ATT_NAT,5
 IR_BAC_V,Top bénéficiaire ACS,DRT_ACS_TOP,3
+IR_BEQ_V,Qualité de Bénéficiaire,BEN_QLT_COD,6
 IR_BER_V,Rang Gémellaire Bénéficiaire,"BEN_RNG_GEM, ben_rng_gem",10
 IR_BIO_R,Nomenclature des actes médicales de biologie,"BIO_PRS_IDE, NABM_COD",1076
-IR_CAI_V,Caisse - Organisme de base,"CAI_AFF_COD, CAI_LIQ_COD, ORB_BSE_NUM, ORL_BSE_NUM",2756
+IR_CAI_V,Caisse - Organisme de base,"CAI_AFF_COD, CAI_LIQ_COD, ORB_BSE_NUM, ORG_CAI_NUM, ORL_BSE_NUM",2756
+IR_CAT_V,Catégorie Professionnel de Santé,"PSE_CAT_COD, PSP_CAT_COD",11
 IR_CBI_V,Catégorie de Bénéficiaire (Invalidité et Rentes AT),BEN_IAT_CAT,45
 IR_CCAM_V54,Classification commune des actes médicaux (ATIH),"CAM_PRS_IDE, CCAM_ACT, CCAM_COD, CDC_ACT",8053
 IR_CCA_V,Codes compléments associés,CPL_AFF_COD,31
 IR_CCI_V,Table des catégories de codes CIM,Aucune variable liée,2059
-IR_CET_V,Catégorie d'établissement,ETE_CAT_COD,142
+IR_CET_V,Catégorie d'établissement,"ETE_CAT_COD, ETP_CAT_COD",142
 IR_CIM_V,Tables de codes CIM10 ( MAJ à contrôler ),"DCD_CIM_COD, ECD_CIM_COD, ETL_AFF, MED_MTF_COD, MOR_PRP",18334
 IR_CIV_V,Catégorie de Pension d'Invalidité,INV_PEN_CAT,8
 IR_CLC_V,Code Libellé de Contrôle,DCT_CTL_COD,58
 IR_CNV_V,Conventions Médicales,"PSE_CNV_COD, PSP_CNV_COD",6
 IR_COC_V,Catégorie d'Organisme Complémentaire,BEN_CMU_CAT,10
-IR_CPA_V,Complément d'Acte,ARO_CPL_COD,5
+IR_CPA_V,Complément d'Acte,"ARO_CPL_COD, CPL_COD",5
 IR_CTA_V,type de contrat complémentaire,BEN_CTA_TYP,100
 IR_CTL_V,Type de contrôle,DCT_CTL_TYP,6
 IR_DDP_V,Discipline de prestation établissement,DDP_COD,421
@@ -52,13 +55,13 @@ IR_DEP_V,Qualificatif Dépense de Prestation,"DPN_QLF, PRS_DPN_QLP",20
 IR_DPT_V,Département ( avec code région ),"BEN_RES_DPT, DCD_DPT_COD, ETE_DPT_COD, ETP_DPT_COD, EXE_INS_DPT, PRE_INS_DPT",117
 IR_DRG_V,Nature de destinataire du règlement,DRG_NAT,10
 IR_DSP_V,Droits Spécifiques,BEN_DRT_SPF,3
-IR_DTE_V,Période civile journalière,"BEN_DCD_DTE, BEN_DTE_INS, BEN_DTE_MAJ, DCT_ARC_DTE, DCT_ARR_DTE, DCT_MAN_DTD, DCT_REM_DTD, EXE_SOI_AMD, EXE_SOI_AMF, EXE_SOI_DTD, EXE_SOI_DTF, FLX_DIS_DTD, FLX_TRT_DTD, IMB_ALD_DTD, IMB_ALD_DTF, INV_ATR_DTD, PRE_PRE_AMD, PRE_PRE_DTD, PRS_GRS_DTD, PRS_HOS_AMD, PRS_HOS_DTD, RAT_IPP_DTE, TIP_ACL_DTD, TIP_ACL_DTF",55883
+IR_DTE_V,Période civile journalière,"BEN_DCD_DTD, BEN_DCD_DTE, BEN_DTE_INS, BEN_DTE_MAJ, DCT_ARC_DTE, DCT_ARR_DTE, DCT_MAN_DTD, DCT_REM_DTD, EXE_SOI_AMD, EXE_SOI_AMF, EXE_SOI_DTD, EXE_SOI_DTF, FLX_DIS_DTD, FLX_TRT_DTD, IMB_ALD_DTD, IMB_ALD_DTF, INV_ATR_DTD, MAJ_SYS_DTE, ORG_AFF_DTF, PRE_PRE_AMD, PRE_PRE_DTD, PRS_GRS_DTD, PRS_HOS_AMD, PRS_HOS_DTD, RAT_IPP_DTE, TIP_ACL_DTD, TIP_ACL_DTF",55883
 IR_DTR_V,Codes Détail Transport,"TRS_ACT_PRU, TRS_PRS_IDE",73
 IR_EIN_V,Etat de pension d'invalidité,INV_PEN_ETA,23
-IR_ENV_V,Type d'enveloppe,"ARO_ENV_TYP, RGO_ENV_TYP",11
+IR_ENV_V,Type d'enveloppe,"ARO_ENV_TYP, CPT_ENV_TYP, RGO_ENV_TYP",11
 IR_ETM_V,Nature d'exonération du Ticket Modérateur,IMB_ETM_NAT,19
 IR_EXO_V,Motif d'exonération du Ticket Modérateur,EXO_MTF,24
-IR_FJH_V,Type de Prise en Charge Forfait Journalier,"ARO_FJH_TYP, BSE_FJH_TYP, CPL_FJH_TYP",6
+IR_FJH_V,Type de Prise en Charge Forfait Journalier,"ARO_FJH_TYP, BSE_FJH_TYP, CPL_FJH_TYP, PRS_FJH_TYP",6
 IR_FOR_V,Forçage du taux,"ARO_FTA_COD, CAM_RED_MNT, RGO_FTA_COD",8
 IR_GEO_V,Géographie Administrative et Sanitaire,"BEN_RES_COM, DCD_COM_COD",40589
 IR_GES_V,Gestion Comptable,"GES_CPT_COD, GES_GRG_COD",477
@@ -76,7 +79,7 @@ IR_MFT_V,Mode de Fixation de Tarif,MFT_COD,37
 IR_MOD_V,Mode de Règlement,DRG_MOD,11
 IR_MTM_V,Modulation du Ticket Modérateur,MTM_NAT,7
 IR_MTR_V,Motif du Transport,"TRS_ACT_QSN, TRS_TRS_MTF",36
-IR_NAT_V,Nature Prestation,"ARO_PRS_NAT, BSE_PRS_NAT, CPL_PRS_NAT, PRS_NAT_REF",1255
+IR_NAT_V,Nature Prestation,"ARO_PRS_NAT, BSE_PRS_NAT, CPL_PRS_NAT, PRS_NAT, PRS_NAT_REF",1255
 IR_NEM_T,Numéros d'émetteurs restitution,FLX_EMT_NUM,36
 IR_NEM_V,Numéros d'émetteurs,FLX_EMT_NUM,150
 IR_NFS_V,Nature fin de séjour,ETE_NAT_FSJ,10
@@ -85,7 +88,7 @@ IR_NMD_V,Nomenclature Médicale,MED_NCL_IDT,4
 IR_ORG_V,organismes,"BEN_CMU_ORG, ORG_AFF_BEN, ORG_CLE_NEW, ORG_CLE_NUM",59812
 IR_PAF_V,Participation forfaitaire,PRS_PPF_COD,16
 IR_PCT_V,Périodes comptables,CPT_DEP_PER,128
-IR_PHA_R,"Référentiel des médicaments (correspondance CIP13, ATC et libellés)","PHA_PRS_C13, PHA_PRS_IDE",19517
+IR_PHA_R,"Référentiel des médicaments (correspondance CIP13, ATC et libellés)","PHA_ACT_QSN, PHA_CPA_PCP, PHA_DEC_PRU, PHA_DEC_QSU, PHA_PRS_C13, PHA_PRS_IDE",19517
 IR_PMC_V,Type de part mutuelle complémentaire,Aucune variable liée,0
 IR_PPU_V,Secteur d'Activité (Prive / Public),PRS_PPU_SEC,3
 IR_PRF_V,Type de Prestation Fournie (Dispositifs Médicaux),TIP_PRS_TYP,9
@@ -102,9 +105,9 @@ IR_SAI_V,Type de Saisie ou Système a l'Origine du Mouvement,DCT_MVT_SYS,10
 IR_SEQ_V,Séquence de renouvellement,PHA_SEQ_RNV,100
 IR_SEX_V,Sexe,"BEN_SEX_COD, ben_sex_cod",4
 IR_SGN_V,Signe du Mouvement,"ARO_REM_SGN, BSE_REM_SGN, CPL_REM_SGN",4
-IR_SJE_V,Statut juridique d'établissement,ETE_STJ_COD,62
+IR_SJE_V,Statut juridique d'établissement,"ETE_STJ_COD, ETP_STJ_COD",62
 IR_SJP_V,Statut Juridique ou Mode d'exercice d'un PS,"PSE_STJ_COD, PSP_STJ_COD",10
-IR_SLM_V,Section Locale Mutualiste (SLM),SLM_AFF_COD,65
+IR_SLM_V,Section Locale Mutualiste (SLM),"MUT_ORG, SLM_AFF_COD, SLM_RTT_COD",65
 IR_SNS_V,Sens du Mouvement,CPT_MVT_SNS,3
 IR_SPA_D,regroupement de spécialités médicales et nature d'activité,"PSE_ACT_SPE, PSP_ACT_SPE",85
 IR_SPE_V,Spécialités médicales,"PSE_SPE_COD, PSP_SPE_COD",57
@@ -123,7 +126,7 @@ IR_TOC_V,Top option de coordination,PRS_CRD_OPT,6
 IR_TOP_V,Indicateur tarif opposable,PRS_OPS_TRF,4
 IR_TPR_V,Types de prestation Kiné,PRS_TYP_KIN,6
 IR_TYE_V,Type d'établissement,ETE_TYP_COD,11
-IR_TYR_V,Type de Remboursement,"AR1_REM_TYP, AR2_REM_TYP, AR3_REM_TYP, ARO_REM_TYP",12
+IR_TYR_V,Type de Remboursement,"AR1_REM_TYP, AR2_REM_TYP, AR3_REM_TYP, ARO_REM_TYP, PRS_REM_TYP",12
 IR_TYT_V,Type de Transmetteur,FLX_EMT_TYP,25
 MS_CIM_V,Codes Diagnostics (CIM10) pour le PMSI (limite à 20 000 lignes) ( MAJ à contrôler ),"ASS_DGN, DGN_ASS, DGN_ASS_MPA, DGN_ASS_MPP, DGN_PAL, DGN_REL",19272
 MS_ENR_V,Type d'enregistrement,TYP_ART,9
