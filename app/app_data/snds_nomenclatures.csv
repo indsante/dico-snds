@@ -30,6 +30,7 @@ ETE_REG_COD,Titre manquant,ETE_REG_COD,14
 ETE_TYP_SNDS,Titre manquant,ETE_TYP_SNDS,7
 ETP_CAT_SNDS,Titre manquant,ETP_CAT_SNDS,46
 ETP_REG_COD,Titre manquant,ETP_REG_COD,14
+EXC_FIN_MTF,Motif de fin d'exercice libéral,EXC_FIN_MTF,10
 EXE_INS_REG,Titre manquant,EXE_INS_REG,14
 IR_ACT_COD,Lettre clé du Code Ngap,ACT_COD,434
 IR_ACT_V,Nature d'Activité (Non Médecins),"PSE_ACT_NAT, PSP_ACT_NAT",30
@@ -65,7 +66,7 @@ IR_DPT_V,Département ( avec code région ),"BEN_RES_DPT, DCD_DPT_COD, ETE_DPT_C
 IR_DRG_V,Nature de destinataire du règlement,DRG_NAT,10
 IR_DSP_V,Droits Spécifiques,BEN_DRT_SPF,3
 IR_DTE_V,Période civile journalière,"BEN_DCD_DTD, BEN_DCD_DTE, BEN_DTE_INS, BEN_DTE_MAJ, DCT_ARC_DTE, DCT_ARR_DTE, DCT_MAN_DTD, DCT_REM_DTD, EXE_SOI_AMD, EXE_SOI_AMF, EXE_SOI_DTD, EXE_SOI_DTF, FLX_DIS_DTD, FLX_TRT_DTD, IMB_ALD_DTD, IMB_ALD_DTF, INV_ATR_DTD, MAJ_SYS_DTE, ORG_AFF_DTF, PRE_PRE_AMD, PRE_PRE_DTD, PRS_GRS_DTD, PRS_HOS_AMD, PRS_HOS_DTD, RAT_IPP_DTE, TIP_ACL_DTD, TIP_ACL_DTF",55883
-IR_DTR_V,Codes Détail Transport,"TRS_ACT_PRU, TRS_PRS_IDE",73
+IR_DTR_V,Codes Détail Transport,TRS_PRS_IDE,73
 IR_EIN_V,Etat de pension d'invalidité,INV_PEN_ETA,23
 IR_ENV_V,Type d'enveloppe,"ARO_ENV_TYP, CPT_ENV_TYP, RGO_ENV_TYP",11
 IR_ETM_V,Nature d'exonération du Ticket Modérateur,IMB_ETM_NAT,19
