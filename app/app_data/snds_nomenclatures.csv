@@ -2,7 +2,7 @@ nomenclature,titre,variables_liees,nombre_lignes
 AGE_BEN_SNDS,Titre manquant,AGE_BEN_SNDS,9
 AT_MLP_V,numéro de MP tableau - numéro de MP  bis ter -syndrome localisation - syndrome code pathologie,IMB_MLP_TAB,851
 BEN_RES_REG,Titre manquant,BEN_RES_REG,14
-CSARR,Catalogue spécifique des actes de rééducation et réadaptaion (prise en charge SSR),FP_PEC,545
+CSARR,Catalogue spécifique des actes de rééducation et réadaptaion (prise en charge SSR),"CSARR_COD, FP_PEC",545
 DDP_SPE_COD,Titre manquant,DDP_SPE_COD,36
 DS_ACC_V,Titre manquant,MOD_ACC_COD,3
 DS_ACP_V,Titre manquant,PFV_ACP_COD,3
