@@ -2,7 +2,7 @@ nomenclature,titre,variables_liees,nombre_lignes
 AGE_BEN_SNDS,Titre manquant,AGE_BEN_SNDS,9
 AT_MLP_V,numéro de MP tableau - numéro de MP  bis ter -syndrome localisation - syndrome code pathologie,IMB_MLP_TAB,851
 BEN_RES_REG,Titre manquant,BEN_RES_REG,14
-CSARR,Catalogue spécifique des actes de rééducation et réadaptaion (prise en charge SSR),"CSARR_COD, FP_PEC",545
+CSARR,Catalogue spécifique des actes de rééducation et réadaptaion (prise en charge SSR),CSARR_COD,545
 DDP_SPE_COD,Titre manquant,DDP_SPE_COD,36
 DS_ACC_V,Titre manquant,MOD_ACC_COD,3
 DS_ACP_V,Titre manquant,PFV_ACP_COD,3
@@ -52,7 +52,7 @@ IR_CCAM_V54,Classification commune des actes médicaux (ATIH),"CAM_PRS_IDE, CCAM
 IR_CCA_V,Codes compléments associés,CPL_AFF_COD,31
 IR_CCI_V,Table des catégories de codes CIM,Aucune variable liée,2059
 IR_CET_V,Catégorie d'établissement,"ETE_CAT_COD, ETP_CAT_COD",142
-IR_CIM_V,Tables de codes CIM10 ( MAJ à contrôler ),"DCD_CIM_COD, ECD_CIM_COD, ETL_AFF, MED_MTF_COD, MOR_PRP",18334
+IR_CIM_V,Tables de codes CIM10 ( MAJ à contrôler ),"DCD_CIM_COD, ECD_CIM_COD, ETL_AFF, FP_PEC, MED_MTF_COD, MOR_PRP",18334
 IR_CIV_V,Catégorie de Pension d'Invalidité,INV_PEN_CAT,8
 IR_CLC_V,Code Libellé de Contrôle,DCT_CTL_COD,58
 IR_CNV_V,Conventions Médicales,"PSE_CNV_COD, PSP_CNV_COD",6
