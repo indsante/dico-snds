@@ -16,7 +16,6 @@ DS_LIE_V,Titre manquant,DCD_LIE_COD,8
 DS_MAR_V,Titre manquant,"ETA_MAR_COD, MER_MAR_COD",4
 DS_NAI_V,Titre manquant,RNG_NAI_TYP,5
 DS_PC1_V,Titre manquant,CAT_PCS_COD,8
-DS_PC2_V,Titre manquant,Aucune variable liée,24
 DS_PFS_V,Titre manquant,"MER_PFS_COD, PER_PFS_COD",5
 DS_PST_V,Titre manquant,ACC_PST_COD,4
 DS_SIT_V,Titre manquant,MER_SIT_TOP,2
@@ -50,7 +49,6 @@ IR_CAT_V,Catégorie Professionnel de Santé,"PSE_CAT_COD, PSP_CAT_COD",11
 IR_CBI_V,Catégorie de Bénéficiaire (Invalidité et Rentes AT),BEN_IAT_CAT,45
 IR_CCAM_V54,Classification commune des actes médicaux (ATIH),"CAM_PRS_IDE, CCAM_ACT, CCAM_COD, CDC_ACT",8053
 IR_CCA_V,Codes compléments associés,CPL_AFF_COD,31
-IR_CCI_V,Table des catégories de codes CIM,Aucune variable liée,2059
 IR_CET_V,Catégorie d'établissement,"ETE_CAT_COD, ETP_CAT_COD",142
 IR_CIM_V,Tables de codes CIM10 ( MAJ à contrôler ),"DCD_CIM_COD, ECD_CIM_COD, ETL_AFF, FP_PEC, MED_MTF_COD, MOR_PRP",18334
 IR_CIV_V,Catégorie de Pension d'Invalidité,INV_PEN_CAT,8
@@ -76,7 +74,6 @@ IR_FOR_V,Forçage du taux,"ARO_FTA_COD, CAM_RED_MNT, RGO_FTA_COD",8
 IR_GEO_V,Géographie Administrative et Sanitaire,"BEN_RES_COM, DCD_COM_COD",40589
 IR_GES_V,Gestion Comptable,"GES_CPT_COD, GES_GRG_COD",477
 IR_GHS_V,Groupe homogène de séjour  GHS   code GHS_GRP_TYP = S  ( MAJ annuelle ),ETE_GHS_NUM,7416
-IR_GRG_V,Grand Régime,Aucune variable liée,23
 IR_HAD_PEC_PAL,"Motif de prise en charge principal, HAD","PEC_ASS, PEC_PAL",27
 IR_HAD_V,HAD en médico-social,BEN_EHP_TOP,4
 IR_INT_V,Type de version interface tiers,DCT_INT_VER,5
@@ -99,7 +96,6 @@ IR_ORG_V,organismes,"BEN_CMU_ORG, ORG_AFF_BEN, ORG_CLE_NEW, ORG_CLE_NUM",59812
 IR_PAF_V,Participation forfaitaire,PRS_PPF_COD,16
 IR_PCT_V,Périodes comptables,CPT_DEP_PER,128
 IR_PHA_R,"Référentiel des médicaments (correspondance CIP13, ATC et libellés)","PHA_ACT_QSN, PHA_CPA_PCP, PHA_DEC_PRU, PHA_DEC_QSU, PHA_PRS_C13, PHA_PRS_IDE",19517
-IR_PMC_V,Type de part mutuelle complémentaire,Aucune variable liée,0
 IR_PPU_V,Secteur d'Activité (Prive / Public),PRS_PPU_SEC,3
 IR_PRF_V,Type de Prestation Fournie (Dispositifs Médicaux),TIP_PRS_TYP,9
 IR_QBA_V,Qualité de Bénéficiaire Affinée,BEN_QAF_COD,16
