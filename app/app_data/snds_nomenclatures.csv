@@ -2,7 +2,6 @@ nomenclature,titre,variables_liees,nombre_lignes
 AGE_BEN_SNDS,Titre manquant,AGE_BEN_SNDS,9
 AT_MLP_V,numéro de MP tableau - numéro de MP  bis ter -syndrome localisation - syndrome code pathologie,IMB_MLP_TAB,851
 BEN_RES_REG,Titre manquant,BEN_RES_REG,14
-CSARR,Catalogue spécifique des actes de rééducation et réadaptaion (prise en charge SSR),CSARR_COD,545
 DDP_SPE_COD,Titre manquant,DDP_SPE_COD,36
 DS_ACC_V,Titre manquant,MOD_ACC_COD,3
 DS_ACP_V,Titre manquant,PFV_ACP_COD,3
@@ -31,7 +30,6 @@ ETP_CAT_SNDS,Titre manquant,ETP_CAT_SNDS,46
 ETP_REG_COD,Titre manquant,ETP_REG_COD,14
 EXC_FIN_MTF,Motif de fin d'exercice libéral,EXC_FIN_MTF,10
 EXE_INS_REG,Titre manquant,EXE_INS_REG,14
-IR_ACT_COD,Lettre clé du Code Ngap,ACT_COD,434
 IR_ACT_V,Nature d'Activité (Non Médecins),"PSE_ACT_NAT, PSP_ACT_NAT",30
 IR_AGE_V,Age,AGE_BEN_COD,127
 IR_ALD_V,Table des codes ALD030,IMB_ALD_NUM,34
@@ -43,14 +41,14 @@ IR_ATT_V,Nature d'Accident du Travail,ATT_NAT,5
 IR_BAC_V,Top bénéficiaire ACS,DRT_ACS_TOP,3
 IR_BEQ_V,Qualité de Bénéficiaire,BEN_QLT_COD,6
 IR_BER_V,Rang Gémellaire Bénéficiaire,"BEN_RNG_GEM, ben_rng_gem",10
-IR_BIO_R,Nomenclature des actes médicales de biologie,"BIO_PRS_IDE, NABM_COD",1076
+IR_BIO_R,Nomenclature des actes médicales de biologie,BIO_PRS_IDE,1076
 IR_CAI_V,Caisse - Organisme de base,"CAI_AFF_COD, CAI_LIQ_COD, ORB_BSE_NUM, ORG_CAI_NUM, ORL_BSE_NUM",2756
 IR_CAT_V,Catégorie Professionnel de Santé,"PSE_CAT_COD, PSP_CAT_COD",11
 IR_CBI_V,Catégorie de Bénéficiaire (Invalidité et Rentes AT),BEN_IAT_CAT,45
-IR_CCAM_V54,Classification commune des actes médicaux (ATIH),"CAM_PRS_IDE, CCAM_ACT, CCAM_COD, CDC_ACT",8053
+IR_CCAM_V54,Classification commune des actes médicaux (ATIH),CAM_PRS_IDE,8053
 IR_CCA_V,Codes compléments associés,CPL_AFF_COD,31
 IR_CET_V,Catégorie d'établissement,"ETE_CAT_COD, ETP_CAT_COD",142
-IR_CIM_V,Tables de codes CIM10 ( MAJ à contrôler ),"DCD_CIM_COD, ECD_CIM_COD, ETL_AFF, FP_PEC, MED_MTF_COD, MOR_PRP",18334
+IR_CIM_V,Tables de codes CIM10 ( MAJ à contrôler ),"DCD_CIM_COD, ECD_CIM_COD, MED_MTF_COD",18334
 IR_CIV_V,Catégorie de Pension d'Invalidité,INV_PEN_CAT,8
 IR_CLC_V,Code Libellé de Contrôle,DCT_CTL_COD,58
 IR_CNV_V,Conventions Médicales,"PSE_CNV_COD, PSP_CNV_COD",6
@@ -74,7 +72,6 @@ IR_FOR_V,Forçage du taux,"ARO_FTA_COD, CAM_RED_MNT, RGO_FTA_COD",8
 IR_GEO_V,Géographie Administrative et Sanitaire,"BEN_RES_COM, DCD_COM_COD",40589
 IR_GES_V,Gestion Comptable,"GES_CPT_COD, GES_GRG_COD",477
 IR_GHS_V,Groupe homogène de séjour  GHS   code GHS_GRP_TYP = S  ( MAJ annuelle ),ETE_GHS_NUM,7416
-IR_HAD_PEC_PAL,"Motif de prise en charge principal, HAD","PEC_ASS, PEC_PAL",27
 IR_HAD_V,HAD en médico-social,BEN_EHP_TOP,4
 IR_INT_V,Type de version interface tiers,DCT_INT_VER,5
 IR_LIE_V,lieu d'exécution ( de l'acte médical ),EXE_LIE_COD,5
@@ -135,12 +132,8 @@ IR_TYE_V,Type d'établissement,ETE_TYP_COD,11
 IR_TYR_V,Type de Remboursement,"AR1_REM_TYP, AR2_REM_TYP, AR3_REM_TYP, ARO_REM_TYP, PRS_REM_TYP",12
 IR_TYT_V,Type de Transmetteur,FLX_EMT_TYP,25
 MDT_TYP_COD,Titre manquant,MDT_TYP_COD,4
-MS_CIM_V,Codes Diagnostics (CIM10) pour le PMSI (limite à 20 000 lignes) ( MAJ à contrôler ),"ASS_DGN, DGN_ASS, DGN_ASS_MPA, DGN_ASS_MPP, DGN_PAL, DGN_REL",19272
-MS_ENR_V,Type d'enregistrement,TYP_ART,9
-MS_PRV_V,Provenance,"ENT_PRV, SOR_DES",9
-MS_SOR_V,Mode de Sortie du Champ PMSI_MCO,"ENT_MOD, SOR_MOD",7
 NT_LPP,Liste des produits et prestations,TIP_PRS_IDE,6276
-NU_UCD_R,"Unité Commune de Dispensation, médicaments rares en hospitalier, (codes cip7)","COD_UCD, UCD_COD, UCD_UCD_COD",1812
+NU_UCD_R,"Unité Commune de Dispensation, médicaments rares en hospitalier, (codes cip7)",UCD_UCD_COD,1812
 ORG_CLE_REG,Titre manquant,ORG_CLE_REG,14
 PRE_INS_REG,Titre manquant,PRE_INS_REG,14
 PSE_ACT_CAT,Titre manquant,PSE_ACT_CAT,11
