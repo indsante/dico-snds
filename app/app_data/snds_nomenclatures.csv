@@ -1,36 +1,36 @@
 nomenclature,titre,variables_liees,nombre_lignes
-AGE_BEN_SNDS,Titre manquant,AGE_BEN_SNDS,9
+AGE_BEN_SNDS,Tranches d'âge du bénéficiaire (OPEN_DAMIR),AGE_BEN_SNDS,9
 AT_MLP_V,numéro de MP tableau - numéro de MP  bis ter -syndrome localisation - syndrome code pathologie,IMB_MLP_TAB,851
-BEN_RES_REG,Titre manquant,BEN_RES_REG,14
+BEN_RES_REG,Région de résidence du bénéficiaire (OPEN_DAMIR),BEN_RES_REG,14
 CSARR,Catalogue spécifique des actes de rééducation et réadaptaion (prise en charge SSR),CSARR_COD,545
-DDP_SPE_COD,Titre manquant,DDP_SPE_COD,36
-DS_ACC_V,Titre manquant,MOD_ACC_COD,3
-DS_ACP_V,Titre manquant,PFV_ACP_COD,3
-DS_ATT_V,Titre manquant,DCD_ATT_COD,3
-DS_CAU_V,Titre manquant,DCD_CAU_COD,5
-DS_CER_V,Titre manquant,TYP_CER_COD,2
-DS_DEB_V,Titre manquant,ACC_DEB_COD,3
-DS_GRS_V,Titre manquant,DCD_GRS_COD,3
-DS_LIA_V,Titre manquant,ACC_LIA_COD,3
-DS_LIE_V,Titre manquant,DCD_LIE_COD,8
-DS_MAR_V,Titre manquant,"ETA_MAR_COD, MER_MAR_COD",4
-DS_NAI_V,Titre manquant,RNG_NAI_TYP,5
-DS_PC1_V,Titre manquant,CAT_PCS_COD,8
-DS_PFS_V,Titre manquant,"MER_PFS_COD, PER_PFS_COD",5
-DS_PST_V,Titre manquant,ACC_PST_COD,4
-DS_SIT_V,Titre manquant,MER_SIT_TOP,2
-DS_STA_V,Titre manquant,TRT_STA_COD,2
-DS_SUP_V,Titre manquant,CER_SUP_TYP,2
-DS_TRF_V,Titre manquant,HOS_TRF_TOP,2
-DS_VER_V,Titre manquant,CER_VER_NUM,2
-DS_VOL_V,Titre manquant,TYP_VOL_COD,2
-ETE_CAT_SNDS,Titre manquant,ETE_CAT_SNDS,46
-ETE_REG_COD,Titre manquant,ETE_REG_COD,14
-ETE_TYP_SNDS,Titre manquant,ETE_TYP_SNDS,7
-ETP_CAT_SNDS,Titre manquant,ETP_CAT_SNDS,46
-ETP_REG_COD,Titre manquant,ETP_REG_COD,14
+DDP_SPE_COD,Discipline de l'établissement exécutant (OPEN_DAMIR),DDP_SPE_COD,36
+DS_ACC_V,Mode d'accouchement,MOD_ACC_COD,3
+DS_ACP_V,Activité professionnelle (actif/inactif/retraité),PFV_ACP_COD,3
+DS_ATT_V,Accident du travail (oui/non/sans précision),DCD_ATT_COD,3
+DS_CAU_V,Recherche de la cause de décès,DCD_CAU_COD,5
+DS_CER_V,Type de certificat de décès (adulte/néonatal),TYP_CER_COD,2
+DS_DEB_V,Type de début de travail d'accouchement,ACC_DEB_COD,3
+DS_GRS_V,Contribution de la grossesse au décès (oui/non/nsp),DCD_GRS_COD,3
+DS_LIA_V,Lieu d'accouchement,ACC_LIA_COD,3
+DS_LIE_V,Lieu du décès,DCD_LIE_COD,8
+DS_MAR_V,Etat matrimonial,"ETA_MAR_COD, MER_MAR_COD",4
+DS_NAI_V,Type de naissance (unique/gemellaire/triple/quadruple/quintuple),RNG_NAI_TYP,5
+DS_PC1_V,Catégorie socio-professionnelle,CAT_PCS_COD,8
+DS_PFS_V,Activité professionnelle du parent,"MER_PFS_COD, PER_PFS_COD",5
+DS_PST_V,Type de présentation de l'enfant lors de l'accouchement,ACC_PST_COD,4
+DS_SIT_V,Situation de la mère (en couple : oui/non),MER_SIT_TOP,2
+DS_STA_V,Statut de traitement du certificat de décès (final/en cours),TRT_STA_COD,2
+DS_SUP_V,Type de support du certificat de décès (électronique/papier),CER_SUP_TYP,2
+DS_TRF_V,Transfert ou hospitalisation particulière de l'enfant (oui/non),HOS_TRF_TOP,2
+DS_VER_V,Version du certicat de décès (1997/2017),CER_VER_NUM,2
+DS_VOL_V,Volet du certificat de décès (intial/complémentaire),TYP_VOL_COD,2
+ETE_CAT_SNDS,Catégorie de l'établissement exécutant (OPEN DAMIR),ETE_CAT_SNDS,46
+ETE_REG_COD,Région d'implantation de l'établissement exécutant (OPEN DAMIR),ETE_REG_COD,14
+ETE_TYP_SNDS,Type d'établissement (OPEN DAMIR),ETE_TYP_SNDS,7
+ETP_CAT_SNDS,Catégorie de l'établissement prescripteur (OPEN DAMIR),ETP_CAT_SNDS,46
+ETP_REG_COD,Région d'implantation de l'établissement prescripteur (OPEN DAMIR),ETP_REG_COD,14
 EXC_FIN_MTF,Motif de fin d'exercice libéral,EXC_FIN_MTF,10
-EXE_INS_REG,Titre manquant,EXE_INS_REG,14
+EXE_INS_REG,Region du professionnel de santé exécutant (OPEN DAMIR),EXE_INS_REG,14
 IR_ACT_COD,Lettre clé du Code Ngap,ACT_COD,434
 IR_ACT_V,Nature d'Activité (Non Médecins),"PSE_ACT_NAT, PSP_ACT_NAT",30
 IR_AGE_V,Age,AGE_BEN_COD,127
@@ -134,23 +134,23 @@ IR_TPR_V,Types de prestation Kiné,PRS_TYP_KIN,6
 IR_TYE_V,Type d'établissement,ETE_TYP_COD,11
 IR_TYR_V,Type de Remboursement,"AR1_REM_TYP, AR2_REM_TYP, AR3_REM_TYP, ARO_REM_TYP, PRS_REM_TYP",12
 IR_TYT_V,Type de Transmetteur,FLX_EMT_TYP,25
-MDT_TYP_COD,Titre manquant,MDT_TYP_COD,4
+MDT_TYP_COD,Mode de traitement de l'établissement exécutant (OPEN DAMIR),MDT_TYP_COD,4
 MS_CIM_V,Codes Diagnostics (CIM10) pour le PMSI (limite à 20 000 lignes) ( MAJ à contrôler ),"ASS_DGN, DGN_ASS, DGN_ASS_MPA, DGN_ASS_MPP, DGN_PAL, DGN_REL",19272
 MS_ENR_V,Type d'enregistrement,TYP_ART,9
 MS_PRV_V,Provenance,"ENT_PRV, SOR_DES",9
 MS_SOR_V,Mode de Sortie du Champ PMSI_MCO,"ENT_MOD, SOR_MOD",7
 NT_LPP,Liste des produits et prestations,TIP_PRS_IDE,6276
 NU_UCD_R,"Unité Commune de Dispensation, médicaments rares en hospitalier, (codes cip7)","COD_UCD, UCD_COD, UCD_UCD_COD",1812
-ORG_CLE_REG,Titre manquant,ORG_CLE_REG,14
-PRE_INS_REG,Titre manquant,PRE_INS_REG,14
-PSE_ACT_CAT,Titre manquant,PSE_ACT_CAT,11
-PSE_ACT_SNDS,Titre manquant,PSE_ACT_SNDS,14
-PSE_SPE_SNDS,Titre manquant,PSE_SPE_SNDS,27
-PSE_STJ_SNDS,Titre manquant,PSE_STJ_SNDS,4
-PSP_ACT_CAT,Titre manquant,PSP_ACT_CAT,11
-PSP_ACT_SNDS,Titre manquant,PSP_ACT_SNDS,14
-PSP_SPE_SNDS,Titre manquant,PSP_SPE_SNDS,27
-PSP_STJ_SNDS,Titre manquant,PSP_STJ_SNDS,4
+ORG_CLE_REG,Région de l'organisme de liquidation (OPEN DAMIR),ORG_CLE_REG,14
+PRE_INS_REG,Région du professionnel de santé prescripteur (OPEN DAMIR),PRE_INS_REG,14
+PSE_ACT_CAT,Catégorie d'activité de l'exécutant (OPEN DAMIR),PSE_ACT_CAT,11
+PSE_ACT_SNDS,Nature d'activité du professionnel de santé exécutant (OPEN DAMIR),PSE_ACT_SNDS,14
+PSE_SPE_SNDS,Spécialité médicale du professionnel de santé exécutant (OPEN DAMIR),PSE_SPE_SNDS,27
+PSE_STJ_SNDS,Statut juridique du professonnel de santé exécutant (OPEN DAMIR),PSE_STJ_SNDS,4
+PSP_ACT_CAT,Catégorie d'activité du prescripteur (OPEN DAMIR),PSP_ACT_CAT,11
+PSP_ACT_SNDS,Nature d'activité du professionnel de santé prescripteur (OPEN DAMIR),PSP_ACT_SNDS,14
+PSP_SPE_SNDS,Spécialité médicale du professionnel de santé prescripteur (OPEN DAMIR),PSP_SPE_SNDS,27
+PSP_STJ_SNDS,Statut juridique du professonnel de santé prescripteur (OPEN DAMIR),PSP_STJ_SNDS,4
 TOP_TIER_ACC,Titre manquant,ACC_TIE_IND,3
-XC_ATE_V,Titre manquant,CAM_ACT_COD,5
-XC_PHA_V,Titre manquant,CAM_TRT_PHA,4
+XC_ATE_V,Activité associée à l'acte médical,CAM_ACT_COD,5
+XC_PHA_V,Phase de traitement de l'acte médical,CAM_TRT_PHA,4
