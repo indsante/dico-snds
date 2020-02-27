@@ -17,136 +17,136 @@ ER_TRS_F,Table des données détaillées de transport,4,14,1
 ER_UCD_F,Table des données de codage des Unités Communes de Dispensation,4,15,1
 IR_BEN_R,Référentiel des bénéficiaires du SNIIRAM-SNDS,1,16,1
 IR_IBA_R,Référentiel des bénéficiaires de DCIRS,1,17,1
-T_HADaa_nnA,Table des actes,8,18,1
-T_HADaa_nnB,Table des Résumés Anonyme Par Sous-Séquence (RAPSS),8,19,1
-T_HADaa_nnC,Table des NIR foinisé deux fois et date entrè/sortie complètes,8,20,1
-T_HADaa_nnD,Table des diagnostics associés,8,21,1
-T_HADaa_nnDMPA,Table des diagnostics liés au MPA (mode de prise en charge associé),8,22,1
-T_HADaa_nnDMPP,Table des diagnostics liés au MPP (mode de prise en charge principal),8,23,1
-T_HADaa_nnE,Table des Etablissements,8,24,1
-T_HADaa_nnEHPA,Table des conventions HAD-EHPA,8,25,1
-T_HADaa_nnFA,TableFA : Table des RSFA début de facture des établissements ex-OQN,8,26,1
-T_HADaa_nnFB,Table FB : Table des RSFA facture des établissements ex-OQN,8,27,1
-T_HADaa_nnFC,Table FC : Table des RSFA des honoraires des établissements ex-OQN,8,28,1
-T_HADaa_nnFH,Table FH : Table des RSFA des Médicaments en sus des établissements ex-OQN,8,29,1
-T_HADaa_nnFI,Table FI : Table des RSFA interruption de séjour des établissements ex-OQN,8,30,1
-T_HADaa_nnFL,Table FL : Table des actes de biologie (issus de la NABM) des établissements ex-OQN,8,31,1
-T_HADaa_nnFM,Table FM : Table des RSFA des actes CCAM des établissements ex-OQN,8,32,1
-T_HADaa_nnFP,Table FP : Table des RSFA des LPP/DMI en sus des établissements ex-OQN,8,33,1
-T_HADaa_nnGJ,Table de passage de Finess,8,34,1
-T_HADaa_nnGRE,Table des GHT (groupage établissement),8,35,1
-T_HADaa_nnGRP,Table des GHT et des GHPC (groupage paprica),8,36,1
-T_HADaa_nnLEG,Fichier donnant toutes les erreurs détectées par la fonction groupage (LEG),8,37,1
-T_HADaa_nnMED,Table Molécules onéreuses (fichier COMP),8,38,1
-T_HADaa_nnMEDATU,Fich comp médicament soumis à autorisation temporaire d'utilisation,8,39,1
-T_HADaa_nnMEDCHL,Fich comp Médicament coûteux hors liste en sus et hors ATU,8,40,1
-T_HADaa_nnMON,Fichier de déclaration agrégée d'activité (FICHSUP) sur les Molécules onéreuses,8,41,1
-T_HADaa_nnS,Synthèses des Résumés Anonyme Par Sous-Séquence,8,42,1
-T_HADaa_nnSTC,"Prise en charge par l'AM de chaque séjour, pour les établissements valorisés STC",8,43,1
-T_MCOaa_nnA,Acte CCAM,7,44,1
-T_MCOaa_nnB,Description du Séjour,7,45,1
-T_MCOaa_nnBPHN,B et P hors nomenclature (extension de fichier .bphn),7,46,1
-T_MCOaa_nnC,NIR patient et Dates de soin,7,47,1
-T_MCOaa_nnCSTC,ACE NIR/date,7,48,1
-T_MCOaa_nnD,Diagnostic associé,7,49,1
-T_MCOaa_nnDIALP,Fich comp dialyse péritonéale en sus,7,50,1
-T_MCOaa_nnDMIP,Fich comp dmi en sus,7,51,1
-T_MCOaa_nnE,Etablissement,7,52,1
-T_MCOaa_nnFA,OQN Entete facture,7,53,1
-T_MCOaa_nnFASTC,ACE Entete facture,7,54,1
-T_MCOaa_nnFB,OQN Prestation,7,55,1
-T_MCOaa_nnFBSTC,ACE Prestation,7,56,1
-T_MCOaa_nnFC,OQN Honoraire,7,57,1
-T_MCOaa_nnFCSTC,ACE Honoraire,7,58,1
-T_MCOaa_nnFH,OQN medicament en sus,7,59,1
-T_MCOaa_nnFHSTC,ACE medicament en sus,7,60,1
-T_MCOaa_nnFI,OQN Interruption séjour,7,61,1
-T_MCOaa_nnFL,OQN biologie NABM,7,62,1
-T_MCOaa_nnFLSTC,ACE biologie NABM,7,63,1
-T_MCOaa_nnFM,OQN actes CCAM,7,64,1
-T_MCOaa_nnFMSTC,ACE actes CCAM,7,65,1
-T_MCOaa_nnFP,OQN DMI en sus,7,66,1
-T_MCOaa_nnFPSTC,ACE DMI en sus,7,67,1
-T_MCOaa_nnGVxx,Table de passage en version de GHM,7,68,1
-T_MCOaa_nnIVG,Fich comp IVG,7,69,1
-T_MCOaa_nnLEG,Fichier donnant toutes les erreurs détectées par la fonction groupage,7,70,1
-T_MCOaa_nnMED,Fich comp medicament en sus,7,71,1
-T_MCOaa_nnMEDATU,Fich comp médicament soumis à autorisation temporaire d'utilisation,7,72,1
-T_MCOaa_nnMEDTHROMBO,Fich comp Méd. thrombolytiques pour le traitement des AVC ischémiques,7,73,1
-T_MCOaa_nnORP,Fich comp maladie orpheline,7,74,1
-T_MCOaa_nnPIE,Fich comp prestation inter établissement,7,75,1
-T_MCOaa_nnPIP,Fich comp prothèse PIP,7,76,1
-T_MCOaa_nnPORG,Fich comp prélévement d'organe,7,77,1
-T_MCOaa_nnSTC,Prise en charge,7,78,1
-T_MCOaa_nnSUP_BPHNA,Fich sup BP HN nb,7,79,1
-T_MCOaa_nnSUP_BPHNC,Fich sup BP HN etb demandeur,7,80,1
-T_MCOaa_nnSUP_BPHNP,Fich sup BP HN etb producteur,7,81,1
-T_MCOaa_nnSUP_CES,Fich sup ACE Consultations externes Spécifiques,7,82,1
-T_MCOaa_nnSUP_FFM,Fich sup FFM (forfait petit matériel),7,83,1
-T_MCOaa_nnSUP_LACT,Fich sup lactarium,7,84,1
-T_MCOaa_nnSUP_PPCO,Fich sup Primo prescription de chimiothérapie orale,7,85,1
-T_MCOaa_nnSUP_SMUR,Fich sup SMUR,7,86,1
-T_MCOaa_nnSUP_USMP,Fich sup Médicaments dispensés en USMP (Unité Sanitaire en Milieu Pénitentiaire),7,87,1
-T_MCOaa_nnUM,Unité médicale,7,88,1
-T_MCOaa_nnUPGV,Types d'autorisations d'unités médicales à portée globale valides,7,89,1
-T_MCOaa_nnVALO,Valorisation des séjours,7,90,1
-T_MCOaa_nnVALOACE,Valorisation des actes et consultations externes,7,91,1
-T_MCOaa_nnZ,Fich comp radiothérapie,7,92,1
-T_SUPaa_nnALD,Alternatives à la dialyse (extension de fichier .ald),7,93,1
-T_SUPaa_nnATU,Passage aux urgences (extension de fichier .atu),7,94,1
-T_SUPaa_nnBPHN,B et P hors nomenclature (extension de fichier .bphn),7,95,1
-T_SUPaa_nnDMI,Dispositifs médicaux implantables (extension de fichier .dmi),7,96,1
-T_SUPaa_nnFFM,Forfait petit matériel (extension de fichier .ffm),7,97,1
-T_SUPaa_nnIVG,IVG (extension de fichier .ivg),7,98,1
-T_SUPaa_nnMON,Molécules onéreuses (extension de fichier .mon),7,99,1
-T_RIPaa_nnC,chainage,10,100,1
-T_RIPaa_nnCCAM,Actes CCAM,10,101,1
-T_RIPaa_nnE,etablissement,10,102,1
-T_RIPaa_nnFA,debut facture,10,103,1
-T_RIPaa_nnFB,prestation hospitalière,10,104,1
-T_RIPaa_nnFC,honoraire,10,105,1
-T_RIPaa_nnFH,medicament,10,106,1
-T_RIPaa_nnFI,interruption de sejour,10,107,1
-T_RIPaa_nnFL,actes de Biologie,10,108,1
-T_RIPaa_nnFM,ccam,10,109,1
-T_RIPaa_nnFP,prothese,10,110,1
-T_RIPaa_nnISOCONT,Fich Comp : Isolement et contention,10,111,1
-T_RIPaa_nnR3A,Résumé par acte ambulatoire anonymisé,10,112,1
-T_RIPaa_nnR3AD,Diagnostic associé à l'acte,10,113,1
-T_RIPaa_nnRSA,Résumé par séquence,10,114,1
-T_RIPaa_nnRSAD,Diagnostic associé à la séquence,10,115,1
-T_RIPaa_nnS,Synthèse du Séjour de Résumé par séquence anonymisé,10,116,1
-T_RIPaa_nnSTC,Prise en charge patient pour etb DG,10,117,1
-T_SSRaa_nnA,Acte CCAM,9,118,1
-T_SSRaa_nnB,Description du Séjour,9,119,1
-T_SSRaa_nnC,NIR patient et Dates de soin,9,120,1
-T_SSRaa_nnCCAM,Acte CCAM,9,121,1
-T_SSRaa_nnCCAR,classification acte de réadaptation,9,122,1
-T_SSRaa_nnCMC,Catégories Majeures de diagnostics,9,123,1
-T_SSRaa_nnCSARR,actes du Catalogue spécifique des actes de rééducation et réadaptation,9,124,1
-T_SSRaa_nnCSTC,ACE NIR/date,9,125,1
-T_SSRaa_nnD,diagnostic associé,9,126,1
-T_SSRaa_nnE,Etablissement,9,127,1
-T_SSRaa_nnFA,OQN Entete facture,9,128,1
-T_SSRaa_nnFASTC,ACE Entete facture,9,129,1
-T_SSRaa_nnFB,OQN Prestation,9,130,1
-T_SSRaa_nnFBSTC,ACE Prestation,9,131,1
-T_SSRaa_nnFC,OQN Honoraire,9,132,1
-T_SSRaa_nnFCSTC,ACE Honoraire,9,133,1
-T_SSRaa_nnFH,OQN med en sus,9,134,1
-T_SSRaa_nnFI,OQN Interruption séjour,9,135,1
-T_SSRaa_nnFL,OQN actes de biologie (issus de la NABM),9,136,1
-T_SSRaa_nnFLSTC,ACE actes de biologie (issus de la NABM),9,137,1
-T_SSRaa_nnFM,OQN actes CCAM,9,138,1
-T_SSRaa_nnFMSTC,ACE actes CCAM,9,139,1
-T_SSRaa_nnFP,OQN DMI en sus,9,140,1
-T_SSRaa_nnGHJ,table des Groupes de Morbidité Dominante,9,141,1
-T_SSRaa_nnGME,GME,9,142,1
-T_SSRaa_nnLEG,Erreurs détectées par la fonction groupage,9,143,1
-T_SSRaa_nnMED,Med en sus,9,144,1
-T_SSRaa_nnMEDATU,Med à autorisation temporaire d'utilisation,9,145,1
-T_SSRaa_nnS,synthese,9,146,1
-T_SSRaa_nnSTC,facturation patient DGF,9,147,1
+T_HADaaA,Table des actes,8,18,1
+T_HADaaB,Table des Résumés Anonyme Par Sous-Séquence (RAPSS),8,19,1
+T_HADaaC,Table des NIR foinisé deux fois et date entrè/sortie complètes,8,20,1
+T_HADaaD,Table des diagnostics associés,8,21,1
+T_HADaaDMPA,Table des diagnostics liés au MPA (mode de prise en charge associé),8,22,1
+T_HADaaDMPP,Table des diagnostics liés au MPP (mode de prise en charge principal),8,23,1
+T_HADaaE,Table des Etablissements,8,24,1
+T_HADaaEHPA,Table des conventions HAD-EHPA,8,25,1
+T_HADaaFA,TableFA : Table des RSFA début de facture des établissements ex-OQN,8,26,1
+T_HADaaFB,Table FB : Table des RSFA facture des établissements ex-OQN,8,27,1
+T_HADaaFC,Table FC : Table des RSFA des honoraires des établissements ex-OQN,8,28,1
+T_HADaaFH,Table FH : Table des RSFA des Médicaments en sus des établissements ex-OQN,8,29,1
+T_HADaaFI,Table FI : Table des RSFA interruption de séjour des établissements ex-OQN,8,30,1
+T_HADaaFL,Table FL : Table des actes de biologie (issus de la NABM) des établissements ex-OQN,8,31,1
+T_HADaaFM,Table FM : Table des RSFA des actes CCAM des établissements ex-OQN,8,32,1
+T_HADaaFP,Table FP : Table des RSFA des LPP/DMI en sus des établissements ex-OQN,8,33,1
+T_HADaaGJ,Table de passage de Finess,8,34,1
+T_HADaaGRE,Table des GHT (groupage établissement),8,35,1
+T_HADaaGRP,Table des GHT et des GHPC (groupage paprica),8,36,1
+T_HADaaLEG,Fichier donnant toutes les erreurs détectées par la fonction groupage (LEG),8,37,1
+T_HADaaMED,Table Molécules onéreuses (fichier COMP),8,38,1
+T_HADaaMEDATU,Fich comp médicament soumis à autorisation temporaire d'utilisation,8,39,1
+T_HADaaMEDCHL,Fich comp Médicament coûteux hors liste en sus et hors ATU,8,40,1
+T_HADaaMON,Fichier de déclaration agrégée d'activité (FICHSUP) sur les Molécules onéreuses,8,41,1
+T_HADaaS,Synthèses des Résumés Anonyme Par Sous-Séquence,8,42,1
+T_HADaaSTC,"Prise en charge par l'AM de chaque séjour, pour les établissements valorisés STC",8,43,1
+T_MCOaaA,Acte CCAM,7,44,1
+T_MCOaaB,Description du Séjour,7,45,1
+T_MCOaaBPHN,B et P hors nomenclature (extension de fichier .bphn),7,46,1
+T_MCOaaC,NIR patient et Dates de soin,7,47,1
+T_MCOaaCSTC,ACE NIR/date,7,48,1
+T_MCOaaD,Diagnostic associé,7,49,1
+T_MCOaaDIALP,Fich comp dialyse péritonéale en sus,7,50,1
+T_MCOaaDMIP,Fich comp dmi en sus,7,51,1
+T_MCOaaE,Etablissement,7,52,1
+T_MCOaaFA,OQN Entete facture,7,53,1
+T_MCOaaFASTC,ACE Entete facture,7,54,1
+T_MCOaaFB,OQN Prestation,7,55,1
+T_MCOaaFBSTC,ACE Prestation,7,56,1
+T_MCOaaFC,OQN Honoraire,7,57,1
+T_MCOaaFCSTC,ACE Honoraire,7,58,1
+T_MCOaaFH,OQN medicament en sus,7,59,1
+T_MCOaaFHSTC,ACE medicament en sus,7,60,1
+T_MCOaaFI,OQN Interruption séjour,7,61,1
+T_MCOaaFL,OQN biologie NABM,7,62,1
+T_MCOaaFLSTC,ACE biologie NABM,7,63,1
+T_MCOaaFM,OQN actes CCAM,7,64,1
+T_MCOaaFMSTC,ACE actes CCAM,7,65,1
+T_MCOaaFP,OQN DMI en sus,7,66,1
+T_MCOaaFPSTC,ACE DMI en sus,7,67,1
+T_MCOaaGVxx,Table de passage en version de GHM,7,68,1
+T_MCOaaIVG,Fich comp IVG,7,69,1
+T_MCOaaLEG,Fichier donnant toutes les erreurs détectées par la fonction groupage,7,70,1
+T_MCOaaMED,Fich comp medicament en sus,7,71,1
+T_MCOaaMEDATU,Fich comp médicament soumis à autorisation temporaire d'utilisation,7,72,1
+T_MCOaaMEDTHROMBO,Fich comp Méd. thrombolytiques pour le traitement des AVC ischémiques,7,73,1
+T_MCOaaORP,Fich comp maladie orpheline,7,74,1
+T_MCOaaPIE,Fich comp prestation inter établissement,7,75,1
+T_MCOaaPIP,Fich comp prothèse PIP,7,76,1
+T_MCOaaPORG,Fich comp prélévement d'organe,7,77,1
+T_MCOaaSTC,Prise en charge,7,78,1
+T_MCOaaSUP_BPHNA,Fich sup BP HN nb,7,79,1
+T_MCOaaSUP_BPHNC,Fich sup BP HN etb demandeur,7,80,1
+T_MCOaaSUP_BPHNP,Fich sup BP HN etb producteur,7,81,1
+T_MCOaaSUP_CES,Fich sup ACE Consultations externes Spécifiques,7,82,1
+T_MCOaaSUP_FFM,Fich sup FFM (forfait petit matériel),7,83,1
+T_MCOaaSUP_LACT,Fich sup lactarium,7,84,1
+T_MCOaaSUP_PPCO,Fich sup Primo prescription de chimiothérapie orale,7,85,1
+T_MCOaaSUP_SMUR,Fich sup SMUR,7,86,1
+T_MCOaaSUP_USMP,Fich sup Médicaments dispensés en USMP (Unité Sanitaire en Milieu Pénitentiaire),7,87,1
+T_MCOaaUM,Unité médicale,7,88,1
+T_MCOaaUPGV,Types d'autorisations d'unités médicales à portée globale valides,7,89,1
+T_MCOaaVALO,Valorisation des séjours,7,90,1
+T_MCOaaVALOACE,Valorisation des actes et consultations externes,7,91,1
+T_MCOaaZ,Fich comp radiothérapie,7,92,1
+T_SUPaaALD,Alternatives à la dialyse (extension de fichier .ald),7,93,1
+T_SUPaaATU,Passage aux urgences (extension de fichier .atu),7,94,1
+T_SUPaaBPHN,B et P hors nomenclature (extension de fichier .bphn),7,95,1
+T_SUPaaDMI,Dispositifs médicaux implantables (extension de fichier .dmi),7,96,1
+T_SUPaaFFM,Forfait petit matériel (extension de fichier .ffm),7,97,1
+T_SUPaaIVG,IVG (extension de fichier .ivg),7,98,1
+T_SUPaaMON,Molécules onéreuses (extension de fichier .mon),7,99,1
+T_RIPaaC,chainage,10,100,1
+T_RIPaaCCAM,Actes CCAM,10,101,1
+T_RIPaaE,etablissement,10,102,1
+T_RIPaaFA,debut facture,10,103,1
+T_RIPaaFB,prestation hospitalière,10,104,1
+T_RIPaaFC,honoraire,10,105,1
+T_RIPaaFH,medicament,10,106,1
+T_RIPaaFI,interruption de sejour,10,107,1
+T_RIPaaFL,actes de Biologie,10,108,1
+T_RIPaaFM,ccam,10,109,1
+T_RIPaaFP,prothese,10,110,1
+T_RIPaaISOCONT,Fich Comp : Isolement et contention,10,111,1
+T_RIPaaR3A,Résumé par acte ambulatoire anonymisé,10,112,1
+T_RIPaaR3AD,Diagnostic associé à l'acte,10,113,1
+T_RIPaaRSA,Résumé par séquence,10,114,1
+T_RIPaaRSAD,Diagnostic associé à la séquence,10,115,1
+T_RIPaaS,Synthèse du Séjour de Résumé par séquence anonymisé,10,116,1
+T_RIPaaSTC,Prise en charge patient pour etb DG,10,117,1
+T_SSRaaA,Acte CCAM,9,118,1
+T_SSRaaB,Description du Séjour,9,119,1
+T_SSRaaC,NIR patient et Dates de soin,9,120,1
+T_SSRaaCCAM,Acte CCAM,9,121,1
+T_SSRaaCCAR,classification acte de réadaptation,9,122,1
+T_SSRaaCMC,Catégories Majeures de diagnostics,9,123,1
+T_SSRaaCSARR,actes du Catalogue spécifique des actes de rééducation et réadaptation,9,124,1
+T_SSRaaCSTC,ACE NIR/date,9,125,1
+T_SSRaaD,diagnostic associé,9,126,1
+T_SSRaaE,Etablissement,9,127,1
+T_SSRaaFA,OQN Entete facture,9,128,1
+T_SSRaaFASTC,ACE Entete facture,9,129,1
+T_SSRaaFB,OQN Prestation,9,130,1
+T_SSRaaFBSTC,ACE Prestation,9,131,1
+T_SSRaaFC,OQN Honoraire,9,132,1
+T_SSRaaFCSTC,ACE Honoraire,9,133,1
+T_SSRaaFH,OQN med en sus,9,134,1
+T_SSRaaFI,OQN Interruption séjour,9,135,1
+T_SSRaaFL,OQN actes de biologie (issus de la NABM),9,136,1
+T_SSRaaFLSTC,ACE actes de biologie (issus de la NABM),9,137,1
+T_SSRaaFM,OQN actes CCAM,9,138,1
+T_SSRaaFMSTC,ACE actes CCAM,9,139,1
+T_SSRaaFP,OQN DMI en sus,9,140,1
+T_SSRaaGHJ,table des Groupes de Morbidité Dominante,9,141,1
+T_SSRaaGME,GME,9,142,1
+T_SSRaaLEG,Erreurs détectées par la fonction groupage,9,143,1
+T_SSRaaMED,Med en sus,9,144,1
+T_SSRaaMEDATU,Med à autorisation temporaire d'utilisation,9,145,1
+T_SSRaaS,synthese,9,146,1
+T_SSRaaSTC,facturation patient DGF,9,147,1
 CT_DEP_AAAA_GN,Table dépenses de la cartographie des pathologies pour l'année AAAA et l'algorithme N,6,148,1
 CT_IDE_AAAA_GN,Table individus de la cartographie des pathologies pour l'année AAAA et l'algorithme N,6,149,1
 CT_IND_AAAA_GN,Table pathologies de la cartographie des pathologies pour l'année AAAA et l'algorithme N,6,150,1
