@@ -14,7 +14,7 @@ DS_GRS_V,Contribution de la grossesse au décès (oui/non/nsp),DCD_GRS_COD,3
 DS_LIA_V,Lieu d'accouchement,ACC_LIA_COD,3
 DS_LIE_V,Lieu du décès,DCD_LIE_COD,8
 DS_MAR_V,Etat matrimonial,"ETA_MAR_COD, MER_MAR_COD",4
-DS_NAI_V,Type de naissance (unique/gemellaire/triple/quadruple/quintuple),RNG_NAI_TYP,5
+DS_NAI_V,Type de naissance,RNG_NAI_TYP,5
 DS_PC1_V,Catégorie socio-professionnelle,CAT_PCS_COD,8
 DS_PFS_V,Activité professionnelle du parent,"MER_PFS_COD, PER_PFS_COD",5
 DS_PST_V,Type de présentation de l'enfant lors de l'accouchement,ACC_PST_COD,4
