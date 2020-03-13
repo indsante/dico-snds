@@ -53,7 +53,7 @@ IR_CET_V,Catégorie d'établissement,"ETE_CAT_COD, ETP_CAT_COD",142
 IR_CIM_V,Tables de codes CIM10 ( MAJ à contrôler ),"DCD_CIM_COD, ECD_CIM_COD, ETL_AFF, FP_PEC, MED_MTF_COD, MOR_PRP",18334
 IR_CIV_V,Catégorie de Pension d'Invalidité,INV_PEN_CAT,8
 IR_CLC_V,Code Libellé de Contrôle,DCT_CTL_COD,58
-IR_CNV_V,Conventions Médicales,"PSE_CNV_COD, PSP_CNV_COD",6
+IR_CNV_V,Conventions Médicales,"CNV_CNV_COD, PSE_CNV_COD, PSP_CNV_COD",6
 IR_COC_V,Catégorie d'Organisme Complémentaire,BEN_CMU_CAT,10
 IR_CPA_V,Complément d'Acte,"ARO_CPL_COD, CPL_COD",5
 IR_CTA_V,type de contrat complémentaire,BEN_CTA_TYP,100
@@ -67,6 +67,7 @@ IR_DTE_V,Période civile journalière,"BEN_DCD_DTD, BEN_DCD_DTE, BEN_DTE_INS, BE
 IR_DTR_V,Codes Détail Transport,TRS_PRS_IDE,73
 IR_EIN_V,Etat de pension d'invalidité,INV_PEN_ETA,23
 IR_ENV_V,Type d'enveloppe,"ARO_ENV_TYP, CPT_ENV_TYP, RGO_ENV_TYP",11
+IR_EPS_V,Code nature d'exercice du PS,EXC_EXC_NAT,14
 IR_ETM_V,Nature d'exonération du Ticket Modérateur,IMB_ETM_NAT,19
 IR_EXO_V,Motif d'exonération du Ticket Modérateur,EXO_MTF,24
 IR_FJH_V,Type de Prise en Charge Forfait Journalier,"ARO_FJH_TYP, BSE_FJH_TYP, CPL_FJH_TYP, PRS_FJH_TYP",6
@@ -82,6 +83,7 @@ IR_MAJ_V,Type de Majoration,PRS_TYP_MAJ,3
 IR_MCO_V,Table MCO médecine/chirurgie/obstétrique,ETE_MCO_DDP,9
 IR_MDP_V,Mode de prescription,PHA_MOD_PRN,3
 IR_MDT_V,Mode de Traitement,MDT_COD,25
+IR_MEP_V,Mode d'exercice Particulier (Omnipraticiens),PRA_MEP_COD,66
 IR_MFT_V,Mode de Fixation de Tarif,MFT_COD,37
 IR_MOD_V,Mode de Règlement,DRG_MOD,11
 IR_MTM_V,Modulation du Ticket Modérateur,MTM_NAT,7
@@ -115,7 +117,7 @@ IR_SJE_V,Statut juridique d'établissement,"ETE_STJ_COD, ETP_STJ_COD",62
 IR_SJP_V,Statut Juridique ou Mode d'exercice d'un PS,"PSE_STJ_COD, PSP_STJ_COD",10
 IR_SLM_V,Section Locale Mutualiste (SLM),"MUT_ORG, SLM_AFF_COD, SLM_RTT_COD",65
 IR_SNS_V,Sens du Mouvement,CPT_MVT_SNS,3
-IR_SPA_D,regroupement de spécialités médicales et nature d'activité,"PSE_ACT_SPE, PSP_ACT_SPE",85
+IR_SPA_D,regroupement de spécialités médicales et nature d'activité,"PFS_PRA_SPE, PSE_ACT_SPE, PSP_ACT_SPE",85
 IR_SPE_V,Spécialités médicales,"PSE_SPE_COD, PSP_SPE_COD",57
 IR_SUB_V,Motif de Substitution Médicament,"PHA_ACT_QSC, PHA_SUB_MTF",7
 IR_SVI_V,Indicateur de suivi du n° RPPS,PSP_SVI_PPS,11
