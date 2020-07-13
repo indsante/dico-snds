@@ -19,7 +19,7 @@ IR_BEN_R,Référentiel des bénéficiaires du SNIIRAM-SNDS,1,16,1
 IR_IBA_R,Référentiel des bénéficiaires de DCIRS,1,17,1
 T_HADaaA,Table des actes,8,18,1
 T_HADaaB,Table des Résumés Anonyme Par Sous-Séquence (RAPSS),8,19,1
-T_HADaaC,Table des NIR foinisé deux fois et date entrè/sortie complètes,8,20,1
+T_HADaaC,Table des NIR foinisé deux fois et dates entrée/sortie complètes,8,20,1
 T_HADaaD,Table des diagnostics associés,8,21,1
 T_HADaaDMPA,Table des diagnostics liés au MPA (mode de prise en charge associé),8,22,1
 T_HADaaDMPP,Table des diagnostics liés au MPP (mode de prise en charge principal),8,23,1
