@@ -1241,8 +1241,8 @@ IR_IBA_R,BEN_DTE_INS,date (8),Date d'insertion dans le référentiel,IR_DTE_V,,,
 IR_IBA_R,BEN_DTE_MAJ,date (8),Date de mise à jour,IR_DTE_V,,,
 IR_IMB_R,BEN_NIR_PSA,string (17),Identifiant anonyme du patient dans le SNIIRAM,-,,,
 IR_IMB_R,BEN_RNG_GEM,number (2),rang de naissance du bénéficiaire,IR_BER_V,,,
-IR_IMB_R,IMB_ALD_DTD,date (8),"Date de début d'exonération du ticket modérateur attribuée par les services médicaux (ALD, AT, MP)",IR_DTE_V,,,
-IR_IMB_R,IMB_ALD_DTF,date (8),"Date de fin de l'exonération attribuée par les services médicaux (ALD, AT, MP)",IR_DTE_V,,,
+IR_IMB_R,IMB_ALD_DTD,date (8),"Date de début d'exonération du ticket modérateur attribuée par les services médicaux (ALD, AT, MP)",IR_DTE_V,,,
+IR_IMB_R,IMB_ALD_DTF,date (8),"Date de fin de l'exonération attribuée par les services médicaux (ALD, AT, MP)",IR_DTE_V,,,
 IR_IMB_R,IMB_ALD_NUM,number (2),Numéro d'ALD,IR_ALD_V,,,
 IR_IMB_R,IMB_ETM_NAT,number (2),Motif d'exonération du bénéficiaire,IR_ETM_V,,,
 IR_IMB_R,IMB_MLP_BTR,string (1),"Tableau des maladies professionnelles (bis, ter)",-,,,
