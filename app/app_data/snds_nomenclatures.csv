@@ -47,7 +47,7 @@ IR_BIO_R,Nomenclature des actes médicales de biologie,"BIO_PRS_IDE, NABM_COD",1
 IR_CAI_V,Caisse - Organisme de base,"CAI_AFF_COD, CAI_LIQ_COD, ORB_BSE_NUM, ORG_CAI_NUM, ORL_BSE_NUM",2756
 IR_CAT_V,Catégorie Professionnel de Santé,"PSE_CAT_COD, PSP_CAT_COD",11
 IR_CBI_V,Catégorie de Bénéficiaire (Invalidité et Rentes AT),BEN_IAT_CAT,45
-IR_CCAM_V54,Classification commune des actes médicaux (ATIH),"CAM_PRS_IDE, CCAM_ACT, CCAM_COD, CDC_ACT",8053
+IR_CCAM_V63,Classification commune des actes médicaux (CNAM),"CAM_PRS_IDE, CCAM_ACT, CCAM_COD, CDC_ACT",8161
 IR_CCA_V,Codes compléments associés,CPL_AFF_COD,31
 IR_CET_V,Catégorie d'établissement,"ETE_CAT_COD, ETP_CAT_COD",142
 IR_CIM_V,Tables de codes CIM10 ( MAJ à contrôler ),"DCD_CIM_COD, ECD_CIM_COD, ETL_AFF, FP_PEC, MED_MTF_COD, MOR_PRP",18334
@@ -88,7 +88,7 @@ IR_MFT_V,Mode de Fixation de Tarif,MFT_COD,37
 IR_MOD_V,Mode de Règlement,DRG_MOD,11
 IR_MTM_V,Modulation du Ticket Modérateur,MTM_NAT,7
 IR_MTR_V,Motif du Transport,"TRS_ACT_QSN, TRS_TRS_MTF",36
-IR_NAT_V,Nature Prestation,"ARO_PRS_NAT, BSE_PRS_NAT, CPL_PRS_NAT, PRS_NAT, PRS_NAT_REF",1255
+IR_NAT_V,Nature Prestation,"ARO_PRS_NAT, BSE_PRS_NAT, CPL_PRS_NAT, PRS_NAT, PRS_NAT_REF",1348
 IR_NEM_T,Numéros d'émetteurs restitution,FLX_EMT_NUM,36
 IR_NEM_V,Numéros d'émetteurs,FLX_EMT_NUM,150
 IR_NFS_V,Nature fin de séjour,ETE_NAT_FSJ,10
@@ -97,7 +97,7 @@ IR_NMD_V,Nomenclature Médicale,MED_NCL_IDT,4
 IR_ORG_V,organismes,"BEN_CMU_ORG, ORG_AFF_BEN, ORG_CLE_NEW, ORG_CLE_NUM",59812
 IR_PAF_V,Participation forfaitaire,PRS_PPF_COD,16
 IR_PCT_V,Périodes comptables,CPT_DEP_PER,128
-IR_PHA_R,"Référentiel des médicaments (correspondance CIP13, ATC et libellés)","PHA_ACT_QSN, PHA_CPA_PCP, PHA_DEC_PRU, PHA_DEC_QSU, PHA_PRS_C13, PHA_PRS_IDE",19517
+IR_PHA_R,"Référentiel des médicaments (correspondance CIP13, ATC et libellés)","PHA_ACT_QSN, PHA_CPA_PCP, PHA_DEC_PRU, PHA_DEC_QSU, PHA_PRS_C13, PHA_PRS_IDE",26420
 IR_PPU_V,Secteur d'Activité (Prive / Public),PRS_PPU_SEC,3
 IR_PRF_V,Type de Prestation Fournie (Dispositifs Médicaux),TIP_PRS_TYP,9
 IR_QBA_V,Qualité de Bénéficiaire Affinée,BEN_QAF_COD,16
@@ -141,7 +141,7 @@ MS_CIM_V,Codes Diagnostics (CIM10) pour le PMSI (limite à 20 000 lignes) ( MAJ 
 MS_ENR_V,Type d'enregistrement,TYP_ART,9
 MS_PRV_V,Provenance,"ENT_PRV, SOR_DES",9
 MS_SOR_V,Mode de Sortie du Champ PMSI_MCO,"ENT_MOD, SOR_MOD",7
-NT_LPP,Liste des produits et prestations,TIP_PRS_IDE,6276
+NT_LPP,Liste des produits et prestations,TIP_PRS_IDE,19717
 NU_UCD_R,"Unité Commune de Dispensation, médicaments rares en hospitalier, (codes cip7)","COD_UCD, UCD_COD, UCD_UCD_COD",1812
 ORG_CLE_REG,Région de l'organisme de liquidation (OPEN DAMIR),ORG_CLE_REG,14
 PRE_INS_REG,Région du professionnel de santé prescripteur (OPEN DAMIR),PRE_INS_REG,14
