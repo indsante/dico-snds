@@ -5,7 +5,7 @@
 Ce dictionnaire des tables et variables du [Système National des Données de Santé (SNDS)](https://www.snds.gouv.fr/SNDS/Accueil) est mis à disposition des utilisateurs de ces données.
 Il a été reconstitué par la [Direction de la Recherche, des Etudes, de l'Evaluation et des Statistiques](https://drees.solidarites-sante.gouv.fr/etudes-et-statistiques/) grâce aux différents documents mis à disposition par la [Caisse Nationale d’Assurance Maladie](https://www.ameli.fr/) sur son portail d’accès aux données du SNDS. Il est mis à disposition sur le [gitlab du Health Data Hub](https://gitlab.com/healthdatahub).
 
-Il peut comporter des erreurs ou connaitre des retards de mises à jour. Si vous les constatez, n’hésitez pas à les signaler en suivant les informations de `Contact` données en bas de page.
+Il peut comporter des erreurs ou connaitre des retards de mises à jour. Si vous les constatez, n’hésitez pas à les signaler en suivant les informations de `Contact` données dans la rubrique Guide d'utilisation ci-bas.
 
 + *Dernières modifications du dictionnaire:* [cf historique du projet](https://gitlab.com/healthdatahub/dico-snds/commits/master).
 
