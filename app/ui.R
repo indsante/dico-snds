@@ -13,14 +13,10 @@ navbarPage("Visualisation de la structure du SNDS",
            inverse = T,
            
   tabPanel("Explorateur des variables", value = "snds_explo",
-       HTML("<!-- Global site tag (gtag.js) - Google Analytics -->
-         <script async src='https://www.googletagmanager.com/gtag/js?id=UA-119893698-10'></script>
-         <script>
-         window.dataLayer = window.dataLayer || [];
-       function gtag(){dataLayer.push(arguments);}
-       gtag('js', new Date());  gtag('config', 'UA-119893698-10');
-       </script>"),
-       includeHTML("www/cookie_handler.html"),
+       HTML(" 
+       <script type=\"text/javascript\" src=\"https://tarteaucitron.io/load.js?domain=health-data-hub.shinyapps.iodico-snds&uuid=bc6d5f21273f2b08c46b3888025037246e4596ce\"></script>              
+            "),
+       #includeHTML("www/cookie_handler.html"),
        tags$script(JS(readLines("www/get_ip_client.js"))),
 
        # Include our custom CSS
@@ -57,6 +53,7 @@ navbarPage("Visualisation de la structure du SNDS",
     ),
   
   tabPanel("Recherche dans les nomenclatures", value = "ES_nomenclatures",
+           
            includeCSS("www/styles.css"),
            tags$style('.nodetext{fill: #000000}'),
            textInput("term_query", label = NULL, value = '', width = 1000,
@@ -137,8 +134,8 @@ navbarPage("Visualisation de la structure du SNDS",
               </div> 
               <div class='col-xs-3 col-sm-3'>
               <div class='pull-right'>"),
-            tags$a(img(src="logo-inds.png", width = img_width + 50, height = round(0.69*(img_width +50))), 
-                  href="https://www.indsante.fr/", 
+            tags$a(img(src="logo-hdh.png", width = img_width + 50, height = round(0.69*(img_width +50))), 
+                  href="http://health-data-hub.fr/", 
                   target="_blank"),
             HTML("
               </div> 

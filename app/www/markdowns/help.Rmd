@@ -11,5 +11,4 @@ Les couleurs rassemblent les tables d’un même produit (orange foncé pour le 
 
 - Les nomenclatures du SNDS utilisées dans ce dictionnaire sont disponibles au format `.csv` sur [le gitlab du projet](https://gitlab.com/healthdatahub/dico-snds/tree/master/app/app_data/nomenclatures).
 
-- `Contact` : Pour toute question et remarque sur l'application, nous vous encourageons à utiliser le **[forum public d'entraide du Health Data Hub](https://entraide.health-data-hub.fr/)**, et en particulier la **[catégorie FAQ](https://entraide.health-data-hub.fr/c/faq)**. Si c'est un point technique précis à traiter, il est alors préférable d'ouvrir une **[issue sur GitLab](https://gitlab.com/healthdatahub/dico-snds/issues)**, ou d'écrire à <ld-lab-github@sante.gouv.fr>.
-
+- `Contact` : Pour toute question et remarque sur l'application, nous vous encourageons à utiliser le **[forum public d'entraide du Health Data Hub](https://entraide.health-data-hub.fr/)**, et en particulier la **[catégorie FAQ](https://entraide.health-data-hub.fr/c/faq)**. Si c'est un point technique précis à traiter, il est alors préférable d'ouvrir une **[issue sur GitLab](https://gitlab.com/healthdatahub/dico-snds/issues)**, ou d'écrire à <opensource@health-data-hub.fr>.
